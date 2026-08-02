@@ -62,9 +62,24 @@ Cada módulo tem: mecanismo → protocolo de observação → métricas → hip�
 - **Métricas:** energia, inflamação subjetiva, craving, humor em 2–4 semanas.
 - **Aberto:** interação dieta × exercício na curva de AEA.
 
+### M4.1 — Sementinha (semente de cânhamo alimentar)
+
+> **Sim: tem a ver.** A sementinha é matéria-prima do SEC — não é “chapar”. Semente alimentar de cânhamo quase não traz THC; traz gorduras que o corpo usa para montar o endocanabinoidoma.
+
+- **Mecanismo:**
+  - razão ômega-6:ômega-3 próxima de **3:1** (faixa considerada equilibrada);
+  - LA + ALA como precursores; via ômega-3 favorece mediadores tipo DHEA/EPEA;
+  - proteína, fibra e lipídios apoiam microbiota (ponte com M5);
+  - estudos com semente/óleo de cânhamo ligam dieta a perfil de lipídios endocanabinoides e saúde intestinal.
+- **O que não é:** substituto de fumar, óleo full-spectrum medicinal, nem dose psicoativa.
+- **Protocolo-base (observacional):** 1–2 colheres (≈10–30 g) de semente descascada/dia em comida fria ou morna (iogurte, salada, vitamina) — evitar fritar forte para preservar PUFAs. 14–28 dias contínuos.
+- **Métricas:** digestão, saciedade, humor basal, inflamação subjetiva, craving de fumo, qualidade do sono.
+- **Empilhar com:** M1 (movimento) no mesmo dia potencializa a “curva” de mediadores; M5 (fibra/fermentados) completa o eixo gut–ECS.
+- **Aberto:** a sementinha sozinha muda craving/sonhos, ou só brilha dentro do stack M3+M1+M7?
+
 ### M5 — Eixo intestino–cérebro
 
-- **Mecanismo:** SCFAs (ex.: butirato) e microbiota modulam expressão CB1/CB2; FAAH e microbiota conversam nos dois sentidos.
+- **Mecanismo:** SCFAs (ex.: butirato) e microbiota modulam expressão CB1/CB2; FAAH e microbiota conversam nos dois sentidos. Sementinha (M4.1) entra aqui como fibra + lipídio amigo da microbiota.
 - **Protocolo-base:** fibras, fermentados, movimento; diário GI + humor.
 - **Métricas:** digestão, humor, ansiedade visceral.
 - **Aberto:** se melhora GI precede melhora de medo social.
@@ -95,7 +110,7 @@ Cada módulo tem: mecanismo → protocolo de observação → métricas → hip�
 
 1. **Base diária:** M3 (sono) + M2 (respiração) — 15–25 min totais.
 2. **Elevador de tônus:** M1 (movimento) — 3×/semana.
-3. **Matéria-prima:** M4 + M5 — contínuo.
+3. **Matéria-prima:** M4 + **M4.1 Sementinha** + M5 — contínuo.
 4. **Coração social:** M6 — presença, não performance.
 5. **Libertação:** M7 — quando disser “estou chegando”, os outros módulos são a pista de pouso.
 
@@ -109,7 +124,7 @@ Combinar no máx. **2 módulos novos por semana**; medir 1 métrica por módulo.
 | --- | --- | --- |
 | 1 | M2 + M3 | calma, sono, sonhos |
 | 2 | + M1 | humor pós-movimento |
-| 3 | + M4/M5 | energia, GI |
+| 3 | + M4 / M4.1 Sementinha / M5 | energia, GI, craving |
 | 4 | + M6/M7 | medo, craving, voos |
 
 Critério de sucesso (pessoal): mais calma basal, menos medo que cega o sonho, sonhos voltando, peito aberto sem precisar da fumaça.
@@ -122,6 +137,7 @@ Critério de sucesso (pessoal): mais calma basal, menos medo que cega o sonho, s
 2. Gestos interoceptivos (mão no peito) mudam marcadores de coerência e craving?
 3. O retorno dos sonhos de voo é marcador útil de remoção do freio nicotínico sobre REM/SEC?
 4. Medo em amizade nova responde mais a M6 do que a M2 sozinho?
+5. Sementinha diária (M4.1) altera craving e retorno dos sonhos quando empilhada com M7?
 
 ---
 

@@ -16,7 +16,7 @@
   "scripts": {
     "server": "npx --yes serve --listen 3000",
     "start": "npm run server",
-    "test": "test -f index.html && test -f assets/css/starter.css && test -f poemas/minhas-lagrimas-sao-suas.html && test -f poemas/homenagem-a-pixar.html && test -f pesquisas/relaxamento-endocanabinoide.md && grep -q \"Painel\" index.html"
+    "test": "test -f index.html && test -f assets/css/starter.css && test -f poemas/minhas-lagrimas-sao-suas.html && test -f poemas/homenagem-a-pixar.html && test -f pesquisas/relaxamento-endocanabinoide.md && test -f pesquisas/sementinha.html && grep -q \"Painel\" index.html"
   },
   "keywords": [
     "poesia",
