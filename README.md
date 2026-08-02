@@ -23,6 +23,8 @@ A regra em `.cursor/rules/poesia.mdc` faz o agente escrever a página em `poemas
 
 ## Publicação
 
-Deploy automático no GitHub Pages a cada push em `main`:
+O código está em `main`. Deploy automático no GitHub Pages a cada push.
 
-<https://tiagoql.github.io/bootsnpm/>
+URL: <https://tiagoql.github.io/bootsnpm/>
+
+**Uma vez só:** em [Settings → Pages](https://github.com/TIAGOQL/bootsnpm/settings/pages), escolha **Source: GitHub Actions** e salve. Depois rode de novo o workflow *Deploy GitHub Pages*, ou faça um push em `main`.
