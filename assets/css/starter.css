@@ -93,6 +93,80 @@ body.panel-page {
   padding: clamp(3.5rem, 12vh, 7rem) 0 clamp(4rem, 10vh, 6rem);
 }
 
+.panel-shell-wide {
+  width: min(64rem, calc(100% - 2.5rem));
+}
+
+.card-grid {
+  display: grid;
+  gap: 1rem;
+  opacity: 0;
+  transform: translateY(1.1rem);
+  animation: rise-in 1200ms ease 520ms forwards;
+}
+
+@media (min-width: 720px) {
+  .card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 980px) {
+  .card-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.media-card {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  color: inherit;
+  text-decoration: none;
+  overflow: hidden;
+  border-radius: 0.45rem;
+  background: rgba(255, 255, 255, 0.38);
+  border: 1px solid rgba(31, 42, 50, 0.1);
+  transition: transform 200ms ease, border-color 200ms ease, background 200ms ease;
+}
+
+.media-card:hover,
+.media-card:focus-visible {
+  transform: translateY(-3px);
+  border-color: rgba(139, 58, 74, 0.35);
+  background: rgba(255, 255, 255, 0.55);
+  outline: none;
+}
+
+.media-card-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: var(--mist-3);
+}
+
+.media-card-body {
+  display: grid;
+  gap: 0.3rem;
+  padding: 0.9rem 1rem 1.05rem;
+}
+
+.media-card .shortcut-title {
+  font-size: clamp(1.2rem, 2.4vw, 1.45rem);
+}
+
+.page-hero-photo {
+  display: block;
+  width: min(100%, 34rem);
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  margin: 0 0 1.75rem;
+  border-radius: 0.45rem;
+  opacity: 0;
+  transform: translateY(1rem);
+  animation: rise-in 1100ms ease 420ms forwards;
+}
+
 .poem-brand,
 .panel-brand {
   margin-bottom: clamp(2rem, 6vh, 3.25rem);
@@ -878,20 +952,23 @@ body.is-music-playing .rain {
   .panel-lede,
   .poem,
   .panel-shortcuts,
+  .card-grid,
   .panel-hint,
   .research-lead,
   .module-map,
   .diario,
   .music-deck,
   .cultivo,
-  .cultivo-git {
+  .cultivo-git,
+  .page-hero-photo {
     opacity: 1;
     transform: none;
     animation: none;
   }
 
   .shortcut,
-  .module-link {
+  .module-link,
+  .media-card {
     transition: none;
   }
 }

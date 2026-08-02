@@ -9,6 +9,8 @@ Sistema de **Relaxamento Endocanabinoide Modular** — pesquisa, diário N=1, cu
 3. `pesquisas/musica-tonus.html` — áudio de estudo  
 4. `pesquisas/cultivo-ideias.html` — plantar dúvidas  
 
+Fotos dos cards do painel: `assets/img/card-*.jpg`. 
+
 ```shell
 npm start
 ```
