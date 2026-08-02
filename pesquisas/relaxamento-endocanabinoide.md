@@ -45,7 +45,7 @@ Cada módulo tem: mecanismo → protocolo de observação → métricas → hip�
 ### M0 — Higiene mental (base)
 
 - **Mecanismo:** reduzir ruído cognitivo e carga simpática pra o SEC não operar em déficit; base de M2/M3.
-- **Protocolo-base:** água · mão no peito · 3 respirações · um registro mínimo no diário · parar sem culpa.
+- **Protocolo-base:** água · sol/luz no rosto · mão no peito · 3 respirações · um registro mínimo no diário · parar sem culpa.
 - **Se a energia caiu:** abrir `pesquisas/sinais.html` — não testar feature, não otimizar.
 - **Métricas:** calma 1–5; latência pra responder ao mundo (sem julgamento).
 - **Páginas:** `higiene-mental.html` · `sinais.html`
