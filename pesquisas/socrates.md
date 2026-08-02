@@ -2,8 +2,14 @@
 
 Inspeção curta. 2026-08-02.
 
+## Idade
+- Nascimento: ~470/469 a.C. (Atenas)
+- Morte: 399 a.C. (Atenas, cicuta)
+- Idade: ~70 anos
+- Datas aproximadas
+
 ## Quem
-Filósofo de Atenas (~470–399 a.C.). Quase não escreveu. Platão e Xenofonte contaram.
+Filósofo de Atenas. Quase não escreveu. Platão e Xenofonte contaram.
 
 ## A frase
 “Só sei que nada sei” é forma popular. Em Platão (Apologia): ele não finge saber. Outros fingem.

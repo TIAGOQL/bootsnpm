@@ -7,7 +7,7 @@
 
 ## Nota
 
-Sei que nada sei. Não é fraqueza. É higiene da mente.
+~70 anos. Sei que nada sei. Não é fraqueza. É higiene da mente.
 
 ## Por que importa
 
