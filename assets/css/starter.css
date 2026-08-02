@@ -642,6 +642,54 @@ body.panel-page {
   accent-color: var(--blush);
 }
 
+.sinais-list {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 1rem;
+  margin: 0 0 2rem;
+  padding: 0;
+  list-style: none;
+  opacity: 0;
+  transform: translateY(1rem);
+  animation: rise-in 1100ms ease 480ms forwards;
+}
+
+.sinal {
+  display: grid;
+  grid-template-columns: 2.5rem 1fr;
+  gap: 0.85rem;
+  align-items: start;
+  padding: 0.85rem 0 1rem;
+  border-bottom: 1px solid rgba(31, 42, 50, 0.12);
+}
+
+.sinal-num {
+  color: var(--blush);
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.sinal p {
+  margin: 0;
+  max-width: none;
+  color: var(--ink-soft);
+  font-family: var(--font-display);
+  font-size: clamp(1.25rem, 3vw, 1.55rem);
+  line-height: 1.4;
+}
+
+.sinal strong {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.sinal a {
+  color: var(--blush);
+}
+
 .cultivo-git {
   position: relative;
   z-index: 1;
@@ -960,6 +1008,7 @@ body.is-music-playing .rain {
   .music-deck,
   .cultivo,
   .cultivo-git,
+  .sinais-list,
   .page-hero-photo {
     opacity: 1;
     transform: none;
