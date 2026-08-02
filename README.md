@@ -10,7 +10,14 @@ Atalhos para poesias e pesquisas de relaxamento.
 - Sementinha: `pesquisas/sementinha.html`
 - Diário N=1: `pesquisas/diario-rem.html`
 - Música Tônus: `pesquisas/musica-tonus.html`
+- Cultivo de ideias: `pesquisas/cultivo-ideias.html` + `cultivo/ideias/`
 - Poesias: `poemas/`
+
+### Plantar uma ideia
+
+1. No painel → **Cultivo de ideias** (rápido, neste aparelho)  
+2. Ou crie `cultivo/ideias/<slug>.md` pelo modelo  
+3. Ou diga no Cursor: `planta no cultivo: …`
 
 ```shell
 npm start

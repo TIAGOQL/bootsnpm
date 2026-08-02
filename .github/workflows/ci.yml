@@ -26,9 +26,14 @@ jobs:
           test -f pesquisas/endocanabinoidoma.html
           test -f pesquisas/diario-rem.html
           test -f pesquisas/musica-tonus.html
+          test -f pesquisas/cultivo-ideias.html
           test -f assets/js/diario-rem.js
           test -f assets/js/musica-rem.js
+          test -f assets/js/cultivo-ideias.js
+          test -f cultivo/README.md
+          test -f cultivo/ideias/_modelo.md
           grep -q "Painel" index.html
+          grep -q "pesquisas/cultivo-ideias.html" index.html
           grep -q "pesquisas/relaxamento-endocanabinoide.html" index.html
           grep -q "pesquisas/endocanabinoidoma.html" index.html
           grep -q "pesquisas/sementinha.html" index.html

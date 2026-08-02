@@ -16,6 +16,16 @@ Quando o usuário pedir para **criar outra poesia** e pedir ajuda explícita par
 
 Não apague poesias antigas — só acrescente.
 
+## Cultivo de ideias
+
+Quando o usuário disser **“planta no cultivo: …”** (ou pedir para cultivar/inserir uma ideia):
+
+1. Crie `cultivo/ideias/<slug>.md` a partir de `cultivo/ideias/_modelo.md`.
+2. Preencha título, estágio (`semente` por padrão), módulo REM se houver, nota.
+3. Não apague ideias antigas.
+4. Se a ideia já for pesquisa madura, ofereça promover para `pesquisas/` + atalho no painel.
+5. Commit e push na branch de trabalho.
+
 ## Pesquisa (categoria REM)
 
 Quando pedir pesquisa de relaxamento / sistema endocanabinoide / endocanabinoidoma:

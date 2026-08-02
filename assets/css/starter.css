@@ -542,6 +542,151 @@ body.is-music-playing .rain {
   animation-duration: 9s;
 }
 
+.cultivo {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 2rem;
+  margin: 0 0 2.5rem;
+  opacity: 0;
+  transform: translateY(1rem);
+  animation: rise-in 1100ms ease 480ms forwards;
+}
+
+.cultivo-form {
+  display: grid;
+  gap: 0.9rem;
+  max-width: 34rem;
+}
+
+.cultivo-form label {
+  display: grid;
+  gap: 0.4rem;
+  color: var(--ink-soft);
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+}
+
+.cultivo-form input,
+.cultivo-form textarea {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  color: var(--ink);
+  font: inherit;
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  line-height: 1.45;
+  background: rgba(255, 255, 255, 0.45);
+  border: 1px solid rgba(31, 42, 50, 0.16);
+  border-radius: 0.35rem;
+}
+
+.cultivo-form input:focus,
+.cultivo-form textarea:focus {
+  outline: 2px solid rgba(139, 58, 74, 0.35);
+  outline-offset: 2px;
+}
+
+.cultivo-lista {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.cultivo-empty {
+  margin: 0;
+  color: var(--ink-soft);
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+}
+
+.cultivo-card {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(31, 42, 50, 0.12);
+}
+
+.cultivo-card-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cultivo-card-head h3 {
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 500;
+}
+
+.cultivo-card-head select {
+  color: var(--blush);
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  background: transparent;
+  border: 1px solid rgba(139, 58, 74, 0.35);
+  border-radius: 0.3rem;
+  padding: 0.35rem 0.5rem;
+}
+
+.cultivo-meta {
+  margin: 0.35rem 0 0.55rem;
+  color: var(--blush);
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.cultivo-body {
+  margin: 0 0 0.85rem;
+  color: var(--ink-soft);
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.cultivo-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.cultivo-actions button {
+  padding: 0.45rem 0.8rem;
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  background: transparent;
+  border: 1px solid rgba(31, 42, 50, 0.2);
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.cultivo-actions button:hover,
+.cultivo-actions button:focus-visible {
+  color: var(--blush);
+  border-color: rgba(139, 58, 74, 0.45);
+  outline: none;
+}
+
+.cultivo-actions .is-quiet {
+  opacity: 0.7;
+}
+
+.cultivo-md {
+  margin: 0.85rem 0 0;
+  padding: 0.85rem 1rem;
+  overflow-x: auto;
+  color: var(--ink-soft);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.8rem;
+  line-height: 1.45;
+  white-space: pre-wrap;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 0.35rem;
+}
+
 @keyframes rise-in {
   to {
     opacity: 1;
@@ -566,7 +711,8 @@ body.is-music-playing .rain {
   .research-lead,
   .module-map,
   .diario,
-  .music-deck {
+  .music-deck,
+  .cultivo {
     opacity: 1;
     transform: none;
     animation: none;
