@@ -1,0 +1,25 @@
+# Sócrates
+
+Inspeção curta. 2026-08-02.
+
+## Quem
+Filósofo de Atenas (~470–399 a.C.). Quase não escreveu. Platão e Xenofonte contaram.
+
+## A frase
+“Só sei que nada sei” é forma popular. Em Platão (Apologia): ele não finge saber. Outros fingem.
+
+## Oráculo
+Disseram que era o mais sábio. Ele foi testar. A sabedoria era saber da própria falta.
+
+## Método
+- **Ironia** — furar certeza falsa  
+- **Maiêutica** — perguntar até nascer ideia mais limpa (mãe parteira)
+
+## REM
+- [Higiene mental](higiene-mental.html) — limpar “eu já sei”  
+- [Diário](diario-rem.html) — guardar a dúvida  
+- [Esqueceremos](esqueceremos.html) — soltar falsa certeza sem apagar o que importa  
+- Página: [socrates.html](socrates.html)
+
+## Fontes
+Wikipedia (Só sei que nada sei) · Platão, Apologia · Toda Matéria · netmundi
