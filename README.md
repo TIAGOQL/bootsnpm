@@ -1,11 +1,12 @@
-# Painel de poesias
+# Painel
 
-Atalhos para abrir as poesias publicadas — e criar novas pelo Cursor.
+Atalhos para poesias e pesquisas de relaxamento.
 
 ## Acessar
 
 - Painel: `index.html`
-- Poesias: `poemas/minhas-lagrimas-sao-suas.html`, `poemas/homenagem-a-pixar.html`
+- Pesquisa REM: `pesquisas/relaxamento-endocanabinoide.md`
+- Poesias: `poemas/`
 
 ```shell
 npm start

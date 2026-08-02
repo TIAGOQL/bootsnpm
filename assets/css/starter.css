@@ -222,6 +222,28 @@ body.panel-page {
   font-weight: 500;
 }
 
+.research-shell .panel-lede {
+  margin-top: 1rem;
+}
+
+.research-body strong {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.research-body code {
+  font-family: var(--font-ui);
+  font-size: 0.9em;
+}
+
+.research-note {
+  margin-top: 2rem;
+  color: var(--ink-soft);
+  font-family: var(--font-ui);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
 @keyframes rise-in {
   to {
     opacity: 1;

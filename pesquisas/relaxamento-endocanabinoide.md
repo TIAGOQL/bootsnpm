@@ -1,0 +1,130 @@
+# Categoria: Relaxamento Endocanabinoide Modular (REM)
+
+Pesquisa aplicada para **modularizar o sistema endocanabinoide (SEC)** por vias de relaxamento — preferindo tônus endógeno (o que o corpo produz) em vez de dependência de fumaça.
+
+> Escopo educacional/de pesquisa. Não é prescrição médica.
+
+---
+
+## Hipótese central
+
+O SEC é um sistema de homeostase sob demanda. Estresse agudo move mediadores (AEA, 2-AG); estresse crônico costuma **baixar anandamida** e **subir FAAH**, enfraquecendo o freio natural da ansiedade.
+
+**Relaxamento modular** = treinar módulos separados que elevam ou preservam o tônus endocanabinoide, depois combinar.
+
+---
+
+## Arquitetura do SEC (núcleo)
+
+| Peça | Função no relaxamento |
+| --- | --- |
+| **AEA (anandamida)** | Humor, adaptação ao estresse, “molécula do bem-estar” |
+| **2-AG** | Mediador mais abundante; fecha respostas de ameaça; plasticidade |
+| **CB1** | Cérebro (amígdala, hipocampo, córtex, hipotálamo); freia HPA |
+| **CB2** | Imune/inflamação; microglia em estados inflamatórios |
+| **FAAH** | Degrada AEA — alvo indireto de ansiedade |
+| **MAGL** | Degrada 2-AG |
+| **PEA / OEA** | Congêneres do endocanabinoidoma; inflamação e saciedade |
+
+Sinais irmãos: **eixo intestino–cérebro**, **sono**, **BDNF**, **TRPV1/GPR55**.
+
+---
+
+## Módulos de pesquisa (categoria REM)
+
+Cada módulo tem: mecanismo → protocolo de observação → métricas → hipóteses abertas.
+
+### M1 — Movimento (aeróbico / endurance)
+
+- **Mecanismo:** exercício eleva AEA (e às vezes 2-AG); ligado a analgesia, sedação leve pós-esforço, runner’s high.
+- **Protocolo-base:** 20–40 min aeróbico moderado–alto, 3–5×/semana; observar janela de 0–60 min pós.
+- **Métricas:** humor (PANAS/VAS), FC, sono na noite seguinte, craving se houver cessação de tabaco.
+- **Aberto:** dose mínima que estabiliza tônus sem overtraining (estresse crônico também mexe no SEC).
+
+### M2 — Respiração e presença (mindfulness / coerência)
+
+- **Mecanismo:** reduz drive simpático e carga sobre HPA; suporte indireto ao tônus de AEA na amígdala.
+- **Protocolo-base:** 10–20 min/dia (respiração lenta 5–6/min ou body-scan).
+- **Métricas:** ansiedade estado (STAI-S), batimento peito/gesto consciente, latência para acalmar.
+- **Aberto:** se “bater no peito” + respiração potencializa grounding via interocepção + SEC.
+
+### M3 — Sono e ritmo circadiano
+
+- **Mecanismo:** SEC participa do ciclo vigília–sono; privação desregula mediadores e humor.
+- **Protocolo-base:** janela fixa de sono, luz de manhã, escuro à noite; sem nicotina/cafeína perto da cama.
+- **Métricas:** tempo para dormir, despertares, sonhos (voo/lucidez), disposição ao acordar.
+- **Aberto:** recuperação de sonhos vívidos após cessar fumar (hipótese do usuário + literatura de nicotina/REM).
+
+### M4 — Nutrição (PUFAs / endocanabinoidoma)
+
+- **Mecanismo:** AEA e 2-AG vêm de ácidos graxos; ômega-3 (EPA/DHA) e padrão mediterrâneo alteram mediadores pós-exercício.
+- **Protocolo-base:** subir ômega-3 e fibra; reduzir excesso ômega-6 ultraprocessado.
+- **Métricas:** energia, inflamação subjetiva, craving, humor em 2–4 semanas.
+- **Aberto:** interação dieta × exercício na curva de AEA.
+
+### M5 — Eixo intestino–cérebro
+
+- **Mecanismo:** SCFAs (ex.: butirato) e microbiota modulam expressão CB1/CB2; FAAH e microbiota conversam nos dois sentidos.
+- **Protocolo-base:** fibras, fermentados, movimento; diário GI + humor.
+- **Métricas:** digestão, humor, ansiedade visceral.
+- **Aberto:** se melhora GI precede melhora de medo social.
+
+### M6 — Extinção do medo e vínculo seguro
+
+- **Mecanismo:** CB1 na amígdala/pré-frontal facilita extinção de medo; presença calma = exposição segura.
+- **Protocolo-base:** contato social de baixa pressão com pessoa de confiança; sem forçar revelação.
+- **Métricas:** proximidade sentida, tensão corporal, vontade de fugir vs. ficar.
+- **Aberto:** amizade nova + medo — o vínculo modulariza o SEC melhor que isolamento.
+
+### M7 — Cessação de fumo (módulo de liberação)
+
+- **Mecanismo:** nicotina/fumaça alteram sono, humor e circuitos de recompensa que cruzam o SEC; parar pode reabrir plasticidade e sonhos.
+- **Protocolo-base:** data, substitutos seguros se preciso (orientação profissional), M1+M2+M3 como rede de suporte.
+- **Métricas:** cigarros/dia → 0; intensidade de craving; retorno de sonhos; batidas no peito como ritual de afirmação (não punição).
+- **Aberto:** curva temporal do retorno dos “voos” oníricos pós-cessação.
+
+### M8 — Farmacologia de pesquisa (só laboratório/clínica)
+
+- Inibidores de **FAAH** / **MAGL** (ex. linhas JNJ-42165279, URB597, JZL184) elevam eCBs sem agonista direto CB1.
+- Resultados clínicos ainda mistos; **fora do protocolo caseiro**.
+- Usar só como mapa teórico do que o corpo já tenta fazer com M1–M7.
+
+---
+
+## Como modularizar na prática (stack)
+
+1. **Base diária:** M3 (sono) + M2 (respiração) — 15–25 min totais.
+2. **Elevador de tônus:** M1 (movimento) — 3×/semana.
+3. **Matéria-prima:** M4 + M5 — contínuo.
+4. **Coração social:** M6 — presença, não performance.
+5. **Libertação:** M7 — quando disser “estou chegando”, os outros módulos são a pista de pouso.
+
+Combinar no máx. **2 módulos novos por semana**; medir 1 métrica por módulo.
+
+---
+
+## Desenho experimental mínimo (N=1 estruturado)
+
+| Semana | Foco | Registro diário (1–5) |
+| --- | --- | --- |
+| 1 | M2 + M3 | calma, sono, sonhos |
+| 2 | + M1 | humor pós-movimento |
+| 3 | + M4/M5 | energia, GI |
+| 4 | + M6/M7 | medo, craving, voos |
+
+Critério de sucesso (pessoal): mais calma basal, menos medo que cega o sonho, sonhos voltando, peito aberto sem precisar da fumaça.
+
+---
+
+## Perguntas abertas da categoria
+
+1. Qual combinação M1×M2 maximiza AEA subjetiva com menor tempo?
+2. Gestos interoceptivos (mão no peito) mudam marcadores de coerência e craving?
+3. O retorno dos sonhos de voo é marcador útil de remoção do freio nicotínico sobre REM/SEC?
+4. Medo em amizade nova responde mais a M6 do que a M2 sozinho?
+
+---
+
+## Palavras-chave para continuar a pesquisa
+
+`endocannabinoid stress buffer` · `AEA FAAH amygdala` · `exercise anandamide` · `endocannabinoidome Mediterranean diet` · `FAAH inhibitor anxiety` · `2-AG defensive state` · `gut-brain CB1 CB2`

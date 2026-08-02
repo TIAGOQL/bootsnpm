@@ -20,7 +20,10 @@ jobs:
           test -f assets/css/starter.css
           test -f poemas/minhas-lagrimas-sao-suas.html
           test -f poemas/homenagem-a-pixar.html
-          grep -q "Painel de poesias" index.html
+          test -f pesquisas/relaxamento-endocanabinoide.html
+          test -f pesquisas/relaxamento-endocanabinoide.md
+          grep -q "Painel" index.html
+          grep -q "pesquisas/relaxamento-endocanabinoide.html" index.html
           grep -q "poemas/minhas-lagrimas-sao-suas.html" index.html
           grep -q "poemas/homenagem-a-pixar.html" index.html
           grep -q "panel-page" assets/css/starter.css

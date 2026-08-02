@@ -5,12 +5,23 @@ alwaysApply: true
 
 # Poesias no painel
 
-Quando o usuário pedir para **criar outra poesia** (ou publicar/adicionar uma nova):
+## Poesia
 
-1. Escreva a poesia em português, no tom pedido.
-2. Crie `poemas/<slug>.html` no mesmo formato de `poemas/minhas-lagrimas-sao-suas.html` (atalho `← Painel` no topo, tipografia Fraunces/Karla, classe `poem-page`).
-3. Adicione um atalho novo em `index.html` dentro de `nav.panel-shortcuts`, no mesmo padrão do atalho existente (`a.shortcut` com label, título e meta).
-4. Atualize o deploy Pages se necessário (copiar `poemas/` no workflow).
-5. Faça commit, push e atualize o PR.
+Quando o usuário pedir para **criar outra poesia** e pedir ajuda explícita para escrever:
 
-Não apague poesias antigas do painel — só acrescente.
+1. Só escreva o texto se ele pedir — ele prefere escrever a própria poesia.
+2. Crie `poemas/<slug>.html` no formato existente (atalho `← Painel`, classe `poem-page`).
+3. Adicione atalho em `index.html` dentro de `nav.panel-shortcuts`.
+4. Commit, push e atualize o PR.
+
+Não apague poesias antigas — só acrescente.
+
+## Pesquisa (categoria REM)
+
+Quando pedir pesquisa de relaxamento / sistema endocanabinoide:
+
+1. Atualize ou acrescente em `pesquisas/` (`.md` completo + `.html` resumo).
+2. Mantenha a modularização M1–M8 do REM.
+3. Foque tônus endógeno; farmácia só como mapa teórico.
+4. Adicione atalho no painel se for categoria nova.
+5. Não despejar lista de URLs na conversa.
