@@ -792,6 +792,27 @@ body.panel-page {
   animation: rise-in 1100ms ease 480ms forwards;
 }
 
+.panel-audio {
+  max-width: 40rem;
+}
+
+.panel-audio-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  background: rgba(20, 16, 14, 0.35);
+}
+
+.panel-audio-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 .music-btn {
   justify-self: start;
   min-width: 8.5rem;
