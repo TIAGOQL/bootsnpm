@@ -6,10 +6,7 @@ Inspeção curta. 2026-08-02.
 - Nascimento: ~470/469 a.C. (Atenas)
 - Morte: 399 a.C. (Atenas, cicuta)
 - Idade: ~70 anos
-- Datas aproximadas — de alguma forma
-
-## De alguma forma no REM
-Setenta anos perguntando. O diário marca o dia. A idade lembra: a dúvida pode durar uma vida — sem fingir certeza cedo.
+- Datas aproximadas
 
 ## Quem
 Filósofo de Atenas. Quase não escreveu. Platão e Xenofonte contaram.
