@@ -20,6 +20,12 @@
         <p class="panel-lede">Se a cabeça pesou: abra Sinais. Um passo. Sem teste.</p>
       </header>
 
+      <section class="panel-audio music-deck" aria-label="Música do painel">
+        <p class="music-status">Rei Leão · Circle of Life</p>
+        <button type="button" class="music-btn" data-panel-music>Tocar</button>
+        <div class="panel-audio-frame" data-panel-music-frame hidden></div>
+      </section>
+
       <div class="panel-sections">
         <section aria-labelledby="sec-sinais">
           <h2 class="panel-section-label" id="sec-sinais">Agora</h2>
@@ -169,5 +175,29 @@
         <em>Protocolo → Diário (hoje) → Tônus → Cultivo se nascer dúvida</em>
       </p>
     </main>
+
+    <script>
+      (function () {
+        var btn = document.querySelector("[data-panel-music]");
+        var frame = document.querySelector("[data-panel-music-frame]");
+        if (!btn || !frame) return;
+        var videoId = "pYNxvVq8GQg"; // Carmen Twillie, Lebo M. — Circle of Life (DisneyMusicVEVO)
+        var loaded = false;
+        btn.addEventListener("click", function () {
+          if (!loaded) {
+            frame.hidden = false;
+            frame.innerHTML =
+              '<iframe title="Circle of Life — O Rei Leão" width="560" height="315" src="https://www.youtube-nocookie.com/embed/' +
+              videoId +
+              '?autoplay=1&rel=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>';
+            loaded = true;
+            btn.textContent = "Abrir de novo";
+            return;
+          }
+          var iframe = frame.querySelector("iframe");
+          if (iframe) iframe.src = iframe.src;
+        });
+      })();
+    </script>
   </body>
 </html>
