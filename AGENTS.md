@@ -2,27 +2,27 @@
 
 ## Cursor Cloud specific instructions
 
-This is the [bootstrap-npm-starter](https://github.com/twbs/bootstrap-npm-starter) template: static HTML + Sass + Bootstrap 4. There is no database, API, or Docker dependency.
-
-### Node version (important)
-
-- `node-sass@5` (used by `css-compile`) only has prebuilt binaries for older Node. **Use Node 14** (matches CI’s Node 12/14 matrix).
-- Cloud VMs often expose a newer system Node at `/exec-daemon/node`. After `nvm use 14`, ensure nvm’s bin directory is **first** on `PATH`, e.g. `export PATH="$NVM_DIR/versions/node/v14.21.3/bin:$PATH"`, then confirm `node -v` prints `v14.x`.
-- If `npm ci` fails during `node-sass` install/postinstall (404 for a binding or node-gyp errors mentioning Node 22+), you are on the wrong Node.
+**Painel REM** is a static front-end site (HTML/CSS/JS) for an N=1 endocannabinoid relaxation research panel. No database, backend API, Docker, or npm runtime dependencies are required.
 
 ### Commands
 
-See root `README.md` and `package.json` scripts. Quick reference:
+See root `README.md` and `package.json`. Quick reference:
 
 | Task | Command |
 | --- | --- |
-| Install | `npm ci` (or `npm i`) |
-| Lint + CSS build (“tests”) | `npm test` |
-| Dev (watch Sass + static server) | `npm start` → http://localhost:3000 |
-| Server only | `npm run server` |
+| Install | `npm install` (no packages today; keeps lock/node_modules consistent if deps are added) |
+| Test / surface check | `npm test` (file + panel string checks) |
+| JS syntax (CI) | `node --check assets/js/diario-rem.js` (and `cultivo-ideias.js`, `musica-rem.js`) |
+| Dev server | `npm start` → http://localhost:3000 (`npx serve`) |
 
-There is no separate unit/e2e suite; `npm test` runs Stylelint then compiles/prefixes CSS.
+CI uses **Node 20** (`.github/workflows/ci.yml`). Any recent Node that can run `npx serve` is fine.
+
+### Gotchas
+
+- `npm start` pulls `serve` via `npx --yes`; first start needs network.
+- Client data for Diário REM / cultivo lives in **browser `localStorage`** only — not on the server.
+- GitHub Pages deploy is via Actions on `main` (`.github/workflows/pages.yml`). One-time: Settings → Pages → Source: **GitHub Actions** (see README).
 
 ### Hello-world check
 
-With `npm start` running, open http://localhost:3000 and click **Toggle example modal**. A Bootstrap modal titled “Success!” confirms CSS + JS are wired correctly.
+With `npm start` running: open http://localhost:3000 → **Diário REM** → mark modules / scores → **Salvar** → **Exportar JSON**. That exercises the core N=1 diary flow.
