@@ -70,6 +70,19 @@ Pode ser cura ou violência, conforme o que se deixa cair — e se quem caiu que
 
 ---
 
+## Ligação com o Painel REM
+
+| Onde | Relação |
+| --- | --- |
+| [Higiene mental (M0)](higiene-mental.html) | Esquecer o excesso = limpar a mente, sem se culpar |
+| [Diário REM](diario-rem.html) | Marcar e exportar o que não quer cair fora sem escolha |
+| [Sinais](sinais.html) | Sinais são palavras; esta une ou afasta |
+| [Endocanabinoidoma](endocanabinoidoma.html) | Outra inspeção de palavra no mesmo canteiro |
+| Página no painel | [esqueceremos.html](esqueceremos.html) |
+| Cultivo | [cultivo/ideias/esqueceremos.md](../cultivo/ideias/esqueceremos.md) |
+
+---
+
 ## Fontes consultadas
 
 - Ciberdúvidas da Língua Portuguesa — origem de *esquecer* (*escadescere* / *excadere*, “cair fora”)
