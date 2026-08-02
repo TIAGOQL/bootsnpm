@@ -336,8 +336,47 @@ body.panel-page {
   font-weight: 500;
 }
 
-.research-body a {
+.research-body a,
+.research-lead a {
   color: var(--blush);
+}
+
+.glossario {
+  margin: 2rem 0 0;
+}
+
+.glossario h2 {
+  margin: 0 0 1rem;
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 500;
+}
+
+.gloss-list {
+  display: grid;
+  gap: 1rem;
+  margin: 0;
+}
+
+.gloss-list div {
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid rgba(31, 42, 50, 0.12);
+}
+
+.gloss-list dt {
+  margin: 0 0 0.25rem;
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.gloss-list dd {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 1.05rem;
+  line-height: 1.5;
 }
 
 .panel-sections {

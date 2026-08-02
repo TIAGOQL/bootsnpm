@@ -23,12 +23,15 @@ jobs:
           test -f pesquisas/relaxamento-endocanabinoide.html
           test -f pesquisas/relaxamento-endocanabinoide.md
           test -f pesquisas/sementinha.html
+          test -f pesquisas/endocanabinoidoma.html
           test -f pesquisas/diario-rem.html
           test -f assets/js/diario-rem.js
           grep -q "Painel" index.html
           grep -q "pesquisas/relaxamento-endocanabinoide.html" index.html
+          grep -q "pesquisas/endocanabinoidoma.html" index.html
           grep -q "pesquisas/sementinha.html" index.html
           grep -q "pesquisas/diario-rem.html" index.html
+          grep -q "endocanabinoidoma" pesquisas/relaxamento-endocanabinoide.md
           grep -q "poemas/minhas-lagrimas-sao-suas.html" index.html
           grep -q "poemas/homenagem-a-pixar.html" index.html
           grep -q "panel-page" assets/css/starter.css

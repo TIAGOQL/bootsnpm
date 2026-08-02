@@ -14,7 +14,15 @@ O SEC é um sistema de homeostase sob demanda. Estresse agudo move mediadores (A
 
 ---
 
-## Arquitetura do SEC (núcleo)
+## Arquitetura: SEC (núcleo) × endocanabinoidoma (bairro)
+
+**Ortografia:** PT `endocanabinoidoma` · EN `endocannabinoidome`.  
+Evitar: `canabinoidomo` (falta o *endo-* e quebra o termo).
+
+| Camada | O que é | No REM |
+| --- | --- | --- |
+| **SEC** | Núcleo: AEA, 2-AG, CB1, CB2, FAAH, MAGL | M1, M2, M3, M6, M7 mexem direto no freio emocional |
+| **Endocanabinoidoma** | Conjunto expandido: congêneres (PEA, OEA), receptores vizinhos (TRPV1, GPR55…), enzimas, dieta, intestino, inflamação | M4, **M4.1 Sementinha**, M5 alimentam a matéria-prima e o eixo gut–cérebro |
 
 | Peça | Função no relaxamento |
 | --- | --- |

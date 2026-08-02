@@ -6,6 +6,7 @@ Atalhos para poesias e pesquisas de relaxamento.
 
 - Painel: `index.html`
 - Mapa REM: `pesquisas/relaxamento-endocanabinoide.html`
+- Endocanabinoidoma (palavra): `pesquisas/endocanabinoidoma.html`
 - Sementinha: `pesquisas/sementinha.html`
 - Diário N=1: `pesquisas/diario-rem.html`
 - Poesias: `poemas/`
