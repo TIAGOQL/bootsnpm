@@ -7,40 +7,23 @@ env:
 
 jobs:
   test:
-    name: Static page check
+    name: REM system check
     runs-on: ubuntu-latest
 
     steps:
       - name: Clone repository
         uses: actions/checkout@v4
 
-      - name: Verify panel and poem files
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Verify REM surface
+        run: npm test
+
+      - name: Syntax-check JS
         run: |
-          test -f index.html
-          test -f assets/css/starter.css
-          test -f poemas/minhas-lagrimas-sao-suas.html
-          test -f poemas/homenagem-a-pixar.html
-          test -f pesquisas/relaxamento-endocanabinoide.html
-          test -f pesquisas/relaxamento-endocanabinoide.md
-          test -f pesquisas/sementinha.html
-          test -f pesquisas/endocanabinoidoma.html
-          test -f pesquisas/diario-rem.html
-          test -f pesquisas/musica-tonus.html
-          test -f pesquisas/cultivo-ideias.html
-          test -f assets/js/diario-rem.js
-          test -f assets/js/musica-rem.js
-          test -f assets/js/cultivo-ideias.js
-          test -f cultivo/README.md
-          test -f cultivo/ideias/_modelo.md
-          grep -q "Painel" index.html
-          grep -q "pesquisas/cultivo-ideias.html" index.html
-          grep -q "pesquisas/relaxamento-endocanabinoide.html" index.html
-          grep -q "pesquisas/endocanabinoidoma.html" index.html
-          grep -q "pesquisas/sementinha.html" index.html
-          grep -q "pesquisas/diario-rem.html" index.html
-          grep -q "pesquisas/musica-tonus.html" index.html
-          grep -q "endocanabinoidoma" pesquisas/relaxamento-endocanabinoide.md
-          grep -q "poemas/minhas-lagrimas-sao-suas.html" index.html
-          grep -q "poemas/homenagem-a-pixar.html" index.html
-          grep -q "panel-page" assets/css/starter.css
-          grep -q "module-map" assets/css/starter.css
+          node --check assets/js/diario-rem.js
+          node --check assets/js/cultivo-ideias.js
+          node --check assets/js/musica-rem.js

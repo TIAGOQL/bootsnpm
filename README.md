@@ -1,42 +1,38 @@
-# Painel
+# Painel REM (nível 4)
 
-Atalhos para poesias e pesquisas de relaxamento.
+Sistema de **Relaxamento Endocanabinoide Modular** — pesquisa, diário N=1, cultivo de ideias e música Tônus.
 
-## Acessar
+## Começar agora
 
-- Painel: `index.html`
-- Mapa REM: `pesquisas/relaxamento-endocanabinoide.html`
-- Endocanabinoidoma (palavra): `pesquisas/endocanabinoidoma.html`
-- Sementinha: `pesquisas/sementinha.html`
-- Diário N=1: `pesquisas/diario-rem.html`
-- Música Tônus: `pesquisas/musica-tonus.html`
-- Cultivo de ideias: `pesquisas/cultivo-ideias.html` + `cultivo/ideias/`
-- Poesias: `poemas/`
-
-### Plantar uma ideia
-
-1. No painel → **Cultivo de ideias** (rápido, neste aparelho)  
-2. Ou crie `cultivo/ideias/<slug>.md` pelo modelo  
-3. Ou diga no Cursor: `planta no cultivo: …`
+1. `pesquisas/protocolo-n1.html` — 4 semanas  
+2. `pesquisas/diario-rem.html` — registrar + exportar JSON  
+3. `pesquisas/musica-tonus.html` — áudio de estudo  
+4. `pesquisas/cultivo-ideias.html` — plantar dúvidas  
 
 ```shell
 npm start
 ```
 
-Abra <http://localhost:3000>.
+## Mapa do projeto
 
-## Criar outra
+| Área | Onde |
+| --- | --- |
+| Painel | `index.html` |
+| Mapa REM | `pesquisas/relaxamento-endocanabinoide.html` + `.md` |
+| Endocanabinoidoma | `pesquisas/endocanabinoidoma.html` |
+| Sementinha | `pesquisas/sementinha.html` |
+| Cultivo (Git) | `cultivo/ideias/` |
+| Poesias | `poemas/` |
 
-No Cursor, diga:
+## Plantar ideia
 
-> cria outra poesia para o painel
-
-A regra em `.cursor/rules/poesia.mdc` faz o agente escrever a página em `poemas/` e colocar o atalho no painel.
+- No canteiro do painel, ou  
+- `cultivo/ideias/<slug>.md` pelo `_modelo.md`, ou  
+- no Cursor: `planta no cultivo: …`
 
 ## Publicação
 
-O código está em `main`. Deploy automático no GitHub Pages a cada push.
+Deploy via GitHub Actions em `main`.
 
-URL: <https://tiagoql.github.io/bootsnpm/>
-
-**Uma vez só:** em [Settings → Pages](https://github.com/TIAGOQL/bootsnpm/settings/pages), escolha **Source: GitHub Actions** e salve. Depois rode de novo o workflow *Deploy GitHub Pages*, ou faça um push em `main`.
+**Uma vez só:** Settings → Pages → Source: **GitHub Actions**.  
+Sem isso o workflow de Pages falha (token sem permissão de criar o site).

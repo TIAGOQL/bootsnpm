@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Cultivo de ideias — canteiro do projeto REM.">
+    <meta name="description" content="Cultivo de ideias — canteiro local + ideias no Git.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Karla:wght@400;500&display=swap" rel="stylesheet">
@@ -12,29 +12,49 @@
   </head>
   <body class="poem-page research-page">
     <div class="rain" aria-hidden="true"></div>
-
     <a class="panel-shortcut" href="../index.html">← Painel</a>
 
     <main class="poem-shell research-shell">
       <header class="poem-brand">
         <p class="poem-for">canteiro do projeto</p>
         <h1 class="poem-title">Cultivo de ideias</h1>
-        <p class="panel-lede">Planta aqui. Depois, se merecer raiz no Git, vira arquivo em <code>cultivo/ideias/</code>.</p>
+        <p class="panel-lede">Planta no aparelho. O que já tem raiz no Git aparece abaixo.</p>
       </header>
 
+      <section class="cultivo-git" aria-labelledby="git-seeds">
+        <h2 class="panel-section-label" id="git-seeds">No repositório</h2>
+        <nav class="module-map" aria-label="Ideias no Git">
+          <a class="module-link" href="../cultivo/ideias/voos-como-metrica-m7.md"><span>M7</span><strong>Voos como métrica</strong><em>broto</em></a>
+          <a class="module-link" href="../cultivo/ideias/peito-e-respiracao-m2.md"><span>M2</span><strong>Peito + respiração</strong><em>semente</em></a>
+          <a class="module-link" href="../cultivo/ideias/sementinha-x-craving-m41.md"><span>M4.1</span><strong>Sementinha × craving</strong><em>semente</em></a>
+          <a class="module-link" href="../cultivo/ideias/intestino-e-medo-m5.md"><span>M5</span><strong>Intestino → medo</strong><em>semente</em></a>
+          <a class="module-link" href="../cultivo/ideias/dose-minima-m1.md"><span>M1</span><strong>Dose mínima</strong><em>semente</em></a>
+          <a class="module-link" href="../cultivo/README.md"><span>Guia</span><strong>Como inserir</strong><em>cultivo/README.md</em></a>
+        </nav>
+      </section>
+
       <div class="cultivo" data-cultivo>
+        <h2 class="panel-section-label">Neste aparelho</h2>
         <form class="cultivo-form" data-cultivo-form>
           <label>
             <span>Ideia</span>
             <input name="title" type="text" required maxlength="120" placeholder="Ex.: sonhos de voo como métrica do M7">
           </label>
           <label>
-            <span>Módulo REM (opcional)</span>
-            <input name="module" type="text" maxlength="40" placeholder="M2 · M4.1 · palavra · …">
+            <span>Módulo REM</span>
+            <select name="module"></select>
           </label>
           <label>
             <span>Nota</span>
             <textarea name="note" rows="3" maxlength="500" placeholder="O que brotou…"></textarea>
+          </label>
+          <label>
+            <span>Por que importa</span>
+            <input name="why" type="text" maxlength="200" placeholder="Uma frase">
+          </label>
+          <label>
+            <span>Próximo passo</span>
+            <input name="next" type="text" maxlength="200" placeholder="O que fazer nos próximos dias">
           </label>
           <button type="submit" class="music-btn">Plantar</button>
         </form>
@@ -42,18 +62,11 @@
         <div class="cultivo-lista" data-cultivo-lista></div>
       </div>
 
-      <article class="poem research-body">
-        <p><strong>Como inserir no projeto:</strong></p>
-        <p>1. Planta no canteiro (este aparelho).<br>
-        2. Quando crescer, clique <em>Gerar markdown</em> e salve em <code>cultivo/ideias/&lt;slug&gt;.md</code>.<br>
-        3. Se virar pesquisa de verdade, promova para <code>pesquisas/</code> e coloque atalho no painel.<br>
-        4. Ou diga no Cursor: <em>“planta no cultivo: …”</em></p>
-      </article>
-
       <p class="research-note">
-        Guia completo em <code>cultivo/README.md</code> ·
-        <a href="musica-tonus.html">Tônus</a> ·
-        <a href="relaxamento-endocanabinoide.html">mapa REM</a>
+        Modelo: <a href="../cultivo/ideias/_modelo.md">_modelo.md</a> ·
+        No Cursor: <em>“planta no cultivo: …”</em> ·
+        <a href="protocolo-n1.html">Protocolo N=1</a> ·
+        <a href="diario-rem.html">Diário</a>
       </p>
     </main>
 

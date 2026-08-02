@@ -116,7 +116,10 @@ Cada módulo tem: mecanismo → protocolo de observação → métricas → hip�
 
 ## Trilha de pesquisa
 
-**Tônus** (`pesquisas/musica-tonus.html`) — ambient gerativo no navegador: drone em Lá, pulso de respiração ~10s, névoa. Usar em volume baixo com M2 ou leitura do mapa.
+**Protocolo N=1** (`pesquisas/protocolo-n1.html`) — 4 semanas prontas.  
+**Diário** (`pesquisas/diario-rem.html`) — histórico + export JSON.  
+**Tônus** (`pesquisas/musica-tonus.html`) — ambient gerativo; volume persistente.  
+**Cultivo** (`pesquisas/cultivo-ideias.html` + `cultivo/ideias/`) — dúvidas viram semente.
 
 ---
 

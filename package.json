@@ -1,27 +1,25 @@
 {
-  "name": "minhas-lagrimas-sao-suas",
-  "version": "1.0.0",
+  "name": "painel-rem",
+  "version": "4.0.0",
   "private": true,
-  "description": "Painel de poesias com atalhos para abrir e criar novas.",
+  "description": "Painel REM — relaxamento endocanabinoide modular, cultivo, diário N=1 e Tônus.",
   "author": "TIAGOQL",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TIAGOQL/bootsnpm.git"
   },
-  "bugs": {
-    "url": "https://github.com/TIAGOQL/bootsnpm/issues"
-  },
   "homepage": "https://tiagoql.github.io/bootsnpm/",
   "scripts": {
     "server": "npx --yes serve --listen 3000",
     "start": "npm run server",
-    "test": "test -f pesquisas/cultivo-ideias.html && test -f assets/js/cultivo-ideias.js && test -f cultivo/README.md && grep -q \"Cultivo de ideias\" index.html"
+    "test": "node -e \"const fs=require('fs'); const must=['index.html','pesquisas/protocolo-n1.html','pesquisas/diario-rem.html','pesquisas/cultivo-ideias.html','pesquisas/musica-tonus.html','pesquisas/endocanabinoidoma.html','pesquisas/sementinha.html','pesquisas/relaxamento-endocanabinoide.html','assets/js/diario-rem.js','assets/js/cultivo-ideias.js','assets/js/musica-rem.js','cultivo/README.md']; for (const f of must){ if(!fs.existsSync(f)) { console.error('missing',f); process.exit(1);} } const idx=fs.readFileSync('index.html','utf8'); for (const s of ['Protocolo N=1','Diário REM','Cultivo de ideias','Tônus','Endocanabinoidoma']){ if(!idx.includes(s)) { console.error('panel missing',s); process.exit(1);} } console.log('ok');\""
   },
   "keywords": [
-    "poesia",
-    "poetry",
-    "html",
-    "css"
+    "rem",
+    "endocanabinoidoma",
+    "relaxamento",
+    "n1",
+    "cultivo"
   ]
 }

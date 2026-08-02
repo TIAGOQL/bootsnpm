@@ -9,6 +9,7 @@ const state = {
   nodes: [],
   timers: [],
   playing: false,
+  volume: Number(localStorage.getItem("rem-music-volume") || 0.7),
 };
 
 function $(sel) {
@@ -137,7 +138,7 @@ function start() {
   state.timers.push(chimeTimer);
   window.setTimeout(chime, 4000);
 
-  master.gain.linearRampToValueAtTime(0.9, ctx.currentTime + 2.2);
+  master.gain.linearRampToValueAtTime(state.volume, ctx.currentTime + 2.2);
   setPlaying(true);
 }
 
@@ -199,6 +200,18 @@ function bind() {
   if (!btn) return;
   btn.addEventListener("click", toggle);
   setPlaying(false);
+
+  const volume = $("[data-music-volume]");
+  if (volume) {
+    volume.value = String(state.volume);
+    volume.addEventListener("input", () => {
+      state.volume = Number(volume.value);
+      localStorage.setItem("rem-music-volume", String(state.volume));
+      if (state.master && state.playing) {
+        state.master.gain.setTargetAtTime(state.volume, state.ctx.currentTime, 0.05);
+      }
+    });
+  }
 
   window.addEventListener("pagehide", () => {
     if (state.playing) stop();

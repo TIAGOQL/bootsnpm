@@ -404,6 +404,79 @@ body.panel-page {
   animation: rise-in 1100ms ease 480ms forwards;
 }
 
+.diario-weeks {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .diario-weeks {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.diario-week {
+  display: grid;
+  gap: 0.2rem;
+  padding: 0.65rem 0.7rem;
+  color: var(--ink-soft);
+  text-align: left;
+  background: rgba(255, 255, 255, 0.35);
+  border: 1px solid rgba(31, 42, 50, 0.12);
+  border-radius: 0.35rem;
+  cursor: pointer;
+}
+
+.diario-week strong {
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.diario-week span {
+  font-size: 0.75rem;
+}
+
+.diario-week.is-active {
+  color: var(--blush);
+  border-color: rgba(139, 58, 74, 0.45);
+}
+
+.diario-week.is-active strong {
+  color: var(--blush);
+}
+
+.diario-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.diario-nav button {
+  min-width: 2.25rem;
+  padding: 0.4rem 0.65rem;
+  color: var(--ink);
+  font-family: var(--font-ui);
+  background: transparent;
+  border: 1px solid rgba(31, 42, 50, 0.18);
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.diario-nav button:hover,
+.diario-nav button:focus-visible {
+  color: var(--blush);
+  border-color: rgba(139, 58, 74, 0.4);
+  outline: none;
+}
+
+.diario-today {
+  margin-left: auto;
+}
+
 .diario-date {
   margin: 0;
   color: var(--blush);
@@ -411,6 +484,104 @@ body.panel-page {
   font-weight: 500;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+
+.diario-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.diario-secondary {
+  padding: 0.85rem 1.1rem;
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  background: transparent;
+  border: 1px solid rgba(31, 42, 50, 0.2);
+  border-radius: 0.35rem;
+  cursor: pointer;
+}
+
+.diario-history-wrap {
+  margin-top: 0.5rem;
+}
+
+.diario-history {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.diario-history-item {
+  display: grid;
+  grid-template-columns: 7.5rem 1fr auto;
+  gap: 0.5rem;
+  align-items: baseline;
+  padding: 0.55rem 0;
+  color: inherit;
+  text-align: left;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid rgba(31, 42, 50, 0.1);
+  cursor: pointer;
+}
+
+.diario-history-item strong {
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+}
+
+.diario-history-item span,
+.diario-history-item em {
+  color: var(--ink-soft);
+  font-family: var(--font-display);
+  font-style: normal;
+  font-size: 0.95rem;
+}
+
+.diario-history-item.is-active,
+.diario-history-item:hover,
+.diario-history-item:focus-visible {
+  color: var(--blush);
+  outline: none;
+}
+
+.diario-history-empty {
+  margin: 0;
+  color: var(--ink-soft);
+  font-family: var(--font-display);
+}
+
+.music-volume {
+  display: grid;
+  gap: 0.35rem;
+  max-width: 16rem;
+  color: var(--ink-soft);
+  font-family: var(--font-display);
+  font-size: 1rem;
+}
+
+.music-volume input {
+  width: 100%;
+  accent-color: var(--blush);
+}
+
+.cultivo-git {
+  position: relative;
+  z-index: 1;
+  margin: 0 0 2rem;
+  opacity: 0;
+  transform: translateY(1rem);
+  animation: rise-in 1100ms ease 420ms forwards;
+}
+
+.cultivo-git .module-map {
+  margin-bottom: 0;
+  opacity: 1;
+  transform: none;
+  animation: none;
 }
 
 .diario-modules {
@@ -712,7 +883,8 @@ body.is-music-playing .rain {
   .module-map,
   .diario,
   .music-deck,
-  .cultivo {
+  .cultivo,
+  .cultivo-git {
     opacity: 1;
     transform: none;
     animation: none;
