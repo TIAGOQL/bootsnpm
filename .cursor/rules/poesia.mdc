@@ -5,13 +5,13 @@ alwaysApply: true
 
 # Painel REM
 
-## Começar / N=1
+## Começar / N=1 / higiene
 
-Quando o usuário quiser agilizar ou “o que falta”:
-
-1. Apontar fluxo: Protocolo N=1 → Diário → Tônus → Cultivo.
-2. Não inventar módulos fora de M1–M8 / M4.1.
-3. Lembrar: Pages precisa de enable humano (Settings → GitHub Actions) se o deploy falhar.
+1. Se baixa energia: **Sinais** primeiro (`pesquisas/sinais.html`), depois M0 higiene.
+2. Fluxo normal: Protocolo N=1 → Diário → Tônus → Cultivo.
+3. Módulos: M0–M8 + M4.1. M0 = higiene mental (base).
+4. Respostas curtas quando o usuário estiver sobrecarregado.
+5. Pages: enable humano (Settings → GitHub Actions) se o deploy falhar.
 
 ## Cultivo de ideias
 

@@ -42,6 +42,15 @@ Sinais irmãos: **eixo intestino–cérebro**, **sono**, **BDNF**, **TRPV1/GPR55
 
 Cada módulo tem: mecanismo → protocolo de observação → métricas → hipóteses abertas.
 
+### M0 — Higiene mental (base)
+
+- **Mecanismo:** reduzir ruído cognitivo e carga simpática pra o SEC não operar em déficit; base de M2/M3.
+- **Protocolo-base:** água · mão no peito · 3 respirações · um registro mínimo no diário · parar sem culpa.
+- **Se a energia caiu:** abrir `pesquisas/sinais.html` — não testar feature, não otimizar.
+- **Métricas:** calma 1–5; latência pra responder ao mundo (sem julgamento).
+- **Páginas:** `higiene-mental.html` · `sinais.html`
+- **Aberto:** higiene diária reduz craving e culpa por “não render”?
+
 ### M1 — Movimento (aeróbico / endurance)
 
 - **Mecanismo:** exercício eleva AEA (e às vezes 2-AG); ligado a analgesia, sedação leve pós-esforço, runner’s high.
@@ -125,6 +134,7 @@ Cada módulo tem: mecanismo → protocolo de observação → métricas → hip�
 
 ## Como modularizar na prática (stack)
 
+0. **Higiene (M0):** Sinais se pesou; senão rotina mínima de limpeza mental.
 1. **Base diária:** M3 (sono) + M2 (respiração) — 15–25 min totais.
 2. **Elevador de tônus:** M1 (movimento) — 3×/semana.
 3. **Matéria-prima:** M4 + **M4.1 Sementinha** + M5 — contínuo.

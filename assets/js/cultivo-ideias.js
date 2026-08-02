@@ -5,7 +5,7 @@ const STAGES = [
   { id: "planta", label: "Planta" },
   { id: "colheita", label: "Colheita" },
 ];
-const MODULE_OPTIONS = ["", "M1", "M2", "M3", "M4", "M4.1", "M5", "M6", "M7", "palavra", "áudio", "nenhum"];
+const MODULE_OPTIONS = ["", "M0", "M1", "M2", "M3", "M4", "M4.1", "M5", "M6", "M7", "palavra", "áudio", "sinais", "nenhum"];
 
 function uid() {
   return `idea-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`;

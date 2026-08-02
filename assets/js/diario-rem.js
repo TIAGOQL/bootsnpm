@@ -1,5 +1,5 @@
 const KEY = "rem-diario-v1";
-const MODULES = ["M1", "M2", "M3", "M4", "M4.1", "M5", "M6", "M7"];
+const MODULES = ["M0", "M1", "M2", "M3", "M4", "M4.1", "M5", "M6", "M7"];
 const METRICS = [
   { id: "calma", label: "Calma" },
   { id: "sono", label: "Sono" },
@@ -9,7 +9,7 @@ const METRICS = [
   { id: "gi", label: "Intestino / corpo" },
 ];
 const WEEKS = [
-  { id: 1, label: "Semana 1", focus: "M2 + M3", tip: "Calma, sono, sonhos" },
+  { id: 1, label: "Semana 1", focus: "M0 + M2 + M3", tip: "Higiene, calma, sono" },
   { id: 2, label: "Semana 2", focus: "+ M1", tip: "Humor pós-movimento" },
   { id: 3, label: "Semana 3", focus: "+ M4 / M4.1 / M5", tip: "Energia, GI, craving" },
   { id: 4, label: "Semana 4", focus: "+ M6 / M7", tip: "Medo, craving, voos" },
