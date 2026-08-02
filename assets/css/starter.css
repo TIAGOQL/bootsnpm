@@ -488,6 +488,60 @@ body.panel-page {
   font-size: 0.85rem;
 }
 
+.music-deck {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 0.85rem;
+  margin: 0 0 2.5rem;
+  opacity: 0;
+  transform: translateY(1rem);
+  animation: rise-in 1100ms ease 480ms forwards;
+}
+
+.music-btn {
+  justify-self: start;
+  min-width: 8.5rem;
+  padding: 0.85rem 1.4rem;
+  color: #f7f3ef;
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  background: var(--ink);
+  border: 0;
+  border-radius: 0.35rem;
+  cursor: pointer;
+  transition: background 180ms ease, transform 180ms ease;
+}
+
+.music-btn:hover,
+.music-btn:focus-visible {
+  background: var(--blush);
+  outline: none;
+  transform: translateY(-1px);
+}
+
+.music-btn:disabled {
+  opacity: 0.6;
+  cursor: wait;
+  transform: none;
+}
+
+.music-status {
+  margin: 0;
+  max-width: 28rem;
+  color: var(--ink-soft);
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  line-height: 1.45;
+}
+
+body.is-music-playing .rain {
+  opacity: 0.7;
+  animation-duration: 9s;
+}
+
 @keyframes rise-in {
   to {
     opacity: 1;
@@ -511,7 +565,8 @@ body.panel-page {
   .panel-hint,
   .research-lead,
   .module-map,
-  .diario {
+  .diario,
+  .music-deck {
     opacity: 1;
     transform: none;
     animation: none;

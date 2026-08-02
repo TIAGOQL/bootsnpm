@@ -16,7 +16,7 @@
   "scripts": {
     "server": "npx --yes serve --listen 3000",
     "start": "npm run server",
-    "test": "test -f index.html && test -f pesquisas/endocanabinoidoma.html && test -f pesquisas/diario-rem.html && test -f pesquisas/sementinha.html && grep -q \"Endocanabinoidoma\" index.html"
+    "test": "test -f index.html && test -f pesquisas/musica-tonus.html && test -f assets/js/musica-rem.js && test -f pesquisas/diario-rem.html && grep -q \"Tônus\" index.html"
   },
   "keywords": [
     "poesia",

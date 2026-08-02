@@ -9,6 +9,7 @@ Atalhos para poesias e pesquisas de relaxamento.
 - Endocanabinoidoma (palavra): `pesquisas/endocanabinoidoma.html`
 - Sementinha: `pesquisas/sementinha.html`
 - Diário N=1: `pesquisas/diario-rem.html`
+- Música Tônus: `pesquisas/musica-tonus.html`
 - Poesias: `poemas/`
 
 ```shell

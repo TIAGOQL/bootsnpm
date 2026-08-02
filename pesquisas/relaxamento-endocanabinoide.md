@@ -114,6 +114,12 @@ Cada módulo tem: mecanismo → protocolo de observação → métricas → hip�
 
 ---
 
+## Trilha de pesquisa
+
+**Tônus** (`pesquisas/musica-tonus.html`) — ambient gerativo no navegador: drone em Lá, pulso de respiração ~10s, névoa. Usar em volume baixo com M2 ou leitura do mapa.
+
+---
+
 ## Como modularizar na prática (stack)
 
 1. **Base diária:** M3 (sono) + M2 (respiração) — 15–25 min totais.
