@@ -1,90 +1,147 @@
-// Override Bootstrap's Sass default variables
-//
-// Nearly all variables in Bootstrap are written with the `!default` flag.
-// This allows you to override the default values of those variables before
-// you import Bootstrap's source Sass files.
-//
-// Overriding the default variable values is the best way to customize your
-// CSS without writing _new_ styles. For example, change you can either change
-// `$body-color` or write more CSS that override's Bootstrap's CSS like so:
-// `body { color: red; }`.
+// Source styles for the poem page.
+// Compiled output lives in assets/css/starter.css (kept in sync manually
+// while node-sass is unavailable on newer Node).
 
-
-//
-// Bring in Bootstrap
-//
-
-// Option 1
-//
-// Import all of Bootstrap's CSS
-
-// @import "bootstrap/scss/bootstrap";
-
-// Option 2
-//
-// Place variable overrides first, then import just the styles you need. Note that some stylesheets are required no matter what.
-
-// Toggle global options
-$enable-gradients: true;
-$enable-shadows: true;
-
-// Customize some defaults
-$body-color: #333;
-$body-bg: #fff;
-$border-radius: .4rem;
-$success: #7952b3;
-
-@import "bootstrap/scss/functions"; // Required
-@import "bootstrap/scss/variables"; // Required
-@import "bootstrap/scss/mixins"; // Required
-
-@import "bootstrap/scss/root"; // Required
-@import "bootstrap/scss/reboot"; // Required
-@import "bootstrap/scss/type";
-// @import "bootstrap/scss/images";
-// @import "bootstrap/scss/code";
-@import "bootstrap/scss/grid";
-// @import "bootstrap/scss/tables";
-// @import "bootstrap/scss/forms";
-@import "bootstrap/scss/buttons";
-@import "bootstrap/scss/transitions";
-// @import "bootstrap/scss/dropdown";
-// @import "bootstrap/scss/button-group";
-// @import "bootstrap/scss/input-group"; // Requires forms
-// @import "bootstrap/scss/custom-forms";
-// @import "bootstrap/scss/nav";
-// @import "bootstrap/scss/navbar"; // Requires nav
-// @import "bootstrap/scss/card";
-// @import "bootstrap/scss/breadcrumb";
-// @import "bootstrap/scss/pagination";
-// @import "bootstrap/scss/badge";
-// @import "bootstrap/scss/jumbotron";
-// @import "bootstrap/scss/alert";
-// @import "bootstrap/scss/progress";
-// @import "bootstrap/scss/media";
-// @import "bootstrap/scss/list-group";
-@import "bootstrap/scss/close";
-// @import "bootstrap/scss/toasts";
-@import "bootstrap/scss/modal"; // Requires transitions
-// @import "bootstrap/scss/tooltip";
-// @import "bootstrap/scss/popover";
-// @import "bootstrap/scss/carousel";
-// @import "bootstrap/scss/spinners";
-@import "bootstrap/scss/utilities";
-// @import "bootstrap/scss/print";
-
-
-//
-// Custom styles
-//
-
-@import "icon-list";
-
-body {
-  padding: 3rem 1.5rem;
+:root {
+  --ink: #1f2a32;
+  --ink-soft: #3d4f5c;
+  --mist-1: #e7eef3;
+  --mist-2: #d5e3eb;
+  --mist-3: #c3d5e0;
+  --blush: #8b3a4a;
+  --rain: rgba(61, 79, 92, 0.22);
+  --font-display: "Fraunces", "Iowan Old Style", "Palatino Linotype", serif;
+  --font-ui: "Karla", "Gill Sans", "Trebuchet MS", sans-serif;
 }
 
-// Style Bootstrap icons
-.bi {
-  fill: currentColor;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body.poem-page {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  color: var(--ink);
+  font-family: var(--font-ui);
+  background:
+    radial-gradient(120% 80% at 10% 0%, rgba(139, 58, 74, 0.08), transparent 55%),
+    radial-gradient(90% 70% at 90% 10%, rgba(61, 79, 92, 0.12), transparent 50%),
+    linear-gradient(165deg, var(--mist-1) 0%, var(--mist-2) 48%, var(--mist-3) 100%);
+  overflow-x: hidden;
+}
+
+.rain {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background-image:
+    radial-gradient(1px 8px at 10% 20%, var(--rain), transparent),
+    radial-gradient(1px 10px at 30% 60%, var(--rain), transparent),
+    radial-gradient(1px 7px at 55% 35%, var(--rain), transparent),
+    radial-gradient(1px 9px at 75% 70%, var(--rain), transparent),
+    radial-gradient(1px 6px at 90% 25%, var(--rain), transparent),
+    radial-gradient(1px 11px at 20% 85%, var(--rain), transparent),
+    radial-gradient(1px 8px at 65% 10%, var(--rain), transparent);
+  background-size: 100% 100%;
+  animation: rain-fall 7s linear infinite;
+  opacity: 0.55;
+}
+
+@keyframes rain-fall {
+  from {
+    transform: translateY(-12%);
+  }
+
+  to {
+    transform: translateY(12%);
+  }
+}
+
+.poem-shell {
+  position: relative;
+  z-index: 1;
+  width: min(40rem, calc(100% - 2.5rem));
+  margin: 0 auto;
+  padding: clamp(3.5rem, 12vh, 7rem) 0 clamp(4rem, 10vh, 6rem);
+}
+
+.poem-brand {
+  margin-bottom: clamp(2rem, 6vh, 3.25rem);
+}
+
+.poem-for {
+  margin: 0 0 0.75rem;
+  color: var(--blush);
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0;
+  transform: translateY(0.75rem);
+  animation: rise-in 900ms ease 120ms forwards;
+}
+
+.poem-title {
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 7vw, 3.75rem);
+  font-weight: 500;
+  font-optical-sizing: auto;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  opacity: 0;
+  transform: translateY(1rem);
+  animation: rise-in 1100ms ease 280ms forwards;
+}
+
+.poem {
+  color: var(--ink-soft);
+  font-family: var(--font-display);
+  font-size: clamp(1.15rem, 2.6vw, 1.4rem);
+  font-weight: 400;
+  line-height: 1.75;
+  opacity: 0;
+  transform: translateY(1.25rem);
+  animation: rise-in 1200ms ease 520ms forwards;
+}
+
+.poem p {
+  margin: 0 0 1.75rem;
+  max-width: 28rem;
+}
+
+.poem p:last-child {
+  margin-bottom: 0;
+}
+
+@keyframes rise-in {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rain {
+    animation: none;
+  }
+
+  .poem-for,
+  .poem-title,
+  .poem {
+    opacity: 1;
+    transform: none;
+    animation: none;
+  }
 }
