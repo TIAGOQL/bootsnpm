@@ -5,7 +5,7 @@ Atalhos para abrir as poesias publicadas — e criar novas pelo Cursor.
 ## Acessar
 
 - Painel: `index.html`
-- Poesia atual: `poemas/minhas-lagrimas-sao-suas.html`
+- Poesias: `poemas/minhas-lagrimas-sao-suas.html`, `poemas/homenagem-a-pixar.html`
 
 ```shell
 npm start
