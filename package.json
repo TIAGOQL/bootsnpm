@@ -16,7 +16,7 @@
   "scripts": {
     "server": "npx --yes serve --listen 3000",
     "start": "npm run server",
-    "test": "test -f index.html && test -f assets/css/starter.css && grep -q \"Minhas lágrimas são suas\" index.html"
+    "test": "test -f index.html && test -f assets/css/starter.css && test -f poemas/minhas-lagrimas-sao-suas.html && grep -q \"Painel de poesias\" index.html"
   },
   "keywords": [
     "poesia",

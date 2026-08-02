@@ -1,0 +1,16 @@
+---
+description: Como adicionar uma nova poesia ao painel quando o usuário pedir
+alwaysApply: true
+---
+
+# Poesias no painel
+
+Quando o usuário pedir para **criar outra poesia** (ou publicar/adicionar uma nova):
+
+1. Escreva a poesia em português, no tom pedido.
+2. Crie `poemas/<slug>.html` no mesmo formato de `poemas/minhas-lagrimas-sao-suas.html` (atalho `← Painel` no topo, tipografia Fraunces/Karla, classe `poem-page`).
+3. Adicione um atalho novo em `index.html` dentro de `nav.panel-shortcuts`, no mesmo padrão do atalho existente (`a.shortcut` com label, título e meta).
+4. Atualize o deploy Pages se necessário (copiar `poemas/` no workflow).
+5. Faça commit, push e atualize o PR.
+
+Não apague poesias antigas do painel — só acrescente.

@@ -1,19 +1,28 @@
-# Minhas lágrimas são suas
+# Painel de poesias
 
-Poesia para uma garota muito especial.
+Atalhos para abrir as poesias publicadas — e criar novas pelo Cursor.
 
-## Ver a página
+## Acessar
 
-Abra `index.html` no navegador, ou rode:
+- Painel: `index.html`
+- Poesia atual: `poemas/minhas-lagrimas-sao-suas.html`
 
 ```shell
 npm start
 ```
 
-Depois acesse <http://localhost:3000>.
+Abra <http://localhost:3000>.
+
+## Criar outra
+
+No Cursor, diga:
+
+> cria outra poesia para o painel
+
+A regra em `.cursor/rules/poesia.mdc` faz o agente escrever a página em `poemas/` e colocar o atalho no painel.
 
 ## Publicação
 
-O site é publicado automaticamente no GitHub Pages a cada push em `main`.
+Deploy automático no GitHub Pages a cada push em `main`:
 
-URL prevista: <https://tiagoql.github.io/bootsnpm/>
+<https://tiagoql.github.io/bootsnpm/>

@@ -26,9 +26,10 @@ jobs:
 
       - name: Prepare site
         run: |
-          mkdir -p _site/assets/css
+          mkdir -p _site/assets/css _site/poemas
           cp index.html _site/
           cp assets/css/starter.css _site/assets/css/
+          cp poemas/*.html _site/poemas/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
