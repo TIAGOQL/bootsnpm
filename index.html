@@ -3,49 +3,65 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Painel — poesias e pesquisas de relaxamento.">
+    <meta name="description" content="Painel — REM, Sementinha, diário e poesias.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Karla:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/starter.css">
-    <title>Painel de poesias</title>
+    <title>Painel</title>
   </head>
   <body class="panel-page">
     <div class="rain" aria-hidden="true"></div>
 
     <main class="panel-shell">
       <header class="panel-brand">
-        <p class="panel-kicker">atalhos</p>
+        <p class="panel-kicker">nível 2 · atalhos</p>
         <h1 class="panel-title">Painel</h1>
-        <p class="panel-lede">Poesias suas. Pesquisas de relaxamento para modular o sistema endocanabinoide.</p>
+        <p class="panel-lede">Do peito ao tônus. Pesquisa pra modular o sistema — poesia pra quando for sua.</p>
       </header>
 
-      <nav class="panel-shortcuts" aria-label="Atalhos">
-        <a class="shortcut" href="pesquisas/relaxamento-endocanabinoide.html">
-          <span class="shortcut-label">Pesquisa</span>
-          <span class="shortcut-title">Relaxamento Endocanabinoide Modular</span>
-          <span class="shortcut-meta">módulos para tônus endógeno — sem depender da fumaça</span>
-        </a>
-        <a class="shortcut" href="pesquisas/sementinha.html">
-          <span class="shortcut-label">Pesquisa · M4.1</span>
-          <span class="shortcut-title">Sementinha</span>
-          <span class="shortcut-meta">cânhamo alimentar — matéria-prima do SEC, não chapar</span>
-        </a>
-        <a class="shortcut" href="poemas/minhas-lagrimas-sao-suas.html">
-          <span class="shortcut-label">Poesia</span>
-          <span class="shortcut-title">Minhas lágrimas são suas</span>
-          <span class="shortcut-meta">para uma garota muito especial</span>
-        </a>
-        <a class="shortcut" href="poemas/homenagem-a-pixar.html">
-          <span class="shortcut-label">Poesia</span>
-          <span class="shortcut-title">Homenagem à Pixar</span>
-          <span class="shortcut-meta">luz, brinquedos e corações animados</span>
-        </a>
-      </nav>
+      <div class="panel-sections">
+        <section aria-labelledby="sec-pesquisa">
+          <h2 class="panel-section-label" id="sec-pesquisa">Pesquisa REM</h2>
+          <nav class="panel-shortcuts" aria-label="Pesquisas">
+            <a class="shortcut" href="pesquisas/relaxamento-endocanabinoide.html">
+              <span class="shortcut-label">Mapa</span>
+              <span class="shortcut-title">Relaxamento Endocanabinoide Modular</span>
+              <span class="shortcut-meta">M1–M8 · tônus endógeno, sem depender da fumaça</span>
+            </a>
+            <a class="shortcut" href="pesquisas/sementinha.html">
+              <span class="shortcut-label">M4.1</span>
+              <span class="shortcut-title">Sementinha</span>
+              <span class="shortcut-meta">cânhamo alimentar — matéria-prima, não chapar</span>
+            </a>
+            <a class="shortcut" href="pesquisas/diario-rem.html">
+              <span class="shortcut-label">N=1</span>
+              <span class="shortcut-title">Diário REM</span>
+              <span class="shortcut-meta">marca módulos e métricas — só neste aparelho</span>
+            </a>
+          </nav>
+        </section>
+
+        <section aria-labelledby="sec-poesia">
+          <h2 class="panel-section-label" id="sec-poesia">Poesia (sua)</h2>
+          <nav class="panel-shortcuts" aria-label="Poesias">
+            <a class="shortcut" href="poemas/minhas-lagrimas-sao-suas.html">
+              <span class="shortcut-label">Poesia</span>
+              <span class="shortcut-title">Minhas lágrimas são suas</span>
+              <span class="shortcut-meta">para uma garota muito especial</span>
+            </a>
+            <a class="shortcut" href="poemas/homenagem-a-pixar.html">
+              <span class="shortcut-label">Poesia</span>
+              <span class="shortcut-title">Homenagem à Pixar</span>
+              <span class="shortcut-meta">luz, brinquedos e corações animados</span>
+            </a>
+          </nav>
+        </section>
+      </div>
 
       <p class="panel-hint">
-        Para criar outra, diga no Cursor:
-        <em>“cria outra poesia para o painel”</em>
+        Seguimos. Quando quiser aprofundar pesquisa:
+        <em>“expande o módulo M…”</em>
       </p>
     </main>
   </body>

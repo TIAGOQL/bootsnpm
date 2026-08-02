@@ -5,7 +5,9 @@ Atalhos para poesias e pesquisas de relaxamento.
 ## Acessar
 
 - Painel: `index.html`
-- Pesquisa REM: `pesquisas/relaxamento-endocanabinoide.md`
+- Mapa REM: `pesquisas/relaxamento-endocanabinoide.html`
+- Sementinha: `pesquisas/sementinha.html`
+- Diário N=1: `pesquisas/diario-rem.html`
 - Poesias: `poemas/`
 
 ```shell

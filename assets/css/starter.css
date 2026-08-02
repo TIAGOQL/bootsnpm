@@ -244,6 +244,211 @@ body.panel-page {
   line-height: 1.5;
 }
 
+.research-note a {
+  color: var(--blush);
+}
+
+.research-lead {
+  position: relative;
+  z-index: 1;
+  max-width: 32rem;
+  margin: 0 0 2rem;
+  color: var(--ink-soft);
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  line-height: 1.55;
+  opacity: 0;
+  transform: translateY(1rem);
+  animation: rise-in 1100ms ease 450ms forwards;
+}
+
+.module-map {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 0.35rem;
+  margin: 0 0 2.75rem;
+  opacity: 0;
+  transform: translateY(1.1rem);
+  animation: rise-in 1200ms ease 560ms forwards;
+}
+
+.module-link {
+  display: grid;
+  grid-template-columns: 3.2rem 1fr;
+  column-gap: 0.75rem;
+  row-gap: 0.1rem;
+  align-items: baseline;
+  padding: 0.7rem 0;
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(31, 42, 50, 0.12);
+  transition: transform 180ms ease, color 180ms ease;
+}
+
+.module-link span {
+  grid-row: span 2;
+  color: var(--blush);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+}
+
+.module-link strong {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.module-link em {
+  color: var(--ink-soft);
+  font-family: var(--font-display);
+  font-style: normal;
+  font-size: 0.95rem;
+}
+
+.module-link:hover,
+.module-link:focus-visible {
+  color: var(--blush);
+  transform: translateX(0.3rem);
+  outline: none;
+}
+
+.module-link-cta {
+  margin-top: 0.5rem;
+  border-bottom-color: rgba(139, 58, 74, 0.35);
+}
+
+.research-body {
+  max-width: 34rem;
+}
+
+.research-body section {
+  margin: 0 0 1.75rem;
+  scroll-margin-top: 4rem;
+}
+
+.research-body h2 {
+  margin: 0 0 0.5rem;
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 500;
+}
+
+.research-body a {
+  color: var(--blush);
+}
+
+.panel-sections {
+  display: grid;
+  gap: 2.25rem;
+}
+
+.panel-section-label {
+  margin: 0 0 0.75rem;
+  color: var(--blush);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.diario {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 1.5rem;
+  max-width: 34rem;
+  opacity: 0;
+  transform: translateY(1rem);
+  animation: rise-in 1100ms ease 480ms forwards;
+}
+
+.diario-date {
+  margin: 0;
+  color: var(--blush);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.diario-modules {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.diario-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.diario-chip input {
+  accent-color: var(--blush);
+}
+
+.diario-metrics {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.diario-metric {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.35rem 0.75rem;
+  align-items: center;
+  color: var(--ink-soft);
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+}
+
+.diario-metric input[type="range"] {
+  grid-column: 1 / -1;
+  width: 100%;
+  accent-color: var(--blush);
+}
+
+.diario-metric output {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.diario-note {
+  display: grid;
+  gap: 0.5rem;
+  color: var(--ink-soft);
+  font-family: var(--font-display);
+}
+
+.diario-note textarea {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  color: var(--ink);
+  font: inherit;
+  line-height: 1.5;
+  background: rgba(255, 255, 255, 0.45);
+  border: 1px solid rgba(31, 42, 50, 0.16);
+  border-radius: 0.35rem;
+  resize: vertical;
+}
+
+.diario-note textarea:focus {
+  outline: 2px solid rgba(139, 58, 74, 0.35);
+  outline-offset: 2px;
+}
+
+.diario-saved {
+  margin: 0;
+  color: var(--blush);
+  font-size: 0.85rem;
+}
+
 @keyframes rise-in {
   to {
     opacity: 1;
@@ -264,13 +469,17 @@ body.panel-page {
   .panel-lede,
   .poem,
   .panel-shortcuts,
-  .panel-hint {
+  .panel-hint,
+  .research-lead,
+  .module-map,
+  .diario {
     opacity: 1;
     transform: none;
     animation: none;
   }
 
-  .shortcut {
+  .shortcut,
+  .module-link {
     transition: none;
   }
 }

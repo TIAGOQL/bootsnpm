@@ -26,9 +26,10 @@ jobs:
 
       - name: Prepare site
         run: |
-          mkdir -p _site/assets/css _site/poemas _site/pesquisas
+          mkdir -p _site/assets/css _site/assets/js _site/poemas _site/pesquisas
           cp index.html _site/
           cp assets/css/starter.css _site/assets/css/
+          cp assets/js/*.js _site/assets/js/
           cp poemas/*.html _site/poemas/
           cp pesquisas/*.html _site/pesquisas/
           cp pesquisas/*.md _site/pesquisas/
