@@ -40,7 +40,7 @@ Simba perde Mufasa por trama de Scar, foge, adia com Hakuna Matata, e volta para
 Canto (Simba/Nala): ver [rei-leao-musica.md](rei-leao-musica.md) — Jason Weaver, Joseph Williams, etc.
 
 ## Arco
-1. Apresentação — Circle of Life  
+1. Apresentação — O Ciclo sem Fim (Circle of Life)  
 2. Queda — morte de Mufasa; culpa; fuga  
 3. Adiamento — Hakuna Matata  
 4. Volta — Nala + Rafiki + Mufasa; Scar; novo ciclo  

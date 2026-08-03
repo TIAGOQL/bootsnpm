@@ -20,8 +20,8 @@
         <p class="panel-lede">Se a cabeça pesou: abra Sinais. Um passo. Sem teste.</p>
       </header>
 
-      <section class="panel-audio music-deck" aria-label="Música do painel">
-        <p class="music-status">Rei Leão · Circle of Life · <a href="pesquisas/rei-leao.html">filme</a> · <a href="pesquisas/rei-leao-musica.html">banda</a></p>
+      <section class="panel-audio music-deck" aria-label="Rádio do painel">
+        <p class="music-status">Rádio · <strong>O Ciclo sem Fim</strong> · Rei Leão · <a href="pesquisas/rei-leao.html">filme</a> · <a href="pesquisas/rei-leao-musica.html">banda</a></p>
         <button type="button" class="music-btn" data-panel-music>Tocar</button>
         <div class="panel-audio-frame" data-panel-music-frame hidden></div>
       </section>
@@ -219,13 +219,13 @@
         var btn = document.querySelector("[data-panel-music]");
         var frame = document.querySelector("[data-panel-music-frame]");
         if (!btn || !frame) return;
-        var videoId = "pYNxvVq8GQg"; // Carmen Twillie, Lebo M. — Circle of Life (DisneyMusicVEVO)
+        var videoId = "pYNxvVq8GQg"; // Carmen Twillie, Lebo M — O Ciclo sem Fim / Circle of Life (DisneyMusicVEVO)
         var loaded = false;
         btn.addEventListener("click", function () {
           if (!loaded) {
             frame.hidden = false;
             frame.innerHTML =
-              '<iframe title="Circle of Life — O Rei Leão" width="560" height="315" src="https://www.youtube-nocookie.com/embed/' +
+              '<iframe title="O Ciclo sem Fim — O Rei Leão" width="560" height="315" src="https://www.youtube-nocookie.com/embed/' +
               videoId +
               '?autoplay=1&rel=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>';
             loaded = true;
