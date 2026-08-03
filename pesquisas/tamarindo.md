@@ -88,6 +88,7 @@ Inverso prático: **clarificar** — três colunas no diário:
 
 | Onde | Relação |
 | --- | --- |
+| [Xarope de frutas](xarope-de-frutas.html) | Guia do trio — parece / é / tem gosto |
 | [Higiene mental (M0)](higiene-mental.html) | Separar aparência, fato e sensação |
 | [Cultivo](cultivo-ideias.html) | Árvore = semente que demora |
 | [Diário REM](diario-rem.html) | Calma + uma linha do que “é” |

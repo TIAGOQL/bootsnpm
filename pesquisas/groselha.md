@@ -93,6 +93,7 @@ Inverso prático: **diluir** — menos xarope, mais o que o corpo pede.
 | Onde | Relação |
 | --- | --- |
 | [Higiene mental (M0)](higiene-mental.html) | Cor ≠ fato |
+| [Xarope de frutas](xarope-de-frutas.html) | Guia do trio — parece / é / tem gosto |
 | [Tamarindo](tamarindo.html) | Par da barraca — mesmo gag de rótulo |
 | [Cultivo](cultivo-ideias.html) | Baga miúda; tempo de arbusto |
 | [Diário REM](diario-rem.html) | Calma + uma linha |
