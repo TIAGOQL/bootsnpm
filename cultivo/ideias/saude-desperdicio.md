@@ -3,7 +3,7 @@
 - **Estágio:** semente
 - **Módulo REM:** M0 · M4 · palavra
 - **Plantada em:** 2026-08-03
-- **Próximo passo:** uma linha no diário — onde a saúde está sendo desperdiçada hoje (sono, comida, tela, laço) e o que não é desperdício (pausa necessária)
+- **Próximo passo:** uma linha no diário — onde a saúde está sendo desperdiçada hoje (sono, comida, tela, laço) e o que não é desperdício (pausa necessária). Se desequilibrar: ver *equilíbrio está no acesso*.
 
 ## Nota
 
