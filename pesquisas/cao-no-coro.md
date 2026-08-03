@@ -77,6 +77,7 @@ Uso no painel: sinal de baixa energia / higiene — não forçar o canto até o 
 | [Tônus](musica-tonus.html) | Coro interno em volume baixo — antídoto sonoro |
 | [Diário REM](diario-rem.html) | Marcar calma 1–5 quando o cão visita |
 | [Esqueceremos](esqueceremos.html) | Soltar o pico depois — sem apagar o aviso |
+| [Demo](demo.html) | A palavra curta do diabo / da raiva — raiz do “cão” nesta frase |
 | Página no painel | [cao-no-coro.html](cao-no-coro.html) |
 | Cultivo | [cultivo/ideias/cao-no-coro.md](../cultivo/ideias/cao-no-coro.md) |
 
