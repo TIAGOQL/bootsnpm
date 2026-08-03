@@ -98,6 +98,31 @@ No REM: **inspeção de palavra + M8**. Sem cultivo, sem dose, sem diário de us
 
 ---
 
+## Leituras (livro e artigo)
+
+Para estudar o assunto sem virar protocolo caseiro:
+
+### Livros / textos longos
+| Obra | Por que entra |
+| --- | --- |
+| R. Gordon Wasson — linha *The Wondrous Mushroom* / ensaio *Life* (1957) | Ponte cultural Ocidente ↔ cogumelo sagrado ([cogumelos e o livro](cogumelos-e-o-livro.html)) |
+| Albert Hofmann — *LSD: My Problem Child* (e escritos sobre isolamento da psilocibina) | Quem nomeou/isolou a molécula no laboratório |
+| Terence McKenna — *Food of the Gods* | Eco pop da estante; ler como cultura, não como bulário |
+| Michael Pollan — *How to Change Your Mind* (*Como mudar sua mente*) | Divulgação recente da “renascença” psicodélica |
+
+### Artigos / revisões (ciência)
+| Tipo | Referência curta |
+| --- | --- |
+| Ensaio clínico (depressão resistente) | Carhart-Harris et al., *The Lancet Psychiatry* (2016) — psilocibina + suporte psicológico |
+| Revisão terapêutica | Johnson & Griffiths, *Neurotherapeutics* (2017) — efeitos terapêuticos potenciais |
+| Revisão narrativa clínica | *Journal of Psychopharmacology* (2023) — história, ação e reação da psilocibina |
+| Revisão farmacologia / segurança | *CNS Spectrums* — psilocibina em neuropsiquiatria |
+
+Buscar pelo **autor + título + ano** em biblioteca ou DOI — o painel não lista URLs.  
+Ler ≠ usar. Continua **M8**.
+
+---
+
 ## Ligação com o Painel REM
 
 | Onde | Relação |
@@ -117,7 +142,8 @@ No REM: **inspeção de palavra + M8**. Sem cultivo, sem dose, sem diário de us
 
 - Etimologia *Psilocybe* (*psilós* + *kúbē*)  
 - Hofmann / isolamento da psilocibina  
-- Revisões 5-HT₂A e ensaios clínicos  
+- Wasson · McKenna · Pollan (estante cultural)  
+- Carhart-Harris et al. (2016); Johnson & Griffiths (2017); revisões clínicas recentes  
 - Micologia básica · prática REM — M8 fora do N=1  
 
 Escopo educacional. Não é prescrição médica.

@@ -79,6 +79,8 @@ No painel: **Biblioteca** para ler · **M8** para não misturar com o canteiro.
 - Wasson — ensaio *Life* (1957) e obras de micologia cultural  
 - Relatos e debates sobre María Sabina e o impacto do turismo  
 - McKenna — *Food of the Gods* (eco pop)  
+- Pollan — *How to Change Your Mind* (divulgação da renascença)  
+- Ver também lista em [psilocibina.md](psilocibina.md)  
 - Prática REM — Biblioteca ≠ protocolo  
 
 Escopo educacional. Não é prescrição médica.
