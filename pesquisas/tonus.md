@@ -11,6 +11,8 @@ Data: 2026-08-03.
 
 Ortografia: **tônus** (com acento). Evitar *tonos*.
 
+**Não confundir** com *tons* de música (altura, nota, Lá grave). A peça Tônus *usa* tons; o nome fala do freio do corpo.
+
 ---
 
 ## Origem
@@ -25,8 +27,9 @@ Grego *tónos* — tensão, corda esticada. Como instrumento afinado.
 | --- | --- |
 | **Tônus endógeno** | O que o corpo produz (SEC). Meta do programa. |
 | **Música Tônus** | Áudio em [musica-tonus.html](musica-tonus.html) |
+| **Tons (música)** | Notas/alturas — outra palavra |
 
-Não são a mesma coisa. Um é o freio de dentro. Outro é o som de estudo.
+Tônus endógeno ≠ música Tônus ≠ tons musicais. Três coisas; um som parecido.
 
 ---
 
