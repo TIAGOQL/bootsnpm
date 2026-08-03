@@ -2,6 +2,8 @@
 
 Pesquisa aplicada para **modularizar o sistema endocanabinoide (SEC)** por vias de relaxamento — preferindo tônus endógeno (o que o corpo produz) em vez de dependência de fumaça.
 
+Inspeção da sigla: [rem.html](rem.html) · [rem.md](rem.md).
+
 > Escopo educacional/de pesquisa. Não é prescrição médica.
 
 ---
