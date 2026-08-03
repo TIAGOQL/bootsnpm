@@ -85,6 +85,7 @@ O miolo do REM continua sendo o que o corpo já sabe fazer — com paciência e 
 | [MD (formato)](md.html) | Outra inspeção — não confundir a sigla |
 | Página no painel | [mdma.html](mdma.html) |
 | Cultivo | [cultivo/ideias/mdma.md](../cultivo/ideias/mdma.md) |
+| [Psilocibina / fungos](psilocibina.html) | Outro M8 — psicodélico de fungo, não sintético |
 
 ---
 
