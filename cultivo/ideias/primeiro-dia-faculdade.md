@@ -3,7 +3,7 @@
 - **Estágio:** semente
 - **Módulo REM:** M0 · M6 · N=1
 - **Plantada em:** 2026-08-03
-- **Próximo passo:** me apresentar · uma linha no diário depois — fato · o que aconteceu · ufa ou fuga?
+- **Próximo passo:** aprontar o mínimo · me apresentar · uma linha no diário depois — fato · o que aconteceu · ufa ou fuga?
 
 ## Nota
 
