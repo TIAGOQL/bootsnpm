@@ -78,6 +78,7 @@ Pode ser cura ou violência, conforme o que se deixa cair — e se quem caiu que
 | [Diário REM](diario-rem.html) | Marcar e exportar o que não quer cair fora sem escolha |
 | [Sinais](sinais.html) | Sinais são palavras; esta une ou afasta |
 | [Endocanabinoidoma](endocanabinoidoma.html) | Outra inspeção de palavra no mesmo canteiro |
+| [Esqueceram de Mim](esqueceram-de-mim.html) | Filme 1990 — *eles* esqueceram *mim*; retorno da mãe |
 | Página no painel | [esqueceremos.html](esqueceremos.html) |
 | Cultivo | [cultivo/ideias/esqueceremos.md](../cultivo/ideias/esqueceremos.md) |
 
