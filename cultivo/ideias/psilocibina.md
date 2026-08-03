@@ -1,14 +1,14 @@
 # Psilocibina
 
 - **Estágio:** colheita
-- **Módulo REM:** M8 · mapa clínico · fungos
+- **Módulo REM:** palavra · M8 · fungos
 - **Plantada em:** 2026-08-03
-- **Próximo passo:** estudar o mapa (fungo ≠ planta; psilocibina ≠ MDMA); não misturar com N=1; vínculo → M6
+- **Próximo passo:** reler etimologia (Psilocybe = cabeça nua); mapa M8 só; não misturar com N=1 nem com fungicida
 
 ## Nota
 
-Psilocibina vem de certos fungos. No REM é M8: estudar, não cultivar, não dosar. Clínica ≠ mato. Diferente do MDMA (sintético).
+Inspeção de palavra: psilocibina nomeia a molécula do fungo (*psilós* + cabeça). No REM: estudar o nome e o mapa M8 — sem cultivo, sem dose.
 
 ## Por que importa
 
-Abrir o canteiro de estudo de fungos sem virar protocolo caseiro.
+Dar à molécula a mesma inspeção que às outras palavras do canteiro.
