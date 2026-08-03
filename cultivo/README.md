@@ -30,7 +30,7 @@ O agente cria o `.md` em `cultivo/ideias/` e, se pedir, liga ao REM.
 
 | Cultivo | REM |
 | --- | --- |
-| Semente de nutrição / corpo | M4, M4.1 Sementinha, M5 |
+| Semente de nutrição / corpo | M4, M4.1 Sementinha, produtos derivados de plantas, M5 |
 | Semente de presença / peito | M2, M6 |
 | Semente de parar / sonhos | M3, M7 |
 | Semente de palavra / mapa | endocanabinoidoma, esqueceremos, ufa, aprontar, shopping·boleto, tamarindo, groselha, xarope de frutas, eco, lição, diluir, se for só, açúcar, morte, senão vida, saúde·desperdício, equilíbrio·acesso, desandamento·informação·janela, informações·verdade·conhecimento·mundo novo, fato·fuga, xarope sem açúcar, mapa REM |
