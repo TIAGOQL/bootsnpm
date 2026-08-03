@@ -44,15 +44,20 @@ Elsa esconde o gelo; o medo congela o reino; Anna busca a irmã; o ato de amor d
 | --- | --- |
 | M0 | “Conceal, don’t feel” ≠ higiene (é represamento) |
 | M6 / medo de seguir sonhos | Vínculo que volta; medo que trava a porta |
-| Diário | “Não posso sentir” → medo + proximidade 1–5 |
+| **Tamara** | Nome do laço neste N=1 — por que o filme gruda |
+| Diário | “Não posso sentir” → medo + proximidade 1–5 · ou o nome Tamara |
 | Página | [frozen.html](frozen.html) |
-| Cultivo | [cultivo/ideias/frozen.md](../cultivo/ideias/frozen.md) |
+| Cultivo filme | [cultivo/ideias/frozen.md](../cultivo/ideias/frozen.md) |
+| Cultivo laço | [cultivo/ideias/tamara.md](../cultivo/ideias/tamara.md) |
+
+## Com Tamara
+Frozen não biografa Tamara. No painel, Tamara é a âncora pessoal do arco: medo que isola · alguém que atravessa o gelo · amor que não é príncipe de vitrine. Uso: dizer o nome; marcar proximidade; presença &gt; discurso.
 
 ## Dois lados
 | Lado | Sentido |
 | --- | --- |
-| **Bom** | Amor que descongela; soltar o medo; irmandade |
-| **Ruim** | Soltar virando isolamento; esconder pra sempre |
+| **Bom** | Amor que descongela; soltar o medo; irmandade; Tamara como laço |
+| **Ruim** | Soltar virando isolamento; esconder pra sempre; idealizar sem presença |
 
 ## Fontes
 Wikipedia (*Frozen*, 2013) · créditos de elenco/voz · Disney Animation
