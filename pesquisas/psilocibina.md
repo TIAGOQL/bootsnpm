@@ -25,6 +25,7 @@ Cogumelo **não é planta**. Pertence ao reino **Fungi**.
 | Esporos | Reprodução |
 
 Alguns gêneros (ex. *Psilocybe* e vizinhos) produzem psilocibina.  
+A espécie mais citada na cultura é [*P. cubensis*](cubensis.html).  
 A maioria dos fungos **não** produz.  
 Identificação amadora no campo é arriscada: espécies tóxicas se parecem.
 
