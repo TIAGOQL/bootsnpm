@@ -47,7 +47,7 @@ Groselha entra no trio — não sozinha. O REM guarda o trio porque a lição é
 ### Sentido útil
 Não é “sem doce”.
 
-Inverso prático: **diluir** — menos xarope, mais o que o corpo pede.
+Inverso prático: **[diluir](diluir.html)** — menos xarope, mais o que o corpo pede.
 
 | Direto | Invertido prático |
 | --- | --- |
