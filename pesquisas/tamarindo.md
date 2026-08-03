@@ -12,7 +12,7 @@ Data: 2026-08-03.
 1. o **fruto** — vagem marrom, polpa ácida-doce  
 2. a **árvore** — *Tamarindus indica* (tamarindeiro), tropical/subtropical  
 
-Vizinhos: refresco · rótulo · cultivo · sombra.
+Vizinhos: refresco · [groselha](groselha.html) · rótulo · cultivo · sombra.
 
 ---
 
