@@ -26,6 +26,7 @@ Disseram que era o mais sábio. Ele foi testar. A sabedoria era saber da própri
 - [Diário](diario-rem.html) — guardar a dúvida  
 - [Esqueceremos](esqueceremos.html) — soltar falsa certeza sem apagar o que importa  
 - Página: [socrates.html](socrates.html)
+- Rótulo: [Cara](cara.html) — inspeção de pessoa
 
 ## Fontes
 Wikipedia (Só sei que nada sei) · Platão, Apologia · Toda Matéria · netmundi
