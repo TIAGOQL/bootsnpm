@@ -27,7 +27,7 @@ Inspeção da trilha e das pessoas. 2026-08-02.
 ## Canções → vozes
 | Canção | Quem canta |
 | --- | --- |
-| Circle of Life | Carmen Twillie, Lebo M, coro (+ Elton no álbum) |
+| Circle of Life / O Ciclo sem Fim | Carmen Twillie, Lebo M, coro (+ Elton no álbum) · rádio do painel |
 | I Just Can’t Wait to Be King | Jason Weaver, Rowan Atkinson, Laura Williams |
 | Be Prepared | Jeremy Irons, Whoopi Goldberg, Cheech Marin, Jim Cummings |
 | Hakuna Matata | Nathan Lane, Ernie Sabella, Jason Weaver, Joseph Williams |
@@ -58,7 +58,7 @@ Inspeção da trilha e das pessoas. 2026-08-02.
 Backing / apoio citados: Davey Johnstone, Kiki Dee, Rick Astley, Gary Barlow, Phil Spalding.
 
 ## Página
-[rei-leao-musica.html](rei-leao-musica.html)
+[rei-leao-musica.html](rei-leao-musica.html) · filme: [rei-leao.html](rei-leao.html)
 
 ## Fontes
 Wikipedia (The Lion King 1994 soundtrack) · lionking.org/legacy/endcredits · hans-zimmer.com · Discogs · Disney Records bio Lebo M · Movie Music UK

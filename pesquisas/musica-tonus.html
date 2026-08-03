@@ -39,15 +39,49 @@
         <p><strong>Desenho sonoro:</strong> fundamental em Lá grave · quinta · ar · ruído de névoa · um brilho raro a cada ~14s (tipo insight).</p>
       </article>
 
+      <section class="music-deck" aria-label="Rádio — O Ciclo sem Fim">
+        <p class="music-status">Rádio · <strong>O Ciclo sem Fim</strong> · Rei Leão 1994 (Carmen Twillie / Lebo M)</p>
+        <button type="button" class="music-btn" data-ciclo-music>Tocar</button>
+        <div class="panel-audio-frame" data-ciclo-music-frame hidden></div>
+        <p class="research-note" style="margin-top:0.75rem">
+          Mesma faixa da rádio do painel. Filme: <a href="rei-leao.html">O Rei Leão</a> ·
+          banda: <a href="rei-leao-musica.html">trilha 1994</a>.
+        </p>
+      </section>
+
       <p class="research-note">
         <a href="protocolo-n1.html">Protocolo</a> ·
         <a href="diario-rem.html">Diário</a> ·
         <a href="relaxamento-endocanabinoide.html">Mapa</a> ·
+        <a href="rei-leao.html">O Rei Leão</a> ·
         <a href="rei-leao-musica.html">Rei Leão 1994</a> ·
         <a href="cultivo-ideias.html">Cultivo</a>
       </p>
     </main>
 
     <script type="module" src="../assets/js/musica-rem.js"></script>
+    <script>
+      (function () {
+        var btn = document.querySelector("[data-ciclo-music]");
+        var frame = document.querySelector("[data-ciclo-music-frame]");
+        if (!btn || !frame) return;
+        var videoId = "pYNxvVq8GQg";
+        var loaded = false;
+        btn.addEventListener("click", function () {
+          if (!loaded) {
+            frame.hidden = false;
+            frame.innerHTML =
+              '<iframe title="O Ciclo sem Fim — O Rei Leão" width="560" height="315" src="https://www.youtube-nocookie.com/embed/' +
+              videoId +
+              '?autoplay=1&rel=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>';
+            loaded = true;
+            btn.textContent = "Abrir de novo";
+            return;
+          }
+          var iframe = frame.querySelector("iframe");
+          if (iframe) iframe.src = iframe.src;
+        });
+      })();
+    </script>
   </body>
 </html>
