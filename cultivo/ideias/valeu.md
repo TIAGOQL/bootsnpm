@@ -7,7 +7,7 @@
 
 ## Nota
 
-Valeu = reconhecer valor. Pode ser obrigado de verdade ou dispensa rápida. No REM: gratidão sem dívida; tom importa.
+Valeu = reconhecer valor. Pode ser valeu de verdade ou dispensa rápida. No REM: gratidão sem dívida; tom importa.
 
 ## Por que importa
 

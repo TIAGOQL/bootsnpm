@@ -11,7 +11,7 @@ Data: 2026-08-03.
 
 No português do Brasil, virou também **interjeição**:
 
-- agradecimento curto (= obrigado)
+- agradecimento curto
 - confirmação (= combinado, combinado então)
 - despedida leve (= tchau)
 
@@ -61,7 +61,7 @@ No REM, o útil não é banir o *valeu* — é sentir se ele aquecceu ou só lim
 
 - **valor** (o que pesou)
 - **passado recente** (já aconteceu)
-- **reconhecimento curto** (obrigado / combinado / tchau)
+- **reconhecimento curto** (valeu / combinado / tchau)
 
 Pode ser carinho ou porta batendo — conforme o tom e se quem ouviu se sentiu visto.
 
