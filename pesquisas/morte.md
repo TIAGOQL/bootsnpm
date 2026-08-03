@@ -29,7 +29,7 @@ Latim *mors, mortis*. Raiz ligada a morrer / desaparecer. Português: **morte** 
 ### Sentido útil
 Não é eufemismo.
 
-Inverso prático: **vida / continuidade** — o que ainda respira e cabe marcar hoje.
+Inverso prático: **[senão vida](senao-vida.html)** — o que ainda respira e cabe marcar hoje.
 
 | Direto | Invertido prático |
 | --- | --- |
