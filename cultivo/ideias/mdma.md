@@ -7,7 +7,7 @@
 
 ## Nota
 
-MDMA = empatógeno de pesquisa clínica (TEPT etc.). No REM é M8: mapa, não receita. Não confundir com MD (Markdown). Rua ≠ clínica.
+MDMA = empatógeno de pesquisa clínica (TEPT etc.). Sintético — não é planta. No REM é M8: mapa, não receita. Não confundir com MD (Markdown). Rua ≠ clínica.
 
 ## Por que importa
 

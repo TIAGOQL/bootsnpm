@@ -22,6 +22,17 @@ Na pesquisa clínica, é molécula estudada em **contexto controlado** (sobretud
 
 ---
 
+## Com plantas?
+
+**Não.** MDMA não cresce em árvore nem se extrai como chá.
+
+- É **sintético** (feito em laboratório).
+- Não é o mesmo que psicodélicos clássicos de planta/fungo (peyote, cogumelo, ayahuasca).
+- Na família larga dos feniletilaminos há moléculas que aparecem em vegetais — parentesco químico distante, não “MDMA natural”.
+- No Painel REM, planta do canteiro ≠ M8: ex. [sementinha](sementinha.html) nutre tônus; MDMA fica só no mapa clínico.
+
+---
+
 ## O que a ciência costuma dizer (resumo)
 
 1. **Ação:** libera e bloqueia recaptação de serotonina (e mexe em dopamina/noradrenalina); sobe oxitocina e afeto de vínculo em muitos relatos.
