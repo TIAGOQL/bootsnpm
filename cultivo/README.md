@@ -26,11 +26,19 @@ Quando a ideia merecer ficar no Git:
 Diga: **“planta no cultivo: …”**  
 O agente cria o `.md` em `cultivo/ideias/` e, se pedir, liga ao REM.
 
+## Cultivar melhor (dose mínima)
+
+1. **Uma ideia por vez** — não encher o canteiro.
+2. Toda semente precisa de **um próximo passo** miúdo (uma linha no diário, uma inspeção, um gesto).
+3. Subir de estágio só quando for verdade: semente → broto (porquê) → planta (passo) → colheita (virou algo).
+4. Se for só vontade de plantar sem acompanhar → diluir.
+5. No chat: diga **planta no cultivo: …** — ou plante em `pesquisas/cultivo-ideias.html` (fica só no aparelho).
+
 ## Relação com o REM
 
 | Cultivo | REM |
 | --- | --- |
-| Semente de nutrição / corpo | M4, M4.1 Sementinha, M5 |
+| Semente de nutrição / corpo | M4, M4.1 Sementinha, produtos derivados de plantas, M5 |
 | Semente de presença / peito | M2, M6 |
 | Semente de parar / sonhos | M3, M7 |
-| Semente de palavra / mapa | endocanabinoidoma, esqueceremos, mapa REM |
+| Semente de palavra / mapa | endocanabinoidoma, esqueceremos, ufa, aprontar, shopping·boleto, tamarindo, groselha, xarope de frutas, eco, lição, diluir, se for só, açúcar, morte, senão vida, saúde·desperdício, equilíbrio·acesso, desandamento·informação·janela, informações·verdade·conhecimento·mundo novo, fato·fuga, xarope sem açúcar, mapa REM |
