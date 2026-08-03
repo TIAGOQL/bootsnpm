@@ -58,7 +58,7 @@ Inspeção da trilha e das pessoas. 2026-08-02.
 Backing / apoio citados: Davey Johnstone, Kiki Dee, Rick Astley, Gary Barlow, Phil Spalding.
 
 ## Página
-[rei-leao-musica.html](rei-leao-musica.html)
+[rei-leao-musica.html](rei-leao-musica.html) · filme: [rei-leao.html](rei-leao.html)
 
 ## Fontes
 Wikipedia (The Lion King 1994 soundtrack) · lionking.org/legacy/endcredits · hans-zimmer.com · Discogs · Disney Records bio Lebo M · Movie Music UK
