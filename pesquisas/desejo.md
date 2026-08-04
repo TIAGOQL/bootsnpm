@@ -47,7 +47,7 @@ Pedir claro ≠ esfregar a fumaça.
 1. **Nomeia a falta** — sem isso, vira craving sem rosto.
 2. **Pode unir** — desejo de vínculo, de sono, de cura lenta.
 3. **Pode afastar** — desejo que só consome; lâmpada falsa.
-4. **No REM** — M0 limpa o excesso de desejos; o diário marca **um**; Aladim avisa contra terceirizar.
+4. **No REM** — M0 limpa o excesso de desejos; o diário marca **um**; Aladim avisa contra modificar.
 
 ---
 

@@ -31,7 +31,7 @@ Em português virou **gênio** por eco fonético com o latim *genius* — **pare
 | **[Genial](genial.html)** | *genialis* | Encaixe · reconhecimento — sem monumento |
 
 O gênio da lâmpada **não é** o *genius* romano nem o adjetivo genial.  
-É o desejo terceirizado: alguém (ou algo) realiza o que você não quer construir no tônus próprio.
+É o desejo modificado: alguém (ou algo) realiza o que você não quer construir no tônus próprio.
 
 ---
 

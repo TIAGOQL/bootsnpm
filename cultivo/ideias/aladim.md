@@ -7,7 +7,7 @@
 
 ## Nota
 
-Aladim = nobreza da fé. Gênio da lâmpada = jinn traduzido (som parecido com genius, fundo outro). No REM: desejo terceirizado vs tônus endógeno.
+Aladim = nobreza da fé. Gênio da lâmpada = jinn traduzido (som parecido com genius, fundo outro). No REM: desejo modificado vs tônus endógeno.
 
 ## Por que importa
 
