@@ -25,6 +25,17 @@ npm start
 | Sementinha | `pesquisas/sementinha.html` |
 | Cultivo (Git) | `cultivo/ideias/` |
 | Poesias | `poemas/` |
+| Dados / privacidade | `pesquisas/seguranca-dados-pessoais.html` + `.md` |
+
+## Dados pessoais (para quem chega de fora)
+
+Site estático. Sem login, sem backend, sem nuvem do diário.
+
+- **Só no aparelho** (`localStorage`): Diário REM, cultivo local, volume do áudio.  
+- **Público (Git / Pages):** páginas, mapa, poesias, ideias permanentes em `cultivo/ideias/`.  
+- **Backup:** Exportar JSON no Diário — quem não exporta e limpa o navegador perde o histórico.
+
+Detalhe: [pesquisas/seguranca-dados-pessoais.html](pesquisas/seguranca-dados-pessoais.html).
 
 ## Plantar ideia
 
