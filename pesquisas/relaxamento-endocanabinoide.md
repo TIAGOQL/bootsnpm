@@ -138,7 +138,7 @@ Cada módulo tem: mecanismo → protocolo de observação → métricas → hip�
 1. **Base diária:** M3 (sono) + M2 (respiração) — 15–25 min totais.
 2. **Elevador de tônus:** M1 (movimento) — 3×/semana.
 3. **Matéria-prima:** M4 + **M4.1 Sementinha** + M5 — contínuo.
-4. **Coração social:** M6 — presença, não performance.
+4. **Coração social:** M6 — presença, não brilho forçado.
 5. **Libertação:** M7 — quando disser “estou chegando”, os outros módulos são a pista de pouso.
 
 Combinar no máx. **2 módulos novos por semana**; medir 1 métrica por módulo.
