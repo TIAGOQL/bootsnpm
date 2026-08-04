@@ -58,7 +58,7 @@ Camada de restos mortos (folhas, caules, raízes) entre a grama viva e o solo. E
 
 ## Por que a palavra importa no REM
 
-1. **Cobrir ≠ esconder pra sempre.** Thatch no teto protege. Thatch no gramado, em excesso, asfixixa.
+1. **Cobrir ≠ esconder pra sempre.** Thatch no teto protege. Thatch no gramado, em excesso, asfixia.
 2. **M0 / higiene:** às vezes o peito precisa de cobertura (descanso, sombra). Às vezes precisa de *dethatch* — tirar a camada morta que não deixa o tônus respirar.
 3. **Cultivo:** ideia acumulada sem luz vira feltro. Semente no [cultivo](cultivo-ideias.html) pede solo aberto, não teto de restos.
 4. **Sinais:** se “cobrir” vier como fuga (apagar, engolir, não olhar), vai a [Sinais](sinais.html) antes de romantizar o sapê.
