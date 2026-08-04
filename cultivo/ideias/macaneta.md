@@ -7,8 +7,8 @@
 
 ## Nota
 
-Inspeção: maçaneta (forma pedida: maçanete). Fecha por mola — colocada errada. No REM deve manter a porta aberta.
+Inspeção: maçaneta (forma pedida: maçanete), raiz **maçã**. Fecha por mola — colocada errada. No REM: manter aberta, como oferta do fruto.
 
 ## Por que importa
 
-Passagem > batente. Dose no gesto de fechar.
+Passagem > batente. Raiz maçã = oferta; mola = fecho — dose no gesto.
