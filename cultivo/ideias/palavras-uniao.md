@@ -19,6 +19,7 @@ Inspiração nestas palavras — tudo aí:
 | No lugar de “meu deus” | [Jesus mando](jesus-mando.md) · [mensagem](../../pesquisas/jesus-mando.html) |
 | Sinal erguido | [levantar a mão com punho fechado](punho-levantado.md) |
 | Reentrada | [novo começo](novo-comeco.md) |
+| Horizonte | [nova era](nova-era.md) |
 
 Base técnica: [peito + respiração](peito-e-respiracao-m2.md).
 
@@ -29,7 +30,7 @@ Não é só ritual. No stack REM:
 1. **M0 (higiene)** — cortar ruído pra o SEC não operar em déficit. Água · sol · peito · marca · parar.
 2. **M2 (presença)** — punho no peito + respiração = gesto interoceptivo. Pergunta aberta do mapa: muda latência pra acalmar e craving?
 3. **Lado da mão** — ancora atenção (para quem). Menos ansiedade solta; mais grounding com nome.
-4. **Palavras** — **é nois**, **Jesus mando** e **novo começo** substituem reflexos de susto ou de “já era”. Mesma boca, outro vetor: afiliação / sentido / reentrada.
+4. **Palavras** — **é nois**, **Jesus mando**, **novo começo** e **nova era** substituem reflexos de susto ou de “já era”. Mesma boca, outro vetor: afiliação / sentido / reentrada / horizonte.
 5. **Punho erguido** — sinal social de união depois (ou junto) do peito. Corpo fala sem discurso longo.
 6. **Métrica N=1** — calma 1–5 no diário; opcional: latência pra acalmar, craving. Afirmação, não punição.
 

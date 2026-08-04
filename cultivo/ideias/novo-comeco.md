@@ -7,7 +7,7 @@
 
 ## Nota
 
-**Novo começo** — palavra de reentrada. Não apaga o que veio antes (antepassados, irmã, mama). Abre de novo o mesmo peito. Vizinha de [leite derramado](leite-derramado.md) (nunca é tarde), [é nois](e-nois.md), [Jesus mando](jesus-mando.md) e do mapa [palavras de união](palavras-uniao.md).
+**Novo começo** — palavra de reentrada. Não apaga o que veio antes (antepassados, irmã, mama). Abre de novo o mesmo peito. Horizonte: [nova era](nova-era.md). Vizinha de [leite derramado](leite-derramado.md) (nunca é tarde), [é nois](e-nois.md), [Jesus mando](jesus-mando.md) e do mapa [palavras de união](palavras-uniao.md).
 
 ## Por que importa
 
