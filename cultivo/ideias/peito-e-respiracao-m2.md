@@ -7,7 +7,7 @@
 
 ## Nota
 
-Bater/apoiar a mão no peito como gesto consciente, não punição. Interocepção + presença.
+Bater/apoiar a mão no peito como gesto consciente, não punição. Interocepção + presença. Forma ritual: [mão esquerda no peito direito](reverencia-antepassados-m2.md) — reverência aos antepassados.
 
 ## Por que importa
 
