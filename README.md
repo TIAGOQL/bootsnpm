@@ -15,6 +15,8 @@ Fotos dos cards do painel: `assets/img/card-*.jpg`.
 npm start
 ```
 
+No Windows: `.\deploy\start-now.ps1` (sobe o mesmo servidor em http://localhost:3000).
+
 ## Mapa do projeto
 
 | Área | Onde |
