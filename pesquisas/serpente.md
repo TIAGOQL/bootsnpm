@@ -29,5 +29,5 @@ Latim *serpens* — “que rasteja”. Tom de mito; *cobra* é o nome curto do d
 | --- | --- |
 | Sabedoria | Atenção · muda de pele |
 | Tentação | Voz do fruto |
-| Serpernente | Forma pedida |
+| Serpernte | Forma pedida |
 | REM | Guardou — ou apontou a maçã? |
