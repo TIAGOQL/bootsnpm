@@ -7,7 +7,7 @@
 
 ## Nota
 
-Constelação: Filho de Deus → Sun → Deus e Sol → **filhodosol**. Mapa em pesquisas/cadeia-peito-luz.html.
+Constelação: Filho de Deus → Sun → Deus e Sol → **filhodosol** → **Esses somos nós filhos do sol**. Mapa em pesquisas/cadeia-peito-luz.html.
 
 ## Por que importa
 

@@ -8,6 +8,7 @@ Mapa da constelação. 2026-08-04.
 2. [Sun](sun.html) — sol, luz no rosto  
 3. [Deus e Sol](deus-e-sol.html) — ponte: relacionar sem fundir  
 4. [filhodosol](filhodosol.html) — marca: filho + sol · um passo sem culpa  
+5. [Esses somos nós filhos do sol](esses-somos-nos-filhos-do-sol.html) — plural · nós  
 
 ## Uso hoje
 
