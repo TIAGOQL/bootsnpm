@@ -28,6 +28,7 @@ Will Salas — trabalhador de zona pobre cujo braço mostra quanto tempo de vida
 - [Tônus](musica-tonus.html) / [Rei Leão](rei-leao-musica.html) — som como presença (ele é pop; o painel usa trilha à parte)  
 - [Anonymous](anonymous.html) — fama com nome vs anonimato de legião  
 - [Diário](diario-rem.html) — marcar o dia sem vender o relógio  
+- [Module.load](module-load.html) — Node carrega pelo nome do módulo (stack `cjs/loader`)  
 - Página: [justin-timberlake.html](justin-timberlake.html)
 
 ## Fontes

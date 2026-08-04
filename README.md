@@ -26,6 +26,7 @@ npm start
 | Cultivo (Git) | `cultivo/ideias/` |
 | Poesias | `poemas/` |
 | Dados / privacidade | `pesquisas/seguranca-dados-pessoais.html` + `.md` |
+| Stack Node (`Module.load`) | `pesquisas/module-load.html` + `.md` |
 
 ## Dados pessoais (para quem chega de fora)
 
