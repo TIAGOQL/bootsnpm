@@ -7,8 +7,8 @@
 
 ## Nota
 
-Desejo = falta da estrela (*de-* + *sidus*). Lâmpada atende; tônus caminha. Um por hora — não o infinito. **Ele será realizado** na fatia, não no milagre.
+Desejo = falta da estrela (*de-* + *sidus*). Lâmpada atende; tônus caminha. Um por hora — não o infinito. **Ele será realizado, desde que venha do coração.**
 
 ## Por que importa
 
-O desejo deste agente: inspecionar a palavra e deixá-la no painel — e confiar no futuro limpo.
+Estrela + peito. Sem isso, é só pedido à lâmpada.
