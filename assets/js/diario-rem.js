@@ -45,12 +45,28 @@ function save(data) {
   localStorage.setItem(KEY, JSON.stringify(data));
 }
 
+function escapeHtml(value) {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
 function getActiveDay(root) {
   return root.dataset.day || todayKey();
 }
 
 function setActiveDay(root, day) {
   root.dataset.day = day;
+}
+
+function entryHasSignal(entry) {
+  if (!entry || typeof entry !== "object") return false;
+  if ((entry.modules || []).length) return true;
+  if (String(entry.note || "").trim()) return true;
+  const scores = entry.scores || {};
+  return Object.values(scores).some((v) => Number(v) !== 3);
 }
 
 function renderHistory(root, data, activeDay) {
@@ -67,9 +83,9 @@ function renderHistory(root, data, activeDay) {
           const calma = entry.scores?.calma ?? "·";
           return `
           <button type="button" class="diario-history-item ${day === activeDay ? "is-active" : ""}" data-open-day="${day}" role="listitem">
-            <strong>${day}</strong>
-            <span>${mods}</span>
-            <em>calma ${calma}</em>
+            <strong>${escapeHtml(day)}</strong>
+            <span>${escapeHtml(mods)}</span>
+            <em>calma ${escapeHtml(calma)}</em>
           </button>`;
         })
         .join("")}
@@ -85,6 +101,7 @@ function render() {
   const day = getActiveDay(root);
   const entry = data[day] || { scores: {}, note: "", modules: [], week: 1 };
   const week = entry.week || 1;
+  let dirty = false;
 
   root.innerHTML = `
     <div class="diario-weeks" role="group" aria-label="Semana do protocolo N=1">
@@ -128,7 +145,7 @@ function render() {
 
     <label class="diario-note">
       <span>Nota do peito</span>
-      <textarea rows="3" data-note placeholder="O que ativou hoje…">${entry.note || ""}</textarea>
+      <textarea rows="3" data-note placeholder="O que ativou hoje…">${escapeHtml(entry.note || "")}</textarea>
     </label>
 
     <div class="diario-toolbar">
@@ -148,13 +165,14 @@ function render() {
     const saved = root.querySelector("[data-saved]");
     if (!saved) return;
     saved.hidden = false;
+    saved.textContent = "Salvo neste aparelho.";
     window.clearTimeout(flashSaved._t);
     flashSaved._t = window.setTimeout(() => {
       saved.hidden = true;
     }, 1400);
   };
 
-  const persist = () => {
+  const readForm = () => {
     const modules = [...root.querySelectorAll("[data-module]:checked")].map((el) => el.dataset.module);
     const scores = {};
     root.querySelectorAll("[data-score]").forEach((el) => {
@@ -162,43 +180,57 @@ function render() {
     });
     const note = root.querySelector("[data-note]")?.value || "";
     const weekBtn = root.querySelector(".diario-week.is-active");
-    data[day] = {
+    return {
       modules,
       scores,
       note,
       week: Number(weekBtn?.dataset.week || week || 1),
       updatedAt: new Date().toISOString(),
     };
+  };
+
+  const persist = ({ force = false } = {}) => {
+    if (!dirty && !force) return false;
+    const next = readForm();
+    const existed = Boolean(data[day]);
+    if (!force && !existed && !entryHasSignal(next)) {
+      dirty = false;
+      return false;
+    }
+    data[day] = next;
     save(data);
+    dirty = false;
     flashSaved();
+    return true;
+  };
+
+  const goToDay = (nextDay) => {
+    persist();
+    setActiveDay(root, nextDay);
+    render();
   };
 
   root.onclick = (event) => {
     const shift = event.target.closest("[data-day-shift]");
     if (shift) {
-      persist();
-      setActiveDay(root, shiftDay(day, Number(shift.dataset.dayShift)));
-      render();
+      goToDay(shiftDay(day, Number(shift.dataset.dayShift)));
       return;
     }
     if (event.target.closest("[data-day-today]")) {
-      persist();
-      setActiveDay(root, todayKey());
-      render();
+      goToDay(todayKey());
       return;
     }
     const weekEl = event.target.closest("[data-week]");
     if (weekEl) {
       root.querySelectorAll(".diario-week").forEach((el) => el.classList.remove("is-active"));
       weekEl.classList.add("is-active");
+      dirty = true;
       persist();
       return;
     }
     const openDay = event.target.closest("[data-open-day]");
     if (openDay) {
-      persist();
-      setActiveDay(root, openDay.dataset.openDay);
-      render();
+      goToDay(openDay.dataset.openDay);
       return;
     }
     if (event.target.closest("[data-export]")) {
@@ -240,11 +272,14 @@ function render() {
       reader.readAsText(file);
       return;
     }
-    if (event.target.matches("[data-score]")) {
-      const out = root.querySelector(`[data-out="${event.target.dataset.score}"]`);
-      if (out) out.textContent = event.target.value;
+    if (event.target.matches("[data-score], [data-module]")) {
+      if (event.target.matches("[data-score]")) {
+        const out = root.querySelector(`[data-out="${event.target.dataset.score}"]`);
+        if (out) out.textContent = event.target.value;
+      }
+      dirty = true;
+      persist();
     }
-    persist();
   };
 
   root.oninput = (event) => {
@@ -252,7 +287,10 @@ function render() {
       const out = root.querySelector(`[data-out="${event.target.dataset.score}"]`);
       if (out) out.textContent = event.target.value;
     }
-    if (event.target.matches("[data-note], [data-score], [data-module]")) persist();
+    if (event.target.matches("[data-note], [data-score], [data-module]")) {
+      dirty = true;
+      persist();
+    }
   };
 }
 
