@@ -24,6 +24,12 @@
 
       <img class="page-hero-photo" src="../assets/img/card-diario.jpg" alt="Caderno — sinal de carinho" width="640" height="360" loading="eager">
 
+      <section class="music-deck panel-audio" aria-label="Ouvir Is This Love">
+        <p class="music-status">Bob Marley · Is This Love · loop estendido</p>
+        <button type="button" class="music-btn" data-love-music>Tocar</button>
+        <div class="panel-audio-frame" data-love-music-frame hidden></div>
+      </section>
+
       <article class="poem research-body" aria-label="S2">
         <p><strong>Forma:</strong> emoticon / internetês (letra <em>S</em> + número <em>2</em>)<br>
         <strong>Quer dizer:</strong> coração · amor · carinho · “gosto de você / disso” em forma curta<br>
@@ -104,5 +110,29 @@
         </p>
       </article>
     </main>
+
+    <script>
+      (function () {
+        var btn = document.querySelector("[data-love-music]");
+        var frame = document.querySelector("[data-love-music-frame]");
+        if (!btn || !frame) return;
+        var videoId = "WL41kS5OFxQ"; // Bob Marley — Is This Love (looped & extended)
+        var loaded = false;
+        btn.addEventListener("click", function () {
+          if (!loaded) {
+            frame.hidden = false;
+            frame.innerHTML =
+              '<iframe title="Bob Marley — Is This Love (Looped and Extended)" width="560" height="315" src="https://www.youtube-nocookie.com/embed/' +
+              videoId +
+              '?autoplay=1&rel=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>';
+            loaded = true;
+            btn.textContent = "Abrir de novo";
+            return;
+          }
+          var iframe = frame.querySelector("iframe");
+          if (iframe) iframe.src = iframe.src;
+        });
+      })();
+    </script>
   </body>
 </html>

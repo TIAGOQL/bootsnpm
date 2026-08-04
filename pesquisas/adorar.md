@@ -93,6 +93,14 @@ Sem poema imposto. Exportar JSON guarda o registro sem exigir discurso de altar.
 
 ---
 
+## Áudio no painel
+
+**Bob Marley — Is This Love** (loop estendido).  
+Botão **Tocar** em [adorar.html](adorar.html) e [s2.html](s2.html).  
+Pergunta útil enquanto toca: culto ou presença?
+
+---
+
 ## Resumo para reler
 
 **Adorar** junta três coisas:
