@@ -296,6 +296,22 @@ body.panel-page {
   font-weight: 500;
 }
 
+.panel-legal {
+  margin: 1.75rem 0 0;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.panel-legal a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.panel-legal a:hover {
+  color: var(--ink);
+}
+
 .research-shell .panel-lede {
   margin-top: 1rem;
 }
