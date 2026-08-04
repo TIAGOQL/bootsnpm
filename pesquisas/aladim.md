@@ -11,7 +11,7 @@ Data: 2026-08-04.
 Também: Aladino · Aladdin.
 
 Não estava nos manuscritos árabes mais antigos de *As mil e uma noites*.  
-Chegou ao Ocidente por **Antoine Galland** (séc. XVIII), a partir do relato oral de **Hanna Diab** (maronita de Alepo, Síria), em 1709.
+Chegou ao Ocidente por **Antoine Galland** (séc. XVIII), depois que **Hanna Diab** (maronita de Alepo, Síria) **avisou**/contou o relato, em 1709.
 
 No conto antigo: cenário na **China**; dois espíritos — um do **anel**, outro da **lâmpada**. Desejos sem o teto rígido de “três” da versão Disney.
 
