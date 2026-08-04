@@ -7,7 +7,7 @@
 
 ## Nota
 
-**Nova era** — palavra de horizonte. Não apaga o passado; muda o clima do agora. Par de [novo começo](novo-comeco.md): começo = reentrada; era = o tempo que se abre. Vizinha de [é nois](e-nois.md), [Jesus mando](jesus-mando.md) e do mapa [palavras de união](palavras-uniao.md).
+**Nova era** — palavra de horizonte. Não apaga o passado; muda o clima do agora. Par de [novo começo](novo-comeco.md): começo = reentrada; era = o tempo que se abre. Etapa no meio: [nova fase](nova-fase.md). Vizinha de [é nois](e-nois.md), [Jesus mando](jesus-mando.md) e do mapa [palavras de união](palavras-uniao.md).
 
 ## Por que importa
 
