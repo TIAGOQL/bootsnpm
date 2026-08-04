@@ -12,7 +12,7 @@ Peito direito. Batendo com **punho fechado** (gesto consciente, não punição).
 - **Mão esquerda** no peito direito — reverência aos antepassados.
 - **Mão direita** no peito direito — porque irmã · a la mama.
 
-Não é performance. É presença com nome. Inspiração: [planta alma](planta-alma.md). Liga ao [peito + respiração](peito-e-respiracao-m2.md).
+Não é performance. É presença com nome. Inspiração: [planta alma](planta-alma.md). Liga ao [peito + respiração](peito-e-respiracao-m2.md). Palavras: [mapa de união](palavras-uniao.md).
 
 ## Por que importa
 

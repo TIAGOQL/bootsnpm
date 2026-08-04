@@ -7,7 +7,7 @@
 
 ## Nota
 
-Inspiração da expressão: **levantar a mão com punho fechado**. União visível — o mesmo punho que bate no peito ([reverência](reverencia-antepassados-m2.md), [planta alma](planta-alma.md)) sobe e diz junto. Par de [é nois](e-nois.md).
+Inspiração da expressão: **levantar a mão com punho fechado**. União visível — o mesmo punho que bate no peito ([reverência](reverencia-antepassados-m2.md), [planta alma](planta-alma.md)) sobe e diz junto. Par de [é nois](e-nois.md) e [Jesus mando](jesus-mando.md). Mapa: [palavras de união](palavras-uniao.md).
 
 ## Por que importa
 

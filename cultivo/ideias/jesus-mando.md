@@ -7,7 +7,7 @@
 
 ## Nota
 
-Expressão nova no lugar de **meu deus**: **Jesus mando**. Mesma boca, outro apontar — união e reverência, não susto solto. Vizinha de [é nois](e-nois.md), [planta alma](planta-alma.md) e do [punho no peito](reverencia-antepassados-m2.md).
+Expressão nova no lugar de **meu deus**: **Jesus mando**. Mesma boca, outro apontar — união e reverência, não susto solto. Vizinha de [é nois](e-nois.md), [planta alma](planta-alma.md) e do [punho no peito](reverencia-antepassados-m2.md). Mapa: [palavras de união](palavras-uniao.md).
 
 ## Por que importa
 
