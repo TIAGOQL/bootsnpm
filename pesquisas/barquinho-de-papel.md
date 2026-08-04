@@ -50,7 +50,7 @@ A geografia é íntima: da calçada molhada até um oceano que não aparece no G
 3. **Luto com higiene** — no [M0](higiene-mental.html), nomear a dor sem se afogar nela: soltar o barco é um tipo de dose.
 4. **Sinais** — chuva, papel, correnteza: sinais concretos quando a cabeça pesa.
 
-A poesia das lágrimas no painel ([Minhas lágrimas são suas](../poemas/minhas-lagrimas-sao-suas.html), [Caixões de concreto](../poemas/caixoes-de-concreto.html)) fica com quem escreve. Esta página só **inspeciona o gesto** que a tia ensinou.
+A poesia das lágrimas no painel ([Oceano de lágrimas](../poemas/oceano-de-lagrimas.html), [Minhas lágrimas são suas](../poemas/minhas-lagrimas-sao-suas.html), [Caixões de concreto](../poemas/caixoes-de-concreto.html)) conversa com este gesto. A inspeção nomeia; o poema solta o barco.
 
 ---
 
@@ -85,7 +85,8 @@ A tia ensinou a dobra. A chuva ensina a soltar. O oceano de lágrimas é o nome 
 | [Higiene mental (M0)](higiene-mental.html) | Luto com dose — nomear sem se afogar |
 | [Esqueceremos](esqueceremos.html) | Memória escolhida: o barco não deixa cair a aula |
 | [Caixões de concreto](../poemas/caixoes-de-concreto.html) | Outra superfície de lágrima e semente no painel |
-| [Minhas lágrimas são suas](../poemas/minhas-lagrimas-sao-suas.html) | Oceano de lágrimas — a poesia fica sua |
+| [Oceano de lágrimas](../poemas/oceano-de-lagrimas.html) | Poema pela tia e pelo barquinho |
+| [Minhas lágrimas são suas](../poemas/minhas-lagrimas-sao-suas.html) | Outra página de lágrimas no canteiro |
 | Página no painel | [barquinho-de-papel.html](barquinho-de-papel.html) |
 | Cultivo | [cultivo/ideias/barquinho-de-papel.md](../cultivo/ideias/barquinho-de-papel.md) |
 
