@@ -1,9 +1,9 @@
 # Mão no peito + respiração (M2)
 
-- **Estágio:** semente
+- **Estágio:** planta
 - **Módulo REM:** M2
 - **Plantada em:** 2026-08-02
-- **Próximo passo:** 10 min/dia · anotar latência para acalmar no diário
+- **Próximo passo:** punho no peito nos Sinais · anotar latência para acalmar no diário
 
 ## Nota
 

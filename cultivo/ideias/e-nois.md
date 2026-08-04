@@ -1,9 +1,9 @@
 # É nois
 
-- **Estágio:** semente
+- **Estágio:** planta
 - **Módulo REM:** palavra · M2
 - **Plantada em:** 2026-08-04
-- **Próximo passo:** usar quando o peito pedir união · marcar no diário se a frase fecha ou abre
+- **Próximo passo:** usar com o gesto · marcar no diário se a frase fecha ou abre
 
 ## Nota
 

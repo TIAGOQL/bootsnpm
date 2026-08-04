@@ -1,9 +1,9 @@
 # Peito direito — mapa de mãos (reverência)
 
-- **Estágio:** semente
+- **Estágio:** planta
 - **Módulo REM:** M2 · M0
 - **Plantada em:** 2026-08-04
-- **Próximo passo:** praticar os dois gestos nos Sinais · notar qual mão o corpo pede
+- **Próximo passo:** viver nos Sinais · notar no diário qual mão o corpo pede
 
 ## Nota
 

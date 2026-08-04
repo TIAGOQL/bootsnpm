@@ -1,6 +1,6 @@
 # Levantar a mão com punho fechado
 
-- **Estágio:** semente
+- **Estágio:** planta
 - **Módulo REM:** palavra · M2
 - **Plantada em:** 2026-08-04
 - **Próximo passo:** usar depois do peito ou sozinho · notar se une ou só afirma

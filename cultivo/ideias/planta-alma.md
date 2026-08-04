@@ -1,9 +1,9 @@
 # Planta alma
 
-- **Estágio:** semente
+- **Estágio:** planta
 - **Módulo REM:** M2 · M0
 - **Plantada em:** 2026-08-04
-- **Próximo passo:** um gesto no peito = uma respiração · deixar o nome “planta alma” marcar a prática
+- **Próximo passo:** manter o nome nos Sinais · um gesto = uma respiração
 
 ## Nota
 
