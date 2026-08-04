@@ -69,6 +69,8 @@ Um passo atrás. Casa continua ligada.
 | [Teclas de navegação](teclas-navegacao.html) | Mover no texto × cancelar o modo |
 | [Teclas de sistema](teclas-sistema.html) | Freio / Pause × Esc |
 | [Porta dos fundos](porta-dos-fundos.html) | Cena × modo |
+| [Espaço](tecla-espaco.html) | Cancelar × intervalo |
+| [Enter](tecla-enter.html) | Cancelar × confirmar |
 | [Sinais](sinais.html) | Esc mental quando pesou |
 | [Higiene mental](higiene-mental.html) | Cancelar o excesso |
 | [Esqueceremos](esqueceremos.html) | Esc não é apagar — é pausar o modo |

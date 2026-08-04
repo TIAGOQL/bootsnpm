@@ -30,6 +30,7 @@ No computador: a mesma barra + atalhos de ação.
 | [Navegação](teclas-navegacao.html) | Home/End = bordas; Espaço = ar entre letras |
 | [Pause](teclas-sistema.html) | Freio do sistema; Espaço pausa mídia |
 | [Porta dos fundos](porta-dos-fundos.html) | Sair da cena; Espaço respira ainda dentro |
+| [Enter](tecla-enter.html) | Separa na linha × avança de linha / confirma |
 
 ---
 
