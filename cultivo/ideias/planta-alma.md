@@ -7,7 +7,7 @@
 
 ## Nota
 
-Inspiração: **planta alma**. O mapa do peito ([reverência](reverencia-antepassados-m2.md)) não é só técnica — é cultivo interno. Esquerda: antepassados. Direita: irmã · a la mama. A alma planta presença no peito direito.
+Inspiração: **planta alma**. O mapa do peito ([reverência](reverencia-antepassados-m2.md)) não é só técnica — é cultivo interno. Esquerda: antepassados. Direita: irmã · a la mama. A alma planta presença no peito direito. Expressão de união: [é nois](e-nois.md).
 
 ## Por que importa
 
