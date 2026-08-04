@@ -78,6 +78,7 @@ Não inventar **M\*** como código no diário. Marcar M1, M2… um de cada vez.
 
 | Onde | Relação |
 | --- | --- |
+| [REM e signos](rem-e-signos.html) | Mapa da relação gesto × nome |
 | [Mapa REM](relaxamento-endocanabinoide.html) | Onde M0–M8 aparecem |
 | [Protocolo N=1](protocolo-n1.html) | Empilhar poucos M por vez |
 | [Diário](diario-rem.html) | Marcar o M concreto, não o curinga |
