@@ -7,7 +7,7 @@
 
 ## Nota
 
-Esc = Escape. Cancela o modo atual. Não é exit (fechar tudo) nem Del (apagar).
+Esc = Escape. Cancela o modo atual. Família: Windows · navegação · sistema · exit.
 
 ## Por que importa
 

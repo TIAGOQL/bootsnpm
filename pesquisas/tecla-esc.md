@@ -22,6 +22,17 @@ No desktop virou o botão de **cancelar / voltar um nível**.
 
 ---
 
+## Esc × as outras teclas
+
+| Tecla / bloco | Papel | Relação com Esc |
+| --- | --- | --- |
+| [Windows (Janela)](tecla-windows.html) | Porta de casa do SO | Win volta ao Iniciar; Esc sai do modo do app |
+| [Navegação](teclas-navegacao.html) (Home…Del) | Mover / editar | Esc cancela; Del apaga |
+| [Sistema](teclas-sistema.html) (PrtScn…Break) | Freio / foto | Pause freia; Esc cancela a janela |
+| [Exit](exit.html) | Sair do processo | Esc = um nível; Exit = porta |
+
+---
+
 ## Esc × Exit × Enter
 
 | Tecla / palavra | Função |
@@ -53,6 +64,10 @@ Um passo atrás. Casa continua ligada.
 
 | Onde | Relação |
 | --- | --- |
+| [Tecla Windows](tecla-windows.html) | Porta de casa × sair do modo |
+| [Teclas de navegação](teclas-navegacao.html) | Mover no texto × cancelar o modo |
+| [Teclas de sistema](teclas-sistema.html) | Freio / Pause × Esc |
+| [Exit](exit.html) | Processo × modo |
 | [Sinais](sinais.html) | Esc mental quando pesou |
 | [Higiene mental](higiene-mental.html) | Cancelar o excesso |
 | [Esqueceremos](esqueceremos.html) | Esc não é apagar — é pausar o modo |
