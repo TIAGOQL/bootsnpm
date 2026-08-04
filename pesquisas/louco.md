@@ -4,7 +4,6 @@ Inspeção de palavra + tradução. 2026-08-04.
 
 ## Forma
 - Adjetivo / substantivo · louco · louca · loucos · loucas
-- Origem: controversa (Dicio)
 
 ## Sentidos (PT)
 1. **Clínico / pejorativo** — “perdeu a razão” (hoje: preferir linguagem de cuidado; a palavra pode ferir)

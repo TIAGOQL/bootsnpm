@@ -12,7 +12,8 @@ alwaysApply: true
 3. Módulos: M0–M8 + M4.1. M0 = higiene mental (base).
 4. **Saúde mental:** cuidado, não rótulo. M0 ≠ clínica; M8 só mapa. Não usar “louco” como diagnóstico. Ver `pesquisas/saude-mental.html`.
 5. Respostas curtas quando o usuário estiver sobrecarregado.
-6. Pages: enable humano (Settings → GitHub Actions) se o deploy falhar.
+6. Nas inspeções de palavra: **não** incluir “de onde vem” / etimologia, salvo pedido explícito.
+7. Pages: enable humano (Settings → GitHub Actions) se o deploy falhar.
 
 ## Cultivo de ideias
 
