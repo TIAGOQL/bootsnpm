@@ -31,7 +31,7 @@ Inspeção da trilha e das pessoas. 2026-08-02.
 | I Just Can’t Wait to Be King | Jason Weaver, Rowan Atkinson, Laura Williams |
 | Be Prepared | Jeremy Irons, Whoopi Goldberg, Cheech Marin, Jim Cummings |
 | Hakuna Matata | Nathan Lane, Ernie Sabella, Jason Weaver, Joseph Williams |
-| Can You Feel the Love Tonight | Joseph Williams, Sally Dworsky, Lane, Sabella, Kristle Edwards (+ Elton nos créditos) |
+| Can You Feel the Love Tonight | Joseph Williams, Sally Dworsky, Lane, Sabella, Kristle Edwards (+ Elton nos créditos) · painel VEVO `25QyCxVkXwQ` · REM: M6 |
 
 ## Pessoas em destaque
 - **Jason Weaver** — Simba criança (canto)
@@ -56,6 +56,12 @@ Inspeção da trilha e das pessoas. 2026-08-02.
 
 ## Banda de Elton (faixas do álbum)
 Backing / apoio citados: Davey Johnstone, Kiki Dee, Rick Astley, Gary Barlow, Phil Spalding.
+
+## No painel (DisneyMusicVEVO)
+| Canção | ID | Uso REM |
+| --- | --- | --- |
+| Circle of Life | `pYNxvVq8GQg` | Abertura · ciclo |
+| Can You Feel the Love Tonight | `25QyCxVkXwQ` | M6 vínculo · calma |
 
 ## Página
 [rei-leao-musica.html](rei-leao-musica.html)

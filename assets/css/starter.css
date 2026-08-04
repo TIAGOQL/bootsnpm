@@ -796,6 +796,12 @@ body.panel-page {
   max-width: 40rem;
 }
 
+.panel-audio-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
 .panel-audio-frame {
   position: relative;
   width: 100%;

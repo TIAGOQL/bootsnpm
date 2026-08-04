@@ -3,11 +3,11 @@
 - **Estágio:** colheita
 - **Módulo REM:** áudio · palavra
 - **Plantada em:** 2026-08-02
-- **Próximo passo:** ouvir Circle of Life no painel com o mapa de nomes aberto
+- **Próximo passo:** ouvir Circle of Life ou Can You Feel the Love Tonight no painel com o mapa de nomes aberto
 
 ## Nota
 
-Três países. Cinco canções. Lebo M na abertura. Elton + Rice + Zimmer. Cada voz tem nome.
+Três países. Cinco canções. Lebo M na abertura. Elton + Rice + Zimmer. Cada voz tem nome. No painel: Circle of Life + Can You Feel (M6).
 
 ## Por que importa
 

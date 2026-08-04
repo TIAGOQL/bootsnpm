@@ -21,8 +21,11 @@
       </header>
 
       <section class="panel-audio music-deck" aria-label="Música do painel">
-        <p class="music-status">Rei Leão · Circle of Life · <a href="pesquisas/rei-leao-musica.html">ver a banda</a></p>
-        <button type="button" class="music-btn" data-panel-music>Tocar</button>
+        <p class="music-status">Rei Leão · DisneyMusicVEVO · <a href="pesquisas/rei-leao-musica.html">ver a banda</a></p>
+        <div class="panel-audio-actions">
+          <button type="button" class="music-btn" data-panel-music data-video-id="pYNxvVq8GQg" data-video-title="Circle of Life — O Rei Leão">Circle of Life</button>
+          <button type="button" class="music-btn" data-panel-music data-video-id="25QyCxVkXwQ" data-video-title="Can You Feel the Love Tonight — O Rei Leão">Can You Feel the Love Tonight</button>
+        </div>
         <div class="panel-audio-frame" data-panel-music-frame hidden></div>
       </section>
 
@@ -208,24 +211,29 @@
 
     <script>
       (function () {
-        var btn = document.querySelector("[data-panel-music]");
+        var buttons = document.querySelectorAll("[data-panel-music]");
         var frame = document.querySelector("[data-panel-music-frame]");
-        if (!btn || !frame) return;
-        var videoId = "pYNxvVq8GQg"; // Carmen Twillie, Lebo M. — Circle of Life (DisneyMusicVEVO)
-        var loaded = false;
-        btn.addEventListener("click", function () {
-          if (!loaded) {
+        if (!buttons.length || !frame) return;
+        var currentId = "";
+        buttons.forEach(function (btn) {
+          btn.addEventListener("click", function () {
+            var videoId = btn.getAttribute("data-video-id");
+            var title = btn.getAttribute("data-video-title") || "Música do painel";
+            if (!videoId) return;
             frame.hidden = false;
+            if (currentId === videoId) {
+              var iframe = frame.querySelector("iframe");
+              if (iframe) iframe.src = iframe.src;
+              return;
+            }
+            currentId = videoId;
             frame.innerHTML =
-              '<iframe title="Circle of Life — O Rei Leão" width="560" height="315" src="https://www.youtube-nocookie.com/embed/' +
+              '<iframe title="' +
+              title.replace(/"/g, "&quot;") +
+              '" width="560" height="315" src="https://www.youtube-nocookie.com/embed/' +
               videoId +
               '?autoplay=1&rel=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>';
-            loaded = true;
-            btn.textContent = "Abrir de novo";
-            return;
-          }
-          var iframe = frame.querySelector("iframe");
-          if (iframe) iframe.src = iframe.src;
+          });
         });
       })();
     </script>
