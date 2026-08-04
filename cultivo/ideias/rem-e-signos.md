@@ -1,13 +1,13 @@
 # REM e signos
 
-- **Estágio:** semente
+- **Estágio:** broto
 - **Módulo REM:** palavra · signo · M0 (vizinho de Sinais)
 - **Plantada em:** 2026-08-04
-- **Próximo passo:** quando o nome confundir, abrir o mapa de signos antes de empilhar módulo
+- **Próximo passo:** usar como hub — teclas e caracteres nas páginas filhas
 
 ## Nota
 
-Relação REM × signos: sinais = gesto; signos = nome (M, *, N=1, palavras). Organizar sem virar feitiço.
+Hub REM × signos: sinais = gesto; signos = nome. Canteiro: M e *, caracteres/teclado, teclas REM.
 
 ## Por que importa
 

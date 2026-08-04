@@ -110,4 +110,5 @@ Caractere especial **não** é módulo. Vira signo só quando o mapa atribui sen
 | [Higiene mental](higiene-mental.html) | Limpar excesso de nome |
 | [Diário](diario-rem.html) | Onde os caracteres viram registro |
 | Página | [signos-caracteres-teclado.html](signos-caracteres-teclado.html) |
+| [Teclas REM](teclas-rem.html) | Cada caractere especial que o mapa nomeia |
 | Cultivo | [cultivo/ideias/signos-caracteres-teclado.md](../cultivo/ideias/signos-caracteres-teclado.md) |

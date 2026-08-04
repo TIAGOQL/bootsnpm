@@ -58,10 +58,11 @@ Por isso o REM inspeciona signos: para o mapa não virar feitiço.
 ## Como usar no N=1
 
 1. Baixa energia → [Sinais](sinais.html) (gesto).  
-2. Confusão de nome → esta página + [M e \*](letra-m-asterisco.html).  
-3. Palavra pesada → inspeção de palavra (ex.: esqueceremos).  
-4. Diário → marcar o **módulo concreto**, não o curinga.  
-5. Dúvida nova → [cultivo](cultivo-ideias.html) (estágio semente).
+2. Confusão de nome → esta página (hub).  
+3. Confusão de tecla → [Teclas REM](teclas-rem.html) (`=` `#` `.`…).  
+4. Palavra pesada → inspeção de palavra (ex.: esqueceremos).  
+5. Diário → marcar o **módulo concreto**, não o curinga.  
+6. Dúvida nova → [cultivo](cultivo-ideias.html) (estágio semente).
 
 ---
 
@@ -69,7 +70,8 @@ Por isso o REM inspeciona signos: para o mapa não virar feitiço.
 
 | Onde | Relação |
 | --- | --- |
-| [Signos · caracteres · teclado](signos-caracteres-teclado.html) | Inspeção das palavras tecla / caractere / sinal |
+| [Signos · caracteres · teclado](signos-caracteres-teclado.html) | Glossário das palavras |
+| [Teclas REM](teclas-rem.html) | = # . / - · × em detalhe |
 | [Sinais](sinais.html) | Camada gesto (M0) |
 | [M e \*](letra-m-asterisco.html) | Inspeção M / asterisco |
 | [Mapa REM](relaxamento-endocanabinoide.html) | Onde os códigos M vivem |
