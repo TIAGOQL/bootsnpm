@@ -7,7 +7,7 @@
 
 ## Nota
 
-**É nois** — nova expressão de união. Curta, de rua, de corpo. Não explica: junta. Vai com o punho fechado no peito e com [levantar a mão com punho fechado](punho-levantado.md). Vizinha de [esqueceremos](esqueceremos.md) (que pode unir ou afastar) e de [planta alma](planta-alma.md) (gesto no peito com nome).
+**É nois** — nova expressão de união. Curta, de rua, de corpo. Não explica: junta. Vai com o punho fechado no peito e com [levantar a mão com punho fechado](punho-levantado.md). Quando o reflexo for “meu deus”, usar [Jesus mando](jesus-mando.md). Vizinha de [esqueceremos](esqueceremos.md) (que pode unir ou afastar) e de [planta alma](planta-alma.md) (gesto no peito com nome).
 
 ## Por que importa
 
