@@ -3,12 +3,12 @@
 - **Estágio:** colheita
 - **Módulo REM:** cara · palavra · tônus
 - **Plantada em:** 2026-08-04
-- **Próximo passo:** quando precisar rir ou leveza — lembrar que acompanhar alguém bom também é higiene
+- **Próximo passo:** divulgar — mandar YouTube / Twitch / Instagram pra quem precisa de leveza
 
 ## Nota
 
-Homenagem. **Paulinho o Loko** (Aliffe Henrique de Carvalho) — streamer/youtuber de Machado-MG. Humor, GTA RP, presença. Muita gente gosta; cristãs também; quem planta isto acompanha faz tempo. No REM: cara que alegra — perto de bom dia vida e s2.
+Homenagem + **divulgar o canal**. Paulinho o Loko (Aliffe · Machado-MG). YouTube, Twitch, Instagram na página. Quem planta acompanha faz tempo.
 
 ## Por que importa
 
-Pessoa boa no feed também é tônus. Nomear quem faz bem.
+Pessoa boa no feed. Link na mão = tônus compartilhado.
