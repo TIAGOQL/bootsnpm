@@ -75,7 +75,7 @@ No painel: marcar o fato · soltar o rótulo · não modificar o tônus com supe
 | [Leite derramado](leite-derramado.html) | O que caiu, caiu — sem virar identidade |
 | [Desejo](desejo.html) | Do coração ≠ flor do dado |
 | [Hora](hora.html) | Fatia do acaso; não o infinito de má sorte |
-| [Medo de seguir sonhos](medo-seguir-sonhos.html) | Medo ≠ azar como sentença |
+| [Lazarendo](lazarendo.html) | *azar* dentro de *Lázaro* · lalele |
 | Cultivo | [cultivo/ideias/azar.md](../cultivo/ideias/azar.md) |
 
 ---
