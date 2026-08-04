@@ -21,7 +21,7 @@
       </header>
 
       <section class="panel-audio music-deck" aria-label="Música do painel">
-        <p class="music-status">Rei Leão · Circle of Life · <a href="pesquisas/rei-leao-musica.html">ver a banda</a></p>
+        <p class="music-status">Bob Marley · Three Little Birds / One Love · <a href="pesquisas/three-little-birds.html">ver a página</a></p>
         <button type="button" class="music-btn" data-panel-music>Tocar</button>
         <div class="panel-audio-frame" data-panel-music-frame hidden></div>
       </section>
@@ -82,6 +82,14 @@
                 <span class="shortcut-label">Áudio</span>
                 <span class="shortcut-title">Tônus</span>
                 <span class="shortcut-meta">ligar enquanto estuda ou respira</span>
+              </span>
+            </a>
+            <a class="media-card" href="pesquisas/three-little-birds.html">
+              <img class="media-card-photo" src="assets/img/card-three-little-birds.jpg" alt="" width="640" height="360" loading="lazy">
+              <span class="media-card-body">
+                <span class="shortcut-label">Áudio</span>
+                <span class="shortcut-title">Three Little Birds</span>
+                <span class="shortcut-meta">Marley · don’t worry · One Love</span>
               </span>
             </a>
             <a class="media-card" href="pesquisas/rei-leao-musica.html">
@@ -211,13 +219,13 @@
         var btn = document.querySelector("[data-panel-music]");
         var frame = document.querySelector("[data-panel-music-frame]");
         if (!btn || !frame) return;
-        var videoId = "pYNxvVq8GQg"; // Carmen Twillie, Lebo M. — Circle of Life (DisneyMusicVEVO)
+        var videoId = "1Ynmkazu2Go"; // Bob Marley — Three Little Birds / One Love
         var loaded = false;
         btn.addEventListener("click", function () {
           if (!loaded) {
             frame.hidden = false;
             frame.innerHTML =
-              '<iframe title="Circle of Life — O Rei Leão" width="560" height="315" src="https://www.youtube-nocookie.com/embed/' +
+              '<iframe title="Bob Marley — Three Little Birds / One Love" width="560" height="315" src="https://www.youtube-nocookie.com/embed/' +
               videoId +
               '?autoplay=1&rel=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>';
             loaded = true;
