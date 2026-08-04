@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Homenagem à Queen — poesia sobre voz, arena e coragem que ainda ecoa.">
+    <meta name="description" content="Homenagem à Queen — We Will Rock You: a música e as batidas de pés e palmas.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Karla:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/starter.css">
-    <title>Homenagem à Queen</title>
+    <title>Homenagem à Queen — We Will Rock You</title>
   </head>
   <body class="poem-page">
     <div class="rain" aria-hidden="true"></div>
@@ -17,47 +17,74 @@
 
     <main class="poem-shell">
       <header class="poem-brand">
-        <p class="poem-for">homenagem</p>
-        <h1 class="poem-title">Homenagem à Queen</h1>
+        <p class="poem-for">homenagem · a música</p>
+        <h1 class="poem-title">We Will Rock You</h1>
+        <p class="panel-lede">Queen · pés, palmas e a batida que vira estádio.</p>
       </header>
 
       <img class="page-hero-photo" src="../assets/img/card-poesia-queen.jpg" alt="Microfone no palco sob luz âmbar — clima da homenagem" width="640" height="360" loading="eager">
 
+      <section class="music-deck panel-audio" aria-label="Ouvir We Will Rock You">
+        <p class="music-status">Queen · We Will Rock You · batida: pé · pé · palma</p>
+        <button type="button" class="music-btn" data-queen-music>Tocar</button>
+        <div class="panel-audio-frame" data-queen-music-frame hidden></div>
+      </section>
+
       <article class="poem" aria-label="Poesia">
-        <p>Antes do refrão enorme,<br>
-        havia quatro corações<br>
-        aprendendo a caber<br>
-        num mesmo acorde:<br>
-        piano que sobe,<br>
-        guitarra que chora ouro,<br>
-        bateria que marca o peito,<br>
-        e a voz que vira praça.</p>
+        <p>Não começa no solo.<br>
+        Começa no chão:<br>
+        <strong>pé</strong> —<br>
+        <strong>pé</strong> —<br>
+        <strong>palma</strong>.</p>
 
-        <p>Vocês ensinam que o medo<br>
-        também pode cantar alto,<br>
-        que a ópera cabe no rock,<br>
-        que o corpo inteiro<br>
-        pode ser instrumento<br>
-        quando a verdade<br>
-        não cabe no sussurro.</p>
+        <p>Duas batidas no assoalho,<br>
+        uma no ar que fecha o compasso.<br>
+        Sem bateria no começo —<br>
+        só o corpo da multidão<br>
+        virando instrumento.<br>
+        A arena aprende o ritmo<br>
+        antes da voz chegar.</p>
 
-        <p>Em cada luz de arena<br>
-        cabe uma coragem limpa:<br>
-        o solo que não pede licença,<br>
-        o coro que aperta a garganta,<br>
-        o silêncio depois do grito<br>
-        em que a gente respira<br>
-        e ainda está de pé.</p>
+        <p>Brian desenhou o stomping;<br>
+        Freddie ergueu o refrão;<br>
+        Roger e John seguraram<br>
+        o peito do mundo<br>
+        nesse <em>boom-boom-clap</em><br>
+        que qualquer um entende<br>
+        sem saber inglês.</p>
 
-        <p>Obrigado por provar<br>
-        que música não é só som —<br>
-        é lembrar a gente<br>
-        de quem ainda somos<br>
-        quando o show acaba<br>
-        e o peito continua<br>
-        a bater em compassos<br>
-        de espanto e liberdade.</p>
+        <p>Obrigado por essa música<br>
+        em que a batida é o hino:<br>
+        pés que marcam coragem,<br>
+        palmas que respondem juntos,<br>
+        e a certeza de que,<br>
+        enquanto o chão tremer,<br>
+        ainda vamos rockear você.</p>
       </article>
     </main>
+
+    <script>
+      (function () {
+        var btn = document.querySelector("[data-queen-music]");
+        var frame = document.querySelector("[data-queen-music-frame]");
+        if (!btn || !frame) return;
+        var videoId = "-tJYN-eG1zk"; // Queen Official — We Will Rock You
+        var loaded = false;
+        btn.addEventListener("click", function () {
+          if (!loaded) {
+            frame.hidden = false;
+            frame.innerHTML =
+              '<iframe title="Queen — We Will Rock You (Official Video)" width="560" height="315" src="https://www.youtube-nocookie.com/embed/' +
+              videoId +
+              '?autoplay=1&rel=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>';
+            loaded = true;
+            btn.textContent = "Abrir de novo";
+            return;
+          }
+          var iframe = frame.querySelector("iframe");
+          if (iframe) iframe.src = iframe.src;
+        });
+      })();
+    </script>
   </body>
 </html>
