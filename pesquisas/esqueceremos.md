@@ -79,6 +79,7 @@ Pode ser cura ou violência, conforme o que se deixa cair — e se quem caiu que
 | [Sinais](sinais.html) | Sinais são palavras; esta une ou afasta |
 | [Endocanabinoidoma](endocanabinoidoma.html) | Outra inspeção de palavra no mesmo canteiro |
 | [Vassena](vassena.html) | Inspeção de nome — legado e lugar |
+| [VEVO](vevo.html) | Marca — Video Evolution; eco de Vassena |
 | Página no painel | [esqueceremos.html](esqueceremos.html) |
 | Cultivo | [cultivo/ideias/esqueceremos.md](../cultivo/ideias/esqueceremos.md) |
 
