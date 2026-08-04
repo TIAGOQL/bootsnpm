@@ -1,9 +1,10 @@
 # Painel REM — começar agora (Windows)
-# Uso: clique com o botão direito → Executar com PowerShell
-#   ou: powershell -ExecutionPolicy Bypass -File .\start-now.ps1
+# Uso: .\deploy\start-now.ps1
+#   ou: powershell -ExecutionPolicy Bypass -File .\deploy\start-now.ps1
 
 $ErrorActionPreference = "Stop"
-Set-Location -Path $PSScriptRoot
+$Root = Split-Path -Parent $PSScriptRoot
+Set-Location -Path $Root
 
 if (-not (Get-Command npm -ErrorAction SilentlyContinue)) {
   Write-Host "Node/npm nao encontrado. Instale Node 20+ e abra de novo o terminal."
