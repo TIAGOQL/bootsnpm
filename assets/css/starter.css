@@ -426,6 +426,17 @@ body.panel-page {
   font-weight: 500;
 }
 
+.research-body ul {
+  margin: 0 0 1rem;
+  padding-left: 1.2rem;
+  color: var(--ink-soft);
+  line-height: 1.55;
+}
+
+.research-body li {
+  margin: 0 0 0.45rem;
+}
+
 .research-body a,
 .research-lead a {
   color: var(--blush);
