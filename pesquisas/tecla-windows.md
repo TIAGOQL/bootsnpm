@@ -87,7 +87,7 @@ No REM: botão de voltar à base do aparelho — sem confundir a janela com o mu
 | [Teclas de navegação](teclas-navegacao.html) | Home = base no texto; Win = base no sistema |
 | [Teclas de sistema](teclas-sistema.html) | Bloco de freio; Win é porta, não freio |
 | [Esc](tecla-esc.html) | Sair do modo do app; Win volta à casa do SO |
-| [Exit](exit.html) | Porta do processo; Win = porta do desktop |
+| [Porta dos fundos](porta-dos-fundos.html) | Porta dos fundos; Win = porta da frente do SO |
 | [Sinais](sinais.html) | Win+D mental — limpar a pilha |
 | [Higiene mental](higiene-mental.html) | Win+L: travar e respirar |
 | Página no painel | [tecla-windows.html](tecla-windows.html) |

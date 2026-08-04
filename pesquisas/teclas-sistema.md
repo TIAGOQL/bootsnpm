@@ -86,7 +86,7 @@ Bloco de freio e registro. No REM: pausar o fluxo, marcar o instante, travar o s
 | [Teclas de navegação](teclas-navegacao.html) | Bloco vizinho — Home/End/Ins/Del |
 | [Esc](tecla-esc.html) | Cancela a janela; Pause freia o fluxo |
 | [Tecla Windows](tecla-windows.html) | Porta de casa; este bloco freia |
-| [Exit](exit.html) | Break corta; Exit sai do processo |
+| [Porta dos fundos](porta-dos-fundos.html) | Break corta; fundos liberam a cena |
 | [Sinais](sinais.html) | Scroll Lock emocional |
 | [Diário REM](diario-rem.html) | Print Screen do dia |
 | [Higiene mental](higiene-mental.html) | Pause antes de empurrar |

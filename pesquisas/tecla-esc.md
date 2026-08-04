@@ -29,19 +29,19 @@ No desktop virou o botão de **cancelar / voltar um nível**.
 | [Windows (Janela)](tecla-windows.html) | Porta de casa do SO | Win volta ao Iniciar; Esc sai do modo do app |
 | [Navegação](teclas-navegacao.html) (Home…Del) | Mover / editar | Esc cancela; Del apaga |
 | [Sistema](teclas-sistema.html) (PrtScn…Break) | Freio / foto | Pause freia; Esc cancela a janela |
-| [Exit](exit.html) | Sair do processo | Esc = um nível; Exit = porta |
+| [Porta dos fundos](porta-dos-fundos.html) | Sair da cena | Esc = um nível; fundos = porta quieta |
 
 ---
 
-## Esc × Exit × Enter
+## Esc × Porta dos fundos × Enter
 
 | Tecla / palavra | Função |
 | --- | --- |
 | **Esc** | Sai do *modo* · cancela |
-| **Exit** | Sai do *programa* / processo |
+| **Porta dos fundos** | Sai da *cena* / do excesso |
 | **Enter** | Confirma · entra |
 
-No REM: Esc = higiene de um passo. Exit = porta da casa. Enter = ok, segue.
+No REM: Esc = higiene de um passo. Porta dos fundos = saída quieta. Enter = ok, segue.
 
 ---
 
@@ -67,7 +67,7 @@ Um passo atrás. Casa continua ligada.
 | [Tecla Windows](tecla-windows.html) | Porta de casa × sair do modo |
 | [Teclas de navegação](teclas-navegacao.html) | Mover no texto × cancelar o modo |
 | [Teclas de sistema](teclas-sistema.html) | Freio / Pause × Esc |
-| [Exit](exit.html) | Processo × modo |
+| [Porta dos fundos](porta-dos-fundos.html) | Cena × modo |
 | [Sinais](sinais.html) | Esc mental quando pesou |
 | [Higiene mental](higiene-mental.html) | Cancelar o excesso |
 | [Esqueceremos](esqueceremos.html) | Esc não é apagar — é pausar o modo |
