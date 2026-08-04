@@ -59,49 +59,57 @@
         <p>Abertura clássica (ideia BR): há uma quinta dimensão entre luz e sombra, ciência e superstição — a dimensão da fantasia. Uma região <strong>Além da Imaginação</strong>. Não é escapismo vazio. É disfarce ético.</p>
 
         <h2>Episódios âncora</h2>
-        <p>Portas que costumam ficar na memória de quem viu — jovem ou tarde:</p>
+        <p>Portas que costumam ficar na memória. Em cada um: link <strong>YT</strong> pra achar no YouTube sem caçar o título.</p>
+
+        <section class="music-deck panel-audio" aria-label="YouTube — viradas da Zone">
+          <p class="music-status">Paramount+ · Top 8 plot twists · <a href="https://www.youtube.com/watch?v=p1E7kPOMwHk" rel="noopener noreferrer" target="_blank">abrir no YT</a></p>
+          <button type="button" class="music-btn" data-zone-yt>Tocar</button>
+          <div class="panel-audio-frame" data-zone-yt-frame hidden></div>
+        </section>
+
         <dl class="gloss-list">
           <div>
-            <dt>Time Enough at Last</dt>
+            <dt>Time Enough at Last · <a href="https://www.youtube.com/results?search_query=Twilight+Zone+Time+Enough+at+Last" rel="noopener noreferrer" target="_blank">YT</a></dt>
             <dd>Tempo pra ler — e o preço do desejo isolado.</dd>
           </div>
           <div>
-            <dt>The Monsters Are Due on Maple Street</dt>
+            <dt>The Monsters Are Due on Maple Street · <a href="https://www.youtube.com/results?search_query=Twilight+Zone+Monsters+Are+Due+on+Maple+Street" rel="noopener noreferrer" target="_blank">YT</a></dt>
             <dd>O monstro é o vizinho que a gente inventa.</dd>
           </div>
           <div>
-            <dt>Eye of the Beholder</dt>
+            <dt>Eye of the Beholder · <a href="https://www.youtube.com/results?search_query=Twilight+Zone+Eye+of+the+Beholder" rel="noopener noreferrer" target="_blank">YT</a></dt>
             <dd>Beleza é norma do poder, não fato.</dd>
           </div>
           <div>
-            <dt>The Invaders</dt>
+            <dt>The Invaders · <a href="https://www.youtube.com/results?search_query=Twilight+Zone+The+Invaders+Agnes+Moorehead" rel="noopener noreferrer" target="_blank">YT</a></dt>
             <dd>Quem é gigante depende do ponto de vista.</dd>
           </div>
           <div>
-            <dt>It's a Good Life</dt>
+            <dt>It's a Good Life · <a href="https://www.youtube.com/results?search_query=Twilight+Zone+It%27s+a+Good+Life" rel="noopener noreferrer" target="_blank">YT</a></dt>
             <dd>Tirania do absoluto; medo de desagradar.</dd>
           </div>
           <div>
-            <dt>To Serve Man</dt>
+            <dt>To Serve Man · <a href="https://www.youtube.com/results?search_query=Twilight+Zone+To+Serve+Man" rel="noopener noreferrer" target="_blank">YT</a></dt>
             <dd>Livro de receitas — confiança cega em “salvação”.</dd>
           </div>
           <div>
-            <dt>Nightmare at 20,000 Feet</dt>
-            <dd>O que só você vê; sanity vs. evidência.</dd>
+            <dt>Nightmare at 20,000 Feet · <a href="https://www.youtube.com/watch?v=SuwCMovG3z0" rel="noopener noreferrer" target="_blank">YT</a></dt>
+            <dd>O que só você vê; sanity vs. evidência. Clip oficial Paramount+.</dd>
           </div>
           <div>
-            <dt>Walking Distance</dt>
+            <dt>Walking Distance · <a href="https://www.youtube.com/results?search_query=Twilight+Zone+Walking+Distance" rel="noopener noreferrer" target="_blank">YT</a></dt>
             <dd>Voltar à infância sem poder ficar.</dd>
           </div>
           <div>
-            <dt>The Obsolete Man</dt>
+            <dt>The Obsolete Man · <a href="https://www.youtube.com/results?search_query=Twilight+Zone+The+Obsolete+Man" rel="noopener noreferrer" target="_blank">YT</a></dt>
             <dd>Estado que declara gente “obsoleta”.</dd>
           </div>
           <div>
-            <dt>Where Is Everybody?</dt>
+            <dt>Where Is Everybody? · <a href="https://www.youtube.com/results?search_query=Twilight+Zone+Where+Is+Everybody" rel="noopener noreferrer" target="_blank">YT</a></dt>
             <dd>Estreia: solidão absoluta, teste humano.</dd>
           </div>
         </dl>
+        <p><strong>Oficial completo:</strong> clássico em streaming (Paramount+). YT = busca / clip — o que estiver disponível muda.</p>
 
         <h2>Brasil · SBT</h2>
         <p><strong>Sim, exibiu.</strong> Não inventou. Nasceu na CBS. No Brasil Wikipedia lista <strong>Record</strong> e <strong>SBT</strong>; também outras grades e reprises (sessão coruja, madrugada). Canal aberto = ponte, não berço.</p>
@@ -123,5 +131,29 @@
         </p>
       </article>
     </main>
+
+    <script>
+      (function () {
+        var btn = document.querySelector("[data-zone-yt]");
+        var frame = document.querySelector("[data-zone-yt-frame]");
+        if (!btn || !frame) return;
+        var videoId = "p1E7kPOMwHk"; // Paramount+ — Top 8 Best Plot Twists (clássico)
+        var loaded = false;
+        btn.addEventListener("click", function () {
+          if (!loaded) {
+            frame.hidden = false;
+            frame.innerHTML =
+              '<iframe title="Twilight Zone — Top 8 plot twists (Paramount+)" width="560" height="315" src="https://www.youtube-nocookie.com/embed/' +
+              videoId +
+              '?autoplay=1&rel=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>';
+            loaded = true;
+            btn.textContent = "Abrir de novo";
+            return;
+          }
+          var iframe = frame.querySelector("iframe");
+          if (iframe) iframe.src = iframe.src;
+        });
+      })();
+    </script>
   </body>
 </html>

@@ -57,20 +57,22 @@ Não é escapismo vazio. É disfarce ético: dizer o proibido sem o cartaz “pr
 
 ## Episódios âncora (memória viva)
 
-Não são “os melhores oficiais” — são portas que costumam ficar na trajetória de quem viu jovem ou tarde:
+Não são “os melhores oficiais” — são portas que costumam ficar na trajetória. Em cada um: busca YT pra achar sem caçar o título.
 
-| Episódio | Ideia que gruda |
-| --- | --- |
-| **Time Enough at Last** | Tempo pra ler — e o preço do desejo isolado |
-| **The Monsters Are Due on Maple Street** | O monstro é o vizinho que a gente inventa |
-| **Eye of the Beholder** | Beleza é norma do poder, não fato |
-| **The Invaders** | Escala: quem é gigante depende do ponto de vista |
-| **It's a Good Life** | Tirania infantil / medo de desagradar o absoluto |
-| **To Serve Man** | Livro de receitas — confiança cega em “salvação” |
-| **Nightmare at 20,000 Feet** | O que só você vê no avião; sanity vs. evidência |
-| **Walking Distance** | Voltar à infância sem poder ficar |
-| **The Obsolete Man** | Estado que declara gente “obsoleta” |
-| **Where Is Everybody?** | Estreia: solidão absoluta, teste humano |
+| Episódio | Ideia que gruda | YT |
+| --- | --- | --- |
+| **Time Enough at Last** | Tempo pra ler — e o preço do desejo isolado | [busca](https://www.youtube.com/results?search_query=Twilight+Zone+Time+Enough+at+Last) |
+| **The Monsters Are Due on Maple Street** | O monstro é o vizinho que a gente inventa | [busca](https://www.youtube.com/results?search_query=Twilight+Zone+Monsters+Are+Due+on+Maple+Street) |
+| **Eye of the Beholder** | Beleza é norma do poder, não fato | [busca](https://www.youtube.com/results?search_query=Twilight+Zone+Eye+of+the+Beholder) |
+| **The Invaders** | Escala: quem é gigante depende do ponto de vista | [busca](https://www.youtube.com/results?search_query=Twilight+Zone+The+Invaders+Agnes+Moorehead) |
+| **It's a Good Life** | Tirania infantil / medo de desagradar o absoluto | [busca](https://www.youtube.com/results?search_query=Twilight+Zone+It%27s+a+Good+Life) |
+| **To Serve Man** | Livro de receitas — confiança cega em “salvação” | [busca](https://www.youtube.com/results?search_query=Twilight+Zone+To+Serve+Man) |
+| **Nightmare at 20,000 Feet** | O que só você vê no avião; sanity vs. evidência | [clip Paramount+](https://www.youtube.com/watch?v=SuwCMovG3z0) |
+| **Walking Distance** | Voltar à infância sem poder ficar | [busca](https://www.youtube.com/results?search_query=Twilight+Zone+Walking+Distance) |
+| **The Obsolete Man** | Estado que declara gente “obsoleta” | [busca](https://www.youtube.com/results?search_query=Twilight+Zone+The+Obsolete+Man) |
+| **Where Is Everybody?** | Estreia: solidão absoluta, teste humano | [busca](https://www.youtube.com/results?search_query=Twilight+Zone+Where+Is+Everybody) |
+
+Player na página: [Top 8 plot twists — Paramount+](https://www.youtube.com/watch?v=p1E7kPOMwHk). Episódios completos oficiais: Paramount+. YT = busca/clip — o que aparece muda.
 
 ---
 
