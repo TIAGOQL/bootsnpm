@@ -6,7 +6,7 @@
 
 ## Senha → código
 
-Repositório e Pages são públicos. **195** fica como marca do canteiro com anao1 — lembrar, não autenticar.
+Repositório e Pages são públicos. **195** e **[1953](1953.html)** ficam como marca do canteiro com anao1 — lembrar, não autenticar.
 
 ## No REM
 
