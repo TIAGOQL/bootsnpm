@@ -34,7 +34,8 @@ A palavra carrega o fechamento. O gesto de **abrir** é o contrário físico e s
 | **Abrir** | separar, soltar, liberar | chave, mão que abre, peito que expande |
 
 Abrir a algema é o gesto mínimo da saída: não apaga o que prendeu — só desfaz a junção.  
-No corpo do REM, “abrir” também é gesto consciente (mão no peito, respiração, soltar o excesso) — sem precisar do objeto de ferro.
+O meio desse gesto é a [key](key.html) — instrumento, hábito ou tecla do corpo.  
+No REM, “abrir” também é gesto consciente (mão no peito, respiração, soltar o excesso) — sem precisar do objeto de ferro.
 
 Paradoxo útil: a etimologia fala de **união**; o uso fala de **perda de liberdade**. Unir pode cuidar ou aprisionar — como outras palavras do canteiro.
 
@@ -63,6 +64,7 @@ Paradoxo útil: a etimologia fala de **união**; o uso fala de **perda de liberd
 | [Peito + respiração (M2)](../cultivo/ideias/peito-e-respiracao-m2.md) | Gesto consciente de presença — abrir sem punir |
 | [Sinais](sinais.html) | Palavra que une ou prende; filtrar |
 | [Esqueceremos](esqueceremos.html) | Outra inspeção: soltar pode ser higiene ou abandono |
+| [Key](key.html) | O meio de abrir — fecha o trio |
 | Página no painel | [algema.html](algema.html) |
 | Cultivo | [cultivo/ideias/algema.md](../cultivo/ideias/algema.md) |
 
