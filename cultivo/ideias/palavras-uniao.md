@@ -16,7 +16,7 @@ Inspiração nestas palavras — tudo aí:
 | Esquerda | antepassados |
 | Direita | irmã · a la mama |
 | União falada | [é nois](e-nois.md) |
-| No lugar de “meu deus” | [Jesus mando](jesus-mando.md) |
+| No lugar de “meu deus” | [Jesus mando](jesus-mando.md) · [mensagem](../../pesquisas/jesus-mando.html) |
 | Sinal erguido | [levantar a mão com punho fechado](punho-levantado.md) |
 
 Base técnica: [peito + respiração](peito-e-respiracao-m2.md).
