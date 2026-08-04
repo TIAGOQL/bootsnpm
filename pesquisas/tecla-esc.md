@@ -30,6 +30,7 @@ No desktop virou o botão de **cancelar / voltar um nível**.
 | [Navegação](teclas-navegacao.html) (Home…Del) | Mover / editar | Esc cancela; Del apaga |
 | [Sistema](teclas-sistema.html) (PrtScn…Break) | Freio / foto | Pause freia; Esc cancela a janela |
 | [Porta dos fundos](porta-dos-fundos.html) | Sair da cena | Esc = um nível; fundos = porta quieta |
+| [Espaço](tecla-espaco.html) | Intervalo / pausa | Esc cancela; Espaço separa |
 
 ---
 
