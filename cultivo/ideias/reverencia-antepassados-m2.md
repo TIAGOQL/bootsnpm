@@ -12,7 +12,7 @@ Peito direito. Duas mãos, duas linhagens:
 - **Mão esquerda** no peito direito — reverência aos antepassados.
 - **Mão direita** no peito direito — porque irmã · a la mama.
 
-Não é punição nem performance. É presença com nome. Liga ao [peito + respiração](peito-e-respiracao-m2.md).
+Não é punição nem performance. É presença com nome. Inspiração: [planta alma](planta-alma.md). Liga ao [peito + respiração](peito-e-respiracao-m2.md).
 
 ## Por que importa
 
