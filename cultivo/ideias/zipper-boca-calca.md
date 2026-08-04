@@ -7,8 +7,8 @@
 
 ## Nota
 
-O zipper é o mesmo gesto em dois polos: boca (falar / calar) e calça (corpo / contenção). Abrir e fechar como higiene de limite — não punição.
+Expressão: **boca fechada não entra mosquito** — fechar a boca como higiene, não como medo. O zipper é o mesmo gesto em dois polos: boca (falar / calar) e calça (corpo / contenção). Abrir e fechar como limite — não punição.
 
 ## Por que importa
 
-Mapa simples de fronteira: o que sai pela boca e o que o corpo segura ou libera.
+Fronteira prática: o que entra e sai pela boca; o que o corpo segura ou libera.
