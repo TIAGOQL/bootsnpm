@@ -1,6 +1,6 @@
 # Paulinho o Loko
 
-Homenagem / inspeção de cara. 2026-08-04.
+Homenagem + divulgação do canal. 2026-08-04.
 
 ## Quem
 
@@ -9,25 +9,29 @@ Homenagem / inspeção de cara. 2026-08-04.
 - **Nascimento:** 21 dezembro 2001 · Machado, Minas Gerais  
 - **Ofício:** streamer, youtuber, gamer  
 
+## Canais (divulgar)
+
+| Onde | Link |
+| --- | --- |
+| YouTube | https://www.youtube.com/c/DailyModder |
+| Twitch | https://www.twitch.tv/paulinholokobr |
+| Instagram | https://www.instagram.com/paulinhooloko/ |
+
 ## Trajetória (curta)
 
-- YouTube desde ~2015 (começo com GTA / trotes / humor)  
-- GTA RP virou marca forte  
-- Twitch + YouTube — um dos streamers mais assistidos do Brasil  
-- Prêmio eSports Brasil: melhor streamer (2024 e 2025, segundo cobertura)  
+- YouTube desde ~2015  
+- GTA RP · humor · lives  
+- Um dos streamers mais assistidos do Brasil  
 
 ## Por que esta página
 
-No painel: homenagem. Quem plantou acompanha faz tempo. Diz que muita gente — inclusive cristãs — gosta. Aqui não é fofoca: é **nomear alguém que faz bem** no dia a dia digital.
+Homenagem N=1: acompanha faz tempo. Divulgar = passar o link. No REM, quem alegra o feed também é tônus.
 
 ## No REM
 
-- [Bom dia, vida](bom-dia-vida.html) — leveza de manhã  
-- [s2](s2.html) — peito / afeto curto  
-- [filhodosol](filhodosol.html) — luz sem chicote  
-- [Tônus](musica-tonus.html) — presença enquanto estuda ou respira  
-- [Diário](diario-rem.html) — se riu de verdade, um número  
+- [Bom dia, vida](bom-dia-vida.html) · [s2](s2.html) · [filhodosol](filhodosol.html)  
+- Página: [paulinho-o-loko.html](paulinho-o-loko.html)
 
 ## Fontes
 
-Wikipedia (Paulinho o Loko) · cobertura PeB / eSports · página: [paulinho-o-loko.html](paulinho-o-loko.html)
+Wikipedia · canais oficiais acima
