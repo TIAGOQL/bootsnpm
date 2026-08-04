@@ -92,6 +92,7 @@ Genial não batiza Tiago de gênio. Só diz: o reconhecimento cabe no nome sem i
 | [Sinais](sinais.html) | Palavra-curta = sinal; esta costuma unir |
 | [Higiene mental (M0)](higiene-mental.html) | Receber o “genial” sem virar cobrança de brilho |
 | [Tititi](tititi.html) | Assinatura sonora do nome — fofoca invertida |
+| [Aladim](aladim.html) | Gênio da lâmpada = jinn ≠ genius; desejo ≠ genial |
 | [Esqueceremos](esqueceremos.html) | Outra inspeção de palavra no mesmo canteiro |
 | [Sócrates](socrates.html) | “Sei que nada sei” freia o mito do gênio |
 | Página no painel | [genial.html](genial.html) |
