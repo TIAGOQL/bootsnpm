@@ -24,6 +24,10 @@ Relacionar sem fundir.
 - Sol no rosto aquietou → marcar no [diário](diario-rem.html); não precisa batizar a luz.  
 - Não trocar higiene por culto nem culto por higiene. Conversam. Não se apagam.
 
+## Frase da ponte
+
+[filho do sol](filho-do-sol.html) — junta *filho* e *sol* sem ser Filho de Deus.
+
 ## Páginas
 
 - Expressão: [filho-de-deus.html](filho-de-deus.html)  
