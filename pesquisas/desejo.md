@@ -68,6 +68,9 @@ Pedir claro ≠ esfregar a fumaça.
 Não é o jinn. Não é genial. É o apontar.  
 No painel: **um desejo por hora** — o resto fica no infinito, do lado de fora da fatia.
 
+**Ele será realizado** — futuro do verbo *realizar*: tornar real.  
+Não por esfregar a lâmpada. Por caminhar a hora em que o desejo cabe.
+
 ---
 
 ## Ligação com o Painel REM
