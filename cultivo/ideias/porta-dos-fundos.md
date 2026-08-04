@@ -1,13 +1,13 @@
 # Porta dos fundos
 
 - **Estágio:** colheita
-- **Módulo REM:** palavra · M0 · sinais
+- **Módulo REM:** palavra · M0 · sinais · teclado
 - **Plantada em:** 2026-08-04
-- **Próximo passo:** quando a redoma apertar — achar a porta dos fundos (Sinais / Pause / Win+L), sem pânico
+- **Próximo passo:** quando a redoma apertar — Sinais / Pause / Win+L; fundos com escolha, não pânico
 
 ## Nota
 
-Antes chamávamos exit. Agora: porta dos fundos — saída discreta. Esc sai do modo; os fundos liberam a cena.
+Saída de trás da casa. Esc sai do modo; a porta dos fundos libera a cena. Sem holofote. Sem desligar a vida.
 
 ## Por que importa
 
