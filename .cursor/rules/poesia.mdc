@@ -8,7 +8,7 @@ alwaysApply: true
 ## Começar / N=1 / higiene
 
 1. Se baixa energia: **Sinais** primeiro (`pesquisas/sinais.html`), depois M0 higiene.
-2. Fluxo normal: Protocolo N=1 → Diário → Tônus → Cultivo.
+2. Fluxo normal: Protocolo N=1 → Diário → Sentido → Cultivo.
 3. Módulos: M0–M8 + M4.1. M0 = higiene mental (base).
 4. Respostas curtas quando o usuário estiver sobrecarregado.
 5. Pages: enable humano (Settings → GitHub Actions) se o deploy falhar.
@@ -28,7 +28,7 @@ Quando disser **“planta no cultivo: …”**:
 1. Atualize `pesquisas/` (HTML + `.md` quando for núcleo).
 2. Ortografia: **endocanabinoidoma** (nunca “canabinoidomo”).
 3. SEC = núcleo · endocanabinoidoma = bairro.
-4. Foque tônus endógeno; M8 só mapa clínico.
+4. Foque sentido endógeno; M8 só mapa clínico.
 5. Atalho no painel se for página nova.
 6. Rode `npm test` e mantenha greps do painel sincronizados.
 7. Não despejar lista de URLs na conversa.
