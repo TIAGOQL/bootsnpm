@@ -7,7 +7,7 @@
 
 ## Nota
 
-rs = risos encurtados no chat. Partícula miúda: pode descomprimir ou tapar o peito. Filtrar no M0; se for máscara, Sinais.
+rs = risos encurtados no chat. Partícula miúda: pode descomprimir ou tapar o peito. Filtrar no M0; se for máscara, Sinais. Token colado `asudhaudhauhd` → trocar por **rs**.
 
 ## Por que importa
 

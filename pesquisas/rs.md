@@ -13,6 +13,7 @@ Data: 2026-08-04.
 2. **Amortecedor social** — baixar a temperatura depois de um erro, um “buguei”, um silêncio
 3. **Escape** — às vezes tapa o que o peito ainda não nomeou
 4. **Esticamento** — `rsrs`, `rsrsrs`: quanto mais letras, mais o gesto se alonga
+5. **Troca de token colado** — `asudhaudhauhd` → **rs** (mash de teclado; não virar mito)
 
 No Painel REM, o uso útil é tratar **rs** como **sinal miúdo**: pode ser higiene (leveza) ou ruído (fuga). Filtrar.
 
@@ -30,6 +31,7 @@ Família próxima no mesmo canteiro digital:
 | *kkk* | outra família de riso (onomatopeia) |
 | *haha* / *hehe* | riso importado / suave |
 | *lol* | primo inglês (laughing out loud) |
+| *asudhaudhauhd* | token colado — **trocar por rs**; ponte em [asudhaudhauhd.html](asudhaudhauhd.html) |
 
 A imagem é curta: **ar saindo pelo nariz**, sem frase.
 
