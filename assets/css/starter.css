@@ -851,7 +851,46 @@ body.panel-page {
   line-height: 1.45;
 }
 
-body.is-music-playing .rain {
+.beat-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  align-items: stretch;
+}
+
+.beat-step {
+  min-width: 4.5rem;
+  padding: 0.7rem 1rem;
+  color: var(--ink-soft);
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.28);
+  border: 1px solid rgba(31, 42, 50, 0.12);
+  border-radius: 0.35rem;
+  transition: background 120ms ease, color 120ms ease, transform 120ms ease;
+}
+
+.beat-step.is-on {
+  color: #f7f3ef;
+  background: var(--ink);
+  transform: translateY(-2px) scale(1.04);
+}
+
+.beat-step[data-beat="palma"].is-on {
+  background: var(--blush);
+}
+
+.beat-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+body.is-music-playing .rain,
+body.is-beat-playing .rain {
   opacity: 0.7;
   animation-duration: 9s;
 }
@@ -1034,6 +1073,12 @@ body.is-music-playing .rain {
     opacity: 1;
     transform: none;
     animation: none;
+  }
+
+  .beat-step,
+  .beat-step.is-on {
+    transform: none;
+    transition: none;
   }
 
   .shortcut,
