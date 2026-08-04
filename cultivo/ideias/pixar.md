@@ -7,8 +7,8 @@
 
 ## Nota
 
-Verbo inventado: fazer imagens. Nome de máquina → estúdio. No REM: animar = sentir; medo de ser esquecido cola em esqueceremos.
+Verbo inventado: fazer imagens. Nome de máquina → estúdio. Eco BR: **pichar** (piche/muro) e **pixaim** (tupi/cabelo) — mesmo ouvido, três origens. No REM: animar = sentir; não misturar as portas.
 
 ## Por que importa
 
-Palavra que aponta para emoção animada — filtrar marca vs peito.
+Filtrar marca vs peito — e vs muro (pichar) vs cabelo (pixaim).

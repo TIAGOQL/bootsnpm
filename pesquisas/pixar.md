@@ -34,6 +34,39 @@ Fontes primárias: Alvy Ray Smith (site pessoal, mitos Pixar; entrevistas).
 
 ---
 
+## Eco brasileiro: pichar · pixaim
+
+No Brasil o som e a letra **pixa- / picha-** abrem três portas. Relacionar ≠ fundir.
+
+| Palavra | Origem | Quer dizer |
+| --- | --- | --- |
+| **Pixar** | Neologismo EN (Smith/Carpenter) | Fazer imagens → estúdio |
+| **pichar** | *piche* + *-ar* ← inglês *pitch* | Aplicar piche; escrever no muro; falar mal |
+| **pixaim** | Tupi *apixa'i* / *apixa* | Cabelo muito crespo; carapinha |
+
+### pichar (não “pixar”)
+
+A forma correta do verbo no português é **pichar**, com **ch**. Vem de **piche** (resina negra, do inglês *pitch*).
+
+No uso:
+
+- muro / fachada — escrever, rabiscar, protestar
+- gíria — *pichar* alguém = falar mal
+
+A grafia **pixar** (com x) para esse verbo é **erro de dicionário** — e é exatamente a grafia do estúdio. Daí a confusão clássica: “pichar ou pixar?”
+
+Na rua, **pixo** / **pixação** (com x) não é só “erro”: o movimento paulista usa o **x** de propósito para marcar identidade (escrita fechada entre pixadores), distinta da pichação genérica (ch).
+
+### pixaim
+
+**Pixaim** = carapinha; cabelo naturalmente muito crespo. Do **tupi** (*apixa'i*, *apixa* — crespo / cabeça enrugada).
+
+Mesma família visual de letras (*pixa-*), **outra raiz**. Não vem de *piche*, não vem de *pixel*, não vem do estúdio. É corpo, cabelo, presença — não muro, não tela.
+
+No REM: três sinais no mesmo ouvido. Filtrar. Se a cabeça misturar, volta à tabela.
+
+---
+
 ## Por que a palavra importa
 
 1. **É verbo disfarçado de marca** — a ação (“fazer imagens”) ficou escondida no nome próprio.
@@ -41,8 +74,9 @@ Fontes primárias: Alvy Ray Smith (site pessoal, mitos Pixar; entrevistas).
 3. **Pode unir ou engolir**:
    - união: filme que limpa o peito, lágrima útil, laço (M6)
    - engolir: só marca/Disney, binge sem presença, nostalgia que trava o agora
+4. **No BR esbarra em pichar e pixaim** — eco útil pra higiene da língua: mesma sonoridade, três histórias.
 
-Sinais são palavras. Esta palavra aponta para imagens que sentem.
+Sinais são palavras. Esta palavra aponta para imagens que sentem — e no português ainda ecoa muro e cabelo.
 
 ---
 
@@ -69,7 +103,12 @@ Sinais são palavras. Esta palavra aponta para imagens que sentem.
 - **-ar** (verbo: fazer)
 - **estúdio** (a máquina que virou casa)
 
-No REM: animar não é só mover — é lembrar o que ainda sentimos quando a tela apaga.
+No Brasil, o ouvido ainda cola:
+
+- **pichar** (piche / muro / falar mal)
+- **pixaim** (tupi / cabelo crespo)
+
+No REM: animar não é só mover — é lembrar o que ainda sentimos quando a tela apaga. E não misturar as três portas.
 
 ---
 
@@ -78,4 +117,7 @@ No REM: animar não é só mover — é lembrar o que ainda sentimos quando a te
 - Alvy Ray Smith — Pixar Myth No. 4 (“To make pictures”; Jobs não nomeou)
 - Entrevistas / podcasts com Smith — *Pixer* → *Pixar* (Carpenter, eco de radar)
 - Wikipedia (Alvy Ray Smith) — jantar ~1981; máquina → empresa 1986
+- Dicio / UOL — *pichar* ← *piche* ← inglês *pitch*; grafia correta com ch
+- Origem da Palavra / léxico — *pixaim* ← tupi *apixa'i* / *apixa* (crespo)
+- Cultura urbana — *pixo* / *pixação* (x de identidade) ≠ pichação genérica
 - Poesia do painel — [homenagem-a-pixar.html](../poemas/homenagem-a-pixar.html)
