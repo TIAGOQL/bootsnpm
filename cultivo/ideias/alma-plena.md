@@ -7,7 +7,7 @@
 
 ## Nota
 
-Empresa / projeto. Nome melhor que *Mata Alma*: vira a frase clássica para o sopro cheio. Mata e Veneno ficam como alarme, não como marca. Cabe no REM.
+Empresa / projeto. Nome melhor que *Mata Alma*: vira a frase clássica para o sopro cheio. Mata e Veneno ficam como alarme, não como marca. Cabe no REM. Há poesia homônima no painel.
 
 ## Por que importa
 
