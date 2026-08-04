@@ -7,7 +7,7 @@
 
 ## Nota
 
-Inspiração da **planta Era**. Par da [planta alma](planta-alma.md): alma = presença no peito; Era = o horizonte que o peito abre. Segura a palavra [nova era](nova-era.md) e conversa com [novo começo](novo-comeco.md) e [nova fase](nova-fase.md). Mapa: [palavras de união](palavras-uniao.md).
+Inspiração da **planta Era**. Par da [planta alma](planta-alma.md): alma = presença no peito; Era = o horizonte que o peito abre. Relação com [Eva](eva-planta-era.md) — raiz de mãe / linhagem. Segura a palavra [nova era](nova-era.md) e conversa com [novo começo](novo-comeco.md) e [nova fase](nova-fase.md). Mapa: [palavras de união](palavras-uniao.md).
 
 ## Por que importa
 

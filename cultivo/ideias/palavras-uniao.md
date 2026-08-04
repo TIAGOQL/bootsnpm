@@ -12,6 +12,7 @@ Inspiração nestas palavras — tudo aí:
 | O quê | Forma |
 | --- | --- |
 | Nome da prática | [planta alma](planta-alma.md) · [planta Era](planta-era.md) |
+| Linhagem | [Eva · planta Era](eva-planta-era.md) |
 | Peito | punho fechado no peito direito — [mapa](reverencia-antepassados-m2.md) |
 | Esquerda | antepassados |
 | Direita | irmã · a la mama |
@@ -35,7 +36,7 @@ Não é só ritual. No stack REM:
 5. **Punho erguido** — sinal social de união depois (ou junto) do peito. Corpo fala sem discurso longo.
 6. **Métrica N=1** — calma 1–5 no diário; opcional: latência pra acalmar, craving. Afirmação, não punição.
 
-**planta alma** = presença no peito (2–5). **planta Era** = nome do horizonte (nova era / fase / começo).
+**planta alma** = presença no peito (2–5). **planta Era** = nome do horizonte (nova era / fase / começo). **Eva** = raiz de linhagem ligada à Era.
 
 ## Por que importa
 
