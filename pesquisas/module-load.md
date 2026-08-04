@@ -47,7 +47,7 @@ Nada de dado pessoal N=1 passa por `Module.load`. Ver [segurança dos dados](seg
 
 ## Página
 
-[module-load.html](module-load.html)
+[module-load.html](module-load.html) · tradução palavra a palavra: [palavras-do-stack.html](palavras-do-stack.html)
 
 ## Fontes
 
