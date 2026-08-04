@@ -16,7 +16,7 @@ Inspiração nestas palavras — tudo aí:
 | Corpo / nutrição | [ervas](ervas.md) |
 | Peito | punho fechado no peito direito — [mapa](reverencia-antepassados-m2.md) |
 | Esquerda | antepassados |
-| Direita | irmã · a la mama |
+| Direita | irmã · a la mama · [mama ama tudo · vocês](mama-ama-tudo-voces.md) |
 | União falada | [é nois](e-nois.md) |
 | No lugar de “meu deus” | [Jesus mando](jesus-mando.md) · [mensagem](../../pesquisas/jesus-mando.html) |
 | Sinal erguido | [levantar a mão com punho fechado](punho-levantado.md) |
@@ -33,7 +33,7 @@ Não é só ritual. No stack REM:
 1. **M0 (higiene)** — cortar ruído pra o SEC não operar em déficit. Água · sol · peito · marca · parar.
 2. **M2 (presença)** — punho no peito + respiração = gesto interoceptivo. Pergunta aberta do mapa: muda latência pra acalmar e craving?
 3. **Lado da mão** — ancora atenção (para quem). Menos ansiedade solta; mais grounding com nome.
-4. **Palavras** — **é nois**, **Jesus mando**, **novo começo**, **nova era**, **nova fase** e a palavra curta **Era** substituem reflexos de susto ou de “já era”. Mesma boca, outro vetor: afiliação / sentido / reentrada / horizonte / etapa.
+4. **Palavras** — **é nois**, **Jesus mando**, **novo começo**, **nova era**, **nova fase**, **Era** e **mama ama tudo · vocês** substituem reflexos de susto ou de “já era”. Mesma boca, outro vetor: afiliação / sentido / reentrada / horizonte / etapa / acolhida.
 5. **Punho erguido** — sinal social de união depois (ou junto) do peito. Corpo fala sem discurso longo.
 6. **Métrica N=1** — calma 1–5 no diário; opcional: latência pra acalmar, craving. Afirmação, não punição.
 
