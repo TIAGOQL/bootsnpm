@@ -25,6 +25,7 @@ Disseram que era o mais sábio. Ele foi testar. A sabedoria era saber da própri
 - [Higiene mental](higiene-mental.html) — limpar “eu já sei”  
 - [Diário](diario-rem.html) — guardar a dúvida  
 - [Esqueceremos](esqueceremos.html) — soltar falsa certeza sem apagar o que importa  
+- [Ana Luísa](ana-luisa.html) · [Pedro](pedro.html) · [Antônio Severino](antonio-severino.html) — canteiro de nomes  
 - Página: [socrates.html](socrates.html)
 
 ## Fontes
