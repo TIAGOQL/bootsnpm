@@ -31,18 +31,20 @@ No desktop virou o botão de **cancelar / voltar um nível**.
 | [Sistema](teclas-sistema.html) (PrtScn…Break) | Freio / foto | Pause freia; Esc cancela a janela |
 | [Porta dos fundos](porta-dos-fundos.html) | Sair da cena | Esc = um nível; fundos = porta quieta |
 | [Espaço](tecla-espaco.html) | Intervalo / pausa | Esc cancela; Espaço separa |
+| [Enter](tecla-enter.html) | Confirma / avança | Esc cancela; Enter confirma |
 
 ---
 
-## Esc × Porta dos fundos × Enter
+## Esc × Espaço × Enter × Fundos
 
 | Tecla / palavra | Função |
 | --- | --- |
 | **Esc** | Sai do *modo* · cancela |
+| **Espaço** | Intervalo na linha |
+| **Enter** | Confirma · avança |
 | **Porta dos fundos** | Sai da *cena* / do excesso |
-| **Enter** | Confirma · entra |
 
-No REM: Esc = higiene de um passo. Porta dos fundos = saída quieta. Enter = ok, segue.
+No REM: Esc cancela. Espaço respira. Enter confirma o passo. Fundos liberam a cena.
 
 ---
 
@@ -58,6 +60,8 @@ No REM: Esc = higiene de um passo. Porta dos fundos = saída quieta. Enter = ok,
 
 **Esc** = Escape = sair do modo.  
 Um passo atrás. Casa continua ligada.
+
+**Frase do mapa:** Esc cancela o modo, Espaço abre o intervalo, Enter confirma o passo, Windows volta à casa, Pause freia o fluxo e a porta dos fundos libera a cena — sem desligar a vida.
 
 ---
 
