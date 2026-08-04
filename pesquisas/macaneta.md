@@ -1,6 +1,6 @@
 # Maçaneta
 
-- **Forma:** substantivo feminino
+- **Forma:** substantivo feminino (também: *maçanete* — forma pedida)
 - **Quer dizer:** peça da porta que a mão gira / puxa
 - **Tese:** fecha por mola — **colocada errada**; no REM deve **manter a porta aberta**
 
@@ -34,4 +34,5 @@ Se a função REM é **manter aberta** (conversa, ar, entrada), a mola-padrão e
 | Mola | Fecha sozinha |
 | Cunha | Segura aberta |
 | Colocada errada | Função invertida no peito |
+| Maçanete | Forma pedida — mesma peça |
 | REM | Abriu e manteve — ou só fechou? |

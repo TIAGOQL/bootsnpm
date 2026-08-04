@@ -7,7 +7,7 @@
 
 ## Nota
 
-Inspeção: a maçaneta fecha a porta por mola — colocada errada. No REM deve manter a porta aberta.
+Inspeção: maçaneta (forma pedida: maçanete). Fecha por mola — colocada errada. No REM deve manter a porta aberta.
 
 ## Por que importa
 
