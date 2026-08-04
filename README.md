@@ -34,12 +34,6 @@ npm start
 
 ## Publicação
 
-Cada push em `main` publica o site na branch `gh-pages` (Actions → Deploy GitHub Pages).
-
-**Uma vez só** (dono do repo):
-
-1. Settings → Pages  
-2. Build and deployment → Source: **Deploy from a branch**  
-3. Branch: `gh-pages` / `/ (root)` → Save  
+Settings → Pages → **Deploy from a branch** → `main` / root → Save.
 
 Site: https://tiagoql.github.io/bootsnpm/
