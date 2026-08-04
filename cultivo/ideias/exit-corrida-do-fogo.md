@@ -7,8 +7,8 @@
 
 ## Nota
 
-Exit com corrida do fogo. Saída com urgência no corpo: não negociar com a chama — correr o caminho até a porta. Caminho correto: porta dos fundos. Ponto: onde estiver um sinal verde escrito vida.
+Exit com corrida do fogo. Saída com urgência no corpo: não negociar com a chama — correr o caminho até a porta. Caminho correto: porta dos fundos. Ponto: onde estiver um sinal verde escrito vida. Fogo com vermelho com sangue: a mesma cor do alarme no corpo.
 
 ## Por que importa
 
-Nomeia o gesto de sair quando queima, sem dramatizar e sem ficar. A porta da frente nem sempre é a saída. Verde “vida” marca o chão seguro.
+Nomeia o gesto de sair quando queima, sem dramatizar e sem ficar. A porta da frente nem sempre é a saída. Verde “vida” marca o chão seguro. Vermelho avisa: ainda é fogo, ainda é sangue.
