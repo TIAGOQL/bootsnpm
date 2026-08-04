@@ -1,13 +1,13 @@
 # Mão no peito + respiração (M2)
 
-- **Estágio:** semente
+- **Estágio:** planta
 - **Módulo REM:** M2
 - **Plantada em:** 2026-08-02
-- **Próximo passo:** 10 min/dia · anotar latência para acalmar no diário
+- **Próximo passo:** punho no peito nos Sinais · anotar latência para acalmar no diário
 
 ## Nota
 
-Bater/apoiar a mão no peito como gesto consciente, não punição. Interocepção + presença.
+Batendo no peito com **punho fechado** — gesto consciente, não punição. Interocepção + presença. Forma ritual: [mapa de mãos no peito direito](reverencia-antepassados-m2.md) — esquerda: antepassados · direita: irmã / a la mama.
 
 ## Por que importa
 

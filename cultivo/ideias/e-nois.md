@@ -1,0 +1,14 @@
+# É nois
+
+- **Estágio:** planta
+- **Módulo REM:** palavra · M2
+- **Plantada em:** 2026-08-04
+- **Próximo passo:** usar com o gesto · marcar no diário se a frase fecha ou abre
+
+## Nota
+
+**É nois** — nova expressão de união. Curta, de rua, de corpo. Não explica: junta. Vai com o punho fechado no peito e com [levantar a mão com punho fechado](punho-levantado.md). Quando o reflexo for “meu deus”, usar [Jesus mando](jesus-mando.md). Vizinha de [esqueceremos](esqueceremos.md) (que pode unir ou afastar) e de [planta alma](planta-alma.md) (gesto no peito com nome). Mapa: [palavras de união](palavras-uniao.md).
+
+## Por que importa
+
+Palavra que aponta para o mesmo lado — antepassados, irmã, mama, a gente. União sem discurso longo.

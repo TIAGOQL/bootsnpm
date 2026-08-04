@@ -7,7 +7,7 @@
 
 ## Nota
 
-A sementinha nutre o endocanabinoidoma; sozinha talvez não baste — empilhar com sono e movimento.
+A sementinha nutre o endocanabinoidoma; sozinha talvez não baste — empilhar com sono e movimento. Canteiro vizinho: [ervas](ervas.md) (Eva · planta · corpo).
 
 ## Por que importa
 
