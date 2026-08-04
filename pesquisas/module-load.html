@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Inspeção: Module.load — a linha do stack do Node e o Painel REM.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Karla:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/starter.css">
+    <title>Module.load</title>
+  </head>
+  <body class="poem-page research-page">
+    <div class="rain" aria-hidden="true"></div>
+    <a class="panel-shortcut" href="../index.html">← Painel</a>
+
+    <main class="poem-shell research-shell">
+      <header class="poem-brand">
+        <p class="poem-for">inspeção técnica · Node</p>
+        <h1 class="poem-title">Module.load</h1>
+        <p class="panel-lede"><code>at Module.load (node:internal/modules/cjs/loader:…)</code> — o carregador, não o vilão.</p>
+      </header>
+
+      <img class="page-hero-photo" src="../assets/img/card-mapa.jpg" alt="Mapa — caminho que o runtime segue" width="640" height="360" loading="eager">
+
+      <article class="poem research-body" aria-label="Module.load">
+        <p><strong>O que é:</strong> linha de <em>stack trace</em> do Node.js. Quando um <code>require()</code> falha (ou um script quebra ao carregar), o runtime mostra onde estava: o carregador CommonJS em <code>node:internal/modules/cjs/loader</code>. O número (<code>1577:32</code> ou outro) é linha:coluna <em>nessa versão</em> do Node — muda entre 20 e 22.</p>
+
+        <p><strong>Ler o erro:</strong> a causa costuma estar na mensagem (<code>Cannot find module</code>, typo, path) ou nas linhas <em>acima</em> do stack (o seu arquivo). <code>Module.load</code> é o porteiro que tentou abrir a porta.</p>
+
+        <p><strong>No Painel REM:</strong> <code>npm test</code>, <code>node --check</code> e <code>npm start</code> passam pelo Node — aí essa linha pode aparecer. No navegador, Diário e Cultivo usam <code>&lt;script type="module"&gt;</code> (ESM) e <code>localStorage</code>. O visitante do GitHub Pages <strong>não</strong> executa <code>Module.load</code> CJS. O peito do N=1 não viaja por esse loader.</p>
+
+        <p><strong>Cadeia:</strong> <a href="anonymous.html">Anonymous</a> some o nome · <a href="in-time.html"><em>In Time</em></a> conta o tempo no braço · <a href="justin-timberlake.html">Timberlake</a> tem nome no cartaz · <strong>Module.load</strong> carrega pelo nome do módulo — se não achar, estoura. Rastreio por nome, de novo.</p>
+
+        <p><strong>Tradução palavra a palavra:</strong> <a href="palavras-do-stack.html">Palavras do stack</a> — at, Module, load, node, internal, modules, cjs, loader.</p>
+
+        <p class="research-note">
+          <a href="module-load.md">texto</a> ·
+          <a href="palavras-do-stack.html">tradução</a> ·
+          <a href="seguranca-dados-pessoais.html">Dados</a> ·
+          <a href="justin-timberlake.html">Timberlake</a> ·
+          <a href="in-time.html">In Time</a> ·
+          <a href="cultivo-ideias.html">Cultivo</a>
+        </p>
+      </article>
+    </main>
+  </body>
+</html>

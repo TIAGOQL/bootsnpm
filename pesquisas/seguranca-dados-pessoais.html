@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="O que é o Painel REM e onde ficam os dados — para quem chega de fora.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Karla:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/starter.css">
+    <title>Segurança dos dados pessoais</title>
+  </head>
+  <body class="poem-page research-page">
+    <div class="rain" aria-hidden="true"></div>
+    <a class="panel-shortcut" href="../index.html">← Painel</a>
+
+    <main class="poem-shell research-shell">
+      <header class="poem-brand">
+        <p class="poem-for">projeto · privacidade</p>
+        <h1 class="poem-title">Segurança dos dados pessoais</h1>
+        <p class="panel-lede">Para quem chega de fora: o que é este site, o que ele guarda e o que não sai do seu aparelho.</p>
+      </header>
+
+      <img class="page-hero-photo" src="../assets/img/card-diario.jpg" alt="Caderno — registro que fica no aparelho" width="640" height="360" loading="eager">
+
+      <article class="poem research-body" aria-label="Segurança dos dados pessoais">
+        <p><strong>O que é o Painel REM:</strong> site estático de pesquisa N=1 sobre relaxamento endocanabinoide modular (módulos M0–M8 + M4.1). Tem protocolo, diário, cultivo de ideias, música Tônus, mapa e poesias. Não é app médico, não é clínica e não é rede social.</p>
+
+        <p><strong>Sem backend:</strong> HTML/CSS/JS no GitHub Pages. Não há login, conta, banco de dados nem API que receba o seu diário. O servidor só entrega arquivos públicos do repositório.</p>
+
+        <p><strong>O que fica só no seu aparelho</strong> (<code>localStorage</code> do navegador):</p>
+        <ul>
+          <li><strong>Diário REM</strong> (<code>rem-diario-v1</code>) — marcas do dia, módulos, notas N=1</li>
+          <li><strong>Cultivo local</strong> (<code>rem-cultivo-v1</code>) — ideias plantadas neste navegador</li>
+          <li><strong>Volume da música</strong> (<code>rem-music-volume</code>) — preferência de áudio</li>
+        </ul>
+        <p>Isso não sobe para o GitHub, não vai para a nuvem do projeto e não é lido por ninguém além do seu navegador neste dispositivo.</p>
+
+        <p><strong>O que é público (Git / Pages):</strong> páginas de pesquisa, mapa REM, poesias, ideias permanentes em <code>cultivo/ideias/*.md</code>, imagens e scripts. Quem clonar o repo ou abrir o site vê o mesmo conteúdo estático. Não misture nota íntima do diário com commit no Git.</p>
+
+        <p><strong>Backup:</strong> no Diário, use <em>Exportar JSON</em>. Sem export, limpar o site, trocar de celular ou apagar dados do navegador = histórico some. A responsabilidade do backup é sua.</p>
+
+        <p><strong>Lente Simplificamais:</strong> a Política de Privacidade da Simplifica+ (nov/2025) fala em medidas técnicas e organizacionais, integridade, confidencialidade e aviso em prazo legal se houver violação de alto impacto. Aqui o desenho é outro: <em>não coletar</em> o dado pessoal N=1 no servidor. Menos superfície de vazamento porque o peito e o dia a dia não viajam.</p>
+
+        <p><strong>Papéis (para quem lê LGPD):</strong> no modelo Simplificamais, controladora decide o tratamento; operadora trata em nome de outrem; titular é a pessoa dos dados. No Painel REM, <em>você</em> é titular e quem decide o que marca no diário — o projeto não opera esse registro em nuvem.</p>
+
+        <p><strong>Mapa rápido do projeto:</strong></p>
+        <ul>
+          <li><a href="../index.html">Painel</a> — porta de entrada</li>
+          <li><a href="protocolo-n1.html">Protocolo N=1</a> · <a href="diario-rem.html">Diário</a> · <a href="musica-tonus.html">Tônus</a></li>
+          <li><a href="cultivo-ideias.html">Cultivo</a> — local + ideias no Git</li>
+          <li><a href="relaxamento-endocanabinoide.html">Mapa REM</a> · <a href="higiene-mental.html">M0</a> · <a href="sinais.html">Sinais</a></li>
+        </ul>
+
+        <p class="research-note">
+          <a href="seguranca-dados-pessoais.md">texto</a> ·
+          <a href="diario-rem.html">Diário</a> ·
+          <a href="cultivo-ideias.html">Cultivo</a> ·
+          <a href="../README.md">README</a> ·
+          <a href="anonymous.html">Anonymous</a> ·
+          <a href="https://materiais.simplificamais.com.br/resources/SIMPLIFICAMAIS-POLITICA-DE-PRIVACIDADE.pdf">PDF Simplificamais</a>
+        </p>
+      </article>
+    </main>
+  </body>
+</html>
