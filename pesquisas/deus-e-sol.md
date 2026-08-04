@@ -26,7 +26,7 @@ Relacionar sem fundir.
 
 ## Frase da ponte
 
-[filho do sol](filho-do-sol.html) — junta *filho* e *sol* sem ser Filho de Deus.
+[filhodosol](filhodosol.html) — junta *filho* e *sol* sem ser Filho de Deus.
 
 ## Páginas
 

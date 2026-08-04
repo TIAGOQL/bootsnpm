@@ -26,7 +26,7 @@ npm start
 | Cultivo (Git) | `cultivo/ideias/` |
 | Poesias | `poemas/` |
 | Dados / privacidade | `pesquisas/seguranca-dados-pessoais.html` + `.md` |
-| Peito / luz | `pesquisas/cadeia-peito-luz.html` · `faca-seu-melhor.html` |
+| Peito / luz | `pesquisas/cadeia-peito-luz.html` · `filhodosol.html` |
 
 ## Dados pessoais (para quem chega de fora)
 
