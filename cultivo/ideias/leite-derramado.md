@@ -7,7 +7,7 @@
 
 ## Nota
 
-Nunca é tarde. Estou muito feliz. Não adianta chorar pelo leite derramado.
+Nunca é tarde. Estou muito feliz. Não adianta chorar pelo leite derramado. Reentrada: [novo começo](novo-comeco.md).
 
 ## Por que importa
 
