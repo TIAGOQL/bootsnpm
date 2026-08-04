@@ -51,6 +51,7 @@ Se usar na comida (1 colher rasa, fria ou morna):
 | [Endocanabinoidoma](endocanabinoidoma.html) | Bairro: dieta e lipídios |
 | [M5 Intestino](relaxamento-endocanabinoide.html#m5) | TCM × gut — pista aberta |
 | [Diário REM](diario-rem.html) | Marcar o que mudou |
+| [Chá · coco · cannabis](cha-coco-cannabis.html) | Mesmo veículo em bebida — pesquisa M8 em aberto |
 | Página | [oleo-de-coco.html](oleo-de-coco.html) |
 | Cultivo | [cultivo/ideias/oleo-de-coco.md](../cultivo/ideias/oleo-de-coco.md) |
 
