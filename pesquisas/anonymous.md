@@ -30,6 +30,7 @@ Frase conhecida: *We are Anonymous. We are Legion… Expect us.*
 - Perto de [segurança dos dados](seguranca-dados-pessoais.html) — o que fica público vs o que fica no aparelho.  
 - Perto de [esqueceremos](esqueceremos.html) — nome que some, rastro que fica.  
 - Perto de [higiene mental](higiene-mental.html) — não confundir mito de legião com cuidado real do N=1.  
+- Perto de [*In Time*](in-time.html) (Timberlake, 2011) — o regime conta o tempo no braço; Anonymous some o rosto. Rastreio vs anonimato.  
 - O diário REM **não** sobe para nuvem do projeto. Anonimato aqui = desenho técnico, não manifesto.
 
 ## Fontes

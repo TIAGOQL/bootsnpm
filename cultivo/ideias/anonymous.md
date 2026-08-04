@@ -7,7 +7,7 @@
 
 ## Nota
 
-Coletivo descentralizado (a partir de ~2003, 4chan). Hacktivismo: protesto digital sem chefe único. Máscara Guy Fawkes. Não é empresa nem clube com carteirinha. No Painel REM: inspeção de ideia — privacidade, legião, “ninguém” — sem tutorial de ataque.
+Coletivo descentralizado (a partir de ~2003, 4chan). Hacktivismo: protesto digital sem chefe único. Máscara Guy Fawkes. Liga a *In Time* (Timberlake): um some o nome; o filme conta o tempo no braço. No Painel REM: inspeção — privacidade, legião, contador — sem tutorial de ataque.
 
 ## Por que importa
 
