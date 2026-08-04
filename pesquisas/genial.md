@@ -54,7 +54,7 @@ Sinais são palavras. Esta quase sempre chega como união — mas pode virar pre
 | **Ruim** | Inflação de ego, clichê do “gênio”, cobrar brilho o tempo todo |
 | **Confusão** | Misturar **genial** (adjetivo / sinal) com **gênio** (rótulo de pessoa) |
 
-No REM: quando a cabeça pesa, **genial** pode ser só um gole de reconhecimento — não um pedido de performance.
+No REM: quando a cabeça pesa, **genial** pode ser só um gole de reconhecimento — não um pedido de brilho forçado.
 
 ---
 

@@ -3,7 +3,7 @@
 - **Estágio:** semente
 - **Módulo REM:** palavra · M0
 - **Plantada em:** 2026-08-04
-- **Próximo passo:** quando cravar milagre externo — reler: jinn ≠ genius; lâmpada ≠ tônus
+- **Próximo passo:** quando cravar milagre de fora — reler: jinn ≠ genius; lâmpada ≠ tônus
 
 ## Nota
 

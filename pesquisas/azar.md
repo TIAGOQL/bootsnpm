@@ -41,7 +41,7 @@ A flor era neutra. O português escureceu o sentido. Dá para lembrar a flor sem
 1. **É dado, não destino** — acaso ≠ maldição colada na pessoa.
 2. **Pode unir** — “tivemos azar” compartilha o contratempo sem culpa.
 3. **Pode afastar** — “você dá azar” vira superstição e afasta vínculo (M6).
-4. **No REM** — M0 limpa a história de “sou azarado”; o diário marca o fato, não a urucubaca; [desejo](desejo.html) do coração ≠ pedido à flor do dado.
+4. **No REM** — M0 limpa a história de “sou azarado”; o diário marca o fato, não a superstição; [desejo](desejo.html) do coração ≠ pedido à flor do dado.
 
 Sinais são palavras. **Azar** pode ser ombro leve ou rótulo pesado.
 

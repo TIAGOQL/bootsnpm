@@ -48,7 +48,7 @@ Disney popularizou o gênio azul e os **três desejos**. Útil como metáfora; n
 ## Por que importa no REM
 
 1. **Poder ≠ sabedoria** — desejo atendido sem higiene vira peso.
-2. **Tônus endógeno** — a meta do painel é o que o corpo produz; a lâmpada é o atalho externo (fumaça, milagre, outro que “resolve”).
+2. **Tônus endógeno** — a meta do painel é o que o corpo produz; a lâmpada é o atalho de fora (fumaça, milagre, outro que “resolve”).
 3. **Nome** — Aladim = nobreza da fé; Tiago / [genial](genial.html) / [`<tititi>`](tititi.html) = reconhecimento sem virar gênio-de-lâmpada.
 4. **Sócrates** — “sei que nada sei” freia o desejo de três respostas prontas.
 
@@ -59,7 +59,7 @@ Disney popularizou o gênio azul e os **três desejos**. Útil como metáfora; n
 | Lado | Leitura |
 | --- | --- |
 | **Bom** | Imaginação, saída da caverna, pedir ajuda clara |
-| **Ruim** | Terceirizar a vida; mago falso; craving de milagre |
+| **Ruim** | Modificar a vida pela lâmpada; mago falso; craving de milagre |
 | **Filtro REM** | Esfregar a lâmpada do diário (marcar) — não a da fumaça |
 
 ---
@@ -72,7 +72,7 @@ Disney popularizou o gênio azul e os **três desejos**. Útil como metáfora; n
 | [Tititi](tititi.html) | Assinatura do nome — sem magia de fofoca |
 | [Sócrates](socrates.html) | Freio do “já sei / já desejo / já resolvido” |
 | [Higiene mental (M0)](higiene-mental.html) | Limpar o desejo que só atrapalha |
-| [Mapa REM](relaxamento-endocanabinoide.html) | Tônus endógeno > atalho externo |
+| [Mapa REM](relaxamento-endocanabinoide.html) | Tônus endógeno > atalho de fora |
 | Cultivo | [cultivo/ideias/aladim.md](../cultivo/ideias/aladim.md) |
 
 ---
