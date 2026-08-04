@@ -72,6 +72,7 @@ Sem biografia inventada. Só o que a faixa carrega no ouvido.
 
 | Onde | Relação |
 | --- | --- |
+| [Love Street](love-street.html) | Rua do amor — mesma voz, endereço |
 | [Adorar](adorar.html) | Volume; aqui com prazo |
 | [S2](s2.html) | Coração curto; aqui pede dobro |
 | [Higiene mental (M0)](higiene-mental.html) | Ouvir sem mito |
