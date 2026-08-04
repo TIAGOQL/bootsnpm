@@ -33,4 +33,4 @@ O agente cria o `.md` em `cultivo/ideias/` e, se pedir, liga ao REM.
 | Semente de nutrição / corpo | M4, M4.1 Sementinha, M5 |
 | Semente de presença / peito | M2, M6 |
 | Semente de parar / sonhos | M3, M7 |
-| Semente de palavra / mapa | endocanabinoidoma, esqueceremos, mapa REM |
+| Semente de palavra / mapa | endocanabinoidoma, esqueceremos, rs, mapa REM |
