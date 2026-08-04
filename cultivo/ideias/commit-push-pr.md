@@ -3,12 +3,12 @@
 - **Estágio:** semente
 - **Módulo REM:** palavra · cultivo
 - **Plantada em:** 2026-08-04
-- **Próximo passo:** quando for fechar uma mudança — commit, depois push, depois PR; um de cada vez
+- **Próximo passo:** fechar mudança = branch → add → commit → push → PR → merge → main → deploy; um de cada vez
 
 ## Nota
 
-Commit = gravar. Push = enviar. PR = pedir revisão pra main. Três passos do Git; no REM, espelham diário local × cultivo no repositório.
+Núcleo: commit = gravar, push = enviar, PR = pedir revisão. Família: branch, add, pull, merge, main, deploy, draft, origin. No REM: diário local × cultivo no Git × painel no ar (Pages).
 
 ## Por que importa
 
-Separar gravar, enviar e pedir entrada — sem misturar os gestos.
+Separar os gestos do ciclo Git — sem misturar gravar, enviar, juntar e publicar.

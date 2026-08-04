@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Inspeção: commit, push, PR — gravar, enviar, pedir revisão. Fluxo Git no painel REM.">
+    <meta name="description" content="Inspeção: commit, push, PR e a família — branch, merge, main, pull, deploy. Fluxo Git no painel REM.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Karla:wght@400;500&display=swap" rel="stylesheet">
@@ -17,40 +17,101 @@
 
     <main class="poem-shell research-shell">
       <header class="poem-brand">
-        <p class="poem-for">inspeção de palavras</p>
+        <p class="poem-for">inspeção de palavras · família Git</p>
         <h1 class="poem-title">Commit · push · PR</h1>
-        <p class="panel-lede">Gravar · enviar · pedir revisão. Três passos. Sem misturar.</p>
+        <p class="panel-lede">Gravar · enviar · pedir revisão. Depois: merge · main · deploy. Ordem importa.</p>
       </header>
 
       <img class="page-hero-photo" src="../assets/img/card-protocolo.jpg" alt="Caminho — um passo depois do outro" width="640" height="360" loading="eager">
 
       <article class="poem research-body" aria-label="Commit push PR">
-        <p><strong>Forma:</strong> três termos de Git / GitHub<br>
-        <strong>Quer dizer:</strong> fechar o ciclo de uma mudança<br>
-        <strong>Ordem:</strong> commit → push → PR · <strong>Não pule:</strong> PR sem push não existe</p>
+        <p><strong>Forma:</strong> três gestos do meio do fluxo Git / GitHub<br>
+        <strong>Quer dizer:</strong> fechar o ciclo de uma mudança até pedir entrada<br>
+        <strong>Ordem curta:</strong> commit → push → PR<br>
+        <strong>Ordem completa:</strong> branch → add → commit → push → PR → merge → main → deploy</p>
 
-        <p><strong>Origem:</strong> inglês técnico. <em>Commit</em> — comprometer, entregar. <em>Push</em> — empurrar. <em>PR</em> = <em>Pull Request</em> — pedido de puxar (juntar) o seu trabalho na linha principal.</p>
+        <p><strong>Origem:</strong> inglês técnico. <em>Commit</em> — entregar, confiar. <em>Push</em> — empurrar. <em>PR</em> = <em>Pull Request</em> — pedido de puxar o seu trabalho pra linha principal. <em>Pull</em> é o inverso do push: trazer o remoto pra você.</p>
 
-        <p><strong>Por que importa no REM:</strong> o Diário grava no aparelho; o cultivo permanente grava no Git. Commit é marcar o momento. Push é não deixar só no notebook. PR é abrir a porta sem forçar a entrada — alguém (ou você) revisa antes da <code>main</code>. Vizinho: <a href="diario-rem.html">Diário</a> (Salvar / Exportar) e <a href="cultivo-ideias.html">Cultivo</a> (local × repositório).</p>
+        <p><strong>Por que importa no REM:</strong> o Diário grava no aparelho; o cultivo permanente grava no Git. Commit marca o momento. Push tira do notebook. PR abre a porta sem arrombar. Merge junta. Deploy (Pages em <code>main</code>) torna visível. LocalStorage do diário <em>não</em> vai no deploy. Vizinho: <a href="diario-rem.html">Diário</a>, <a href="cultivo-ideias.html">Cultivo</a>, <a href="higiene-mental.html">M0</a>.</p>
 
-        <section class="glossario" aria-label="Três passos">
-          <h2>Três passos</h2>
+        <section class="glossario" aria-label="Três gestos do meio">
+          <h2>Três gestos (o núcleo)</h2>
           <dl class="gloss-list">
             <div>
               <dt>Commit</dt>
-              <dd>Grava a mudança com uma mensagem. Fica na sua branch. Como “Salvar” com histórico.</dd>
+              <dd>Grava a mudança com mensagem. Fica na sua branch. Como “Salvar” com histórico.</dd>
             </div>
             <div>
               <dt>Push</dt>
-              <dd>Envia a branch pro GitHub. Sem push, ninguém vê. Sem push, não tem PR.</dd>
+              <dd>Envia a branch pro GitHub (<code>origin</code>). Sem push, ninguém vê. Sem push, não tem PR.</dd>
             </div>
             <div>
               <dt>PR</dt>
-              <dd>Pull Request: “pode misturar isto na main?”. Revisão antes do site oficial.</dd>
+              <dd>Pull Request: “pode misturar isto na main?”. Revisão antes do site oficial. Draft = ainda rascunho.</dd>
             </div>
             <div>
               <dt>Regra</dt>
-              <dd>Um passo de cada vez. Commit não é push. Push não é merge.</dd>
+              <dd>Um passo de cada vez. Commit ≠ push ≠ merge ≠ deploy.</dd>
+            </div>
+          </dl>
+        </section>
+
+        <section class="glossario" aria-label="Família Git">
+          <h2>Família (o que faltava)</h2>
+          <dl class="gloss-list">
+            <div>
+              <dt>Branch</dt>
+              <dd>Trilho paralelo. Você trabalha fora da <code>main</code> pra não quebrar o painel no ar.</dd>
+            </div>
+            <div>
+              <dt>Add</dt>
+              <dd>Escolhe o que entra no próximo commit (<code>git add</code>). Sem add, commit vazio de intenção.</dd>
+            </div>
+            <div>
+              <dt>Pull</dt>
+              <dd>Puxar o remoto pra você. PR = <em>pedido</em> de pull da sua branch pra main.</dd>
+            </div>
+            <div>
+              <dt>Merge</dt>
+              <dd>Juntar de verdade. Depois do PR aprovado: a branch entra na <code>main</code>.</dd>
+            </div>
+            <div>
+              <dt>Main</dt>
+              <dd>Linha oficial. Aqui o site público nasce. Deploy só depois do merge nela.</dd>
+            </div>
+            <div>
+              <dt>Deploy</dt>
+              <dd>Desdobrar no ar. Neste repo: Actions (<code>pages.yml</code>) publica o Pages a partir de <code>main</code>. Uma vez: Settings → Pages → Source: <strong>GitHub Actions</strong>.</dd>
+            </div>
+            <div>
+              <dt>Origin / remoto</dt>
+              <dd>O GitHub. Push vai pra lá; pull vem de lá.</dd>
+            </div>
+            <div>
+              <dt>Draft</dt>
+              <dd>PR ainda em rascunho — campainha, mas “não misture ainda”.</dd>
+            </div>
+          </dl>
+        </section>
+
+        <section class="glossario" aria-label="Mapa do ciclo">
+          <h2>Mapa do ciclo</h2>
+          <dl class="gloss-list">
+            <div>
+              <dt>Antes</dt>
+              <dd>Branch + add — escolher o trilho e o que entra.</dd>
+            </div>
+            <div>
+              <dt>Meio</dt>
+              <dd>Commit → push → PR — gravar, enviar, pedir.</dd>
+            </div>
+            <div>
+              <dt>Depois</dt>
+              <dd>Merge → main → deploy — juntar, oficializar, publicar.</dd>
+            </div>
+            <div>
+              <dt>Eco REM</dt>
+              <dd>Diário = commit local. Exportar / cultivo no Git = push. Painel no ar = deploy. Sem misturar os gestos quando a cabeça pesou.</dd>
             </div>
           </dl>
         </section>
@@ -59,6 +120,7 @@
           Texto completo: <a href="commit-push-pr.md">commit-push-pr.md</a> ·
           <a href="diario-rem.html">Diário</a> ·
           <a href="cultivo-ideias.html">Cultivo</a> ·
+          <a href="protocolo-n1.html">Protocolo</a> ·
           <a href="higiene-mental.html">Higiene mental</a> ·
           <a href="sinais.html">Sinais</a>
         </p>
