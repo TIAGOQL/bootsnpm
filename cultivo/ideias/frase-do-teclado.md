@@ -1,9 +1,9 @@
 # Frase do teclado
 
-- **Estágio:** colheita
-- **Módulo REM:** tecla · M0 · sinais
+- **Estágio:** broto
+- **Módulo REM:** tecla · M0 · sinais · N=1
 - **Plantada em:** 2026-08-04
-- **Próximo passo:** reler quando o modo travar — Esc · Espaço · Enter · fundos
+- **Próximo passo:** 10 dias — cada dia um toque mental (Esc / Espaço / Enter / fundos) e uma linha no diário
 
 ## Nota
 
@@ -11,4 +11,11 @@ Esc cancela o modo, Espaço abre o intervalo, Enter confirma o passo, Windows vo
 
 ## Por que importa
 
-Uma linha pra lembrar o mapa das teclas sem abrir tudo.
+Uma linha pra lembrar o mapa. Em 10 dias: ver se o corpo aprende o gesto.
+
+## Protocolo curto (10 dias)
+
+1. Manhã ou quando pesar: reler a frase  
+2. Escolher **uma** tecla do dia  
+3. Uma linha no [Diário](../../pesquisas/diario-rem.html)  
+4. Dia 10: reler as 10 linhas — o que colou?
