@@ -70,12 +70,28 @@ No painel, importa sobretudo a terceira: um sinal curto de que a conversa serviu
 
 ---
 
+## Relação com o nome Tiago
+
+O *genius* romano era o espírito tutelar **da pessoa nomeada** — desde o nascimento.  
+**Tiago** é o nome deste painel (autor TIAGOQL): vem de Santiago (*Sanctus Iacobus*), raiz hebraica *Yaʿakov* (Jacó) — “quem segura o calcanhar”.
+
+| Peça | Papel |
+| --- | --- |
+| **Genial** | Adjetivo do encaixe — “serviu” |
+| **Tiago** | Nome próprio — quem recebe e devolve o sinal |
+| **[`<tititi>`](tititi.html)** | Eco sonoro **Ti·Ti·Ti** — inversão do tititi-fofoca / cobra-ruim |
+
+Genial não batiza Tiago de gênio. Só diz: o reconhecimento cabe no nome sem inflar.
+
+---
+
 ## Ligação com o Painel REM
 
 | Onde | Relação |
 | --- | --- |
 | [Sinais](sinais.html) | Palavra-curta = sinal; esta costuma unir |
 | [Higiene mental (M0)](higiene-mental.html) | Receber o “genial” sem virar cobrança de brilho |
+| [Tititi](tititi.html) | Assinatura sonora do nome — fofoca invertida |
 | [Esqueceremos](esqueceremos.html) | Outra inspeção de palavra no mesmo canteiro |
 | [Sócrates](socrates.html) | “Sei que nada sei” freia o mito do gênio |
 | Página no painel | [genial.html](genial.html) |
@@ -89,3 +105,4 @@ No painel, importa sobretudo a terceira: um sinal curto de que a conversa serviu
 - Ciberdúvidas — uso e desgaste da palavra *génio*
 - Dicio — acepções de *gênio* / família léxica
 - Wikcionário — *gênio*, *genius*, latim *gigno*
+- Onomástica de Tiago — *Yaʿakov* → *Iacobus* → Santiago → Tiago
