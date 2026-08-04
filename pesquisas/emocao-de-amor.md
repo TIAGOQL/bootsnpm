@@ -2,16 +2,16 @@
 
 - **Forma:** sintagma (*emoção* + *de amor*); atalho: emo de amor
 - **Quer dizer:** sentimento amoroso em movimento — calor, desejo, aperto, alegria, medo de perder
-- **Vizinho:** [demônio](demonio.html) / daímon
+- **Vizinho:** [amor](amor.html) · [mamor](mamor.html)
 
 ## Origem curta
 
-*Emoção* ← latim *emovere* (mover para fora). Amor move. Sem higiene, o peito sente posse — ponte com demônio.
+*Emoção* ← latim *emovere* (mover para fora). Amor move. Quando move demais e cola, vira mamor.
 
-## Relação com demônio
+## Relação com mamor
 
-- Saudável ≈ *daímon* (impulso verdadeiro)
-- Sem dose ≈ demônio (cobrança, craving, drama)
+- Emoção = o tremor
+- Mamor = quando o tremor gruda (*m* + amor)
 - Pergunta REM: com que tônus?
 
 ## No REM
@@ -25,6 +25,6 @@
 | Lado | Leitura |
 | --- | --- |
 | Calor | Presença, cuidado, espaço |
-| Queima | Posse, ciúme, tudo-ou-nada |
+| Queima | Posse, ciúme — mamor sem dose |
 | Emo | Atalho: nomear sem vergonha |
 | REM | Dose ou incêndio hoje? |

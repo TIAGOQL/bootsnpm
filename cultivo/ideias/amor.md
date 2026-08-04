@@ -7,7 +7,7 @@
 
 ## Nota
 
-Palavra-mãe do canteiro: amor → emoção de amor → demônio/daímon (quando a dose some ou quando o impulso é vivo).
+Palavra-mãe do canteiro: amor → emoção de amor → mamor (quando o laço cola).
 
 ## Por que importa
 

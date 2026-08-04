@@ -2,7 +2,7 @@
 
 - **Forma:** substantivo masculino
 - **Quer dizer:** afeição profunda; querer o bem; laço (também paixão, caridade, gosto forte)
-- **Filhos no canteiro:** [emoção de amor](emocao-de-amor.html) · [demônio](demonio.html) / daímon
+- **Filhos no canteiro:** [emoção de amor](emocao-de-amor.html) · [mamor](mamor.html)
 - **Antônimo útil:** indiferença · ódio · abandono frio
 
 ## Origem
@@ -13,7 +13,7 @@ Latim *amor*, de *amare* — amar. Apego e movimento em direção ao outro (ou a
 
 1. **Amor** — o laço / a palavra-mãe
 2. **Emoção de amor** — o calor em movimento (emo de amor)
-3. **Demônio** — voltagem sem higiene (posse); ou *daímon* quando o impulso é vivo
+3. **Mamor** — *m* + amor: o laço quando cola (doce ou sede)
 
 ## No REM
 
@@ -26,5 +26,5 @@ Latim *amor*, de *amare* — amar. Apego e movimento em direção ao outro (ou a
 | --- | --- |
 | Cuidado | Querer o bem com espaço |
 | Sede | Agarrar, cobrar, sumir de si |
-| Palavra-mãe | Amor nomeia; emoção treme; demônio excede |
+| Palavra-mãe | Amor nomeia; emoção treme; mamor aperta |
 | REM | Cabia na mão — ou pediu muro? |

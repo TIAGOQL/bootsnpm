@@ -7,7 +7,7 @@
 
 ## Nota
 
-Emo de amor: voltagem no peito. Vizinha do demônio quando a dose some.
+Emo de amor: voltagem no peito. Vizinha do mamor quando o laço cola.
 
 ## Por que importa
 
