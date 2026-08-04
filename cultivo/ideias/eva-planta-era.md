@@ -7,7 +7,7 @@
 
 ## Nota
 
-**Relação com Eva.** Eva = raiz de mãe na linhagem; [planta Era](planta-era.md) = horizonte que essa linhagem abre. Ecoa **a la mama** e os antepassados no [mapa de mãos](reverencia-antepassados-m2.md). Eco de som e cultivo: [ervas](ervas.md). Não compete com [Jesus mando](jesus-mando.md) — conversa: origem e presença. Mapa: [palavras de união](palavras-uniao.md).
+**Relação com Eva.** Eva = raiz de mãe na linhagem; [planta Era](planta-era.md) = horizonte que essa linhagem abre. Ecoa **a la mama** e os antepassados no [mapa de mãos](reverencia-antepassados-m2.md). Frase viva: [mama ama tudo · vocês](mama-ama-tudo-voces.md). Eco de som e cultivo: [ervas](ervas.md). Não compete com [Jesus mando](jesus-mando.md) — conversa: origem e presença. Mapa: [palavras de união](palavras-uniao.md).
 
 ## Significação lógica (REM)
 
