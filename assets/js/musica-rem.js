@@ -1,5 +1,5 @@
 /**
- * Tônus — ambient generative bed for REM research.
+ * Sentido — ambient generative bed for REM research.
  * Soft drone + breath-paced pulse + light mist noise. Web Audio only.
  */
 
@@ -25,7 +25,7 @@ function setPlaying(isPlaying) {
     btn.setAttribute("aria-pressed", String(isPlaying));
   }
   if (status) {
-    status.textContent = isPlaying ? "Tocando · tônus baixo e constante" : "Parado · pronto quando você estiver";
+    status.textContent = isPlaying ? "Tocando · sentido baixo e constante" : "Parado · pronto quando você estiver";
   }
   document.body.classList.toggle("is-music-playing", isPlaying);
 }
