@@ -22,6 +22,7 @@ Não é gíria técnica. É expressão carregada: fé, identidade, afeto, às ve
 - [Diário](diario-rem.html) — marcar o que a expressão fez no peito (abrigo ou aperto).  
 - [Esqueceremos](esqueceremos.html) — soltar peso falso sem apagar o que importa.  
 - [Peito / respiração](../cultivo/ideias/peito-e-respiracao-m2.md) — se a frase apertar o peito, voltar ao ar.  
+- Ponte: [Deus e Sol](deus-e-sol.html) — sagrado ↔ luz no rosto, sem fundir  
 - Página: [filho-de-deus.html](filho-de-deus.html)
 
 ## Cuidado

@@ -7,7 +7,7 @@
 
 ## Nota
 
-Palavra inglesa **Sun** = **sol**. Astro, luz, dia. No REM já mora em Sinais e higiene (sol no rosto). Não é therapy pesada — é luz sem cobrança.
+Palavra inglesa **Sun** = **sol**. Astro, luz, dia. Ponte com Deus: [deus-e-sol](../../pesquisas/deus-e-sol.md). No REM já mora em Sinais e higiene (sol no rosto). Luz sem cobrança — sem batizar o sol.
 
 ## Por que importa
 

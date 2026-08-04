@@ -7,7 +7,7 @@
 
 ## Nota
 
-Expressão: filho de Deus. Em cristão clássico aponta a Jesus; em sentido largo, também dignidade / vínculo com o sagrado. No REM: palavra de peito — pode abrigar ou apertar. Filtrar no corpo, não só na doutrina.
+Expressão: filho de Deus. Em cristão clássico aponta a Jesus; em sentido largo, também dignidade / vínculo com o sagrado. Ponte com o Sol: [deus-e-sol](../../pesquisas/deus-e-sol.md) — peito e luz conversam, não se fundem. No REM: filtrar no corpo.
 
 ## Por que importa
 

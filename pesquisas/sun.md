@@ -22,6 +22,7 @@ Inspeção de palavra. 2026-08-04.
 - [Higiene mental](higiene-mental.html) — sol/luz no protocolo-base  
 - Cultivo: [sol-no-rosto-m0](../cultivo/ideias/sol-no-rosto-m0.md)  
 - [Diário](diario-rem.html) — marcar se a luz mudou o tônus  
+- Ponte: [Deus e Sol](deus-e-sol.html)  
 - Página: [sun.html](sun.html)
 
 ## Fontes
