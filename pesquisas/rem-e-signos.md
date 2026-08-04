@@ -69,6 +69,7 @@ Por isso o REM inspeciona signos: para o mapa não virar feitiço.
 
 | Onde | Relação |
 | --- | --- |
+| [Signos · caracteres · teclado](signos-caracteres-teclado.html) | Inspeção das palavras tecla / caractere / sinal |
 | [Sinais](sinais.html) | Camada gesto (M0) |
 | [M e \*](letra-m-asterisco.html) | Inspeção M / asterisco |
 | [Mapa REM](relaxamento-endocanabinoide.html) | Onde os códigos M vivem |
