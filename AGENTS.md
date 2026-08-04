@@ -21,7 +21,7 @@ CI uses **Node 20** (`.github/workflows/ci.yml`). Any recent Node that can run `
 
 - `npm start` pulls `serve` via `npx --yes`; first start needs network.
 - Client data for Diário REM / cultivo lives in **browser `localStorage`** only — not on the server.
-- GitHub Pages deploy is via Actions on `main` (`.github/workflows/pages.yml`). One-time: Settings → Pages → Source: **GitHub Actions** (see README).
+- GitHub Pages: Settings → Pages → **Deploy from a branch** → `main` / root (see README). Sem workflow de deploy.
 
 ### Hello-world check
 

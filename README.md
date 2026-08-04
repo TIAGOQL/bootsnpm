@@ -34,7 +34,6 @@ npm start
 
 ## Publicação
 
-Deploy via GitHub Actions em `main`.
+Settings → Pages → **Deploy from a branch** → `main` / root → Save.
 
-**Uma vez só:** Settings → Pages → Source: **GitHub Actions**.  
-Sem isso o workflow de Pages falha (token sem permissão de criar o site).
+Site: https://tiagoql.github.io/bootsnpm/
