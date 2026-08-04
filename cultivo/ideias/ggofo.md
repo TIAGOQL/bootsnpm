@@ -1,14 +1,14 @@
 # GGofo
 
 - **Estágio:** semente
-- **Módulo REM:** palavra · M0 · M6
+- **Módulo REM:** palavra · M0 · M6 · GOOD
 - **Plantada em:** 2026-08-04
-- **Próximo passo:** uma linha — parece / é / tem gosto · aquece ou dispensa?
+- **Próximo passo:** uma linha — parece / é / tem gosto · aquece ou dispensa? · cruzar com GOOD
 
 ## Nota
 
-Token: GG + fofo. Bom = carinho miúdo / respeito de partida. Ruim = apelido oco. Não confundir com ES *gofo*. Sem biografia inventada.
+Token: GG (*good game* → GOOD) + fofo. Bom = carinho miúdo / respeito. Ruim = apelido oco. Não confundir com ES *gofo*. Sem biografia inventada. Ver também cultivo/ideias/good.md.
 
 ## Por que importa
 
-O tom do apelido também é sinal — o diário filtra.
+Sem GOOD, GG é só letra. O tom do apelido também é sinal — o diário filtra.

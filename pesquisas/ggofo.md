@@ -11,7 +11,7 @@ Data: 2026-08-04.
 
 Quebra: **GG** + **fofo**.
 
-Vizinhos: fofinho · ok · valeu · carinho · handle · M6.
+Vizinhos: [GOOD](good.html) · fofinho · ok · valeu · carinho · handle · M6.
 
 ---
 
@@ -19,6 +19,7 @@ Vizinhos: fofinho · ok · valeu · carinho · handle · M6.
 
 ### GG
 No jogo: *good game* — fechar a partida com respeito.  
+O **[GOOD](good.html)** é a raiz do julgamento: “foi bom” / “respeito” / “acabou bem o bastante”.  
 Também: iniciais, ênfase de chat, ou “partida encerrada”.
 
 ### fofo
@@ -28,6 +29,18 @@ Dicionário (ES/PT): blando, de pouca firmeza.
 ### Não confundir
 Espanhol *gofo* (RAE: necio, ignorante, grosero; do italiano *goffo*) **não** é a mesma palavra que *fofo*.  
 *GGofo* cola GG no fofo — não importa o insulto espanhol.
+
+---
+
+## Relação com GOOD
+
+| Peça | Papel |
+| --- | --- |
+| **[GOOD](good.html)** | valor / “foi bom o bastante” |
+| **GG** | abreviação que carrega GOOD |
+| **fofo** | maciez que cola depois |
+
+Sem GOOD, GG é só letra. Com GOOD, o token = valor + carinho (ou verniz + apelido oco).
 
 ---
 
@@ -75,6 +88,7 @@ Espelho prático: **firmeza** / nome próprio limpo.
 
 | Onde | Relação |
 | --- | --- |
+| [GOOD](good.html) | Raiz do GG — *good game* |
 | [Higiene mental (M0)](higiene-mental.html) | Ouvir sem consertar |
 | [Diário REM](diario-rem.html) | Parece / é / tem gosto |
 | [Sinais](sinais.html) | Quando o tom aperta |
@@ -88,6 +102,7 @@ Espelho prático: **firmeza** / nome próprio limpo.
 ## Fontes consultadas
 
 - Uso gamer de *GG* (*good game*)  
+- Inspeção irmã: [GOOD](good.html)  
 - PT *fofo* / carinho *fofinho*  
 - RAE *gofo* — contraste (não confundir)  
 - Método REM: dois lados · sem biografia inventada · sem poema imposto
