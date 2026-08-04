@@ -22,7 +22,7 @@ Inspeção de palavra + tradução. 2026-08-04.
 | sentido clínico | *mentally ill* (com cuidado) · termos clínicos específicos | *crazy/mad/insane* como rótulo de pessoa |
 | insulto / pejorativo | (não traduzir pra usar) | qualquer calão de doença |
 
-**Regra curta:** se for afeto ou intensidade → *crazy about* / *wild*. Se for saúde mental → não use *louco* como tradução; use termos de cuidado.
+**Regra curta:** se for afeto ou intensidade → *crazy about* / *wild*. Se for [saúde mental](saude-mental.html) → não use *louco* como tradução; use termos de cuidado.
 
 ## Vizinhos
 - *doido* · *maluco* — muitas vezes mais leves / coloquiais
