@@ -8,9 +8,11 @@ Filme do Justin Timberlake em que o tempo no corpo é contado até zerar.
 - **Título:** *In Time*  
 - **Ano:** 2011  
 - **Direção / roteiro:** Andrew Niccol  
-- **Will Salas:** Justin Timberlake  
+- **Will Salas:** [Justin Timberlake](justin-timberlake.html)  
 - **Sylvia Weis:** Amanda Seyfried  
 - Também: Cillian Murphy (Timekeeper), Olivia Wilde, Matt Bomer  
+
+Inspeção da cara: [justin-timberlake.html](justin-timberlake.html).  
 
 ## Premissa
 

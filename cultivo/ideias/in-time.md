@@ -7,7 +7,7 @@
 
 ## Nota
 
-Filme com Justin Timberlake (*In Time*, Andrew Niccol). Relógio no braço conta a vida; tempo = dinheiro. Não é religião de templo — é regime que conta cada segundo. Liga a Anonymous (quem some do nome vs quem é rastreado pelo relógio) e aos dados do Painel (o que é contado no aparelho, o que não sobe).
+Filme com Justin Timberlake (*In Time*, Andrew Niccol). Relógio no braço conta a vida; tempo = dinheiro. Não é religião de templo — é regime que conta cada segundo. Cara: [justin-timberlake](justin-timberlake.md). Liga a Anonymous e aos dados do Painel.
 
 ## Por que importa
 
