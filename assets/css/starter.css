@@ -1001,6 +1001,62 @@ body.is-music-playing .rain {
   border-radius: 0.35rem;
 }
 
+.catalog {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 1.25rem;
+  margin: 0 0 2.5rem;
+  opacity: 0;
+  transform: translateY(1rem);
+  animation: rise-in 1100ms ease 480ms forwards;
+}
+
+.catalog-form {
+  max-width: none;
+}
+
+.catalog-count {
+  margin: 0;
+  color: var(--blush);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.catalog-filters {
+  display: grid;
+  gap: 0.9rem;
+}
+
+@media (min-width: 720px) {
+  .catalog-filters {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.catalog-form select {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  color: var(--ink);
+  font: inherit;
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  line-height: 1.45;
+  background: rgba(255, 255, 255, 0.45);
+  border: 1px solid rgba(31, 42, 50, 0.16);
+  border-radius: 0.35rem;
+}
+
+.catalog-form select:focus {
+  outline: 2px solid rgba(139, 58, 74, 0.35);
+  outline-offset: 2px;
+}
+
+.catalog-list {
+  margin: 0;
+}
+
 @keyframes rise-in {
   to {
     opacity: 1;
@@ -1029,6 +1085,7 @@ body.is-music-playing .rain {
   .music-deck,
   .cultivo,
   .cultivo-git,
+  .catalog,
   .sinais-list,
   .page-hero-photo {
     opacity: 1;
