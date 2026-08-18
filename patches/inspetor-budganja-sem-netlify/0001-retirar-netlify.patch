@@ -1,0 +1,998 @@
+From 79d8a1a8d13f942dd23ea1e1afd9c47310d3f7e3 Mon Sep 17 00:00:00 2001
+From: Cursor Agent <cursoragent@cursor.com>
+Date: Tue, 18 Aug 2026 04:05:31 +0000
+Subject: [PATCH] =?UTF-8?q?Retirar=20Netlify=20=E2=80=94=20site=20s=C3=B3?=
+ =?UTF-8?q?=20em=20local=20+=20t=C3=BAnel?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Remove netlify.toml e Functions; store SQL/fs local;
+README e .env apontam para npm start / deploy:online.
+---
+ .env.example                     |   5 +-
+ .gitignore                       |   1 +
+ README.md                        |  26 +++---
+ docs/ARQUITETURA.md              |   6 +-
+ lib/api-handler.js               |   3 +-
+ lib/create-store.js              |  59 +++---------
+ lib/store-blobs.js               | 134 ++--------------------------
+ netlify.toml                     | 108 ----------------------
+ netlify/RETIRED.md               |   8 ++
+ netlify/functions/api.js         | 148 -------------------------------
+ netlify/functions/render-post.js |  34 -------
+ netlify/functions/uploads.js     |  29 ------
+ package-lock.json                |  58 ------------
+ package.json                     |   1 -
+ 14 files changed, 50 insertions(+), 570 deletions(-)
+ delete mode 100644 netlify.toml
+ create mode 100644 netlify/RETIRED.md
+ delete mode 100644 netlify/functions/api.js
+ delete mode 100644 netlify/functions/render-post.js
+ delete mode 100644 netlify/functions/uploads.js
+
+diff --git a/.env.example b/.env.example
+index b76a28e..0bb8429 100644
+--- a/.env.example
++++ b/.env.example
+@@ -17,7 +17,7 @@ GOOGLE_CLIENT_SECRET=
+ # Novos cadastros (local + Google): 1/ausente = abertos; 0 = fechados.
+ ALLOW_NEW_REGISTRATIONS=1
+ 
+-# Armazenamento: sql (SQLite local), fs ou blobs (Netlify)
++# Armazenamento: sql (SQLite local, padrão) ou fs
+ # STORE_BACKEND=sql
+ 
+ # Modo construção: 1 = visitantes veem página «em construção»
+@@ -29,7 +29,8 @@ YOUTUBE_CHANNEL_ID=UCv6U48NA-zeDCRxmegfe7NQ
+ # Backup externo da BD (opcional)
+ # BUDGANJA_BACKUP_DIR=C:\Users\voce\BudGanjaBackups
+ 
+-# Netlify / Turso (produção)
++# Turso opcional (SQL remoto). Sem isto = SQLite em data/budganja.db
+ # TURSO_DATABASE_URL=
+ # TURSO_AUTH_TOKEN=
++# Hook de rebuild Netlify — RETIRADO (não usar)
+ # NETLIFY_BUILD_HOOK=
+diff --git a/.gitignore b/.gitignore
+index 499c0d5..8fb80f9 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -64,3 +64,4 @@ imagens/**/_src/
+ 
+ # Local Netlify folder
+ .netlify
++node_modules/
+diff --git a/README.md b/README.md
+index 5242364..dc0488f 100644
+--- a/README.md
++++ b/README.md
+@@ -4,10 +4,11 @@ Site do laboratório **Inspetor BudGanja** com painel administrativo para public
+ 
+ Canais: [@InspetorBudGanja](https://www.youtube.com/@InspetorBudGanja)
+ 
+-## Início rápido
++## Início rápido (local — sem Netlify)
+ 
+ ```bash
+ npm install
++cp .env.example .env   # se ainda não tiver .env
+ npm start
+ ```
+ 
+@@ -15,7 +16,14 @@ Aceda a `http://localhost:8080` — Admin em `/login.html`
+ 
+ **Credenciais locais (apenas desenvolvimento):** `admin` / `test123`
+ 
+-> Em produção (Netlify), defina `ADMIN_USER` e `RESEARCH_PASS` seguros. Nunca use as credenciais padrão online.
++**Produção = o mesmo servidor local** + túnel Cloudflare:
++
++```powershell
++npm run deploy:online
++# ou: .\deploy\start-site.ps1
++```
++
++> Netlify foi **retirado**. Não use deploy Netlify. Defina `ADMIN_USER` e `RESEARCH_PASS` seguros no `.env` antes de expor o túnel.
+ 
+ ## Git e backups
+ 
+@@ -46,7 +54,7 @@ Detalhes: [`docs/GIT.md`](docs/GIT.md) · copie `.env.example` → `.env`
+ - **PWA offline** — calculadoras, inspeções, luxímetro e índice de busca em cache
+ - **App Android (Play Store)** — preparado via TWA; guia em [`deploy/android/PLAY-STORE.md`](deploy/android/PLAY-STORE.md)
+ - **SEO** — sitemap dinâmico, JSON-LD (Organization, Article, Course, VideoObject), OG por post
+-- **Segurança** — rate limit no login (8 tentativas / 15 min), headers CSP/HSTS-like no servidor e Netlify
++- **Segurança** — rate limit no login (8 tentativas / 15 min), headers CSP/HSTS-like no servidor local
+ 
+ ## Scripts
+ 
+@@ -66,7 +74,7 @@ Lista completa (todos os `npm run …`): **[docs/log-comandos-npm.md](docs/log-c
+ | `npm run build:guia` | Actualiza `content/guia-cultivo.json` via RSS |
+ | `npm run build:youtube` | Actualiza `content/youtube-feed.json` via RSS |
+ | `npm run build:search` | Gera `search-index.json` |
+-| `npm run build:sitemap` | Gera `sitemap.xml` (usa `SITE_URL` ou URL Netlify) |
++| `npm run build:sitemap` | Gera `sitemap.xml` (usa `SITE_URL`) |
+ | `npm run build:assetlinks` | Gera `.well-known/assetlinks.json` (TWA / Play Store) |
+ | `npm run test:lib` | Testes unitários (merge inspeções, calculadoras) |
+ | `npm run test:api:contract` | Valida contrato de payload da API admin (camelCase canônico) |
+@@ -199,7 +207,7 @@ npm run test:site
+ 2. Preencha título, resumo, categoria e corpo em Markdown
+ 3. Opcional: imagem de capa (usada em OG/Twitter Cards)
+ 4. Marque **Publicar no site** ou guarde como rascunho
+-5. **Publicar** — rebuild automático se `NETLIFY_BUILD_HOOK` estiver definido
++5. **Publicar** — o servidor local serve na hora; rode `npm run build` se precisar regenerar índices estáticos
+ 
+ ## Login administrativo
+ 
+@@ -236,8 +244,7 @@ Origens autorizadas no Google Cloud: `https://inspetorbudganja.com.br` e `http:/
+ | `PORT` | `8080` | Porta local |
+ | `SITE_URL` | `https://inspetorbudganja.com.br` | Base do site e sitemap |
+ | `YOUTUBE_CHANNEL_ID` | canal Inspetor | RSS do feed de vídeos |
+-| `NETLIFY_BUILD_HOOK` | — | Rebuild após editar no Admin online |
+-| `TURSO_DATABASE_URL` | — | Base SQL remota (produção Netlify) |
++| `TURSO_DATABASE_URL` | — | Base SQL remota opcional (Turso) |
+ | `TURSO_AUTH_TOKEN` | — | Token Turso |
+ | `STORE_BACKEND` | `sql` (local) | `sql`, `fs` ou `blobs` |
+ 
+@@ -268,7 +275,7 @@ deploy\start-now.ps1  # migra + build + servidor
+ 
+ Documentação: [`docs/GIT.md`](docs/GIT.md) (Git e backups) · [`docs/estrutura-dados.md`](docs/estrutura-dados.md) (tabelas SQL) · [`docs/ARQUITETURA.md`](docs/ARQUITETURA.md) (mapa do repositório) · [`docs/CHECKLIST-ALTERACOES.md`](docs/CHECKLIST-ALTERACOES.md) (**checklist ~5 min** após cada alteração)
+ 
+-Produção Netlify: Turso (`TURSO_*`) ou Netlify Blobs sem Turso.
++Produção: servidor Node local (`npm start` / `deploy:online`) + SQLite em `data/budganja.db`. Turso (`TURSO_*`) é opcional.
+ 
+ ### Mapa do repositório
+ 
+@@ -293,8 +300,7 @@ ProjectBudGanja/
+ ├── [GERADOS — não editar à mão]
+ │   └── search-index.json, sitemap.xml, version.json, js/*-data.js
+ └── [DEPLOY]
+-    ├── deploy/                  # Cloudflare tunnel, PM2
+-    └── netlify/                 # Functions serverless
++    └── deploy/                  # Cloudflare tunnel, PM2 (Netlify retirado)
+ ```
+ 
+ ## Aviso legal
+diff --git a/docs/ARQUITETURA.md b/docs/ARQUITETURA.md
+index 73a0c4c..71eff0b 100644
+--- a/docs/ARQUITETURA.md
++++ b/docs/ARQUITETURA.md
+@@ -47,7 +47,7 @@ O que parece “extenso” na raiz é, na maior parte, o **site publicado**. O c
+ | **Pipeline** | `scripts/` | `npm run build`, migrações, sync páginas ↔ BD |
+ | **Conteúdo / seed** | `content/` | JSON de site, páginas, guia, sorteio (espelho da BD) |
+ | **Base de dados** | `data/budganja.db` | SQLite local (não versionado) |
+-| **Deploy** | `deploy/`, `netlify/` | Túnel Cloudflare, TWA Android, functions Netlify |
++| **Deploy** | `deploy/` | Túnel Cloudflare, TWA Android (Netlify retirado) |
+ | **Uploads** | `uploads/` | Imagens enviadas pelo admin |
+ 
+ ## `lib/` — mapa rápido
+@@ -76,7 +76,7 @@ O que parece “extenso” na raiz é, na maior parte, o **site publicado**. O c
+ | Motivo | Detalhe |
+ |--------|---------|
+ | URLs | `/equipamentos/clonadora-6-estacas.html` tem de existir nesse caminho no disco |
+-| Netlify / Cloudflare | Servem a raiz do repo como document root |
++| Cloudflare tunnel + Node local | Servem a raiz do repo como document root |
+ | PWA | `sw.js` lista centenas de caminhos absolutos |
+ | Custo | Mover exigiria redirects, retestar tudo, sem ganho para o utilizador final |
+ 
+@@ -96,7 +96,7 @@ Um layout `apps/web` + `packages/api` só compensa se o projeto crescer para **v
+ | `login.html`, `admin.html` | URLs fixas do admin |
+ | `sw.js`, `manifest.json` | PWA na raiz por convenção |
+ | `posts.json` | Fonte legada / espelho de metadados |
+-| `netlify.toml`, `_redirects` | Config de hosting |
++| `_redirects` | Redirects legados (servidor local / tunnel) |
+ 
+ ## Resumo
+ 
+diff --git a/lib/api-handler.js b/lib/api-handler.js
+index 8a82644..501683f 100644
+--- a/lib/api-handler.js
++++ b/lib/api-handler.js
+@@ -88,7 +88,8 @@ const MAX_CULTIVO_MEDIA_BODY_BYTES = 40 * 1024 * 1024;
+ const MAX_CULTIVO_STATE_BODY_BYTES = 8 * 1024 * 1024;
+ 
+ async function triggerRebuild() {
+-  const hook = process.env.NETLIFY_BUILD_HOOK || process.env.BUILD_HOOK_URL;
++  // Netlify retirado — rebuild é local (npm run build / stamp-assets).
++  const hook = process.env.BUILD_HOOK_URL || process.env.NETLIFY_BUILD_HOOK;
+   if (!hook) return;
+   try {
+     await fetch(hook, { method: 'POST' });
+diff --git a/lib/create-store.js b/lib/create-store.js
+index c099e6a..5f9fce5 100644
+--- a/lib/create-store.js
++++ b/lib/create-store.js
+@@ -4,18 +4,10 @@ function loadFsStore() {
+   return require('./store-fs.js').createFsStore;
+ }
+ 
+-function loadBlobStore() {
+-  return require('./store-blobs.js').createBlobStore;
+-}
+-
+ function loadSqlStore() {
+   return require('./store-sql.js').createSqlStore;
+ }
+ 
+-function loadBlobSeed() {
+-  return require('./seed-blobs.js').ensureBlobSeed;
+-}
+-
+ function hasRemoteDatabase() {
+   return Boolean(
+     String(process.env.TURSO_DATABASE_URL || process.env.DATABASE_URL || '').trim()
+@@ -25,13 +17,16 @@ function hasRemoteDatabase() {
+ function resolveStoreBackend(options) {
+   const forced = String(process.env.STORE_BACKEND || '').trim().toLowerCase();
+   if (forced === 'fs') return 'fs';
+-  if (forced === 'blobs') return 'blobs';
++  if (forced === 'blobs') {
++    console.warn('STORE_BACKEND=blobs (Netlify) está retirado — a usar sql.');
++    return 'sql';
++  }
+   if (forced === 'sql') return 'sql';
+ 
+-  if (options.netlify) {
+-    return hasRemoteDatabase() ? 'sql' : 'blobs';
++  // Netlify retirado: sempre SQL (local SQLite ou Turso se TURSO_*).
++  if (options && options.netlify) {
++    console.warn('createAppStore({ netlify: true }) ignorado — modo local/sql.');
+   }
+-
+   return 'sql';
+ }
+ 
+@@ -52,47 +47,15 @@ function bindUploads(store, uploads) {
+ 
+ async function createAppStore(options) {
+   const root = options.root;
+-  const netlify = !!options.netlify;
+-  const backend = resolveStoreBackend({ netlify });
++  const backend = resolveStoreBackend(options || {});
+ 
+   if (backend === 'fs') {
+     return loadFsStore()(root);
+   }
+ 
+-  if (backend === 'blobs') {
+-    const store = loadBlobStore()();
+-    if (root) {
+-      try {
+-        await loadBlobSeed()(store, root);
+-      } catch (e) {
+-        console.warn('seed blobs:', e && e.message);
+-      }
+-    }
+-    return store;
+-  }
+-
+-  try {
+-    const sqlStore = await loadSqlStore()(root);
+-    if (netlify) {
+-      const blobStore = loadBlobStore()();
+-      return bindUploads(sqlStore, blobStore);
+-    }
+-    const fsStore = loadFsStore()(root);
+-    return bindUploads(sqlStore, fsStore);
+-  } catch (e) {
+-    if (!netlify) throw e;
+-    console.warn('sql store falhou, a usar blobs:', e && e.message);
+-    const store = loadBlobStore()();
+-    if (root) {
+-      try {
+-        await loadBlobSeed()(store, root);
+-      } catch (seedErr) {
+-        console.warn('seed blobs:', seedErr && seedErr.message);
+-      }
+-    }
+-    return store;
+-  }
+-
++  const sqlStore = await loadSqlStore()(root);
++  const fsStore = loadFsStore()(root);
++  return bindUploads(sqlStore, fsStore);
+ }
+ 
+ module.exports = {
+diff --git a/lib/store-blobs.js b/lib/store-blobs.js
+index 5684d97..c389b0b 100644
+--- a/lib/store-blobs.js
++++ b/lib/store-blobs.js
+@@ -1,132 +1,10 @@
+-const { getStore } = require('@netlify/blobs');
+-
+-const DATA_STORE = 'budganja-data';
+-const UPLOADS_STORE = 'budganja-uploads';
++'use strict';
+ 
++/** Netlify Blobs retirado — este módulo já não é usado. */
+ function createBlobStore() {
+-  const data = getStore(DATA_STORE);
+-  const uploads = getStore(UPLOADS_STORE);
+-
+-  return {
+-    async getPosts() {
+-      return (await data.get('posts', { type: 'json' })) || [];
+-    },
+-    async setPosts(posts) {
+-      await data.setJSON('posts', posts);
+-    },
+-    async getPages() {
+-      return await data.get('pages', { type: 'json' });
+-    },
+-    async setPages(pages) {
+-      await data.setJSON('pages', pages);
+-    },
+-    async getSite() {
+-      return await data.get('site', { type: 'json' });
+-    },
+-    async setSite(site) {
+-      await data.setJSON('site', site);
+-    },
+-    async getSessions() {
+-      return (await data.get('sessions', { type: 'json' })) || {};
+-    },
+-    async setSessions(sessions) {
+-      await data.setJSON('sessions', sessions);
+-    },
+-    async getUserSessions() {
+-      return (await data.get('user-sessions', { type: 'json' })) || {};
+-    },
+-    async setUserSessions(sessions) {
+-      await data.setJSON('user-sessions', sessions);
+-    },
+-    async getUsers() {
+-      return (await data.get('users', { type: 'json' })) || {};
+-    },
+-    async setUsers(users) {
+-      await data.setJSON('users', users);
+-    },
+-    async getOAuthStates() {
+-      return (await data.get('oauth-states', { type: 'json' })) || {};
+-    },
+-    async setOAuthStates(states) {
+-      await data.setJSON('oauth-states', states);
+-    },
+-    async getSorteios() {
+-      return (await data.get('sorteios', { type: 'json' })) || [];
+-    },
+-    async setSorteios(entries) {
+-      await data.setJSON('sorteios', entries);
+-    },
+-    async getSorteioConfig() {
+-      return await data.get('sorteio-config', { type: 'json' });
+-    },
+-    async setSorteioConfig(config) {
+-      await data.setJSON('sorteio-config', config);
+-    },
+-    async getGuiaCultivo() {
+-      return await data.get('guia-cultivo', { type: 'json' });
+-    },
+-    async setGuiaCultivo(guia) {
+-      await data.setJSON('guia-cultivo', guia);
+-    },
+-    async getYoutubeFeed() {
+-      return await data.get('youtube-feed', { type: 'json' });
+-    },
+-    async setYoutubeFeed(feed) {
+-      await data.setJSON('youtube-feed', feed);
+-    },
+-    async saveUpload(name, buffer) {
+-      const safeRel = String(name || '').replace(/\\/g, '/').replace(/^\/+/, '');
+-      if (!safeRel || safeRel.includes('..')) {
+-        throw new Error('invalid upload path');
+-      }
+-      await uploads.set(safeRel, buffer, { metadata: { uploadedAt: new Date().toISOString() } });
+-      return `/uploads/${safeRel}`;
+-    },
+-    async getUpload(name) {
+-      const safeRel = String(name || '').replace(/\\/g, '/').replace(/^\/+/, '');
+-      if (!safeRel || safeRel.includes('..')) return null;
+-      const blob = await uploads.get(safeRel, { type: 'blob' });
+-      if (!blob) return null;
+-      const buffer = Buffer.from(await blob.arrayBuffer());
+-      const ext = safeRel.slice(safeRel.lastIndexOf('.')).toLowerCase();
+-      const types = {
+-        '.png': 'image/png',
+-        '.jpg': 'image/jpeg',
+-        '.jpeg': 'image/jpeg',
+-        '.webp': 'image/webp',
+-        '.gif': 'image/gif',
+-        '.svg': 'image/svg+xml',
+-        '.mp4': 'video/mp4',
+-        '.webm': 'video/webm',
+-        '.mov': 'video/quicktime'
+-      };
+-      return { buffer, contentType: types[ext] || 'application/octet-stream' };
+-    },
+-    async listUploads(prefix) {
+-      const safePrefix = String(prefix || '').replace(/\\/g, '/').replace(/^\/+/, '');
+-      if (safePrefix.includes('..')) return [];
+-      const names = [];
+-      if (typeof uploads.list !== 'function') return names;
+-      let cursor;
+-      do {
+-        const page = await uploads.list({ prefix: safePrefix, cursor });
+-        const blobs = (page && page.blobs) || [];
+-        for (let i = 0; i < blobs.length; i++) {
+-          const key = blobs[i] && blobs[i].key;
+-          if (key) names.push(String(key));
+-        }
+-        cursor = page && page.cursor;
+-      } while (cursor);
+-      return names;
+-    },
+-    async deleteUpload(name) {
+-      const safeRel = String(name || '').replace(/\\/g, '/').replace(/^\/+/, '');
+-      if (!safeRel || safeRel.includes('..')) return false;
+-      if (typeof uploads.delete !== 'function') return false;
+-      await uploads.delete(safeRel);
+-      return true;
+-    }
+-  };
++  throw new Error(
++    'Netlify Blobs foi retirado. Use STORE_BACKEND=sql (padrão) com servidor local (npm start).'
++  );
+ }
+ 
+-module.exports = { createBlobStore, DATA_STORE };
++module.exports = { createBlobStore };
+diff --git a/netlify.toml b/netlify.toml
+deleted file mode 100644
+index 162198c..0000000
+--- a/netlify.toml
++++ /dev/null
+@@ -1,108 +0,0 @@
+-# Netlify — site estático + Functions (Admin online)
+-
+-[build]
+-  command = "npm run build"
+-  publish = "."
+-
+-[build.environment]
+-  NODE_VERSION = "20"
+-
+-[functions]
+-  directory = "netlify/functions"
+-  node_bundler = "esbuild"
+-  included_files = ["posts.json", "sorteios.json", "content/pages.json", "content/site.json", "content/sorteio.json", "content/guia-cultivo.json", "content/youtube-feed.json", "content/users.json", "content/user-sessions.json", "search-index.json"]
+-
+-[[headers]]
+-  for = "/*"
+-  [headers.values]
+-    X-Frame-Options = "DENY"
+-    X-Content-Type-Options = "nosniff"
+-    Referrer-Policy = "strict-origin-when-cross-origin"
+-    Permissions-Policy = "geolocation=(), microphone=(self), camera=(self)"
+-    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+-    Cross-Origin-Opener-Policy = "same-origin-allow-popups"
+-    Cross-Origin-Resource-Policy = "same-origin"
+-    Content-Security-Policy = "default-src 'self'; img-src 'self' data: blob: https://i.ytimg.com https://http2.mlstatic.com https://lh3.googleusercontent.com https://www.gstatic.com; media-src 'self' data: blob:; script-src 'self' 'unsafe-inline' https://pay.google.com https://accounts.google.com/gsi/client; style-src 'self' 'unsafe-inline' https://accounts.google.com/gsi/style; connect-src 'self' https://pay.google.com https://api.stripe.com https://accounts.google.com/gsi/ https://oauth2.googleapis.com https://generativelanguage.googleapis.com; frame-src https://www.youtube-nocookie.com https://www.youtube.com https://docs.google.com https://accounts.google.com/gsi/; base-uri 'self'; form-action 'self'"
+-
+-[[headers]]
+-  for = "/imagens/og-*.jpg"
+-  [headers.values]
+-    Cache-Control = "public, max-age=86400"
+-    Cross-Origin-Resource-Policy = "cross-origin"
+-
+-[[headers]]
+-  for = "/imagens/inspecoes/*"
+-  [headers.values]
+-    Cache-Control = "public, max-age=86400"
+-    Cross-Origin-Resource-Policy = "cross-origin"
+-
+-[[headers]]
+-  for = "/imagens/*.png"
+-  [headers.values]
+-    Cache-Control = "public, max-age=86400"
+-
+-[[headers]]
+-  for = "/imagens/background-hero.png"
+-  [headers.values]
+-    Cache-Control = "no-cache, must-revalidate"
+-
+-[[headers]]
+-  for = "/imagens/background-hero.jpg"
+-  [headers.values]
+-    Cache-Control = "public, max-age=31536000, immutable"
+-
+-[[headers]]
+-  for = "/imagens/background-hero*.webp"
+-  [headers.values]
+-    Cache-Control = "public, max-age=31536000, immutable"
+-
+-[[headers]]
+-  for = "/imagens/background-hero*.avif"
+-  [headers.values]
+-    Cache-Control = "public, max-age=31536000, immutable"
+-
+-[[headers]]
+-  for = "/imagens/*.svg"
+-  [headers.values]
+-    Cache-Control = "public, max-age=86400"
+-
+-[[headers]]
+-  for = "/sw.js"
+-  [headers.values]
+-    Cache-Control = "no-store, no-cache, must-revalidate"
+-
+-[[headers]]
+-  for = "/version.json"
+-  [headers.values]
+-    Cache-Control = "no-store, no-cache, must-revalidate"
+-
+-# Domínio EN: apex → www (versão inglesa; i18n.js força locale "en")
+-[[redirects]]
+-  from = "https://inspectorbudganja.com/*"
+-  to = "https://www.inspectorbudganja.com/:splat"
+-  status = 301
+-  force = true
+-
+-[[redirects]]
+-  from = "https://inspectorbudganja.com/"
+-  to = "https://www.inspectorbudganja.com/"
+-  status = 301
+-  force = true
+-
+-[[redirects]]
+-  from = "/api/*"
+-  to = "/.netlify/functions/api/:splat"
+-  status = 200
+-  force = true
+-
+-[[redirects]]
+-  from = "/uploads/*"
+-  to = "/.netlify/functions/uploads?name=:splat"
+-  status = 200
+-  force = true
+-
+-[[redirects]]
+-  from = "/post-:slug.html"
+-  to = "/.netlify/functions/render-post?slug=:slug"
+-  status = 200
+-  force = true
+diff --git a/netlify/RETIRED.md b/netlify/RETIRED.md
+new file mode 100644
+index 0000000..183a95c
+--- /dev/null
++++ b/netlify/RETIRED.md
+@@ -0,0 +1,8 @@
++# Netlify — retirado
++
++Este projeto corre **local** com `npm start` (e opcionalmente túnel Cloudflare via `npm run deploy:online`).
++
++A pasta `netlify/functions` e o ficheiro `netlify.toml` foram removidos.
++Não configure mais deploy Netlify para este site.
++
++Armazenamento: SQLite local (`STORE_BACKEND=sql`) + ficheiros em disco.
+diff --git a/netlify/functions/api.js b/netlify/functions/api.js
+deleted file mode 100644
+index 30a2e7f..0000000
+--- a/netlify/functions/api.js
++++ /dev/null
+@@ -1,148 +0,0 @@
+-const path = require('path');
+-const { connectLambda } = require('@netlify/blobs');
+-
+-const ROOT = path.resolve(__dirname, '../..');
+-
+-function resolveApiPath(event) {
+-  const raw = event.rawUrl || event.path || '';
+-  try {
+-    const u = new URL(raw, 'https://localhost');
+-    if (u.pathname.startsWith('/api/')) return u.pathname;
+-  } catch (e) { /* ignore */ }
+-
+-  const p = event.path || '';
+-  if (p.includes('/.netlify/functions/api/')) {
+-    return '/api/' + p.split('/.netlify/functions/api/')[1];
+-  }
+-  if (p.startsWith('/api/')) return p;
+-
+-  const route = event.queryStringParameters && event.queryStringParameters.route;
+-  if (route) return '/api/' + route;
+-
+-  return '/api';
+-}
+-
+-exports.handler = async (event) => {
+-  const apiPath = resolveApiPath(event);
+-  const method = event.httpMethod || 'GET';
+-  const lightAuth = (apiPath === '/api/auth/registration-status' || apiPath === '/api/auth/config') && method === 'GET';
+-  try {
+-    connectLambda(event);
+-  } catch (e) {
+-    if (!lightAuth) {
+-      return {
+-        statusCode: 503,
+-        headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' },
+-        body: JSON.stringify({ error: 'Servidor de contas indisponível. Tente novamente em instantes.' })
+-      };
+-    }
+-  }
+-
+-  if (apiPath === '/api/auth/registration-status' && method === 'GET') {
+-    const {
+-      areNewRegistrationsAllowed,
+-      REGISTRATION_CLOSED_MESSAGE
+-    } = require('../../lib/registration-gate.js');
+-    const open = areNewRegistrationsAllowed();
+-    return {
+-      statusCode: 200,
+-      headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' },
+-      body: JSON.stringify({
+-        open: open,
+-        message: open ? '' : REGISTRATION_CLOSED_MESSAGE
+-      })
+-    };
+-  }
+-
+-  if (apiPath === '/api/auth/config' && method === 'GET') {
+-    const { getGoogleClientId, getGoogleClientSecret } = require('../../lib/utils.js');
+-    const googleClientId = getGoogleClientId();
+-    return {
+-      statusCode: 200,
+-      headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' },
+-      body: JSON.stringify({
+-        googleEnabled: !!googleClientId,
+-        googleClientId: googleClientId || null,
+-        googleRedirectEnabled: !!(googleClientId && getGoogleClientSecret())
+-      })
+-    };
+-  }
+-
+-  const { isLightAuthRoute, handleLightAuth } = require('../../lib/auth-api-light.js');
+-  if (isLightAuthRoute(apiPath, method)) {
+-    let authStore;
+-    try {
+-      const { createAppStore } = require('../../lib/create-store.js');
+-      authStore = await createAppStore({ root: ROOT, netlify: true });
+-    } catch (e) {
+-      return {
+-        statusCode: 503,
+-        headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' },
+-        body: JSON.stringify({ error: 'Servidor de contas indisponível. Tente novamente em instantes.' })
+-      };
+-    }
+-    try {
+-      const response = await handleLightAuth(event, authStore, apiPath);
+-      if (!response) {
+-        return {
+-          statusCode: 404,
+-          headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' },
+-          body: JSON.stringify({ error: 'Rota não encontrada.' })
+-        };
+-      }
+-      const outHeaders = Object.assign({ 'Cache-Control': 'no-store' }, response.headers || {});
+-      if (response.setCookies && response.setCookies.length) {
+-        outHeaders['Set-Cookie'] = response.setCookies;
+-      }
+-      return {
+-        statusCode: response.statusCode,
+-        headers: outHeaders,
+-        body: response.body
+-      };
+-    } catch (e) {
+-      return {
+-        statusCode: 400,
+-        headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' },
+-        body: JSON.stringify({ error: 'Pedido inválido.' })
+-      };
+-    }
+-  }
+-
+-  let store;
+-  let handleApiRequest;
+-  try {
+-    const { createAppStore } = require('../../lib/create-store.js');
+-    store = await createAppStore({ root: ROOT, netlify: true });
+-    handleApiRequest = require('../../lib/api-handler.js').handleApiRequest;
+-  } catch (e) {
+-    return {
+-      statusCode: 503,
+-      headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' },
+-      body: JSON.stringify({
+-        error: 'Servidor de contas indisponível. Tente novamente em instantes.'
+-      })
+-    };
+-  }
+-
+-  const query = (event.rawQuery || event.rawUrl || '').split('?')[1] || '';
+-
+-  const response = await handleApiRequest({
+-    method: method,
+-    path: apiPath,
+-    headers: event.headers || {},
+-    body: event.body,
+-    isBase64Encoded: event.isBase64Encoded,
+-    query
+-  }, { store, root: null, fsFallback: ROOT });
+-
+-  const outHeaders = Object.assign({ 'Cache-Control': 'no-store' }, response.headers || {});
+-  if (response.setCookies && response.setCookies.length) {
+-    outHeaders['Set-Cookie'] = response.setCookies;
+-  }
+-
+-  return {
+-    statusCode: response.status,
+-    headers: outHeaders,
+-    body: response.body
+-  };
+-};
+diff --git a/netlify/functions/render-post.js b/netlify/functions/render-post.js
+deleted file mode 100644
+index 54d3627..0000000
+--- a/netlify/functions/render-post.js
++++ /dev/null
+@@ -1,34 +0,0 @@
+-const path = require('path');
+-const { connectLambda } = require('@netlify/blobs');
+-const { createBlobStore } = require('../../lib/store-blobs.js');
+-const { normalizePosts, buildPostHtml } = require('../../lib/posts-service.js');
+-const { ensureBlobSeed } = require('../../lib/seed-blobs.js');
+-
+-const ROOT = path.resolve(__dirname, '../..');
+-
+-exports.handler = async (event) => {
+-  connectLambda(event);
+-
+-  const slug = (event.queryStringParameters && event.queryStringParameters.slug) || '';
+-  if (!slug) {
+-    return { statusCode: 400, body: 'Missing slug' };
+-  }
+-
+-  const store = createBlobStore();
+-  await ensureBlobSeed(store, ROOT);
+-
+-  const posts = normalizePosts(await store.getPosts());
+-  const post = posts.find((p) => p.slug === slug);
+-  if (!post || post.published === false) {
+-    return { statusCode: 404, headers: { 'Content-Type': 'text/plain' }, body: '404 Not Found' };
+-  }
+-
+-  return {
+-    statusCode: 200,
+-    headers: {
+-      'Content-Type': 'text/html; charset=utf-8',
+-      'Cache-Control': 'public, max-age=60'
+-    },
+-    body: buildPostHtml(post)
+-  };
+-};
+diff --git a/netlify/functions/uploads.js b/netlify/functions/uploads.js
+deleted file mode 100644
+index a8a76d6..0000000
+--- a/netlify/functions/uploads.js
++++ /dev/null
+@@ -1,29 +0,0 @@
+-const { connectLambda } = require('@netlify/blobs');
+-const { createBlobStore } = require('../../lib/store-blobs.js');
+-
+-exports.handler = async (event) => {
+-  connectLambda(event);
+-
+-  const name = (event.queryStringParameters && event.queryStringParameters.name)
+-    || (event.path || '').replace(/^.*\/uploads\//, '');
+-
+-  if (!name || name.includes('..') || name.includes('/')) {
+-    return { statusCode: 400, body: 'Invalid filename' };
+-  }
+-
+-  const store = createBlobStore();
+-  const file = await store.getUpload(name);
+-  if (!file) {
+-    return { statusCode: 404, body: 'Not found' };
+-  }
+-
+-  return {
+-    statusCode: 200,
+-    headers: {
+-      'Content-Type': file.contentType,
+-      'Cache-Control': 'public, max-age=31536000, immutable'
+-    },
+-    body: file.buffer.toString('base64'),
+-    isBase64Encoded: true
+-  };
+-};
+diff --git a/package-lock.json b/package-lock.json
+index 5d60df2..fd6c9e8 100644
+--- a/package-lock.json
++++ b/package-lock.json
+@@ -10,7 +10,6 @@
+       "license": "MIT",
+       "dependencies": {
+         "@libsql/client": "^0.15.15",
+-        "@netlify/blobs": "^8.1.0",
+         "png-to-ico": "^3.0.2",
+         "sharp": "^0.35.2",
+         "youtube-transcript": "^1.3.1"
+@@ -140,9 +139,6 @@
+       "cpu": [
+         "arm"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "LGPL-3.0-or-later",
+       "optional": true,
+       "os": [
+@@ -159,9 +155,6 @@
+       "cpu": [
+         "arm64"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "LGPL-3.0-or-later",
+       "optional": true,
+       "os": [
+@@ -178,9 +171,6 @@
+       "cpu": [
+         "ppc64"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "LGPL-3.0-or-later",
+       "optional": true,
+       "os": [
+@@ -197,9 +187,6 @@
+       "cpu": [
+         "riscv64"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "LGPL-3.0-or-later",
+       "optional": true,
+       "os": [
+@@ -216,9 +203,6 @@
+       "cpu": [
+         "s390x"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "LGPL-3.0-or-later",
+       "optional": true,
+       "os": [
+@@ -235,9 +219,6 @@
+       "cpu": [
+         "x64"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "LGPL-3.0-or-later",
+       "optional": true,
+       "os": [
+@@ -254,9 +235,6 @@
+       "cpu": [
+         "arm64"
+       ],
+-      "libc": [
+-        "musl"
+-      ],
+       "license": "LGPL-3.0-or-later",
+       "optional": true,
+       "os": [
+@@ -273,9 +251,6 @@
+       "cpu": [
+         "x64"
+       ],
+-      "libc": [
+-        "musl"
+-      ],
+       "license": "LGPL-3.0-or-later",
+       "optional": true,
+       "os": [
+@@ -292,9 +267,6 @@
+       "cpu": [
+         "arm"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "Apache-2.0",
+       "optional": true,
+       "os": [
+@@ -317,9 +289,6 @@
+       "cpu": [
+         "arm64"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "Apache-2.0",
+       "optional": true,
+       "os": [
+@@ -342,9 +311,6 @@
+       "cpu": [
+         "ppc64"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "Apache-2.0",
+       "optional": true,
+       "os": [
+@@ -367,9 +333,6 @@
+       "cpu": [
+         "riscv64"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "Apache-2.0",
+       "optional": true,
+       "os": [
+@@ -392,9 +355,6 @@
+       "cpu": [
+         "s390x"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "Apache-2.0",
+       "optional": true,
+       "os": [
+@@ -417,9 +377,6 @@
+       "cpu": [
+         "x64"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "Apache-2.0",
+       "optional": true,
+       "os": [
+@@ -442,9 +399,6 @@
+       "cpu": [
+         "arm64"
+       ],
+-      "libc": [
+-        "musl"
+-      ],
+       "license": "Apache-2.0",
+       "optional": true,
+       "os": [
+@@ -467,9 +421,6 @@
+       "cpu": [
+         "x64"
+       ],
+-      "libc": [
+-        "musl"
+-      ],
+       "license": "Apache-2.0",
+       "optional": true,
+       "os": [
+@@ -753,15 +704,6 @@
+       "integrity": "sha512-kTPhdZyTQxB+2wpiRcFWrDcejc4JI6tkPuS7UZCG4l6Zvc5kU/gGQ/ozvHTh1XR5tS+UlfAfGuPajjzQjCiHCw==",
+       "license": "MIT"
+     },
+-    "node_modules/@netlify/blobs": {
+-      "version": "8.2.0",
+-      "resolved": "https://registry.npmjs.org/@netlify/blobs/-/blobs-8.2.0.tgz",
+-      "integrity": "sha512-9djLZHBKsoKk8XCgwWSEPK9QnT8qqxEQGuYh48gFIcNLvpBKkLnHbDZuyUxmNemCfDz7h0HnMXgSPnnUVgARhg==",
+-      "license": "MIT",
+-      "engines": {
+-        "node": "^14.16.0 || >=16.0.0"
+-      }
+-    },
+     "node_modules/@types/node": {
+       "version": "26.0.1",
+       "resolved": "https://registry.npmjs.org/@types/node/-/node-26.0.1.tgz",
+diff --git a/package.json b/package.json
+index 5f90156..13fda87 100644
+--- a/package.json
++++ b/package.json
+@@ -52,7 +52,6 @@
+   },
+   "dependencies": {
+     "@libsql/client": "^0.15.15",
+-    "@netlify/blobs": "^8.1.0",
+     "png-to-ico": "^3.0.2",
+     "sharp": "^0.35.2",
+     "youtube-transcript": "^1.3.1"
+-- 
+2.43.0
+
