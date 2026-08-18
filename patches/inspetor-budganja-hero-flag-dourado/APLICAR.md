@@ -24,19 +24,20 @@ O texto da home:
 cd ProjectBudGanja
 # branch que já tem o hero-flag na home (produção / Netlify)
 
-# 1) Substitui o bloco antigo .hero-flag … prefers-reduced-motion
-#    em css/pages/home.css pelo conteúdo de hero-flag-dourado.css
-#    (ou aplica o diff)
+# 0) Se home.css tiver CRLF (comum no ficheiro em produção):
+sed -i 's/\r$//' css/pages/home.css
+
+# 1) Aplica o diff (ou cola hero-flag-dourado.css no bloco .hero-flag)
 git apply path/to/patches/inspetor-budganja-hero-flag-dourado/home-hero-flag.diff
 
-# 2) Cache-bust
-#    Em lib/asset-version.js, sobe a versão (ex. 313 → 314)
-#    depois: node scripts/stamp-assets.js
+# 2) Cache-bust — copia asset-version.js (314) ou sobe à mão
+cp path/to/patches/inspetor-budganja-hero-flag-dourado/asset-version.js lib/asset-version.js
+node scripts/stamp-assets.js
 ```
 
-Se o `git apply` falhar por drift, abre `css/pages/home.css`, encontra `body[data-page="home"] .hero--inverno .hero-flag` e cola o ficheiro `hero-flag-dourado.css` no lugar desse bloco (inclui keyframes e reduced-motion).
+Se o `git apply` falhar por drift, abre `css/pages/home.css`, encontra `body[data-page="home"] .hero--inverno .hero-flag` e substitui até ao `@media (prefers-reduced-motion… hero-flag-dot)` pelo conteúdo de `hero-flag-dourado.css`.
 
 ## Verificar
 
-1. `npm start` (ou o comando local do BudGanja) → http://localhost:8080/
+1. Sobe o site local → http://localhost:8080/
 2. No hero, o badge «Inspeção de arte · Em destaque» deve brilhar em dourado (texto + borda + ponto).
