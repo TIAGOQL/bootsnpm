@@ -27,4 +27,4 @@ CI uses **Node 20** (`.github/workflows/ci.yml`). Any recent Node that can run `
 
 ### Hello-world check
 
-With `npm start` running: open http://localhost:3000 → **Diário REM** → mark modules / scores → **Salvar** → **Exportar JSON**. That exercises the core N=1 diary flow.
+With `npm start` running: open http://localhost:3000 → confirm hero says **Painel REM** and identity line → **Diário REM** → mark modules / scores → **Salvar** → **Exportar JSON** (backup banner should update). Also open **Checklist do dono**. That exercises the core N=1 diary + owner habit flow.

@@ -1,43 +1,52 @@
-# Painel REM (nível 4)
+# Painel REM
 
-Sistema de **Relaxamento Endocanabinoide Modular** — pesquisa, diário N=1, cultivo de ideias e música Tônus.
+**Painel N=1 de relaxamento endocanabinoide — pesquisa pessoal, dados só no seu aparelho.**
+
+Site estático (HTML/CSS/JS). Sem login, sem backend, sem nuvem do diário. Não é app médico nem clínica.
 
 ## Começar agora
 
-1. `pesquisas/protocolo-n1.html` — 4 semanas  
-2. `pesquisas/diario-rem.html` — registrar + exportar JSON  
-3. `pesquisas/musica-tonus.html` — áudio de estudo  
-4. `pesquisas/cultivo-ideias.html` — plantar dúvidas  
+1. [Protocolo N=1](pesquisas/protocolo-n1.html) — 4 semanas  
+2. [Diário REM](pesquisas/diario-rem.html) — marcar o dia · **Salvar** · **Exportar JSON**  
+3. [Tônus](pesquisas/musica-tonus.html) — áudio de estudo  
+4. [Cultivo de ideias](pesquisas/cultivo-ideias.html) — plantar dúvidas  
+5. [Checklist do dono](pesquisas/checklist-dono.html) — hábito semanal + backup  
 
-Fotos dos cards do painel: `assets/img/card-*.jpg`. 
+Se a cabeça pesou: [Sinais](pesquisas/sinais.html) → [Higiene mental](pesquisas/higiene-mental.html) (M0).
 
 ```shell
 npm start
 ```
 
-## Mapa do projeto
+Abre http://localhost:3000
 
-| Área | Onde |
+## Núcleo vs resto
+
+| Núcleo (usar todo dia) | Fora do fluxo diário |
 | --- | --- |
-| Painel | `index.html` |
-| Mapa REM | `pesquisas/relaxamento-endocanabinoide.html` + `.md` |
-| Endocanabinoidoma | `pesquisas/endocanabinoidoma.html` |
-| Sementinha | `pesquisas/sementinha.html` |
-| Cultivo (Git) | `cultivo/ideias/` |
-| Poesias | `poemas/` |
-| Dados / privacidade | `pesquisas/seguranca-dados-pessoais.html` + `.md` |
-| GitHub (inspeção) | `pesquisas/github.html` + `.md` |
-| Peito / luz | `pesquisas/cadeia-peito-luz.html` · `filhodosol.html` |
+| Protocolo, Diário, Tônus, Cultivo | Biblioteca / cultivo expandido |
+| Mapa REM, Endocanabinoidoma, Sementinha | Poesia, filmes, inspeções de stack |
+| Checklist do dono, dados pessoais | Homenagens e palavras avulsas |
 
-## Dados pessoais (para quem chega de fora)
+Fotos dos cards: `assets/img/card-*.jpg`.
 
-Site estático. Sem login, sem backend, sem nuvem do diário.
+## Dados pessoais
 
-- **Só no aparelho** (`localStorage`): Diário REM, cultivo local, volume do áudio.  
-- **Público (Git / Pages):** páginas, mapa, poesias, ideias permanentes em `cultivo/ideias/`.  
-- **Backup:** Exportar JSON no Diário — quem não exporta e limpa o navegador perde o histórico.
+- **Só no aparelho** (`localStorage`): Diário REM, cultivo local, volume do áudio, data do último export.  
+- **Público (Git / Pages):** páginas, mapa, poesias, ideias em `cultivo/ideias/`.  
+- **Backup:** no Diário, **Exportar JSON** toda semana. Quem não exporta e limpa o navegador perde o histórico.
 
 Detalhe: [pesquisas/seguranca-dados-pessoais.html](pesquisas/seguranca-dados-pessoais.html).
+
+## Nome do repositório
+
+O código ainda vive em `TIAGOQL/bootsnpm` (URL histórico do GitHub). Para ficar profissional:
+
+1. GitHub → Settings → General → **Repository name** → `painel-rem`  
+2. Confirme Pages → Source: **GitHub Actions**  
+3. O GitHub redireciona o URL antigo
+
+Enquanto não renomear, o site continua em: https://tiagoql.github.io/bootsnpm/
 
 ## Plantar ideia
 
@@ -50,4 +59,13 @@ Detalhe: [pesquisas/seguranca-dados-pessoais.html](pesquisas/seguranca-dados-pes
 Deploy via GitHub Actions em `main`.
 
 **Uma vez só:** Settings → Pages → Source: **GitHub Actions**.  
-Sem isso o workflow de Pages falha (token sem permissão de criar o site).
+Sem isso o workflow de Pages falha.
+
+## Testes
+
+```shell
+npm test
+node --check assets/js/diario-rem.js
+node --check assets/js/cultivo-ideias.js
+node --check assets/js/musica-rem.js
+```

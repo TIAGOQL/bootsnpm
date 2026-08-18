@@ -1,4 +1,6 @@
 const KEY = "rem-diario-v1";
+const EXPORT_KEY = "rem-diario-export-at";
+const BACKUP_DAYS = 7;
 const MODULES = ["M0", "M1", "M2", "M3", "M4", "M4.1", "M5", "M6", "M7"];
 const METRICS = [
   { id: "calma", label: "Calma" },
@@ -45,6 +47,45 @@ function save(data) {
   localStorage.setItem(KEY, JSON.stringify(data));
 }
 
+function getExportAt() {
+  return localStorage.getItem(EXPORT_KEY) || "";
+}
+
+function setExportAt(iso) {
+  localStorage.setItem(EXPORT_KEY, iso);
+}
+
+function daysSinceExport() {
+  const raw = getExportAt();
+  if (!raw) return null;
+  const t = Date.parse(raw);
+  if (Number.isNaN(t)) return null;
+  return Math.floor((Date.now() - t) / 86400000);
+}
+
+function renderBackupBanner() {
+  const days = daysSinceExport();
+  if (days === null) {
+    return `
+      <aside class="diario-backup is-warn" role="status">
+        <strong>Backup</strong>
+        <p>Os dados ficam só neste aparelho. Exporte o JSON e guarde num lugar seguro — idealmente toda semana.</p>
+      </aside>`;
+  }
+  if (days >= BACKUP_DAYS) {
+    return `
+      <aside class="diario-backup is-warn" role="status">
+        <strong>Backup atrasado</strong>
+        <p>Último export há ${days} dias. Clique em <em>Exportar JSON</em> e arquive o arquivo.</p>
+      </aside>`;
+  }
+  return `
+    <aside class="diario-backup" role="status">
+      <strong>Backup ok</strong>
+      <p>Último export há ${days === 0 ? "hoje" : days + " dia" + (days === 1 ? "" : "s")}. Próximo lembrete em ${BACKUP_DAYS} dias.</p>
+    </aside>`;
+}
+
 function getActiveDay(root) {
   return root.dataset.day || todayKey();
 }
@@ -87,6 +128,8 @@ function render() {
   const week = entry.week || 1;
 
   root.innerHTML = `
+    ${renderBackupBanner()}
+
     <div class="diario-weeks" role="group" aria-label="Semana do protocolo N=1">
       ${WEEKS.map(
         (w) => `
@@ -132,6 +175,7 @@ function render() {
     </label>
 
     <div class="diario-toolbar">
+      <button type="button" class="music-btn" data-save>Salvar</button>
       <button type="button" class="music-btn" data-export>Exportar JSON</button>
       <button type="button" class="diario-secondary" data-import-trigger>Importar</button>
       <input type="file" accept="application/json,.json" data-import hidden>
@@ -144,14 +188,15 @@ function render() {
     </section>
   `;
 
-  const flashSaved = () => {
+  const flashSaved = (msg) => {
     const saved = root.querySelector("[data-saved]");
     if (!saved) return;
+    saved.textContent = msg || "Salvo neste aparelho.";
     saved.hidden = false;
     window.clearTimeout(flashSaved._t);
     flashSaved._t = window.setTimeout(() => {
       saved.hidden = true;
-    }, 1400);
+    }, 1600);
   };
 
   const persist = () => {
@@ -201,6 +246,10 @@ function render() {
       render();
       return;
     }
+    if (event.target.closest("[data-save]")) {
+      persist();
+      return;
+    }
     if (event.target.closest("[data-export]")) {
       persist();
       const blob = new Blob([JSON.stringify(load(), null, 2)], { type: "application/json" });
@@ -210,6 +259,14 @@ function render() {
       a.download = `diario-rem-${todayKey()}.json`;
       a.click();
       URL.revokeObjectURL(url);
+      setExportAt(new Date().toISOString());
+      flashSaved("JSON exportado — guarde o arquivo.");
+      const banner = root.querySelector(".diario-backup");
+      if (banner) {
+        banner.className = "diario-backup";
+        banner.innerHTML =
+          "<strong>Backup ok</strong><p>Export acabou de sair. Próximo lembrete em 7 dias.</p>";
+      }
       return;
     }
     if (event.target.closest("[data-import-trigger]")) {
@@ -230,11 +287,7 @@ function render() {
             render();
           }
         } catch {
-          const status = root.querySelector("[data-saved]");
-          if (status) {
-            status.hidden = false;
-            status.textContent = "JSON inválido.";
-          }
+          flashSaved("JSON inválido.");
         }
       };
       reader.readAsText(file);

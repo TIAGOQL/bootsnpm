@@ -203,7 +203,7 @@ body.panel-page {
 
 .panel-lede {
   margin: 1rem 0 0;
-  max-width: 28rem;
+  max-width: 32rem;
   color: var(--ink-soft);
   font-family: var(--font-display);
   font-size: 1.15rem;
@@ -211,6 +211,116 @@ body.panel-page {
   opacity: 0;
   transform: translateY(1rem);
   animation: rise-in 1100ms ease 380ms forwards;
+}
+
+.panel-sublede {
+  margin: 0.65rem 0 0;
+  max-width: 32rem;
+  color: var(--ink-soft);
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  opacity: 0;
+  transform: translateY(0.75rem);
+  animation: rise-in 1100ms ease 460ms forwards;
+}
+
+.panel-sublede a {
+  color: var(--blush);
+  text-decoration: none;
+}
+
+.panel-sublede a:hover,
+.panel-sublede a:focus-visible {
+  text-decoration: underline;
+  outline: none;
+}
+
+.panel-section-note {
+  margin: -0.25rem 0 0.85rem;
+  max-width: 36rem;
+  color: var(--ink-soft);
+  font-family: var(--font-ui);
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.panel-core .card-grid {
+  animation-delay: 480ms;
+}
+
+.panel-more {
+  border-top: 1px solid rgba(31, 42, 50, 0.12);
+  padding-top: 0.5rem;
+}
+
+.panel-more-summary {
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+
+.panel-more-summary::-webkit-details-marker {
+  display: none;
+}
+
+.panel-more-summary::after {
+  content: " · abrir";
+  color: var(--ink-soft);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  text-transform: none;
+}
+
+.panel-more[open] .panel-more-summary::after {
+  content: " · fechar";
+}
+
+.panel-more .card-grid {
+  margin-top: 0.85rem;
+}
+
+.panel-hint a {
+  color: var(--blush);
+  text-decoration: none;
+}
+
+.panel-hint a:hover,
+.panel-hint a:focus-visible {
+  text-decoration: underline;
+  outline: none;
+}
+
+.diario-backup {
+  padding: 0.85rem 1rem;
+  color: var(--ink-soft);
+  background: rgba(255, 255, 255, 0.45);
+  border: 1px solid rgba(31, 42, 50, 0.12);
+  border-radius: 0.35rem;
+}
+
+.diario-backup strong {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+.diario-backup p {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.diario-backup.is-warn {
+  border-color: rgba(139, 58, 74, 0.4);
+  background: rgba(139, 58, 74, 0.08);
+}
+
+.diario-backup.is-warn strong {
+  color: var(--blush);
 }
 
 .poem {

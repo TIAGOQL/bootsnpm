@@ -20,12 +20,14 @@ Site: https://github.com
 | Ideias em `cultivo/ideias/*.md` | Cultivo local (`rem-cultivo-v1`) |
 | Actions / Pages (site público) | Volume da música |
 
-Ver: [segurança dos dados](seguranca-dados-pessoais.html) · [Module.load](module-load.html) (CI usa Node) · repo: https://github.com/TIAGOQL/bootsnpm  
+Ver: [segurança dos dados](seguranca-dados-pessoais.html) · [Module.load](module-load.html) (CI usa Node) · [Checklist do dono](checklist-dono.html) · repo: https://github.com/TIAGOQL/bootsnpm  
 
 ## Pages
 
 O site público sobe via Actions em `main`. Uma vez: Settings → Pages → Source: **GitHub Actions**.  
 URL típica: https://tiagoql.github.io/bootsnpm/
+
+Nome no `package.json`: `painel-rem`. Renomear o repo no GitHub para `painel-rem` quando puder (Settings → General → Repository name).
 
 ## Página
 
