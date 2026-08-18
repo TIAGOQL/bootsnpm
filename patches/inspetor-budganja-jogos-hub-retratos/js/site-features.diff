@@ -1,5 +1,5 @@
 diff --git a/js/site-features.js b/js/site-features.js
-index 79dbb2e..c418368 100644
+index 79dbb2e..2631a81 100644
 --- a/js/site-features.js
 +++ b/js/site-features.js
 @@ -733,8 +733,8 @@
@@ -13,3 +13,16 @@ index 79dbb2e..c418368 100644
          loadYoutubeFacade(btn, true);
          return;
        }
+@@ -759,7 +759,11 @@
+       iframe.replaceWith(btn);
+       bindYoutubeFacadeButton(btn);
+     });
+-    scope.querySelectorAll('.yt-facade[data-youtube-id]').forEach(bindYoutubeFacadeButton);
++    scope.querySelectorAll('.yt-facade[data-youtube-id]').forEach(function (btn) {
++      // Hub Jogos liga o play sozinho (in-page) — não redirecionar para /videos/.
++      if (btn.closest('.jogos-hub-embed, .yt-facade-skip')) return;
++      bindYoutubeFacadeButton(btn);
++    });
+   }
+ 
+   function youtubeFacadeHtml(id, title) {
