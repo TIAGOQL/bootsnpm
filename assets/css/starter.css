@@ -5,6 +5,9 @@
   --mist-2: #d5e3eb;
   --mist-3: #c3d5e0;
   --blush: #8b3a4a;
+  --leaf: #2f6b45;
+  --leaf-bright: #4aad6a;
+  --leaf-soft: #7bc992;
   --rain: rgba(61, 79, 92, 0.22);
   --font-display: "Fraunces", "Iowan Old Style", "Palatino Linotype", serif;
   --font-ui: "Karla", "Gill Sans", "Trebuchet MS", sans-serif;
@@ -465,6 +468,34 @@ body.panel-page {
   font-weight: 500;
   letter-spacing: 0.14em;
   text-transform: uppercase;
+}
+
+.panel-section-label-green {
+  color: transparent;
+  background-image: linear-gradient(
+    105deg,
+    var(--leaf) 0%,
+    var(--leaf-bright) 35%,
+    var(--leaf-soft) 50%,
+    var(--leaf-bright) 65%,
+    var(--leaf) 100%
+  );
+  background-size: 220% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: leaf-sheen 4.5s ease-in-out infinite;
+  filter: drop-shadow(0 0 0.55rem rgba(74, 173, 106, 0.35));
+}
+
+@keyframes leaf-sheen {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
 }
 
 .diario {
@@ -1011,6 +1042,15 @@ body.is-music-playing .rain {
 @media (prefers-reduced-motion: reduce) {
   .rain {
     animation: none;
+  }
+
+  .panel-section-label-green {
+    color: var(--leaf);
+    background-image: none;
+    -webkit-background-clip: unset;
+    background-clip: unset;
+    animation: none;
+    filter: none;
   }
 
   .panel-shortcut,
