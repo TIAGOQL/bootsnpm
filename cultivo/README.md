@@ -34,3 +34,9 @@ O agente cria o `.md` em `cultivo/ideias/` e, se pedir, liga ao REM.
 | Semente de presença / peito | M2, M6 |
 | Semente de parar / sonhos | M3, M7 |
 | Semente de palavra / mapa | endocanabinoidoma, esqueceremos, mapa REM |
+
+## Dados
+
+Ideias no formulário do painel ficam **só neste aparelho**.  
+Ideias em `cultivo/ideias/*.md` são públicas no Git.  
+Mapa completo (diário, Pages, backup): [pesquisas/seguranca-dados-pessoais.html](../pesquisas/seguranca-dados-pessoais.html).
