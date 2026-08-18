@@ -23,6 +23,10 @@ npm start
 | Mapa REM | `pesquisas/relaxamento-endocanabinoide.html` + `.md` |
 | Endocanabinoidoma | `pesquisas/endocanabinoidoma.html` |
 | Sementinha | `pesquisas/sementinha.html` |
+| Lema | `pesquisas/faca-seu-melhor.html` |
+| Rádio → Podcast | `pesquisas/radio.html` |
+| NotebookLM | `pesquisas/notebooklm.html` |
+| CCR · a chuva | `pesquisas/ccr-have-you-ever-seen-the-rain.html` |
 | Cultivo (Git) | `cultivo/ideias/` |
 | Poesias | `poemas/` |
 | Dados / privacidade | `pesquisas/seguranca-dados-pessoais.html` + `.md` |
