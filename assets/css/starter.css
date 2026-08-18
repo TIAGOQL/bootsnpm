@@ -181,14 +181,6 @@ body.panel-page {
   font-size: 0.85rem;
 }
 
-.page-hero-poster {
-  width: min(11.5rem, 46vw);
-  aspect-ratio: auto;
-  height: auto;
-  object-fit: contain;
-  background: #14181c;
-}
-
 .page-hero-photo {
   display: block;
   width: min(100%, 34rem);
@@ -199,6 +191,14 @@ body.panel-page {
   opacity: 0;
   transform: translateY(1rem);
   animation: rise-in 1100ms ease 420ms forwards;
+}
+
+.page-hero-photo.page-hero-poster {
+  width: min(11.5rem, 46vw);
+  aspect-ratio: auto;
+  height: auto;
+  object-fit: contain;
+  background: #14181c;
 }
 
 .poem-brand,
