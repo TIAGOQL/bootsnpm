@@ -1,4 +1,5 @@
 const DATA_URL = new URL("../data/paulinho-videos.json", import.meta.url);
+const PAGE_SIZE = 30;
 
 const KIND_LABEL = {
   video: "vídeo",
@@ -69,6 +70,10 @@ function applyFilters(items, { query, kind, series, sort }) {
   return list;
 }
 
+function thumbUrl(id) {
+  return `https://i.ytimg.com/vi/${encodeURIComponent(id)}/mqdefault.jpg`;
+}
+
 function renderList(box, items) {
   if (!items.length) {
     box.innerHTML = `<p class="cultivo-empty">Nenhum vídeo com esse filtro. Limpa a busca e tenta de novo.</p>`;
@@ -79,30 +84,69 @@ function renderList(box, items) {
     .map((item) => {
       const kind = KIND_LABEL[item.kind] || item.kind;
       const href = `https://www.youtube.com/watch?v=${encodeURIComponent(item.id)}`;
-      return `<a class="module-link" href="${href}" rel="noopener noreferrer" target="_blank"><span>${escapeHtml(formatDuration(item.duration))}</span><strong>${escapeHtml(item.title)}</strong><em>${escapeHtml(kind)} · ${escapeHtml(formatViews(item.views))}</em></a>`;
+      const duration = formatDuration(item.duration);
+      return `<a class="catalog-video" href="${href}" rel="noopener noreferrer" target="_blank"><span class="catalog-video-thumb"><img src="${thumbUrl(item.id)}" alt="" width="320" height="180" loading="lazy"><span class="catalog-video-duration">${escapeHtml(duration)}</span></span><span class="catalog-video-title">${escapeHtml(item.title)}</span><span class="catalog-video-meta">${escapeHtml(formatViews(item.views))} · ${escapeHtml(kind)}</span></a>`;
     })
     .join("");
+}
+
+function pageSlice(items, page) {
+  const pages = Math.max(1, Math.ceil(items.length / PAGE_SIZE));
+  const safe = Math.min(Math.max(1, page), pages);
+  const start = (safe - 1) * PAGE_SIZE;
+  return { page: safe, pages, start, slice: items.slice(start, start + PAGE_SIZE) };
 }
 
 function bind(root, catalog) {
   const form = root.querySelector("[data-catalog-form]");
   const count = root.querySelector("[data-catalog-count]");
   const list = root.querySelector("[data-catalog-list]");
+  const pager = root.querySelector("[data-catalog-pager]");
+  const pageStatus = root.querySelector("[data-catalog-page]");
+  const prev = root.querySelector("[data-catalog-prev]");
+  const next = root.querySelector("[data-catalog-next]");
   if (!form || !count || !list) return;
 
-  const paint = () => {
+  let page = 1;
+
+  const paint = ({ resetPage } = {}) => {
     const query = form.query.value || "";
     const kind = form.kind.value || "all";
     const series = form.series.value || "all";
     const sort = form.sort.value || "channel";
     const shown = applyFilters(catalog.items, { query, kind, series, sort });
+    if (resetPage) page = 1;
+    const paged = pageSlice(shown, page);
+    page = paged.page;
     count.textContent = `${shown.length} de ${catalog.counts.total}`;
-    renderList(list, shown);
+    renderList(list, paged.slice);
+    if (pager && pageStatus && prev && next) {
+      const from = shown.length ? paged.start + 1 : 0;
+      const to = paged.start + paged.slice.length;
+      pageStatus.textContent = shown.length ? `${from}–${to} · pág. ${paged.page}/${paged.pages}` : "";
+      pager.hidden = shown.length <= PAGE_SIZE;
+      prev.disabled = paged.page <= 1;
+      next.disabled = paged.page >= paged.pages;
+    }
   };
 
-  form.addEventListener("input", paint);
-  form.addEventListener("change", paint);
+  form.addEventListener("input", () => paint({ resetPage: true }));
+  form.addEventListener("change", () => paint({ resetPage: true }));
   form.addEventListener("submit", (event) => event.preventDefault());
+  if (prev) {
+    prev.addEventListener("click", () => {
+      page -= 1;
+      paint();
+      list.scrollIntoView({ block: "start", behavior: "smooth" });
+    });
+  }
+  if (next) {
+    next.addEventListener("click", () => {
+      page += 1;
+      paint();
+      list.scrollIntoView({ block: "start", behavior: "smooth" });
+    });
+  }
   paint();
 }
 

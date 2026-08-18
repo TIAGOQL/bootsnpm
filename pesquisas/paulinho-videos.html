@@ -14,23 +14,15 @@
     <div class="rain" aria-hidden="true"></div>
     <a class="panel-shortcut" href="../index.html">← Painel</a>
 
-    <main class="poem-shell research-shell">
+    <main class="poem-shell research-shell panel-shell-wide">
       <header class="poem-brand">
         <p class="poem-for">catálogo · YouTube</p>
         <h1 class="poem-title">Paulinho — vídeos</h1>
-        <p class="panel-lede">Aliffe Henrique de Carvalho. Lista do canal oficial, com busca. Assiste no YouTube.</p>
+        <p class="panel-lede">Grade do canal, como a aba Vídeos. 30 por página. Clique abre o YouTube.</p>
       </header>
 
-      <img class="page-hero-photo" src="../assets/img/card-tonus.jpg" alt="Tônus — catálogo Paulinho o Loko" width="640" height="360" loading="eager">
-
       <article class="poem research-body" aria-label="Catálogo Paulinho o Loko">
-        <p><strong>Canal:</strong> <a href="https://www.youtube.com/@PaulinhoLOKOoficial" rel="noopener noreferrer" target="_blank">PAULINHO O LOKO</a> · <code>@PaulinhoLOKOoficial</code><br>
-        <strong>Quem:</strong> Aliffe Henrique de Carvalho · Machado-MG.<br>
-        <strong>Retrato:</strong> 17 ago 2026 · 1.375 vídeos · 13 lives · 1 short · <strong>1.389</strong> no total · ~7,59 mi inscritos.</p>
-
-        <p><strong>Como usar:</strong> busca pelo título. Filtro por tipo (vídeo / live / short) e série (GTA RP · ANTI RP · outro). Ordem do canal = do mais novo ao mais antigo no momento do retrato. Clique abre o YouTube.</p>
-
-        <p><strong>No REM:</strong> rir é tônus. Esta página é mapa, não espelho ao vivo — o canal continua postando. Perto da <a href="homenagem-paulinho-o-loko.html">homenagem</a> e da <a href="paulinho-o-loko.html">ficha</a>. Se aquecer — marca no <a href="diario-rem.html">diário</a>.</p>
+        <p><strong>Canal:</strong> <a href="https://www.youtube.com/@PaulinhoLOKOoficial" rel="noopener noreferrer" target="_blank">PAULINHO O LOKO</a> · Aliffe · retrato 17 ago 2026 · 1389 itens. Mapa, não ao vivo. <a href="homenagem-paulinho-o-loko.html">Homenagem</a> · <a href="paulinho-o-loko.html">ficha</a>.</p>
       </article>
 
       <div class="catalog" data-catalog>
@@ -70,7 +62,12 @@
             </label>
           </div>
         </form>
-        <nav class="module-map catalog-list" data-catalog-list aria-label="Vídeos do Paulinho"></nav>
+        <nav class="catalog-grid" data-catalog-list aria-label="Vídeos do Paulinho"></nav>
+        <nav class="catalog-pager" data-catalog-pager hidden>
+          <button type="button" class="catalog-pager-btn" data-catalog-prev>Anterior</button>
+          <p class="catalog-pager-status" data-catalog-page></p>
+          <button type="button" class="catalog-pager-btn" data-catalog-next>Próxima</button>
+        </nav>
       </div>
 
       <p class="research-note">

@@ -35,7 +35,7 @@ Quase tudo é GTA RP / humor. ANTI RP é fatia menor. Fora disso: vlog, ressaca 
 
 ## Como ver a lista inteira
 
-- Página: [paulinho-videos.html](paulinho-videos.html) (busca + filtros)  
+- Página: [paulinho-videos.html](paulinho-videos.html) — grade (capa + título) · 30 por página · busca + filtros  
 - Dados: `assets/data/paulinho-videos.json`  
 - Canal: https://www.youtube.com/@PaulinhoLOKOoficial  
 

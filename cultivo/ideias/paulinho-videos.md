@@ -7,7 +7,7 @@
 
 ## Nota
 
-Lista completa do YouTube oficial (`@PaulinhoLOKOoficial` · Aliffe). 1389 itens no retrato de 17 ago 2026. Busca na página; JSON em `assets/data/paulinho-videos.json`.
+Lista completa do YouTube oficial (`@PaulinhoLOKOoficial` · Aliffe). 1389 itens no retrato de 17 ago 2026. Grade compacta (capa + título), 30 por página. JSON em `assets/data/paulinho-videos.json`.
 
 ## Por que importa
 
