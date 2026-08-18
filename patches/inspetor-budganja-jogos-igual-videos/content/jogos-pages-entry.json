@@ -1,0 +1,16 @@
+{
+  "jogos/index.html": {
+    "id": "jogos/index.html",
+    "label": "Games",
+    "title": "Games | Inspetor BudGanja",
+    "metaDescription": "Games do Inspetor BudGanja — Zangado e Paulinho o LOKO. Assista aqui no site; ficção de jogo não é manual de crime.",
+    "ogTitle": "Games | Inspetor BudGanja",
+    "ogDescription": "Player embutido com Zangado e Paulinho o LOKO — filtros por canal e série.",
+    "ogType": "website",
+    "dataPage": "jogos",
+    "headExtra": "",
+    "body": "<main id=\"main-content\" class=\"conteudo videos-page\">\n        <header class=\"videos-header\">\n            <p class=\"guia-badge\" data-i18n=\"pages.games.eyebrow\">Games</p>\n            <h1 data-i18n=\"pages.games.title\">Games</h1>\n            <p class=\"secao-subtitulo\" data-i18n=\"pages.games.subtitle\">Assista aqui no site — Zangado e Paulinho o LOKO. Ficção de jogo não é manual de crime.</p>\n        </header>\n\n        <nav id=\"videos-filters\" class=\"videos-filters-wrap\" aria-label=\"Filtros de vídeos\"></nav>\n\n        <div class=\"videos-search-wrap\">\n            <label class=\"videos-search-label\" for=\"videos-search\" data-i18n=\"pages.games.searchLabel\">Buscar</label>\n            <input\n                type=\"search\"\n                id=\"videos-search\"\n                class=\"videos-search-input\"\n                placeholder=\"Assunto, título ou palavra…\"\n                data-i18n-placeholder=\"pages.games.searchPlaceholder\"\n                autocomplete=\"off\"\n                enterkeyhint=\"search\"\n            >\n        </div>\n\n        <div id=\"videos-list\" class=\"videos-list\">\n            <p class=\"empty-message\" data-i18n=\"pages.games.loadingVideos\">Carregando vídeos...</p>\n        </div>\n        <p class=\"videos-more-wrap comunidade-more-wrap\">\n            <button type=\"button\" id=\"videos-load-more\" class=\"botao botao-outline\" hidden data-i18n=\"pages.games.loadMore\">Carregar mais</button>\n        </p>\n    </main>",
+    "scripts": "<script src=\"/js/site-features.js?v=314\"></script>\n    <script src=\"/js/videos.js?v=314\"></script>",
+    "updatedAt": "2026-08-18T04:25:38.851Z"
+  }
+}
