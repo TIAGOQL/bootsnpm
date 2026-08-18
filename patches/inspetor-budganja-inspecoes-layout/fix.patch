@@ -1,0 +1,137 @@
+diff --git a/css/style.css b/css/style.css
+index 482f3f1..3385605 100644
+--- a/css/style.css
++++ b/css/style.css
+@@ -6844,10 +6844,12 @@ body[data-page="home"] .botao-home.has-hover-tip {
+     z-index: var(--z-install);
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+     animation: slideIn 0.5s ease-out;
+-    max-width: calc(100vw - 32px);
++    max-width: min(280px, calc(100vw - 32px));
+     display: inline-flex;
+     align-items: stretch;
+     overflow: hidden;
++    /* Evita cobrir o conteúdo ao passar o rato / toque nos cards */
++    pointer-events: auto;
+ }
+ 
+ .install-prompt-main {
+@@ -12196,12 +12198,55 @@ body[data-page="comunidade"] .botao.botao-outline:focus-visible {
+ /* Hub no modelo /videos/: chips + busca + lista filtrada */
+ .inspecoes-hub .videos-filters-wrap {
+     margin-top: 4px;
++    margin-bottom: 16px;
++}
++
++/* Chips: scroll horizontal no mobile; wrap controlado no desktop */
++.inspecoes-hub .videos-filters {
++    display: flex;
++    flex-wrap: nowrap;
++    gap: 8px;
++    overflow-x: auto;
++    overflow-y: hidden;
++    -webkit-overflow-scrolling: touch;
++    scrollbar-width: thin;
++    padding: 2px 2px 8px;
++    max-width: 100%;
++}
++
++.inspecoes-hub .videos-filter-chip {
++    flex: 0 0 auto;
++    white-space: nowrap;
++}
++
++@media (min-width: 900px) {
++    .inspecoes-hub .videos-filters {
++        flex-wrap: wrap;
++        overflow-x: visible;
++        padding-bottom: 2px;
++    }
++}
++
++.inspecoes-hub .videos-search-wrap,
++.inspecoes-hub .inspecoes-search-wrap {
++    max-width: none;
++    width: 100%;
++    margin-bottom: 20px;
+ }
+ 
+ .inspecoes-list {
+     margin-top: clamp(8px, 1.5vw, 14px);
+ }
+ 
++/* Espaço para o banner «Instalar app» não cobrir cards */
++body[data-page="inspecoes"] #main-content {
++    padding-bottom: calc(var(--space-section, 48px) + 72px + env(safe-area-inset-bottom, 0px));
++}
++
++body:has(.install-prompt:not(.is-hidden)) #main-content {
++    padding-bottom: calc(var(--space-section, 48px) + 80px + env(safe-area-inset-bottom, 0px));
++}
++
+ .inspecoes-list .inspecoes-tipo-section {
+     scroll-margin-top: calc(var(--header-offset, 72px) + 12px);
+ }
+diff --git a/js/posts.js b/js/posts.js
+index 0d97423..5d5c867 100644
+--- a/js/posts.js
++++ b/js/posts.js
+@@ -250,12 +250,21 @@ function coverPlaceholderHtml() {
+   return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>';
+ }
+ 
++function normalizeCoverSrc(coverImage) {
++  var cover = String(coverImage || '').trim();
++  if (!cover) return '';
++  // Typo comum: /images/ em vez de /imagens/
++  cover = cover.replace(/^\/images\//i, '/imagens/');
++  if (cover.startsWith('/') || /^(?:https?:)?\/\//i.test(cover)) return cover;
++  return '/' + cover.replace(/^\/+/, '');
++}
++
+ function appendCoverTo(parent, coverImage) {
+   var placeholderHtml = coverPlaceholderHtml();
+   if (coverImage) {
+     var img = document.createElement('img');
+-    var cover = String(coverImage).trim();
+-    img.src = cover.startsWith('/') || /^(?:https?:)?\/\//i.test(cover) ? cover : '/' + cover.replace(/^\/+/, '');
++    var cover = normalizeCoverSrc(coverImage);
++    img.src = cover;
+     img.alt = '';
+     img.className = 'post-card-cover';
+     img.loading = 'lazy';
+@@ -264,7 +273,7 @@ function appendCoverTo(parent, coverImage) {
+       ph.className = 'post-card-cover post-card-cover-placeholder';
+       ph.setAttribute('aria-hidden', 'true');
+       ph.innerHTML = placeholderHtml;
+-      this.parentNode.replaceChild(ph, this);
++      if (this.parentNode) this.parentNode.replaceChild(ph, this);
+     };
+     parent.appendChild(img);
+     return;
+@@ -574,12 +583,7 @@ function renderInspecoesFilters(posts) {
+     }
+   });
+ 
+-  // Modelo /videos/: com série activa, só «Todas» + activa.
+-  if (inspecoesActiveTipo && inspecoesActiveTipo !== 'all') {
+-    chips = chips.filter(function (ch) {
+-      return ch.id === 'all' || ch.id === inspecoesActiveTipo;
+-    });
+-  }
++  // Manter todas as chips visíveis — esconder as outras quebrava o layout do hub.
+ 
+   filtersEl.innerHTML =
+     '<div class="videos-filters" role="toolbar" aria-label="' +
+diff --git a/lib/asset-version.js b/lib/asset-version.js
+index 290af86..d479a88 100644
+--- a/lib/asset-version.js
++++ b/lib/asset-version.js
+@@ -3,6 +3,6 @@
+ // Versão usada para "cache-busting" dos assets estáticos (?v=...).
+ // Incrementar este número quando for preciso forçar navegadores e a
+ // Cloudflare a descartarem versões antigas de JS/CSS/Service Worker.
+-const ASSET_VERSION = '313';
++const ASSET_VERSION = '314';
+ 
+ module.exports = { ASSET_VERSION };
