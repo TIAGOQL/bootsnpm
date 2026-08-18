@@ -25,7 +25,8 @@ Homenagem + divulgação do canal. 2026-08-04.
 
 ## Por que esta página
 
-Ficha + divulgação. A **homenagem especial** está em [homenagem-paulinho-o-loko.html](homenagem-paulinho-o-loko.html).
+Ficha + divulgação. A **homenagem especial** está em [homenagem-paulinho-o-loko.html](homenagem-paulinho-o-loko.html).  
+O **maior golpe** (R0 bilhões, só no jogo): [golpe-r0-bilhoes.html](golpe-r0-bilhoes.html).
 
 ## No REM
 

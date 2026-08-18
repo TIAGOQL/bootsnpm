@@ -323,6 +323,172 @@ body.panel-page {
   color: var(--blush);
 }
 
+.golpe-shell {
+  width: min(42rem, calc(100% - 2.5rem));
+}
+
+.golpe-aviso {
+  margin: 0 0 1.5rem;
+  padding: 0.85rem 1rem;
+  color: var(--ink-soft);
+  font-family: var(--font-ui);
+  font-size: 0.92rem;
+  line-height: 1.45;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(31, 42, 50, 0.14);
+  border-radius: 0.35rem;
+  opacity: 0;
+  transform: translateY(0.75rem);
+  animation: rise-in 900ms ease 420ms forwards;
+}
+
+.golpe-aviso strong {
+  color: var(--blush);
+}
+
+.golpe-score {
+  display: grid;
+  gap: 0.35rem;
+  margin: 0 0 1.75rem;
+  padding: 1.25rem 1.1rem 1.35rem;
+  text-align: center;
+  background:
+    radial-gradient(80% 120% at 50% 0%, rgba(139, 58, 74, 0.14), transparent 70%),
+    rgba(255, 255, 255, 0.42);
+  border: 1px solid rgba(139, 58, 74, 0.28);
+  border-radius: 0.45rem;
+  opacity: 0;
+  transform: translateY(1rem) scale(0.98);
+  animation: golpe-score-in 1100ms ease 500ms forwards;
+}
+
+.golpe-score-label {
+  color: var(--blush);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.golpe-score-value {
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 8vw, 3.5rem);
+  font-weight: 500;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+}
+
+.golpe-score-meta {
+  color: var(--ink-soft);
+  font-family: var(--font-display);
+  font-size: 1rem;
+}
+
+@keyframes golpe-score-in {
+  from {
+    opacity: 0;
+    transform: translateY(1rem) scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.golpe-player {
+  margin: 0 0 2rem;
+  opacity: 0;
+  transform: translateY(1rem);
+  animation: rise-in 1100ms ease 580ms forwards;
+}
+
+.golpe-embed {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 0.45rem;
+  background: var(--mist-3);
+  border: 1px solid rgba(31, 42, 50, 0.12);
+}
+
+.golpe-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.golpe-watch {
+  margin: 0.75rem 0 0;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+
+.golpe-watch a {
+  color: var(--blush);
+  text-decoration: none;
+}
+
+.golpe-watch a:hover,
+.golpe-watch a:focus-visible {
+  text-decoration: underline;
+  outline: none;
+}
+
+.golpe-stages {
+  margin: 0 0 1.75rem;
+  padding: 0;
+  list-style: none;
+  counter-reset: golpe-step;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.golpe-stages li {
+  position: relative;
+  display: grid;
+  gap: 0.25rem;
+  padding: 0.85rem 1rem 0.9rem 3.1rem;
+  background: rgba(255, 255, 255, 0.38);
+  border: 1px solid rgba(31, 42, 50, 0.1);
+  border-radius: 0.35rem;
+  counter-increment: golpe-step;
+}
+
+.golpe-stages li::before {
+  content: counter(golpe-step);
+  position: absolute;
+  top: 0.85rem;
+  left: 0.85rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  color: var(--blush);
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  text-align: center;
+  border: 1px solid rgba(139, 58, 74, 0.35);
+  border-radius: 999px;
+}
+
+.golpe-stages strong {
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 500;
+}
+
+.golpe-stages span {
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
 .poem {
   color: var(--ink-soft);
   font-family: var(--font-display);
