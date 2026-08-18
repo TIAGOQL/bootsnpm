@@ -34,6 +34,10 @@ Isso vive em `localStorage`. Não sobe para o servidor do projeto.
 Quem abre o site ou clona o repositório vê o mesmo conteúdo estático.  
 Não committe no Git o que deveria ficar só no diário pessoal.
 
+## NotebookLM (fora do Pages)
+
+Caderno de pesquisa na **nuvem Google** (conta Google). O painel só publica o atalho/inspeção ([notebooklm.html](notebooklm.html)) e o ID `59a1e644-7a84-4374-af34-ecbfa3acab56`. Fontes, chat e studio **não** estão neste repo. Não use como substituto do diário N=1.
+
 ## Backup e perda
 
 - **Exportar JSON** no Diário = backup sob seu controle.  
