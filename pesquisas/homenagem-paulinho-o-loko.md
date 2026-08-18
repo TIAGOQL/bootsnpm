@@ -24,7 +24,7 @@ Streamer, youtuber, humor. Esta página não é ficha técnica — é **homenage
 
 ## No REM
 
-Rir = tônus. Nomear quem alegra = cuidado.
+Rir = sentido. Nomear quem alegra = cuidado.
 
 - [bom dia, vida](bom-dia-vida.html) · [s2](s2.html) · [filhodosol](filhodosol.html)  
 - Ficha: [paulinho-o-loko.html](paulinho-o-loko.html)  

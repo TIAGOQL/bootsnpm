@@ -1,12 +1,12 @@
 # Painel REM (nível 4)
 
-Sistema de **Relaxamento Endocanabinoide Modular** — pesquisa, diário N=1, cultivo de ideias e música Tônus.
+Sistema de **Relaxamento Endocanabinoide Modular** — pesquisa, diário N=1, cultivo de ideias e música Sentido.
 
 ## Começar agora
 
 1. `pesquisas/protocolo-n1.html` — 4 semanas  
 2. `pesquisas/diario-rem.html` — registrar + exportar JSON  
-3. `pesquisas/musica-tonus.html` — áudio de estudo  
+3. `pesquisas/musica-sentido.html` — áudio de estudo  
 4. `pesquisas/cultivo-ideias.html` — plantar dúvidas  
 
 Fotos dos cards do painel: `assets/img/card-*.jpg`. 

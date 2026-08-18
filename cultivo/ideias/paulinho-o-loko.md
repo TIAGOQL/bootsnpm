@@ -1,7 +1,7 @@
 # Paulinho o Loko
 
 - **Estágio:** colheita
-- **Módulo REM:** cara · palavra · tônus
+- **Módulo REM:** cara · palavra · sentido
 - **Plantada em:** 2026-08-04
 - **Próximo passo:** divulgar — mandar YouTube / Twitch / Instagram pra quem precisa de leveza
 
@@ -11,4 +11,4 @@ Homenagem + **divulgar o canal**. Paulinho o Loko (Aliffe · Machado-MG). YouTub
 
 ## Por que importa
 
-Pessoa boa no feed. Link na mão = tônus compartilhado.
+Pessoa boa no feed. Link na mão = sentido compartilhado.

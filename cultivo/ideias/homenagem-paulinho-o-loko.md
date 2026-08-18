@@ -1,7 +1,7 @@
 # Homenagem especial — Paulinho o Loko
 
 - **Estágio:** colheita
-- **Módulo REM:** cara · tônus · homenagem
+- **Módulo REM:** cara · sentido · homenagem
 - **Plantada em:** 2026-08-04
 - **Próximo passo:** abrir o canal · mandar o link · se riu, marcar no diário
 

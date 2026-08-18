@@ -25,7 +25,7 @@ Will Salas — trabalhador de zona pobre cujo braço mostra quanto tempo de vida
 ## No REM
 
 - [*In Time*](in-time.html) — o papel do contador no braço  
-- [Tônus](musica-tonus.html) / [Rei Leão](rei-leao-musica.html) — som como presença (ele é pop; o painel usa trilha à parte)  
+- [Sentido](musica-sentido.html) / [Rei Leão](rei-leao-musica.html) — som como presença (ele é pop; o painel usa trilha à parte)  
 - [Anonymous](anonymous.html) — fama com nome vs anonimato de legião  
 - [Diário](diario-rem.html) — marcar o dia sem vender o relógio  
 - [Module.load](module-load.html) — Node carrega pelo nome do módulo (stack `cjs/loader`)  

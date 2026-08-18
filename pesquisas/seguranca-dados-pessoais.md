@@ -5,7 +5,7 @@ Do que se trata o Painel REM e onde ficam (ou não) os dados.
 
 ## O que é este projeto
 
-Site estático de **Relaxamento Endocanabinoide Modular** (REM): protocolo N=1, diário, cultivo de ideias, música Tônus, mapa M0–M8 + M4.1, pesquisas e poesias.
+Site estático de **Relaxamento Endocanabinoide Modular** (REM): protocolo N=1, diário, cultivo de ideias, música Sentido, mapa M0–M8 + M4.1, pesquisas e poesias.
 
 Não é app médico. Não é clínica. Não é rede social. Não há login.
 
@@ -21,7 +21,7 @@ Não é app médico. Não é clínica. Não é rede social. Não há login.
 | --- | --- | --- |
 | `rem-diario-v1` | Diário REM | Marcas N=1 do dia |
 | `rem-cultivo-v1` | Cultivo (navegador) | Ideias plantadas localmente |
-| `rem-music-volume` | Tônus / painel | Volume do áudio |
+| `rem-music-volume` | Sentido / painel | Volume do áudio |
 
 Isso vive em `localStorage`. Não sobe para o servidor do projeto.
 
@@ -64,7 +64,7 @@ Política de Privacidade e Cookies — Simplifica+ (nov/2025), seção *Seguran�
 | Área | Onde |
 | --- | --- |
 | Painel | [index.html](../index.html) |
-| Protocolo / Diário / Tônus | [protocolo-n1](protocolo-n1.html) · [diario-rem](diario-rem.html) · [musica-tonus](musica-tonus.html) |
+| Protocolo / Diário / Sentido | [protocolo-n1](protocolo-n1.html) · [diario-rem](diario-rem.html) · [musica-sentido](musica-sentido.html) |
 | Cultivo | [cultivo-ideias](cultivo-ideias.html) · `cultivo/ideias/` |
 | Mapa REM | [relaxamento-endocanabinoide](relaxamento-endocanabinoide.html) |
 | Higiene / Sinais | [higiene-mental](higiene-mental.html) · [sinais](sinais.html) |

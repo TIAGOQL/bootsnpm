@@ -7,7 +7,7 @@
 
 ## Nota
 
-Overtraining também bagunça o SEC. Queremos tônus, não estresse novo.
+Overtraining também bagunça o SEC. Queremos sentido, não estresse novo.
 
 ## Por que importa
 

@@ -1,6 +1,6 @@
 # Categoria: Relaxamento Endocanabinoide Modular (REM)
 
-Pesquisa aplicada para **modularizar o sistema endocanabinoide (SEC)** por vias de relaxamento — preferindo tônus endógeno (o que o corpo produz) em vez de dependência de fumaça.
+Pesquisa aplicada para **modularizar o sistema endocanabinoide (SEC)** por vias de relaxamento — preferindo sentido endógeno (o que o corpo produz) em vez de dependência de fumaça.
 
 > Escopo educacional/de pesquisa. Não é prescrição médica.
 
@@ -10,7 +10,7 @@ Pesquisa aplicada para **modularizar o sistema endocanabinoide (SEC)** por vias 
 
 O SEC é um sistema de homeostase sob demanda. Estresse agudo move mediadores (AEA, 2-AG); estresse crônico costuma **baixar anandamida** e **subir FAAH**, enfraquecendo o freio natural da ansiedade.
 
-**Relaxamento modular** = treinar módulos separados que elevam ou preservam o tônus endocanabinoide, depois combinar.
+**Relaxamento modular** = treinar módulos separados que elevam ou preservam o sentido endocanabinoide, depois combinar.
 
 ---
 
@@ -56,11 +56,11 @@ Cada módulo tem: mecanismo → protocolo de observação → métricas → hip�
 - **Mecanismo:** exercício eleva AEA (e às vezes 2-AG); ligado a analgesia, sedação leve pós-esforço, runner’s high.
 - **Protocolo-base:** 20–40 min aeróbico moderado–alto, 3–5×/semana; observar janela de 0–60 min pós.
 - **Métricas:** humor (PANAS/VAS), FC, sono na noite seguinte, craving se houver cessação de tabaco.
-- **Aberto:** dose mínima que estabiliza tônus sem overtraining (estresse crônico também mexe no SEC).
+- **Aberto:** dose mínima que estabiliza sentido sem overtraining (estresse crônico também mexe no SEC).
 
 ### M2 — Respiração e presença (mindfulness / coerência)
 
-- **Mecanismo:** reduz drive simpático e carga sobre HPA; suporte indireto ao tônus de AEA na amígdala.
+- **Mecanismo:** reduz drive simpático e carga sobre HPA; suporte indireto ao sentido de AEA na amígdala.
 - **Protocolo-base:** 10–20 min/dia (respiração lenta 5–6/min ou body-scan).
 - **Métricas:** ansiedade estado (STAI-S), batimento peito/gesto consciente, latência para acalmar.
 - **Aberto:** se “bater no peito” + respiração potencializa grounding via interocepção + SEC.
@@ -127,7 +127,7 @@ Cada módulo tem: mecanismo → protocolo de observação → métricas → hip�
 
 **Protocolo N=1** (`pesquisas/protocolo-n1.html`) — 4 semanas prontas.  
 **Diário** (`pesquisas/diario-rem.html`) — histórico + export JSON.  
-**Tônus** (`pesquisas/musica-tonus.html`) — ambient gerativo; volume persistente.  
+**Sentido** (`pesquisas/musica-sentido.html`) — ambient gerativo; volume persistente.  
 **Cultivo** (`pesquisas/cultivo-ideias.html` + `cultivo/ideias/`) — dúvidas viram semente.
 
 ---
@@ -136,7 +136,7 @@ Cada módulo tem: mecanismo → protocolo de observação → métricas → hip�
 
 0. **Higiene (M0):** Sinais se pesou; senão rotina mínima de limpeza mental.
 1. **Base diária:** M3 (sono) + M2 (respiração) — 15–25 min totais.
-2. **Elevador de tônus:** M1 (movimento) — 3×/semana.
+2. **Elevador de sentido:** M1 (movimento) — 3×/semana.
 3. **Matéria-prima:** M4 + **M4.1 Sementinha** + M5 — contínuo.
 4. **Coração social:** M6 — presença, não performance.
 5. **Libertação:** M7 — quando disser “estou chegando”, os outros módulos são a pista de pouso.

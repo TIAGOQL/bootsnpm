@@ -25,7 +25,7 @@ A causa costuma estar **acima** no stack (o seu script) ou na mensagem (`Cannot 
 | `npm test` | `node -e "…"` — usa o loader CJS interno |
 | `node --check assets/js/….js` | sintaxe; também Node |
 | `npm start` (`npx serve`) | Node sobe o servidor estático |
-| Navegador (Diário, Cultivo, Tônus) | `<script type="module">` — **ESM no browser**, não `Module.load` CJS |
+| Navegador (Diário, Cultivo, Sentido) | `<script type="module">` — **ESM no browser**, não `Module.load` CJS |
 | Diário / cultivo local | `localStorage` — sem `require` |
 
 O site público no GitHub Pages **não** roda `Module.load` no visitante. Só quem roda Node no terminal (CI, `npm test`, `npm start`) vê essa linha.
