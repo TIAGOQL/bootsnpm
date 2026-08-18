@@ -60,10 +60,27 @@ Site: https://tiagoql.github.io/bootsnpm/
 
 ## Publicação
 
-Deploy via GitHub Actions em `main`.
+### No ar agora (sem precisar de conta)
 
-**Uma vez só:** Settings → Pages → Source: **GitHub Actions**.  
-Sem isso o workflow de Pages falha.
+O repositório é público, então o painel pode ser servido direto pelo proxy githack — sem Pages, sem login:
+
+**https://raw.githack.com/TIAGOQL/bootsnpm/cursor/abrir-sem-servidor-d023/index.html**
+
+Troque o nome da branch na URL para publicar outra versão. Para link mais rápido/cacheado, use `rawcdn.githack.com` no lugar de `raw.githack.com`.
+
+### GitHub Pages (quando houver acesso à conta)
+
+Deploy via Actions em `main`, mas hoje o workflow **falha** em `actions/configure-pages`:
+
+```
+HttpError: Resource not accessible by integration
+```
+
+Isso é o Pages ainda não habilitado. **Uma vez só:** Settings → Pages → Source: **GitHub Actions**. Depois o deploy em `main` passa a funcionar.
+
+### Sem rede nenhuma
+
+Baixe a pasta e abra `index.html` (ver acima).
 
 ## Testes
 
