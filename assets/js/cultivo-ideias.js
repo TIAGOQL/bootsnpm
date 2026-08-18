@@ -111,7 +111,7 @@ function bind(root) {
     const note = form.querySelector("[name=note]").value.trim();
     const why = form.querySelector("[name=why]")?.value.trim() || "";
     const next = form.querySelector("[name=next]")?.value.trim() || "";
-    const module = form.querySelector("[name=module]").value.trim();
+    const module = form.querySelector("[name=module]")?.value.trim() || "";
     if (!title) return;
     const now = new Date().toISOString();
     const ideas = load();

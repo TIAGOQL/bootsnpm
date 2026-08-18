@@ -1,7 +1,9 @@
 const KEY = "rem-diario-v1";
 const EXPORT_KEY = "rem-diario-export-at";
+const MODE_KEY = "rem-diario-modo";
 const BACKUP_DAYS = 7;
 const MODULES = ["M0", "M1", "M2", "M3", "M4", "M4.1", "M5", "M6", "M7"];
+const SIMPLE_MODULES = ["M0", "M2", "M3"];
 const METRICS = [
   { id: "calma", label: "Calma" },
   { id: "sono", label: "Sono" },
@@ -10,6 +12,7 @@ const METRICS = [
   { id: "medo", label: "Medo (menor = melhor)" },
   { id: "gi", label: "Intestino / corpo" },
 ];
+const SIMPLE_METRICS = [{ id: "calma", label: "Calma (1–5)" }];
 const WEEKS = [
   { id: 1, label: "Semana 1", focus: "M0 + M2 + M3", tip: "Higiene, calma, sono" },
   { id: 2, label: "Semana 2", focus: "+ M1", tip: "Humor pós-movimento" },
@@ -47,6 +50,15 @@ function save(data) {
   localStorage.setItem(KEY, JSON.stringify(data));
 }
 
+function getMode() {
+  const raw = localStorage.getItem(MODE_KEY);
+  return raw === "completo" ? "completo" : "leve";
+}
+
+function setMode(mode) {
+  localStorage.setItem(MODE_KEY, mode === "completo" ? "completo" : "leve");
+}
+
 function getExportAt() {
   return localStorage.getItem(EXPORT_KEY) || "";
 }
@@ -63,26 +75,26 @@ function daysSinceExport() {
   return Math.floor((Date.now() - t) / 86400000);
 }
 
-function renderBackupBanner() {
+function renderBackupBanner(simple) {
   const days = daysSinceExport();
   if (days === null) {
     return `
       <aside class="diario-backup is-warn" role="status">
         <strong>Backup</strong>
-        <p>Os dados ficam só neste aparelho. Exporte o JSON e guarde num lugar seguro — idealmente toda semana.</p>
+        <p>${simple ? "Uma vez por semana: Exportar JSON e guardar o arquivo." : "Os dados ficam só neste aparelho. Exporte o JSON e guarde num lugar seguro — idealmente toda semana."}</p>
       </aside>`;
   }
   if (days >= BACKUP_DAYS) {
     return `
       <aside class="diario-backup is-warn" role="status">
         <strong>Backup atrasado</strong>
-        <p>Último export há ${days} dias. Clique em <em>Exportar JSON</em> e arquive o arquivo.</p>
+        <p>Último export há ${days} dias. Clique em <em>Exportar JSON</em>.</p>
       </aside>`;
   }
   return `
     <aside class="diario-backup" role="status">
       <strong>Backup ok</strong>
-      <p>Último export há ${days === 0 ? "hoje" : days + " dia" + (days === 1 ? "" : "s")}. Próximo lembrete em ${BACKUP_DAYS} dias.</p>
+      <p>Último export há ${days === 0 ? "hoje" : days + " dia" + (days === 1 ? "" : "s")}.</p>
     </aside>`;
 }
 
@@ -126,11 +138,24 @@ function render() {
   const day = getActiveDay(root);
   const entry = data[day] || { scores: {}, note: "", modules: [], week: 1 };
   const week = entry.week || 1;
+  const simple = getMode() === "leve";
+  const modulesShown = simple ? SIMPLE_MODULES : MODULES;
+  const metricsShown = simple ? SIMPLE_METRICS : METRICS;
 
   root.innerHTML = `
-    ${renderBackupBanner()}
+    <p class="diario-no-cadastro">Sem cadastro. Sem senha. Só neste aparelho.</p>
 
-    <div class="diario-weeks" role="group" aria-label="Semana do protocolo N=1">
+    ${renderBackupBanner(simple)}
+
+    <div class="diario-mode-bar">
+      <button type="button" class="diario-mode ${simple ? "is-active" : ""}" data-mode="leve">Modo leve</button>
+      <button type="button" class="diario-mode ${!simple ? "is-active" : ""}" data-mode="completo">Completo</button>
+    </div>
+
+    ${
+      simple
+        ? ""
+        : `<div class="diario-weeks" role="group" aria-label="Semana do protocolo N=1">
       ${WEEKS.map(
         (w) => `
         <button type="button" class="diario-week ${week === w.id ? "is-active" : ""}" data-week="${w.id}" title="${w.tip}">
@@ -138,7 +163,8 @@ function render() {
           <span>${w.focus}</span>
         </button>`
       ).join("")}
-    </div>
+    </div>`
+    }
 
     <div class="diario-nav">
       <button type="button" data-day-shift="-1" aria-label="Dia anterior">←</button>
@@ -148,44 +174,52 @@ function render() {
     </div>
 
     <div class="diario-modules" role="group" aria-label="Módulos do dia">
-      ${MODULES.map(
-        (m) => `
+      ${modulesShown
+        .map(
+          (m) => `
         <label class="diario-chip">
           <input type="checkbox" data-module="${m}" ${entry.modules?.includes(m) ? "checked" : ""}>
           <span>${m}</span>
         </label>`
-      ).join("")}
+        )
+        .join("")}
     </div>
 
     <div class="diario-metrics">
-      ${METRICS.map((metric) => {
-        const value = entry.scores?.[metric.id] ?? 3;
-        return `
+      ${metricsShown
+        .map((metric) => {
+          const value = entry.scores?.[metric.id] ?? 3;
+          return `
         <label class="diario-metric">
           <span>${metric.label}</span>
           <input type="range" min="1" max="5" step="1" value="${value}" data-score="${metric.id}">
           <output data-out="${metric.id}">${value}</output>
         </label>`;
-      }).join("")}
+        })
+        .join("")}
     </div>
 
     <label class="diario-note">
-      <span>Nota do peito</span>
-      <textarea rows="3" data-note placeholder="O que ativou hoje…">${entry.note || ""}</textarea>
+      <span>${simple ? "Como foi hoje?" : "Nota do peito"}</span>
+      <textarea rows="${simple ? 2 : 3}" data-note placeholder="${simple ? "Uma frase basta…" : "O que ativou hoje…"}">${entry.note || ""}</textarea>
     </label>
 
     <div class="diario-toolbar">
       <button type="button" class="music-btn" data-save>Salvar</button>
       <button type="button" class="music-btn" data-export>Exportar JSON</button>
-      <button type="button" class="diario-secondary" data-import-trigger>Importar</button>
+      ${simple ? "" : `<button type="button" class="diario-secondary" data-import-trigger>Importar</button>`}
       <input type="file" accept="application/json,.json" data-import hidden>
       <p class="diario-saved" data-saved hidden>Salvo neste aparelho.</p>
     </div>
 
-    <section class="diario-history-wrap" aria-label="Histórico">
+    ${
+      simple
+        ? ""
+        : `<section class="diario-history-wrap" aria-label="Histórico">
       <h2 class="panel-section-label">Últimos registros</h2>
       ${renderHistory(root, data, day)}
-    </section>
+    </section>`
+    }
   `;
 
   const flashSaved = (msg) => {
@@ -201,14 +235,21 @@ function render() {
 
   const persist = () => {
     const modules = [...root.querySelectorAll("[data-module]:checked")].map((el) => el.dataset.module);
-    const scores = {};
+    const prev = data[day] || { scores: {}, modules: [] };
+    const scores = { ...(prev.scores || {}) };
     root.querySelectorAll("[data-score]").forEach((el) => {
       scores[el.dataset.score] = Number(el.value);
     });
+    // In modo leve, keep modules not shown on screen
+    let mergedModules = modules;
+    if (simple) {
+      const hidden = (prev.modules || []).filter((m) => !SIMPLE_MODULES.includes(m));
+      mergedModules = [...new Set([...hidden, ...modules])];
+    }
     const note = root.querySelector("[data-note]")?.value || "";
     const weekBtn = root.querySelector(".diario-week.is-active");
     data[day] = {
-      modules,
+      modules: mergedModules,
       scores,
       note,
       week: Number(weekBtn?.dataset.week || week || 1),
@@ -219,6 +260,13 @@ function render() {
   };
 
   root.onclick = (event) => {
+    const modeBtn = event.target.closest("[data-mode]");
+    if (modeBtn) {
+      persist();
+      setMode(modeBtn.dataset.mode);
+      render();
+      return;
+    }
     const shift = event.target.closest("[data-day-shift]");
     if (shift) {
       persist();
@@ -264,8 +312,7 @@ function render() {
       const banner = root.querySelector(".diario-backup");
       if (banner) {
         banner.className = "diario-backup";
-        banner.innerHTML =
-          "<strong>Backup ok</strong><p>Export acabou de sair. Próximo lembrete em 7 dias.</p>";
+        banner.innerHTML = "<strong>Backup ok</strong><p>Export acabou de sair.</p>";
       }
       return;
     }

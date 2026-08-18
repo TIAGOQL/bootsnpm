@@ -77,26 +77,30 @@
       <div class="cultivo" data-cultivo>
         <h2 class="panel-section-label">Neste aparelho</h2>
         <form class="cultivo-form" data-cultivo-form>
+          <p class="diario-no-cadastro" style="opacity:1;transform:none;animation:none;margin:0 0 0.5rem">Sem conta. Planta só com o título.</p>
           <label>
             <span>Ideia</span>
-            <input name="title" type="text" required maxlength="120" placeholder="Ex.: sonhos de voo como métrica do M7">
+            <input name="title" type="text" required maxlength="120" placeholder="O que brotou…">
           </label>
           <label>
-            <span>Módulo REM</span>
-            <select name="module"></select>
+            <span>Nota (opcional)</span>
+            <textarea name="note" rows="2" maxlength="500" placeholder="Uma linha se quiser"></textarea>
           </label>
-          <label>
-            <span>Nota</span>
-            <textarea name="note" rows="3" maxlength="500" placeholder="O que brotou…"></textarea>
-          </label>
-          <label>
-            <span>Por que importa</span>
-            <input name="why" type="text" maxlength="200" placeholder="Uma frase">
-          </label>
-          <label>
-            <span>Próximo passo</span>
-            <input name="next" type="text" maxlength="200" placeholder="O que fazer nos próximos dias">
-          </label>
+          <details class="cultivo-more">
+            <summary>Mais opções</summary>
+            <label>
+              <span>Módulo REM</span>
+              <select name="module"></select>
+            </label>
+            <label>
+              <span>Por que importa</span>
+              <input name="why" type="text" maxlength="200" placeholder="Uma frase">
+            </label>
+            <label>
+              <span>Próximo passo</span>
+              <input name="next" type="text" maxlength="200" placeholder="O que fazer nos próximos dias">
+            </label>
+          </details>
           <button type="submit" class="music-btn">Plantar</button>
         </form>
 
