@@ -40,13 +40,11 @@ Detalhe: [pesquisas/seguranca-dados-pessoais.html](pesquisas/seguranca-dados-pes
 
 ## Nome do repositório
 
-O código ainda vive em `TIAGOQL/bootsnpm` (URL histórico do GitHub). Para ficar profissional:
+Opcional. O código vive em `TIAGOQL/bootsnpm`. Se não conseguir entrar na conta GitHub, **ignore o rename** — o painel funciona igual.
 
-1. GitHub → Settings → General → **Repository name** → `painel-rem`  
-2. Confirme Pages → Source: **GitHub Actions**  
-3. O GitHub redireciona o URL antigo
+Se um dia entrar: Settings → General → Repository name → `painel-rem`, e confirme Pages → GitHub Actions.
 
-Enquanto não renomear, o site continua em: https://tiagoql.github.io/bootsnpm/
+Site: https://tiagoql.github.io/bootsnpm/
 
 ## Plantar ideia
 

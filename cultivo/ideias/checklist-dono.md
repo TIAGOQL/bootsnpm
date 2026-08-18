@@ -3,12 +3,12 @@
 - **Estágio:** planta
 - **Módulo REM:** M0 · hábito do projeto
 - **Plantada em:** 2026-08-18
-- **Próximo passo:** Usar a checklist semanal; exportar JSON do diário.
+- **Próximo passo:** Usar o Diário em modo leve; exportar JSON quando der.
 
 ## Nota
 
-Página prática para quem fez o Painel REM com IA e quer manter o projeto profissional: dia a dia, backup, feedback humano, renomear o repo.
+Sem cadastro, sem senha, sem depender de conta GitHub. Checklist enxuta: hoje, backup semanal, Sinais se pesar.
 
 ## Por que importa
 
-Autoridade vem do uso N=1 e do backup — não de mil páginas novas.
+Quem não consegue entrar no GitHub ainda pode ser dono do painel no aparelho.
