@@ -7,7 +7,7 @@
 
 ## Nota
 
-Homenagem + **divulgar o canal**. Paulinho o Loko (Aliffe · Machado-MG). YouTube, Twitch, Instagram na página. Homenagem especial: `homenagem-paulinho-o-loko`.
+Homenagem + **divulgar o canal**. Paulinho o Loko (Aliffe · Machado-MG). YouTube, Twitch, Instagram na página. Homenagem especial: `homenagem-paulinho-o-loko`. Catálogo: `paulinho-videos`.
 
 ## Por que importa
 

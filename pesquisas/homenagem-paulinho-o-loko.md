@@ -18,7 +18,8 @@ Streamer, youtuber, humor. Esta página não é ficha técnica — é **homenage
 
 | Onde | Link |
 | --- | --- |
-| YouTube | https://www.youtube.com/c/DailyModder |
+| YouTube | https://www.youtube.com/@PaulinhoLOKOoficial |
+| Catálogo no painel | [paulinho-videos.html](paulinho-videos.html) |
 | Twitch | https://www.twitch.tv/paulinholokobr |
 | Instagram | https://www.instagram.com/paulinhooloko/ |
 
@@ -28,4 +29,5 @@ Rir = tônus. Nomear quem alegra = cuidado.
 
 - [bom dia, vida](bom-dia-vida.html) · [s2](s2.html) · [filhodosol](filhodosol.html)  
 - Ficha: [paulinho-o-loko.html](paulinho-o-loko.html)  
+- Catálogo: [paulinho-videos.html](paulinho-videos.html)  
 - Página: [homenagem-paulinho-o-loko.html](homenagem-paulinho-o-loko.html)
