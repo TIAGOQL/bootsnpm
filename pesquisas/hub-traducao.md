@@ -9,7 +9,8 @@ Mapa EN → PT + inspeção. 2026-08-04.
 | gift | presente / dom | [palavra-gift](palavra-gift.html) |
 | Sun | sol | [sun](sun.html) |
 | (stack Node) | ver hub | [palavras-do-stack](palavras-do-stack.html) |
+| Conta / Google / Apple | relação | [conta-google-apple](conta-google-apple.html) |
 
-## Página
+## Mapa-mestre
 
-[hub-traducao.html](hub-traducao.html)
+[guia-de-palavras.html](guia-de-palavras.html) · [hub-traducao.html](hub-traducao.html)

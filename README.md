@@ -27,6 +27,8 @@ npm start
 | Poesias | `poemas/` |
 | Dados / privacidade | `pesquisas/seguranca-dados-pessoais.html` + `.md` |
 | Conta Google / Apple | `pesquisas/conta.html` + `.md` |
+| Relação Conta · Google · Apple | `pesquisas/conta-google-apple.html` |
+| Guia de palavras | `pesquisas/guia-de-palavras.html` + `.md` |
 | GitHub (inspeção) | `pesquisas/github.html` + `.md` |
 | Peito / luz | `pesquisas/cadeia-peito-luz.html` · `filhodosol.html` |
 

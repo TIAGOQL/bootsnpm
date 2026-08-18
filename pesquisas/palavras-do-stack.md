@@ -17,4 +17,4 @@ Linha: `at Module.load (node:internal/modules/cjs/loader:…)`
 
 **Frase:** em Módulo.carregar (Node:interno/módulos/CommonJS/carregador:linha:coluna).
 
-Hub: [palavras-do-stack.html](palavras-do-stack.html) · [module-load.html](module-load.html)
+Hub: [palavras-do-stack.html](palavras-do-stack.html) · [module-load.html](module-load.html) · [guia-de-palavras.html](guia-de-palavras.html)
