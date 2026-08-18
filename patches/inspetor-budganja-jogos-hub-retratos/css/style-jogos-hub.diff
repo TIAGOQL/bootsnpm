@@ -1,0 +1,179 @@
+diff --git a/css/style.css b/css/style.css
+index 5fe9ea6..0067c32 100644
+--- a/css/style.css
++++ b/css/style.css
+@@ -10302,6 +10302,129 @@ html[data-theme="light"] .header-group-divider {
+     color: var(--color-accent-light);
+ }
+ 
++.jogos-page .jogos-spotlight {
++    display: flex;
++    flex-direction: column;
++    gap: clamp(28px, 5vw, 48px);
++    margin: 22px 0 0;
++}
++
++.jogos-page .jogos-creator-card {
++    display: grid;
++    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
++    gap: clamp(16px, 3vw, 28px);
++    align-items: start;
++    padding: 0 0 clamp(20px, 3vw, 28px);
++    border-bottom: 1px solid rgba(154, 209, 95, 0.22);
++}
++
++.jogos-page .jogos-creator-card:last-of-type {
++    border-bottom: 0;
++    padding-bottom: 0;
++}
++
++.jogos-page .jogos-creator-photo {
++    display: block;
++    position: relative;
++    overflow: hidden;
++    border-radius: var(--radius-lg);
++    aspect-ratio: 16 / 9;
++    background:
++        radial-gradient(ellipse at 30% 20%, rgba(154, 209, 95, 0.18), transparent 55%),
++        linear-gradient(145deg, #12180f 0%, #0a0c0a 55%, #1a1408 100%);
++    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
++    transition: transform 0.35s ease, box-shadow 0.35s ease;
++}
++
++.jogos-page .jogos-creator-photo img {
++    width: 100%;
++    height: 100%;
++    object-fit: cover;
++    display: block;
++    transform: scale(1.02);
++    transition: transform 0.5s ease;
++}
++
++.jogos-page .jogos-creator-photo:hover,
++.jogos-page .jogos-creator-photo:focus-visible {
++    transform: translateY(-3px);
++    box-shadow: 0 22px 48px rgba(0, 0, 0, 0.45);
++    outline: none;
++}
++
++.jogos-page .jogos-creator-photo:hover img,
++.jogos-page .jogos-creator-photo:focus-visible img {
++    transform: scale(1.06);
++}
++
++.jogos-page .jogos-creator-body {
++    display: flex;
++    flex-direction: column;
++    gap: 10px;
++    min-width: 0;
++}
++
++.jogos-page .jogos-creator-tag {
++    margin: 0;
++    font-size: 0.78rem;
++    font-weight: 700;
++    letter-spacing: 0.08em;
++    text-transform: uppercase;
++    color: var(--color-accent);
++}
++
++.jogos-page .jogos-creator-name {
++    margin: 0;
++    font-size: clamp(1.7rem, 4vw, 2.45rem);
++    font-weight: 800;
++    letter-spacing: -0.03em;
++    line-height: 1.1;
++}
++
++.jogos-page .jogos-creator-name a {
++    color: var(--color-accent-light);
++    text-decoration: none;
++}
++
++.jogos-page .jogos-creator-name a:hover,
++.jogos-page .jogos-creator-name a:focus-visible {
++    color: #eef8d8;
++    outline: none;
++}
++
++.jogos-page .jogos-creator-desc {
++    margin: 0;
++    color: var(--color-text-muted);
++    font-size: 0.98rem;
++    line-height: 1.45;
++    max-width: 38rem;
++}
++
++.jogos-page .jogos-hub-embed {
++    margin: 6px 0 0;
++    max-width: 560px;
++}
++
++.jogos-page .jogos-hub-watch-link {
++    margin: 8px 0 0;
++    font-size: 0.85rem;
++}
++
++.jogos-page .jogos-hub-watch-link a {
++    color: var(--color-text-muted);
++    text-decoration: none;
++}
++
++.jogos-page .jogos-hub-watch-link a:hover,
++.jogos-page .jogos-hub-watch-link a:focus-visible {
++    color: var(--color-accent-light);
++    outline: none;
++}
++
++.jogos-page .jogos-creator-cta {
++    margin: 4px 0 0;
++}
++
+ .jogos-page .jogos-name-list {
+     display: flex;
+     flex-direction: column;
+@@ -10310,6 +10433,12 @@ html[data-theme="light"] .header-group-divider {
+     padding: 0;
+ }
+ 
++.jogos-page .jogos-name-list--secondary {
++    margin-top: clamp(8px, 2vw, 16px);
++    padding-top: 8px;
++    border-top: 1px solid rgba(154, 209, 95, 0.18);
++}
++
+ .jogos-page .jogos-name {
+     display: block;
+     padding: 18px 0;
+@@ -10322,6 +10451,13 @@ html[data-theme="light"] .header-group-divider {
+     text-decoration: none;
+ }
+ 
++.jogos-page .jogos-name-list--secondary .jogos-name {
++    font-size: clamp(1.25rem, 3vw, 1.7rem);
++    padding: 14px 0;
++    border-bottom-width: 1px;
++    color: var(--color-text-muted);
++}
++
+ .jogos-page .jogos-name:hover,
+ .jogos-page .jogos-name:focus-visible {
+     border-bottom-color: #9ad15f;
+@@ -10329,6 +10465,17 @@ html[data-theme="light"] .header-group-divider {
+     outline: none;
+ }
+ 
++@media (max-width: 820px) {
++    .jogos-page .jogos-creator-card {
++        grid-template-columns: 1fr;
++        gap: 14px;
++    }
++
++    .jogos-page .jogos-hub-embed {
++        max-width: none;
++    }
++}
++
+ .jogos-page .jogos-catalog-links {
+     display: flex;
+     flex-wrap: wrap;
