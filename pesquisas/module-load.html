@@ -28,7 +28,7 @@
 
         <p><strong>Ler o erro:</strong> a causa costuma estar na mensagem (<code>Cannot find module</code>, typo, path) ou nas linhas <em>acima</em> do stack (o seu arquivo). <code>Module.load</code> é o porteiro que tentou abrir a porta.</p>
 
-        <p><strong>No Painel REM:</strong> <code>npm test</code>, <code>node --check</code> e <code>npm start</code> passam pelo Node — aí essa linha pode aparecer. No navegador, Diário e Cultivo usam <code>&lt;script type="module"&gt;</code> (ESM) e <code>localStorage</code>. O visitante do GitHub Pages <strong>não</strong> executa <code>Module.load</code> CJS. O peito do N=1 não viaja por esse loader.</p>
+        <p><strong>No Painel REM:</strong> <code>npm test</code>, <code>node --check</code> e <code>npm start</code> passam pelo Node — aí essa linha pode aparecer. No navegador, Diário e Cultivo usam <code>&lt;script defer&gt;</code> e <code>localStorage</code> — assim o painel também abre com duplo clique no arquivo, sem servidor. O visitante do GitHub Pages <strong>não</strong> executa <code>Module.load</code> CJS. O peito do N=1 não viaja por esse loader.</p>
 
         <p><strong>Cadeia:</strong> <a href="anonymous.html">Anonymous</a> some o nome · <a href="in-time.html"><em>In Time</em></a> conta o tempo no braço · <a href="justin-timberlake.html">Timberlake</a> tem nome no cartaz · <strong>Module.load</strong> carrega pelo nome do módulo — se não achar, estoura. Rastreio por nome, de novo.</p>
 

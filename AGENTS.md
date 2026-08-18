@@ -20,6 +20,7 @@ CI uses **Node 20** (`.github/workflows/ci.yml`). Any recent Node that can run `
 ### Gotchas
 
 - `npm start` pulls `serve` via `npx --yes`; first start needs network.
+- Panel JS is loaded with `<script defer>` (not `type="module"`) on purpose, so `index.html` also works when opened directly via `file://` — no server, no account. Keep the JS free of `import`/`export`.
 - Client data for Diário REM / cultivo lives in **browser `localStorage`** only — not on the server.
 - Human-facing map of what the project is / what is public vs local: `pesquisas/seguranca-dados-pessoais.html` (+ `.md`).
 - Stack line `at Module.load (node:internal/modules/cjs/loader:…)` explained for humans: `pesquisas/module-load.html` (+ `.md`).

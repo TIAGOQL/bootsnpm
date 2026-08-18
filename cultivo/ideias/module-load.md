@@ -7,7 +7,7 @@
 
 ## Nota
 
-Linha típica de stack: `at Module.load (node:internal/modules/cjs/loader:NNNN:NN)`. É o Node puxando um arquivo CommonJS. No Painel REM: `npm test` e `node --check` passam por isso; o site no navegador carrega JS de outro jeito (`<script type="module">`). Liga a Anonymous (nome no load) e a *In Time* (sistema que conta/carrega o que existe).
+Linha típica de stack: `at Module.load (node:internal/modules/cjs/loader:NNNN:NN)`. É o Node puxando um arquivo CommonJS. No Painel REM: `npm test` e `node --check` passam por isso; o site no navegador carrega JS de outro jeito (`<script defer>`). Liga a Anonymous (nome no load) e a *In Time* (sistema que conta/carrega o que existe).
 
 ## Por que importa
 

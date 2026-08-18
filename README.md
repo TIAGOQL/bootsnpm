@@ -14,6 +14,12 @@ Site estático (HTML/CSS/JS). Sem login, sem backend, sem nuvem do diário. Não
 
 Se a cabeça pesou: [Sinais](pesquisas/sinais.html) → [Higiene mental](pesquisas/higiene-mental.html) (M0).
 
+### Sem internet, sem conta, sem servidor
+
+Baixe a pasta do projeto e **clique duas vezes em `index.html`**. Painel, Diário, Cultivo e Tônus funcionam direto no navegador (dados no `localStorage` do aparelho).
+
+Se preferir servidor local:
+
 ```shell
 npm start
 ```
