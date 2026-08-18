@@ -155,6 +155,40 @@ body.panel-page {
   font-size: clamp(1.2rem, 2.4vw, 1.45rem);
 }
 
+.media-card-poster {
+  width: min(11rem, 100%);
+  justify-self: start;
+  align-self: start;
+}
+
+.media-card-poster .media-card-photo {
+  aspect-ratio: auto;
+  height: auto;
+  object-fit: contain;
+  background: #14181c;
+}
+
+.media-card-poster .media-card-body {
+  gap: 0.2rem;
+  padding: 0.5rem 0.6rem 0.65rem;
+}
+
+.media-card-poster .shortcut-title {
+  font-size: 1.05rem;
+}
+
+.media-card-poster .shortcut-meta {
+  font-size: 0.85rem;
+}
+
+.page-hero-poster {
+  width: min(11.5rem, 46vw);
+  aspect-ratio: auto;
+  height: auto;
+  object-fit: contain;
+  background: #14181c;
+}
+
 .page-hero-photo {
   display: block;
   width: min(100%, 34rem);
@@ -1224,6 +1258,7 @@ body.is-music-playing .rain {
   .shortcut,
   .module-link,
   .media-card,
+  .media-card-poster,
   .catalog-video {
     transition: none;
   }
