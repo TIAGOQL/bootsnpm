@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Conta Painel REM — cadastro e entrada com Google ou Apple. Sessão só no aparelho.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Karla:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/starter.css">
+    <title>Conta — Google / Apple</title>
+  </head>
+  <body class="poem-page research-page">
+    <div class="rain" aria-hidden="true"></div>
+    <a class="panel-shortcut" href="../index.html">← Painel</a>
+
+    <main class="poem-shell research-shell">
+      <header class="poem-brand">
+        <p class="poem-for">conta · social</p>
+        <h1 class="poem-title">Entrar</h1>
+        <p class="panel-lede">Cadastro com Google ou Apple. Sem senha nova. A sessão fica neste navegador.</p>
+      </header>
+
+      <img class="page-hero-photo" src="../assets/img/card-diario.jpg" alt="Caderno — identidade no aparelho" width="640" height="360" loading="eager">
+
+      <div class="auth-root" data-auth></div>
+
+      <article class="poem research-body auth-aside" aria-label="Como funciona">
+        <p><strong>O que muda:</strong> você marca quem está usando o painel neste aparelho. Não abre banco remoto nem envia o diário.</p>
+        <p><strong>Google:</strong> botão oficial (Identity Services). Precisa de um Client ID OAuth Web no Google Cloud com origin do Pages e do <code>localhost:3000</code>.</p>
+        <p><strong>Apple:</strong> Sign in with Apple (popup). Precisa de Services ID + Redirect URI no Apple Developer.</p>
+        <p class="research-note">
+          <a href="conta.md">texto</a> ·
+          <a href="seguranca-dados-pessoais.html">Dados pessoais</a> ·
+          <a href="diario-rem.html">Diário</a> ·
+          <a href="github.html">GitHub</a>
+        </p>
+      </article>
+    </main>
+
+    <script type="module" src="../assets/js/auth-rem.js"></script>
+  </body>
+</html>

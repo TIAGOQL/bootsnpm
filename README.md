@@ -26,14 +26,16 @@ npm start
 | Cultivo (Git) | `cultivo/ideias/` |
 | Poesias | `poemas/` |
 | Dados / privacidade | `pesquisas/seguranca-dados-pessoais.html` + `.md` |
+| Conta Google / Apple | `pesquisas/conta.html` + `.md` |
 | GitHub (inspeção) | `pesquisas/github.html` + `.md` |
 | Peito / luz | `pesquisas/cadeia-peito-luz.html` · `filhodosol.html` |
 
 ## Dados pessoais (para quem chega de fora)
 
-Site estático. Sem login, sem backend, sem nuvem do diário.
+Site estático. Sem backend de diário / sem nuvem do N=1.
 
-- **Só no aparelho** (`localStorage`): Diário REM, cultivo local, volume do áudio.  
+- **Só no aparelho** (`localStorage`): Diário REM, cultivo local, volume, sessão Google/Apple (opcional).  
+- **Conta:** `pesquisas/conta.html` — cadastro/entrada com Google ou Apple (Client IDs em Conta ou `assets/js/auth-config.js`).  
 - **Público (Git / Pages):** páginas, mapa, poesias, ideias permanentes em `cultivo/ideias/`.  
 - **Backup:** Exportar JSON no Diário — quem não exporta e limpa o navegador perde o histórico.
 

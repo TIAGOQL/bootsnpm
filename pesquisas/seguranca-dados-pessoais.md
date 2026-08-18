@@ -7,13 +7,14 @@ Do que se trata o Painel REM e onde ficam (ou não) os dados.
 
 Site estático de **Relaxamento Endocanabinoide Modular** (REM): protocolo N=1, diário, cultivo de ideias, música Tônus, mapa M0–M8 + M4.1, pesquisas e poesias.
 
-Não é app médico. Não é clínica. Não é rede social. Não há login.
+Não é app médico. Não é clínica. Não é rede social. Conta Google/Apple é opcional e só no aparelho.
 
 ## Arquitetura (por que importa para privacidade)
 
 - Só front-end (HTML/CSS/JS).  
 - Hospedagem: GitHub Pages (arquivos públicos do repo).  
-- Sem backend, sem banco, sem API que receba diário ou cultivo local.
+- Sem backend de diário, sem banco, sem API que receba diário ou cultivo local.
+- Conta social (Google / Apple) opcional: OAuth no cliente; sessão em `localStorage`.
 
 ## O que fica no aparelho
 
@@ -22,6 +23,8 @@ Não é app médico. Não é clínica. Não é rede social. Não há login.
 | `rem-diario-v1` | Diário REM | Marcas N=1 do dia |
 | `rem-cultivo-v1` | Cultivo (navegador) | Ideias plantadas localmente |
 | `rem-music-volume` | Tônus / painel | Volume do áudio |
+| `rem-auth-v1` | Conta | Sessão Google/Apple neste navegador |
+| `rem-auth-config-v1` | Conta | Client IDs colados no aparelho |
 
 Isso vive em `localStorage`. Não sobe para o servidor do projeto.
 

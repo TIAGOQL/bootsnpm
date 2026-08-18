@@ -26,13 +26,15 @@
       <article class="poem research-body" aria-label="Segurança dos dados pessoais">
         <p><strong>O que é o Painel REM:</strong> site estático de pesquisa N=1 sobre relaxamento endocanabinoide modular (módulos M0–M8 + M4.1). Tem protocolo, diário, cultivo de ideias, música Tônus, mapa e poesias. Não é app médico, não é clínica e não é rede social.</p>
 
-        <p><strong>Sem backend:</strong> HTML/CSS/JS no GitHub Pages. Não há login, conta, banco de dados nem API que receba o seu diário. O servidor só entrega arquivos públicos do repositório.</p>
+        <p><strong>Sem backend de diário:</strong> HTML/CSS/JS no GitHub Pages. Não há banco nem API que receba o seu diário. Opcional: <a href="conta.html">conta Google / Apple</a> só para marcar identidade neste navegador (OAuth no cliente; sessão em <code>localStorage</code>).</p>
 
         <p><strong>O que fica só no seu aparelho</strong> (<code>localStorage</code> do navegador):</p>
         <ul>
           <li><strong>Diário REM</strong> (<code>rem-diario-v1</code>) — marcas do dia, módulos, notas N=1</li>
           <li><strong>Cultivo local</strong> (<code>rem-cultivo-v1</code>) — ideias plantadas neste navegador</li>
           <li><strong>Volume da música</strong> (<code>rem-music-volume</code>) — preferência de áudio</li>
+          <li><strong>Sessão da conta</strong> (<code>rem-auth-v1</code>) — provedor, nome/e-mail da identidade social</li>
+          <li><strong>Client IDs locais</strong> (<code>rem-auth-config-v1</code>) — se você colou Google/Apple na página Conta</li>
         </ul>
         <p>Isso não sobe para o GitHub, não vai para a nuvem do projeto e não é lido por ninguém além do seu navegador neste dispositivo.</p>
 
