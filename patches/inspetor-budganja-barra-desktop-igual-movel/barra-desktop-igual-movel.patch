@@ -1,0 +1,268 @@
+diff --git a/css/style.css b/css/style.css
+index 5fe9ea6..3f00109 100644
+--- a/css/style.css
++++ b/css/style.css
+@@ -286,11 +286,12 @@ img, video, svg {
+ }
+ 
+ @media (min-width: 1025px) {
++    /* Desktop usa a mesma barra compacta do telemóvel */
+     #site-header {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+-        padding: 12px var(--space-page-x);
++        padding: var(--padding-header-y) var(--space-page-x);
+         min-height: var(--header-height);
+     }
+ 
+@@ -304,130 +305,28 @@ img, video, svg {
+ 
+     #site-header .header-bar {
+         display: flex;
+-        width: auto;
+-        max-width: 100%;
+-        min-width: 0;
+-        flex: 0 1 auto;
+-        justify-content: center;
+-    }
+-
+-    #site-header .header-chrome--main {
+-        display: inline-flex;
+-        width: auto;
++        width: 100%;
+         max-width: 100%;
+         min-width: 0;
+-        align-items: center;
+-        justify-content: center;
+-        gap: 4px;
+-    }
+-
+-    #site-header .header-brand-group,
+-    #site-header .logo {
+-        flex: 0 0 auto;
+-        min-height: 0;
+-        display: flex;
+-        align-items: center;
+-        min-width: 0;
+-    }
+-
+-    #site-header .header-right {
+-        flex: 0 0 auto;
+-        min-width: 0;
+-        min-height: 0;
+-        justify-content: flex-end;
+-        margin-left: 0;
+-        z-index: 2;
+-        width: auto;
+-        max-width: none;
++        flex: 1 1 auto;
++        justify-content: stretch;
+     }
+ 
+     #site-header .primary-nav {
+         display: none !important;
+     }
+ 
+-    #site-header .header-quick-nav {
+-        display: flex;
+-        align-items: center;
+-        justify-content: center;
+-        flex: 1 1 auto;
+-        min-width: 0;
+-        max-width: 100%;
+-        padding: 0;
+-        overflow-x: auto;
+-        overflow-y: hidden;
+-        scrollbar-width: none;
+-        -ms-overflow-style: none;
+-    }
+-
+-    #site-header .header-quick-nav::-webkit-scrollbar {
+-        display: none;
+-    }
+-
+-    #site-header .header-quick-track {
+-        display: inline-flex;
+-        align-items: center;
+-        flex-shrink: 0;
+-        gap: inherit;
++    #site-header .header-quick-nav,
++    #site-header .header-chrome-sep {
++        display: none !important;
+     }
+ 
+     #site-header .header-utilities {
+         flex-shrink: 0;
+     }
+-
+-    #site-header .header-chrome-sep {
+-        display: block;
+-        flex-shrink: 0;
+-    }
+ }
+ 
+-/* Tablets / janelas m?dias ? atalhos s? com ?cone na barra */
+-@media (min-width: 720px) and (max-width: 1024px) {
+-    #site-header .header-quick-nav {
+-        display: flex;
+-        align-items: center;
+-        justify-content: center;
+-        flex: 1 1 auto;
+-        min-width: 0;
+-        max-width: 100%;
+-        overflow-x: auto;
+-        overflow-y: hidden;
+-        scrollbar-width: none;
+-        -ms-overflow-style: none;
+-    }
+-
+-    #site-header .header-quick-nav::-webkit-scrollbar {
+-        display: none;
+-    }
+-
+-    #site-header .header-quick-track {
+-        display: inline-flex;
+-        align-items: center;
+-        flex-shrink: 0;
+-        gap: 2px;
+-    }
+-
+-    #site-header .header-quick-nav .header-quick-link-label {
+-        display: none;
+-    }
+-
+-    #site-header .header-quick-nav .header-quick-link {
+-        padding: 5px 6px;
+-    }
+-
+-    #site-header .header-chrome--main {
+-        justify-content: flex-start;
+-        gap: 2px;
+-    }
+-
+-    #site-header .header-chrome-sep {
+-        display: block;
+-        flex-shrink: 0;
+-    }
+-
+-    #site-header .header-right {
+-        margin-left: auto;
+-    }
+-}
++/* Tablets: mesma barra compacta (sem faixa de atalhos) — ver bloco unificado abaixo */
+ 
+ .header-quick-nav {
+     display: none;
+@@ -755,73 +654,7 @@ img, video, svg {
+     min-width: 0;
+ }
+ 
+-/* Desktop: cluster dissolve-se na barra; Comunidade fica ao lado do logo */
+-@media (min-width: 720px) {
+-    #site-header .header-chrome--main {
+-        display: flex;
+-        align-items: center;
+-    }
+-
+-    #site-header .header-cluster--community-lang {
+-        display: contents;
+-    }
+-
+-    #site-header .header-brand-group {
+-        order: 1;
+-    }
+-
+-    #site-header .header-chrome-sep:not(.header-chrome-sep--end) {
+-        order: 2;
+-    }
+-
+-    #site-header .header-radio-host {
+-        order: 3;
+-    }
+-
+-    #site-header .header-plants-link {
+-        order: 4;
+-    }
+-
+-    #site-header .header-animals-link {
+-        order: 5;
+-    }
+-
+-    #site-header .header-quick-nav {
+-        order: 6;
+-    }
+-
+-    #site-header .header-chrome-sep--end {
+-        order: 7;
+-    }
+-
+-    #site-header .lang-switcher--header {
+-        order: 8;
+-    }
+-
+-    #site-header .header-right {
+-        order: 9;
+-    }
+-
+-    /* Compact catalog shortcuts after radio (icon-only) */
+-    #site-header .header-plants-link,
+-    #site-header .header-animals-link {
+-        padding: 5px 6px;
+-        gap: 0;
+-    }
+-
+-    #site-header .header-plants-link .header-quick-link-icon,
+-    #site-header .header-animals-link .header-quick-link-icon {
+-        width: 1.55rem;
+-        height: 1.55rem;
+-        font-size: 0;
+-    }
+-
+-    #site-header .header-plants-svg,
+-    #site-header .header-animals-svg {
+-        width: 16px;
+-        height: 16px;
+-    }
+-}
++/* Cluster mantém-se como no telemóvel (rádio + atalhos + idioma no centro) em todos os ecrãs */
+ 
+ .lang-switcher--header {
+     position: relative;
+@@ -8945,12 +8778,6 @@ body[data-page="apresentacao-unifesp"] .apresentacao-ask .botao[download] {
+         display: none;
+     }
+ 
+-    @media (min-width: 720px) {
+-        .header-chrome-sep {
+-            display: block;
+-        }
+-    }
+-
+     .header-utilities {
+         gap: 0;
+         padding: 0;
+@@ -9030,8 +8857,9 @@ body[data-page="apresentacao-unifesp"] .apresentacao-ask .botao[download] {
+     }
+ }
+ 
+-@media (max-width: 719px) {
+-    /* Telemovel: Comunidade ao lado do logo; radio + idioma ao centro */
++/* Barra unificada (desktop = móvel): Comunidade ao lado do logo; cluster ao centro */
++@media (min-width: 0) {
++    /* Telemovel e desktop: mesma composição */
+     #site-header .header-quick-nav,
+     #site-header .header-chrome-sep {
+         display: none;
+diff --git a/lib/asset-version.js b/lib/asset-version.js
+index 290af86..77f33ab 100644
+--- a/lib/asset-version.js
++++ b/lib/asset-version.js
+@@ -3,6 +3,6 @@
+ // Versão usada para "cache-busting" dos assets estáticos (?v=...).
+ // Incrementar este número quando for preciso forçar navegadores e a
+ // Cloudflare a descartarem versões antigas de JS/CSS/Service Worker.
+-const ASSET_VERSION = '313';
++const ASSET_VERSION = '316';
+ 
+ module.exports = { ASSET_VERSION };
