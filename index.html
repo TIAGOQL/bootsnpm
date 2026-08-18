@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Painel REM — protocolo N=1, cultivo, tônus, poesias. Site estático: diário só no aparelho.">
+    <meta name="description" content="Painel REM — pesquisa N=1 de relaxamento endocanabinoide. Protocolo, diário e tônus; dados só no seu aparelho.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Karla:wght@400;500&display=swap" rel="stylesheet">
@@ -15,9 +15,10 @@
 
     <main class="panel-shell panel-shell-wide">
       <header class="panel-brand">
-        <p class="panel-kicker">nível 4 · sinais</p>
-        <h1 class="panel-title">Painel</h1>
-        <p class="panel-lede">Se a cabeça pesou: abra Sinais. Um passo. Sem teste.</p>
+        <p class="panel-kicker">pesquisa N=1 · nível 4</p>
+        <h1 class="panel-title">Painel REM</h1>
+        <p class="panel-lede">Painel N=1 de relaxamento endocanabinoide — pesquisa pessoal, dados só no seu aparelho.</p>
+        <p class="panel-sublede">Cabeça pesada? Abra <a href="pesquisas/sinais.html">Sinais</a>. Um passo. Sem teste.</p>
       </header>
 
       <section class="panel-audio music-deck" aria-label="Música do painel">
@@ -57,9 +58,10 @@
           </nav>
         </section>
 
-        <section aria-labelledby="sec-start">
-          <h2 class="panel-section-label" id="sec-start">Começar agora</h2>
-          <nav class="card-grid" aria-label="Começar">
+        <section class="panel-core" aria-labelledby="sec-nucleo">
+          <h2 class="panel-section-label" id="sec-nucleo">Núcleo REM</h2>
+          <p class="panel-section-note">O fluxo: Protocolo → Diário → Tônus → Cultivo se nascer dúvida.</p>
+          <nav class="card-grid" aria-label="Núcleo REM">
             <a class="media-card" href="pesquisas/protocolo-n1.html">
               <img class="media-card-photo" src="assets/img/card-protocolo.jpg" alt="" width="640" height="360" loading="lazy">
               <span class="media-card-body">
@@ -84,12 +86,66 @@
                 <span class="shortcut-meta">ligar enquanto estuda ou respira</span>
               </span>
             </a>
-            <a class="media-card" href="pesquisas/rei-leao-musica.html">
-              <img class="media-card-photo" src="assets/img/card-tonus.jpg" alt="" width="640" height="360" loading="lazy">
+            <a class="media-card" href="pesquisas/cultivo-ideias.html">
+              <img class="media-card-photo" src="assets/img/card-cultivo.jpg" alt="" width="640" height="360" loading="lazy">
               <span class="media-card-body">
-                <span class="shortcut-label">Áudio</span>
-                <span class="shortcut-title">Rei Leão 1994</span>
-                <span class="shortcut-meta">cada pessoa da trilha e do coral</span>
+                <span class="shortcut-label">Canteiro</span>
+                <span class="shortcut-title">Cultivo de ideias</span>
+                <span class="shortcut-meta">sementes no Git + canteiro local</span>
+              </span>
+            </a>
+            <a class="media-card" href="pesquisas/relaxamento-endocanabinoide.html">
+              <img class="media-card-photo" src="assets/img/card-mapa.jpg" alt="" width="640" height="360" loading="lazy">
+              <span class="media-card-body">
+                <span class="shortcut-label">Mapa</span>
+                <span class="shortcut-title">Relaxamento Endocanabinoide Modular</span>
+                <span class="shortcut-meta">M0–M8 · protocolo e métricas</span>
+              </span>
+            </a>
+            <a class="media-card" href="pesquisas/endocanabinoidoma.html">
+              <img class="media-card-photo" src="assets/img/card-endocanabinoidoma.jpg" alt="" width="640" height="360" loading="lazy">
+              <span class="media-card-body">
+                <span class="shortcut-label">Palavra</span>
+                <span class="shortcut-title">Endocanabinoidoma</span>
+                <span class="shortcut-meta">SEC = núcleo · isto = bairro</span>
+              </span>
+            </a>
+            <a class="media-card" href="pesquisas/sementinha.html">
+              <img class="media-card-photo" src="assets/img/card-sementinha.jpg" alt="" width="640" height="360" loading="lazy">
+              <span class="media-card-body">
+                <span class="shortcut-label">M4.1</span>
+                <span class="shortcut-title">Sementinha</span>
+                <span class="shortcut-meta">cânhamo alimentar — matéria-prima, não chapar</span>
+              </span>
+            </a>
+            <a class="media-card" href="pesquisas/checklist-dono.html">
+              <img class="media-card-photo" src="assets/img/card-protocolo.jpg" alt="" width="640" height="360" loading="lazy">
+              <span class="media-card-body">
+                <span class="shortcut-label">Hábito</span>
+                <span class="shortcut-title">Checklist do dono</span>
+                <span class="shortcut-meta">semana · backup · um passo</span>
+              </span>
+            </a>
+          </nav>
+        </section>
+
+        <section aria-labelledby="sec-sobre">
+          <h2 class="panel-section-label" id="sec-sobre">Sobre o projeto</h2>
+          <nav class="card-grid" aria-label="Sobre o projeto">
+            <a class="media-card" href="pesquisas/seguranca-dados-pessoais.html">
+              <img class="media-card-photo" src="assets/img/card-diario.jpg" alt="" width="640" height="360" loading="lazy">
+              <span class="media-card-body">
+                <span class="shortcut-label">Projeto</span>
+                <span class="shortcut-title">Segurança dos dados pessoais</span>
+                <span class="shortcut-meta">o que é · o que guarda · o que não sai</span>
+              </span>
+            </a>
+            <a class="media-card" href="pesquisas/github.html">
+              <img class="media-card-photo" src="assets/img/card-mapa.jpg" alt="" width="640" height="360" loading="lazy">
+              <span class="media-card-body">
+                <span class="shortcut-label">Plataforma</span>
+                <span class="shortcut-title">GitHub</span>
+                <span class="shortcut-meta">repo · Actions · Pages · o que sobe</span>
               </span>
             </a>
             <a class="media-card" href="pesquisas/o-engenheiro-arquiteto.html">
@@ -100,33 +156,42 @@
                 <span class="shortcut-meta">quem planta · oficina · análise</span>
               </span>
             </a>
-            <a class="media-card" href="pesquisas/homenagem-paulinho-o-loko.html">
-              <img class="media-card-photo" src="assets/img/card-tonus.jpg" alt="" width="640" height="360" loading="lazy">
+          </nav>
+        </section>
+
+        <section aria-labelledby="sec-poesia">
+          <h2 class="panel-section-label" id="sec-poesia">Poesia (sua)</h2>
+          <nav class="card-grid" aria-label="Poesias">
+            <a class="media-card" href="poemas/caixoes-de-concreto.html">
+              <img class="media-card-photo" src="assets/img/card-poesia-lagrimas.jpg" alt="" width="640" height="360" loading="lazy">
               <span class="media-card-body">
-                <span class="shortcut-label">Homenagem especial</span>
-                <span class="shortcut-title">Paulinho o Loko</span>
-                <span class="shortcut-meta">obrigado · YouTube · Twitch · Instagram</span>
+                <span class="shortcut-label">Poesia</span>
+                <span class="shortcut-title">Caixões de concreto</span>
+                <span class="shortcut-meta">lágrima · semente · por todos</span>
+              </span>
+            </a>
+            <a class="media-card" href="poemas/minhas-lagrimas-sao-suas.html">
+              <img class="media-card-photo" src="assets/img/card-poesia-lagrimas.jpg" alt="" width="640" height="360" loading="lazy">
+              <span class="media-card-body">
+                <span class="shortcut-label">Poesia</span>
+                <span class="shortcut-title">Minhas lágrimas são suas</span>
+                <span class="shortcut-meta">para uma garota muito especial</span>
+              </span>
+            </a>
+            <a class="media-card" href="poemas/homenagem-a-pixar.html">
+              <img class="media-card-photo" src="assets/img/card-poesia-pixar.jpg" alt="" width="640" height="360" loading="lazy">
+              <span class="media-card-body">
+                <span class="shortcut-label">Poesia</span>
+                <span class="shortcut-title">Homenagem à Pixar</span>
+                <span class="shortcut-meta">luz, brinquedos e corações animados</span>
               </span>
             </a>
           </nav>
         </section>
 
-        <section aria-labelledby="sec-cultivo">
-          <h2 class="panel-section-label" id="sec-cultivo">Cultivo</h2>
-          <nav class="card-grid" aria-label="Cultivo">
-            <a class="media-card" href="pesquisas/cultivo-ideias.html">
-              <img class="media-card-photo" src="assets/img/card-cultivo.jpg" alt="" width="640" height="360" loading="lazy">
-              <span class="media-card-body">
-                <span class="shortcut-label">Canteiro</span>
-                <span class="shortcut-title">Cultivo de ideias</span>
-                <span class="shortcut-meta">5 sementes no Git + canteiro local</span>
-              </span>
-            </a>
-          </nav>
-        </section>
-
-        <section aria-labelledby="sec-biblio">
-          <h2 class="panel-section-label" id="sec-biblio">Biblioteca</h2>
+        <details class="panel-more">
+          <summary class="panel-section-label panel-more-summary">Biblioteca &amp; cultivo expandido</summary>
+          <p class="panel-section-note">Ideias, palavras, filmes e inspeções — fora do fluxo diário.</p>
           <nav class="card-grid" aria-label="Biblioteca">
             <a class="media-card" href="pesquisas/leite-derramado.html">
               <img class="media-card-photo" src="assets/img/card-cultivo.jpg" alt="" width="640" height="360" loading="lazy">
@@ -176,14 +241,6 @@
                 <span class="shortcut-meta">ela apenas começou</span>
               </span>
             </a>
-            <a class="media-card" href="pesquisas/o-engenheiro-arquiteto.html">
-              <img class="media-card-photo" src="assets/img/card-mapa.jpg" alt="" width="640" height="360" loading="lazy">
-              <span class="media-card-body">
-                <span class="shortcut-label">Nome</span>
-                <span class="shortcut-title">O Engenheiro Arquiteto</span>
-                <span class="shortcut-meta">estrutura · desenho · oficina</span>
-              </span>
-            </a>
             <a class="media-card" href="pesquisas/analise.html">
               <img class="media-card-photo" src="assets/img/card-diario.jpg" alt="" width="640" height="360" loading="lazy">
               <span class="media-card-body">
@@ -230,22 +287,6 @@
                 <span class="shortcut-label">Ponte</span>
                 <span class="shortcut-title">Deus e Sol</span>
                 <span class="shortcut-meta">sagrado · luz · sem fundir</span>
-              </span>
-            </a>
-            <a class="media-card" href="pesquisas/seguranca-dados-pessoais.html">
-              <img class="media-card-photo" src="assets/img/card-diario.jpg" alt="" width="640" height="360" loading="lazy">
-              <span class="media-card-body">
-                <span class="shortcut-label">Projeto</span>
-                <span class="shortcut-title">Segurança dos dados pessoais</span>
-                <span class="shortcut-meta">o que é · o que guarda · o que não sai</span>
-              </span>
-            </a>
-            <a class="media-card" href="pesquisas/github.html">
-              <img class="media-card-photo" src="assets/img/card-mapa.jpg" alt="" width="640" height="360" loading="lazy">
-              <span class="media-card-body">
-                <span class="shortcut-label">Plataforma</span>
-                <span class="shortcut-title">GitHub</span>
-                <span class="shortcut-meta">repo · Actions · Pages · o que sobe</span>
               </span>
             </a>
             <a class="media-card" href="pesquisas/hub-traducao.html">
@@ -304,28 +345,6 @@
                 <span class="shortcut-meta">at · Module · load · node · cjs · loader</span>
               </span>
             </a>
-          </nav>
-        </section>
-
-        <section aria-labelledby="sec-pesquisa">
-          <h2 class="panel-section-label" id="sec-pesquisa">Pesquisa REM</h2>
-          <nav class="card-grid" aria-label="Pesquisas">
-            <a class="media-card" href="pesquisas/relaxamento-endocanabinoide.html">
-              <img class="media-card-photo" src="assets/img/card-mapa.jpg" alt="" width="640" height="360" loading="lazy">
-              <span class="media-card-body">
-                <span class="shortcut-label">Mapa</span>
-                <span class="shortcut-title">Relaxamento Endocanabinoide Modular</span>
-                <span class="shortcut-meta">M1–M8 com protocolo e métricas</span>
-              </span>
-            </a>
-            <a class="media-card" href="pesquisas/endocanabinoidoma.html">
-              <img class="media-card-photo" src="assets/img/card-endocanabinoidoma.jpg" alt="" width="640" height="360" loading="lazy">
-              <span class="media-card-body">
-                <span class="shortcut-label">Palavra</span>
-                <span class="shortcut-title">Endocanabinoidoma</span>
-                <span class="shortcut-meta">SEC = núcleo · isto = bairro</span>
-              </span>
-            </a>
             <a class="media-card" href="pesquisas/esqueceremos.html">
               <img class="media-card-photo" src="assets/img/card-diario.jpg" alt="" width="640" height="360" loading="lazy">
               <span class="media-card-body">
@@ -342,51 +361,22 @@
                 <span class="shortcut-meta">~70 anos · sei que nada sei</span>
               </span>
             </a>
-            <a class="media-card" href="pesquisas/sementinha.html">
-              <img class="media-card-photo" src="assets/img/card-sementinha.jpg" alt="" width="640" height="360" loading="lazy">
+            <a class="media-card" href="pesquisas/rei-leao-musica.html">
+              <img class="media-card-photo" src="assets/img/card-tonus.jpg" alt="" width="640" height="360" loading="lazy">
               <span class="media-card-body">
-                <span class="shortcut-label">M4.1</span>
-                <span class="shortcut-title">Sementinha</span>
-                <span class="shortcut-meta">cânhamo alimentar — matéria-prima, não chapar</span>
+                <span class="shortcut-label">Áudio</span>
+                <span class="shortcut-title">Rei Leão 1994</span>
+                <span class="shortcut-meta">cada pessoa da trilha e do coral</span>
               </span>
             </a>
           </nav>
-        </section>
-
-        <section aria-labelledby="sec-poesia">
-          <h2 class="panel-section-label" id="sec-poesia">Poesia (sua)</h2>
-          <nav class="card-grid" aria-label="Poesias">
-            <a class="media-card" href="poemas/caixoes-de-concreto.html">
-              <img class="media-card-photo" src="assets/img/card-poesia-lagrimas.jpg" alt="" width="640" height="360" loading="lazy">
-              <span class="media-card-body">
-                <span class="shortcut-label">Poesia</span>
-                <span class="shortcut-title">Caixões de concreto</span>
-                <span class="shortcut-meta">lágrima · semente · por todos</span>
-              </span>
-            </a>
-            <a class="media-card" href="poemas/minhas-lagrimas-sao-suas.html">
-              <img class="media-card-photo" src="assets/img/card-poesia-lagrimas.jpg" alt="" width="640" height="360" loading="lazy">
-              <span class="media-card-body">
-                <span class="shortcut-label">Poesia</span>
-                <span class="shortcut-title">Minhas lágrimas são suas</span>
-                <span class="shortcut-meta">para uma garota muito especial</span>
-              </span>
-            </a>
-            <a class="media-card" href="poemas/homenagem-a-pixar.html">
-              <img class="media-card-photo" src="assets/img/card-poesia-pixar.jpg" alt="" width="640" height="360" loading="lazy">
-              <span class="media-card-body">
-                <span class="shortcut-label">Poesia</span>
-                <span class="shortcut-title">Homenagem à Pixar</span>
-                <span class="shortcut-meta">luz, brinquedos e corações animados</span>
-              </span>
-            </a>
-          </nav>
-        </section>
+        </details>
       </div>
 
       <p class="panel-hint">
         Fluxo rápido:
         <em>Protocolo → Diário (hoje) → Tônus → Cultivo se nascer dúvida</em>
+        · <a href="pesquisas/checklist-dono.html">Checklist do dono</a>
       </p>
     </main>
 

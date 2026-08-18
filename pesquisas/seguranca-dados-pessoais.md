@@ -36,9 +36,10 @@ Não committe no Git o que deveria ficar só no diário pessoal.
 
 ## Backup e perda
 
-- **Exportar JSON** no Diário = backup sob seu controle.  
+- **Exportar JSON** no Diário = backup sob seu controle. O painel lembra se passaram 7 dias sem export (`rem-diario-export-at` no aparelho).  
 - Limpar dados do site / trocar de aparelho sem export = perda do histórico.  
-- Cultivo local some com o mesmo limpeza; ideias no Git permanecem.
+- Cultivo local some com o mesmo limpeza; ideias no Git permanecem.  
+- Hábito: [Checklist do dono](checklist-dono.html).
 
 ## Lente Simplificamais (referência)
 
@@ -65,6 +66,7 @@ Política de Privacidade e Cookies — Simplifica+ (nov/2025), seção *Seguran�
 | --- | --- |
 | Painel | [index.html](../index.html) |
 | Protocolo / Diário / Tônus | [protocolo-n1](protocolo-n1.html) · [diario-rem](diario-rem.html) · [musica-tonus](musica-tonus.html) |
+| Checklist do dono | [checklist-dono](checklist-dono.html) |
 | Cultivo | [cultivo-ideias](cultivo-ideias.html) · `cultivo/ideias/` |
 | Mapa REM | [relaxamento-endocanabinoide](relaxamento-endocanabinoide.html) |
 | Higiene / Sinais | [higiene-mental](higiene-mental.html) · [sinais](sinais.html) |
