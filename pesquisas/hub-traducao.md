@@ -1,8 +1,18 @@
 # Hub tradução
 
-Mapa EN → PT + inspeção. 2026-08-04.
+Mapa PT ↔ EN + inspeção. Drone instantâneo. 2026-08-20.
 
-## Palavras
+## Drone
+
+Dois idiomas escolhidos (padrão: português e inglês). A palavra entra num lado; a tradução sai no outro.
+
+- `life` → vida  
+- `vida` → life  
+- `gift` → presente / dom  
+
+Não fica preso só no inglês.
+
+## Palavras inspecionadas
 
 | Inglês | Português | Página |
 | --- | --- | --- |

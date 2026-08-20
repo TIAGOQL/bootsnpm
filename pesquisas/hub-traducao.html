@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Hub tradução — inglês → português com inspeção no Painel REM.">
+    <meta name="description" content="Hub tradução — português ↔ inglês. Drone instantâneo nos dois idiomas.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Karla:wght@400;500&display=swap" rel="stylesheet">
@@ -18,13 +18,45 @@
       <header class="poem-brand">
         <p class="poem-for">tradução · inspeção</p>
         <h1 class="poem-title">Hub tradução</h1>
-        <p class="panel-lede">Inglês → português. Cada palavra com página. Sem lista solta de URLs.</p>
+        <p class="panel-lede">Português ↔ inglês. O drone traduz para o outro idioma do par. Cada palavra com página.</p>
       </header>
 
       <img class="page-hero-photo" src="../assets/img/card-mapa.jpg" alt="Mapa — tradução" width="640" height="360" loading="eager">
 
+      <section class="drone" data-drone aria-label="Drone de tradução instantânea">
+        <p class="drone-kicker">Drone · os dois idiomas</p>
+        <p class="drone-help">Escreva numa língua: o drone manda para a outra. Inglês vira português; português vira inglês.</p>
+        <div class="drone-langs">
+          <label class="drone-lang">
+            <span>Idioma A</span>
+            <select data-drone-lang-a>
+              <option value="pt">Português</option>
+              <option value="en">Inglês</option>
+              <option value="es">Espanhol</option>
+              <option value="fr">Francês</option>
+            </select>
+          </label>
+          <button type="button" class="drone-swap" data-drone-swap aria-label="Trocar idiomas">⇄</button>
+          <label class="drone-lang">
+            <span>Idioma B</span>
+            <select data-drone-lang-b>
+              <option value="pt">Português</option>
+              <option value="en" selected>Inglês</option>
+              <option value="es">Espanhol</option>
+              <option value="fr">Francês</option>
+            </select>
+          </label>
+        </div>
+        <label class="drone-field">
+          <span>Palavra</span>
+          <input type="text" data-drone-input autocomplete="off" spellcheck="false" placeholder="life · vida · gift · sol">
+        </label>
+        <p class="drone-dir" data-drone-dir>Português → Inglês</p>
+        <p class="drone-out" data-drone-out aria-live="polite"></p>
+      </section>
+
       <article class="poem research-body" aria-label="Hub tradução">
-        <p>Quando cair uma palavra em inglês no meio do REM: traduzir e inspecionar. Abaixo o mapa.</p>
+        <p>Palavra em inglês ou em português: o drone vira para o outro lado. Depois, se quiser, inspecionar no mapa.</p>
 
         <nav class="module-map" aria-label="Traduções">
           <a class="module-link" href="palavra-gift.html"><span>gift</span><strong>presente / dom</strong><em>colheita</em></a>
@@ -46,5 +78,6 @@
         </p>
       </article>
     </main>
+    <script src="../assets/js/drone-traducao.js"></script>
   </body>
 </html>

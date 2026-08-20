@@ -1053,6 +1053,114 @@ body.is-music-playing .rain {
   border-radius: 0.35rem;
 }
 
+.drone {
+  display: grid;
+  gap: 0.85rem;
+  max-width: 34rem;
+  margin: 0 0 2rem;
+  padding: 1.15rem 1.2rem 1.25rem;
+  background: rgba(255, 255, 255, 0.42);
+  border: 1px solid rgba(31, 42, 50, 0.12);
+  border-radius: 0.45rem;
+}
+
+.drone-kicker {
+  margin: 0;
+  color: var(--blush);
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.drone-help {
+  margin: 0;
+  color: var(--ink-soft);
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  line-height: 1.45;
+}
+
+.drone-langs {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 0.6rem;
+  align-items: end;
+}
+
+.drone-lang,
+.drone-field {
+  display: grid;
+  gap: 0.35rem;
+  color: var(--ink-soft);
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+}
+
+.drone-lang select,
+.drone-field input {
+  width: 100%;
+  padding: 0.65rem 0.75rem;
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(31, 42, 50, 0.16);
+  border-radius: 0.35rem;
+}
+
+.drone-lang select:focus,
+.drone-field input:focus {
+  outline: 2px solid rgba(139, 58, 74, 0.35);
+  outline-offset: 2px;
+}
+
+.drone-swap {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-bottom: 0.05rem;
+  color: var(--blush);
+  font-size: 1.1rem;
+  background: transparent;
+  border: 1px solid rgba(139, 58, 74, 0.35);
+  border-radius: 0.35rem;
+  cursor: pointer;
+}
+
+.drone-swap:hover,
+.drone-swap:focus-visible {
+  color: var(--ink);
+  outline: none;
+}
+
+.drone-dir {
+  margin: 0;
+  color: var(--blush);
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+}
+
+.drone-out {
+  min-height: 1.6rem;
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  line-height: 1.35;
+}
+
+@media (max-width: 520px) {
+  .drone-langs {
+    grid-template-columns: 1fr;
+  }
+
+  .drone-swap {
+    justify-self: start;
+  }
+}
+
 @keyframes rise-in {
   to {
     opacity: 1;
