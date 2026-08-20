@@ -1,62 +1,32 @@
 # Cursos
 
-Inspeção. Faculdade nova. 2026-08-20.
+Inspeção. Região preferida: **Salto del Guairá**. 2026-08-20.
 
-Quem vai estudar: **Inspetor BudGanja**. País: Paraguai. Página do painel: [cursos.html](cursos.html).
+Quem vai estudar: **Inspetor BudGanja**. País: Paraguai. Página: [cursos.html](cursos.html).
 
 ## Ortografia
 
 - cursos (canteiro) · faculdade (casa) · Paraguai (país)
-- Universidad Interamericana (casa nova)
+- Salto del Guairá (Canindeyú) — também escrito Saltos del Guairá
 - Não é FICS · não é “faculadde” · não é “Paraguy”
 
 ## Quem
 
-Persona / canal de inspeção do projeto. Vai cursar Medicina nesta casa. Esta ficha não é matrícula.
+Persona / canal de inspeção do projeto. Vai cursar Medicina. Esta ficha não é matrícula.
 
-## A casa nova
+## Região preferida
 
-**Universidad Interamericana** — privada.
+**Salto del Guairá** — Canindeyú. Fronteira Guaíra / Mundo Novo. Mais perto. Mais calma. Menos Medicinas que Pedro Juan Caballero.
 
-| Dado | Valor |
-| --- | --- |
-| Lei | nº 4200/2010 (criação) |
-| Reitor | Miguel Darío Cáceres |
-| Sede central | Pedro Juan Caballero (Amambay) · fronteira Ponta Porã |
-| Mudança de sede | CONES Res. 228/2024 (Assunção → PJC) |
-| Endereço CONES | Natalicio Talavera |
-| Telefone CONES | +595 983 798050 |
-| Site | https://interamericana.edu.py |
+## Medicina em Salto del Guairá
 
-## Não confundir
+| Casa | CONES | ANEAES (dez 2025) |
+| --- | --- | --- |
+| Universidad Sudamericana | 707/18 | fines diagnósticos (sede Salto) |
+| Leonardo Da Vinci (ULDV) | 147/19 | em processo (casa) |
+| UNICAN (pública) | — | sem Medicina nesta sede |
 
-**FICS** (Faculdade Interamericana de Ciências Sociais) — investigada em ago 2026 (Fantástico / PF / Ministério Público paraguaio): sem registro CONES; pós apontada como golpe. Nome parecido. Outra casa.
-
-Aqui: Universidad Interamericana da Lei 4200/2010.
-
-## Curso do inspetor
-
-**Medicina** — grau · presencial · sede central.
-
-- CONES Res. **178/2026** (17 mar 2026)
-- A casa declara: 6 anos · 10.807 horas · sem vestibular / ENEM
-- Título no Paraguai: *Médico*
-- Diploma lá **≠** CRM no Brasil
-
-Clínicas (comunicado da reitoria, jul 2026, registros MSPyBS): Central nº 1 · Médica nº 2 · Sandro Arredondo nº 3 · Médica nº 4. Conferir no ano.
-
-## Cursos ativos no CONES
-
-| Curso | Tipo | Sede | Res. |
-| --- | --- | --- | --- |
-| Medicina | grau | central | 178/26 |
-| Administração de Empresas | grau | Assunção | 175/15 |
-| Administração de Empresas | grau | Ciudad del Este | 38/22 |
-| Mestrado em Ciências da Educação | pós | central | 228/24 |
-
-O CONES marca **inativos** vários graus e pós antigos em Assunção (Direito, Contadoria, Enfermagem, Marketing, etc.). Não são o caminho do inspetor.
-
-Fonte da tabela: ficha CONES da instituição.
+Sudamericana em **PJC** está acreditada (+ ARCU-SUR). Em **Salto**, só diagnóstico. Mesma marca, sede diferente.
 
 ## Habilitar ≠ acreditar
 
@@ -65,13 +35,11 @@ Fonte da tabela: ficha CONES da instituição.
 | CONES | autoriza educação superior (Lei 4995/2013) |
 | ANEAES | avalia e acredita qualidade (nacional / ARCU-SUR) |
 
-Medicina nesta casa: habilitação CONES 2026. Acreditação ANEAES da carreira + sede **ainda não** aparece no mapa público de Medicina (informe ANEAES 29 dez 2025 é anterior à habilitação).
-
-No mesmo 17 mar 2026: Res. CONES **2/26** — habilitação provisória de Medicina; campos de prática podendo vir em até 2 anos. ANEAES e Círculo Paraguaio de Médicos criticaram.
+Nas duas Medicinas de Salto: habilitação CONES. Acreditação da carreira + sede **ainda não**.
 
 ## Faculdades de Medicina em Pedro Juan Caballero
 
-ABC 23 mar 2026: CONES lista **dez** programas de Medicina só nesta cidade, todos privados. A Interamericana é a nova.
+A outra fronteira — não a preferida. ABC 23 mar 2026: CONES lista **dez** programas só nesta cidade, todos privados. A Interamericana é a nova.
 
 Casas nomeadas com ficha (CONES e/ou ANEAES informe 29 dez 2025):
 
@@ -122,4 +90,4 @@ Não é ranking, matrícula nem conselho. Checar CONES + ANEAES da sede, no ano 
 
 ## Fontes
 
-CONES (fichas das casas; Res. 176/177/178/2026; Res. 2/26; Res. 228/2024; Res. 260/2024 UAL) · Lei 4200/2010 · Lei 4995/2013 · site da casa (interamericana.edu.py) · ABC Color 17–23 mar 2026 (dez programas em PJC) · comunicado reitoria jul 2026 · ANEAES informe Medicina 29 dez 2025 · Inep/Revalida · G1/Fantástico ago 2026 (FICS, só para não confundir o nome)
+CONES (fichas Sudamericana, Leonardo Da Vinci, UNICAN, Interamericana; Res. 147/19, 707/18, 176/177/178/2026; Res. 260/2024 UAL) · Lei 4995/2013 · ANEAES informe Medicina 29 dez 2025 · ABC Color 17–23 mar 2026 (dez programas em PJC) · Inep/Revalida · G1/Fantástico ago 2026 (FICS, só para não confundir o nome)

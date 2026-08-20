@@ -28,7 +28,7 @@ npm start
 | Dados / privacidade | `pesquisas/seguranca-dados-pessoais.html` + `.md` |
 | GitHub (inspeção) | `pesquisas/github.html` + `.md` |
 | Peito / luz | `pesquisas/cadeia-peito-luz.html` · `filhodosol.html` |
-| Cursos (faculdade nova + Medicinas PJC) | `pesquisas/cursos.html` + `.md` |
+| Cursos (Salto del Guairá) | `pesquisas/cursos.html` + `.md` |
 | Rádio | `pesquisas/radio.html` + `.md` · Vinylzera no comando |
 | Vinylzera (DJ) | `pesquisas/vinylzera.html` · playlist `vinylzera-videos.html` |
 
