@@ -34,7 +34,7 @@ Hub: [palavras-da-vida.html](palavras-da-vida.html)
 
 ## No REM
 
-O dia veio torto e ainda começou. [Bom dia, vida](bom-dia-vida.html) · [Sun](sun.html).
+O dia veio torto e ainda começou. [Bom dia, vida](bom-dia-vida.html) · [Sun](sun.html). Canal: [OMCVEVO](canal-omcvevo.html).
 
 ## Página
 

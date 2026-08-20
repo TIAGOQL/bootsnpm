@@ -34,7 +34,7 @@ Não é letra completa — só frases para estudar.
 ## No REM
 
 Fiel a si, sem performance. [Higiene mental](higiene-mental.html) · [medo de seguir sonhos](medo-seguir-sonhos.html).  
-Irmã: [Send Me On My Way](aula-send-me-on-my-way.html). Juntos: [comunidade](comunidade.html).
+Irmã: [Send Me On My Way](aula-send-me-on-my-way.html). Juntos: [comunidade](comunidade.html). Canal: [Ziggy Marley](canal-ziggy-marley.html).
 
 ## Página
 

@@ -33,7 +33,7 @@ Sílabas tipo *oombay…* = ritmo, não frase.
 ## No REM
 
 Um passo. [filhodosol](filhodosol.html) · [Protocolo N=1](protocolo-n1.html).  
-Irmã: [True To Myself](aula-true-to-myself.html). Juntos: [comunidade](comunidade.html).
+Irmã: [True To Myself](aula-true-to-myself.html). Juntos: [comunidade](comunidade.html). Canal: [RustedRootVEVO](canal-rustedrootvevo.html).
 
 ## Página
 

@@ -14,6 +14,8 @@ Embeds: `IGMabBGydC0` · `ikzQmC3S-mE` · `C2cMG33mWVY` (youtube-nocookie).
 
 Cada palavra com página: [palavras-da-vida](palavras-da-vida.html). Tom de [Bom dia, vida](bom-dia-vida.html). Sem letra inteira.
 
+Canais: [Área de vídeos](videos.html) · [RustedRootVEVO](canal-rustedrootvevo.html) · [Ziggy Marley](canal-ziggy-marley.html) · [OMCVEVO](canal-omcvevo.html).
+
 ## Como estudar
 
 1. Ouvir sem ler  
