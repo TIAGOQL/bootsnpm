@@ -32,6 +32,8 @@ npm start
 | Cursos (Salto del Guairá) | `pesquisas/cursos.html` + `.md` |
 | Rádio | `pesquisas/radio.html` + `.md` · Vinylzera no comando |
 | Faixas | `pesquisas/bom-dia-espirito-santo.html` |
+| Casa | `pesquisas/os-dois-juntos.html` — painel e páginas no mesmo sítio |
+| Doces | `pesquisas/doces.html` |
 | Vinylzera (DJ) | `pesquisas/vinylzera.html` · playlist `vinylzera-videos.html` |
 
 ## Dados pessoais (para quem chega de fora)

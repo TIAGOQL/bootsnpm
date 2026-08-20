@@ -1,13 +1,13 @@
 # Os dois juntos
 
-- **Estágio:** planta
+- **Estágio:** colheita
 - **Módulo REM:** palavra · casa
 - **Plantada em:** 2026-08-20
-- **Próximo passo:** a mesma barra no painel e em cada página — um sítio só
+- **Próximo passo:** página pública — [os-dois-juntos.html](../../pesquisas/os-dois-juntos.html)
 
 ## Nota
 
-Sem ideia de nome. O que importa: o site limpo e o painel não podem parecer duas casas. Mesma marca. Mesmos quatro atalhos: Sinais, Diário, Cultivo, Rádio.
+O site limpo e o painel são a mesma casa. Barra única. Publicado. Vizinho: [doces](../../pesquisas/doces.html), rsrs.
 
 ## Por que importa
 

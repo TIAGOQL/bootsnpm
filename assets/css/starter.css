@@ -356,6 +356,10 @@ body.has-site-bar .panel-shortcut {
   font-weight: 500;
 }
 
+.panel-hint a {
+  color: var(--blush);
+}
+
 .research-shell .panel-lede {
   margin-top: 1rem;
 }
