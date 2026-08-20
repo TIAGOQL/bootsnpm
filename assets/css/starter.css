@@ -78,6 +78,66 @@ body.panel-page {
   animation: rise-in 700ms ease 80ms forwards;
 }
 
+body.has-site-bar .panel-shortcut {
+  display: none;
+}
+
+.site-bar {
+  position: fixed;
+  top: 0.85rem;
+  left: 1.1rem;
+  right: 1.1rem;
+  z-index: 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.55rem 1.25rem;
+  pointer-events: none;
+  opacity: 0;
+  animation: rise-in 700ms ease 80ms forwards;
+}
+
+.site-bar a {
+  pointer-events: auto;
+  text-decoration: none;
+}
+
+.site-mark {
+  color: var(--blush);
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+}
+
+.site-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.05rem;
+  justify-content: flex-end;
+}
+
+.site-links a {
+  color: var(--ink-soft);
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.site-mark:hover,
+.site-mark:focus-visible,
+.site-links a:hover,
+.site-links a:focus-visible,
+.site-links a[aria-current="page"],
+.site-mark[aria-current="page"] {
+  color: var(--blush);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+  outline: none;
+}
+
 .panel-shortcut:hover,
 .panel-shortcut:focus-visible {
   text-decoration: underline;
@@ -1424,6 +1484,7 @@ body.is-music-playing .rain {
   }
 
   .panel-shortcut,
+  .site-bar,
   .poem-for,
   .panel-kicker,
   .poem-title,

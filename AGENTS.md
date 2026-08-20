@@ -12,7 +12,7 @@ See root `README.md` and `package.json`. Quick reference:
 | --- | --- |
 | Install | `npm install` (no packages today; keeps lock/node_modules consistent if deps are added) |
 | Test / surface check | `npm test` (file + panel string checks) |
-| JS syntax (CI) | `node --check assets/js/diario-rem.js` (and `cultivo-ideias.js`, `musica-rem.js`, `radio-rem.js`, `vinylzera-videos.js`, `feed-vivo.js`) |
+| JS syntax (CI) | `node --check assets/js/diario-rem.js` (and `cultivo-ideias.js`, `musica-rem.js`, `radio-rem.js`, `vinylzera-videos.js`, `feed-vivo.js`, `site-shell.js`) |
 | Dev server | `npm start` → http://localhost:3000 (`npx serve`) |
 
 CI uses **Node 20** (`.github/workflows/ci.yml`). Any recent Node that can run `npx serve` is fine.

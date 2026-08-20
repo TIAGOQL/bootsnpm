@@ -31,7 +31,7 @@ npm start
 | Peito / luz | `pesquisas/cadeia-peito-luz.html` · `filhodosol.html` |
 | Cursos (Salto del Guairá) | `pesquisas/cursos.html` + `.md` |
 | Rádio | `pesquisas/radio.html` + `.md` · Vinylzera no comando |
-| Faixas | `pesquisas/bom-dia-espirito-santo.html` · `pesquisas/numb.html` |
+| Faixas | `pesquisas/bom-dia-espirito-santo.html` |
 | Vinylzera (DJ) | `pesquisas/vinylzera.html` · playlist `vinylzera-videos.html` |
 
 ## Dados pessoais (para quem chega de fora)
