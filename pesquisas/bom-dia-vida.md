@@ -22,6 +22,7 @@ Inspeção de frase. 2026-08-04.
 - [s2](s2.html) — peito curto  
 - [Esses somos nós…](esses-somos-nos-filhos-do-sol.html) — se for juntos  
 - [Diário](diario-rem.html) — marcar o começo do dia  
+- Faixa: [Bom dia, Espírito Santo](bom-dia-espirito-santo.html) 
 
 ## Página
 

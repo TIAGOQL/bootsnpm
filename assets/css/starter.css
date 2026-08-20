@@ -1389,6 +1389,28 @@ body.is-music-playing .rain {
   outline: none;
 }
 
+.spotify-embed {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 34rem;
+  height: 152px;
+  margin: 0 0 2rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  background: rgba(20, 16, 14, 0.28);
+  opacity: 0;
+  transform: translateY(1rem);
+  animation: rise-in 1100ms ease 480ms forwards;
+}
+
+.spotify-embed iframe {
+  display: block;
+  width: 100%;
+  height: 152px;
+  border: 0;
+}
+
 @keyframes rise-in {
   to {
     opacity: 1;
@@ -1421,6 +1443,7 @@ body.is-music-playing .rain {
   .catalog-grid,
   .sinais-list,
   .feed-vivo,
+  .spotify-embed,
   .page-hero-photo {
     opacity: 1;
     transform: none;
