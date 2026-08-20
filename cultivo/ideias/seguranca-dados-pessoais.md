@@ -7,7 +7,7 @@
 
 ## Nota
 
-Página do projeto inteiro: o que é o Painel REM, o que é público no Git/Pages, o que fica só no aparelho (`rem-diario-v1`, `rem-cultivo-v1`, volume). Lente Simplificamais (medidas + aviso de violação) usada como contraste: aqui a proteção é não mandar o N=1 para servidor.
+Página do projeto inteiro: o que é o Painel REM, o que é público no Git/Pages, o que fica só no aparelho (`rem-diario-v1`, `rem-cultivo-v1`, `rem-feed-me-v1`, `rem-feed-v1`, volume). Lente Simplificamais (medidas + aviso de violação) usada como contraste: aqui a proteção é não mandar o N=1 para servidor.
 
 ## Por que importa
 

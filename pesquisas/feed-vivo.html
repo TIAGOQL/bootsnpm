@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Feed vivo — foto da planta e comentário sem cadastro. Fica neste aparelho.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Karla:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/starter.css">
+    <title>Feed vivo</title>
+  </head>
+  <body class="poem-page research-page">
+    <div class="rain" aria-hidden="true"></div>
+    <a class="panel-shortcut" href="../index.html">← Painel</a>
+
+    <main class="poem-shell research-shell">
+      <header class="poem-brand">
+        <p class="poem-for">canteiro · agora</p>
+        <h1 class="poem-title">Feed vivo</h1>
+        <p class="panel-lede">Manda a foto da planta. Sem e-mail. Sem senha. Quem não tem conta entra como anônimo neste aparelho.</p>
+      </header>
+
+      <img class="page-hero-photo" src="../assets/img/card-sementinha.jpg" alt="Semente e planta — foto do canteiro" width="640" height="360" loading="eager">
+
+      <div class="feed-vivo" data-feed>
+        <p class="feed-who" data-feed-who>Sem e-mail. Sem senha. Apelido é opcional — pode enviar a foto agora.</p>
+
+        <form class="feed-form cultivo-form" data-feed-form>
+          <label>
+            <span>Apelido (opcional)</span>
+            <input name="apelido" type="text" maxlength="32" placeholder="Anônimo" autocomplete="nickname">
+          </label>
+
+          <div class="feed-drop" data-feed-drop>
+            <input class="visually-hidden" data-plant-file type="file" accept="image/jpeg,image/png,image/webp,image/*">
+            <button type="button" class="music-btn" data-pick-photo>Escolher foto da planta</button>
+            <p class="feed-drop-hint">Galeria ou câmera. JPEG ou PNG. Sem segredo: a foto fica neste celular ou computador.</p>
+          </div>
+
+          <div class="feed-preview-wrap" data-feed-preview-wrap hidden>
+            <img class="feed-preview" data-feed-preview alt="Prévia da planta" hidden>
+          </div>
+
+          <label>
+            <span>O que está vendo (opcional)</span>
+            <textarea name="caption" rows="2" maxlength="280" placeholder="Folha, vaso, luz… um recado curto."></textarea>
+          </label>
+
+          <button type="submit" class="music-btn">Enviar foto</button>
+          <p class="diario-saved" data-feed-status hidden></p>
+        </form>
+
+        <div class="feed-toolbar diario-toolbar">
+          <button type="button" class="diario-secondary" data-export>Exportar JSON</button>
+          <button type="button" class="diario-secondary" data-import-trigger>Trazer fotos de outro aparelho</button>
+          <input class="visually-hidden" data-import type="file" accept="application/json,.json">
+        </div>
+
+        <div class="feed-lista" data-feed-lista></div>
+      </div>
+
+      <article class="poem research-body" aria-label="Como funciona o anônimo">
+        <p><strong>Cadastro anônimo:</strong> não tem. Não pede e-mail, telefone nem senha. Se deixar o apelido em branco, o nome é <em>Anônimo</em>. Isso vale para quem nunca se cadastrou — a foto da planta entra do mesmo jeito.</p>
+        <p><strong>Onde mora:</strong> neste navegador (<code>rem-feed-v1</code>). Não sobe sozinho para o GitHub. Para outra pessoa ver, exporte o JSON e mande o arquivo.</p>
+        <p class="research-note">
+          <a href="feed-vivo.md">texto</a> ·
+          <a href="cultivo-ideias.html">Cultivo</a> ·
+          <a href="seguranca-dados-pessoais.html">Dados pessoais</a> ·
+          <a href="sementinha.html">Sementinha</a>
+        </p>
+      </article>
+    </main>
+
+    <script type="module" src="../assets/js/feed-vivo.js"></script>
+  </body>
+</html>

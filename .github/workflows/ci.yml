@@ -29,3 +29,4 @@ jobs:
           node --check assets/js/musica-rem.js
           node --check assets/js/vinylzera-videos.js
           node --check assets/js/radio-rem.js
+          node --check assets/js/feed-vivo.js

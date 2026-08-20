@@ -24,6 +24,7 @@ npm start
 | Endocanabinoidoma | `pesquisas/endocanabinoidoma.html` |
 | Sementinha | `pesquisas/sementinha.html` |
 | Cultivo (Git) | `cultivo/ideias/` |
+| Feed vivo | `pesquisas/feed-vivo.html` — foto da planta, anônimo neste aparelho |
 | Poesias | `poemas/` |
 | Dados / privacidade | `pesquisas/seguranca-dados-pessoais.html` + `.md` |
 | GitHub (inspeção) | `pesquisas/github.html` + `.md` |
@@ -36,7 +37,7 @@ npm start
 
 Site estático. Sem login, sem backend, sem nuvem do diário.
 
-- **Só no aparelho** (`localStorage`): Diário REM, cultivo local, volume do áudio.  
+- **Só no aparelho** (`localStorage`): Diário REM, cultivo local, feed vivo (fotos da planta), volume do áudio.  
 - **Público (Git / Pages):** páginas, mapa, poesias, ideias permanentes em `cultivo/ideias/`.  
 - **Backup:** Exportar JSON no Diário — quem não exporta e limpa o navegador perde o histórico.
 

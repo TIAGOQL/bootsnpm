@@ -12,7 +12,7 @@ See root `README.md` and `package.json`. Quick reference:
 | --- | --- |
 | Install | `npm install` (no packages today; keeps lock/node_modules consistent if deps are added) |
 | Test / surface check | `npm test` (file + panel string checks) |
-| JS syntax (CI) | `node --check assets/js/diario-rem.js` (and `cultivo-ideias.js`, `musica-rem.js`, `radio-rem.js`, `vinylzera-videos.js`) |
+| JS syntax (CI) | `node --check assets/js/diario-rem.js` (and `cultivo-ideias.js`, `musica-rem.js`, `radio-rem.js`, `vinylzera-videos.js`, `feed-vivo.js`) |
 | Dev server | `npm start` → http://localhost:3000 (`npx serve`) |
 
 CI uses **Node 20** (`.github/workflows/ci.yml`). Any recent Node that can run `npx serve` is fine.
@@ -20,11 +20,11 @@ CI uses **Node 20** (`.github/workflows/ci.yml`). Any recent Node that can run `
 ### Gotchas
 
 - `npm start` pulls `serve` via `npx --yes`; first start needs network.
-- Client data for Diário REM / cultivo lives in **browser `localStorage`** only — not on the server.
+- Client data for Diário REM / cultivo / feed vivo lives in **browser `localStorage`** only — not on the server.
 - Human-facing map of what the project is / what is public vs local: `pesquisas/seguranca-dados-pessoais.html` (+ `.md`).
 - Stack line `at Module.load (node:internal/modules/cjs/loader:…)` explained for humans: `pesquisas/module-load.html` (+ `.md`).
 - GitHub Pages deploy is via Actions on `main` (`.github/workflows/pages.yml`). One-time: Settings → Pages → Source: **GitHub Actions** (see README).
 
 ### Hello-world check
 
-With `npm start` running: open http://localhost:3000 → **Diário REM** → mark modules / scores → **Salvar** → **Exportar JSON**. That exercises the core N=1 diary flow.
+With `npm start` running: open http://localhost:3000 → **Feed vivo** → Escolher foto da planta → **Enviar foto**. That exercises anonymous plant-photo posting (local only). Diário REM remains the N=1 diary flow.

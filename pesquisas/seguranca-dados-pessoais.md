@@ -21,6 +21,8 @@ Não é app médico. Não é clínica. Não é rede social. Não há login.
 | --- | --- | --- |
 | `rem-diario-v1` | Diário REM | Marcas N=1 do dia |
 | `rem-cultivo-v1` | Cultivo (navegador) | Ideias plantadas localmente |
+| `rem-feed-me-v1` | Feed vivo | Máscara anônima (apelido ou Anônimo) |
+| `rem-feed-v1` | Feed vivo | Fotos da planta e comentários neste aparelho |
 | `rem-music-volume` | Tônus / painel | Volume do áudio |
 
 Isso vive em `localStorage`. Não sobe para o servidor do projeto.
@@ -36,7 +38,7 @@ Não committe no Git o que deveria ficar só no diário pessoal.
 
 ## Backup e perda
 
-- **Exportar JSON** no Diário = backup sob seu controle.  
+- **Exportar JSON** no Diário e no Feed vivo = backup sob seu controle.  
 - Limpar dados do site / trocar de aparelho sem export = perda do histórico.  
 - Cultivo local some com o mesmo limpeza; ideias no Git permanecem.
 
@@ -66,6 +68,7 @@ Política de Privacidade e Cookies — Simplifica+ (nov/2025), seção *Seguran�
 | Painel | [index.html](../index.html) |
 | Protocolo / Diário / Tônus | [protocolo-n1](protocolo-n1.html) · [diario-rem](diario-rem.html) · [musica-tonus](musica-tonus.html) |
 | Cultivo | [cultivo-ideias](cultivo-ideias.html) · `cultivo/ideias/` |
+| Feed vivo | [feed-vivo](feed-vivo.html) — foto da planta sem cadastro |
 | Mapa REM | [relaxamento-endocanabinoide](relaxamento-endocanabinoide.html) |
 | Higiene / Sinais | [higiene-mental](higiene-mental.html) · [sinais](sinais.html) |
 | Esta página | [seguranca-dados-pessoais.html](seguranca-dados-pessoais.html) |
