@@ -419,8 +419,41 @@
       <p class="panel-hint">
         Fluxo rápido:
         <em>Protocolo → Diário (hoje) → Tônus → Cultivo se nascer dúvida</em>
+        · Sininho acorda o drone · dois cliques desligam
       </p>
     </main>
+
+    <button type="button" class="sininho" data-sininho aria-pressed="false" aria-haspopup="dialog" aria-controls="sininho-popup" title="Sininho · drone do Tônus">
+      <span class="sininho-figure" aria-hidden="true">
+        <svg class="sininho-bell" viewBox="0 0 48 48" width="48" height="48">
+          <path fill="#8b3a4a" d="M24 6c-6 0-11 5.2-11 12v6.2c0 1.2-.4 2.3-1.1 3.3L9 32h30l-2.9-4.5c-.7-1-1.1-2.1-1.1-3.3V18C35 11.2 30 6 24 6z"/>
+          <circle cx="24" cy="36" r="3.2" fill="#1f2a32"/>
+          <circle cx="19" cy="20" r="1.4" fill="#f7f3ef"/>
+          <circle cx="27" cy="20" r="1.4" fill="#f7f3ef"/>
+        </svg>
+        <span class="sininho-wand" data-sininho-wand title="Varinha">
+          <svg viewBox="0 0 32 32" width="28" height="28">
+            <path stroke="#1f2a32" stroke-width="2" d="M8 24 L20 8"/>
+            <path fill="#8b3a4a" d="M20 8 l3-1 1 3-2 2-3-1z"/>
+            <circle cx="22" cy="7" r="2.2" fill="#f7f3ef"/>
+          </svg>
+        </span>
+      </span>
+      <span class="sininho-label">Sininho</span>
+    </button>
+
+    <div class="drone-orb" data-drone-orb hidden aria-hidden="true"></div>
+
+    <dialog class="sininho-popup" id="sininho-popup" data-sininho-popup aria-labelledby="sininho-popup-title">
+      <p class="poem-for">apresentação · drone</p>
+      <h2 class="sininho-popup-title" id="sininho-popup-title">Sininho e a varinha</h2>
+      <p>O <strong>drone</strong> é o Tônus: som baixo, respiração em 10s, névoa leve. A varinha acorda. O brilho segue o ponteiro.</p>
+      <p><strong>Dois cliques</strong> com o botão comum desligam.</p>
+      <div class="sininho-popup-actions">
+        <button type="button" class="music-btn" data-sininho-play>Deixa o drone</button>
+        <button type="button" class="sininho-quiet" data-sininho-close>Fechar</button>
+      </div>
+    </dialog>
 
     <script>
       (function () {
@@ -445,5 +478,6 @@
         });
       })();
     </script>
+    <script type="module" src="assets/js/drone-sininho.js"></script>
   </body>
 </html>

@@ -27,3 +27,5 @@ jobs:
           node --check assets/js/diario-rem.js
           node --check assets/js/cultivo-ideias.js
           node --check assets/js/musica-rem.js
+          node --check assets/js/tonus-drone.js
+          node --check assets/js/drone-sininho.js

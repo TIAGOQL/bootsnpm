@@ -851,7 +851,125 @@ body.panel-page {
   line-height: 1.45;
 }
 
-body.is-music-playing .rain {
+.sininho {
+  position: fixed;
+  right: 1.1rem;
+  bottom: 1.1rem;
+  z-index: 20;
+  display: grid;
+  justify-items: center;
+  gap: 0.2rem;
+  margin: 0;
+  padding: 0.35rem 0.45rem 0.45rem;
+  color: var(--ink);
+  font-family: var(--font-ui);
+  background: rgba(247, 243, 239, 0.88);
+  border: 1px solid rgba(31, 42, 50, 0.14);
+  border-radius: 1.1rem;
+  box-shadow: 0 10px 28px rgba(31, 42, 50, 0.12);
+  cursor: pointer;
+}
+
+.sininho-figure {
+  position: relative;
+  display: block;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.sininho-bell {
+  display: block;
+}
+
+.sininho-wand {
+  position: absolute;
+  right: -0.35rem;
+  top: -0.15rem;
+  transform-origin: 8px 24px;
+}
+
+.sininho.is-casting .sininho-wand,
+.sininho.is-awake .sininho-wand {
+  animation: wand-wave 900ms ease;
+}
+
+.sininho-label {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+}
+
+.drone-orb {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 12;
+  width: 4.5rem;
+  height: 4.5rem;
+  margin: -2.25rem 0 0 -2.25rem;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(139, 58, 74, 0.35), rgba(139, 58, 74, 0.05) 58%, transparent 70%);
+  transform: translate(var(--drone-x, 50vw), var(--drone-y, 50vh));
+  filter: blur(0.4px);
+}
+
+.sininho-popup {
+  width: min(22rem, calc(100vw - 2rem));
+  padding: 1.4rem 1.5rem 1.3rem;
+  color: var(--ink);
+  font-family: var(--font-ui);
+  background: rgba(247, 243, 239, 0.96);
+  border: 1px solid rgba(31, 42, 50, 0.12);
+  border-radius: 0.7rem;
+}
+
+.sininho-popup::backdrop {
+  background: rgba(31, 42, 50, 0.28);
+}
+
+.sininho-popup-title {
+  margin: 0.15rem 0 0.7rem;
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  font-weight: 500;
+}
+
+.sininho-popup p {
+  margin: 0 0 0.7rem;
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+
+.sininho-popup-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.sininho-quiet {
+  padding: 0.7rem 1rem;
+  color: var(--ink-soft);
+  font: inherit;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+@keyframes wand-wave {
+  0%,
+  100% {
+    transform: rotate(-8deg);
+  }
+
+  40% {
+    transform: rotate(18deg);
+  }
+}
+
+body.is-music-playing .rain,
+body.is-drone-on .rain {
   opacity: 0.7;
   animation-duration: 9s;
 }
@@ -1033,6 +1151,11 @@ body.is-music-playing .rain {
   .page-hero-photo {
     opacity: 1;
     transform: none;
+    animation: none;
+  }
+
+  .sininho.is-casting .sininho-wand,
+  .sininho.is-awake .sininho-wand {
     animation: none;
   }
 
