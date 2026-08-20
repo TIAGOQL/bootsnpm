@@ -39,6 +39,7 @@ Frase conhecida: *We are Anonymous. We are Legion… Expect us.*
 - [O Engenheiro Arquiteto](o-engenheiro-arquiteto.html) — tem nome quem planta.  
 - [Hub tradução](hub-traducao.html) — Anonymous → anónimos / ninguém.  
 - [Acesso livre](anonimato-acesso.html) — porta do painel sem identificação; **não** é este grupo.  
+- [letra X](letra-x.html) — nome novo da rede é uma letra; não é esta legião.  
 - Página: [anonymous.html](anonymous.html)
 
 ## Fontes

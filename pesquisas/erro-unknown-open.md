@@ -35,4 +35,4 @@ Não abriu o caminho. `Module.load` no stack é só o Node a carregar o script.
 
 ## Página
 
-[erro-unknown-open.html](erro-unknown-open.html) · [module-load.html](module-load.html) · [palavras-do-stack.html](palavras-do-stack.html)
+[erro-unknown-open.html](erro-unknown-open.html) · [module-load.html](module-load.html) · [palavras-do-stack.html](palavras-do-stack.html) · [letra X](letra-x.html) (outro desconhecido: a letra / o nome novo)

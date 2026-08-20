@@ -12,6 +12,7 @@ Mapa EN → PT + inspeção. 2026-08-04.
 | UNKNOWN / open | desconhecido / abrir | [erro-unknown-open](erro-unknown-open.html) |
 | Wonderwall | a pessoa que segura (título fica) | [wonderwall](wonderwall.html) |
 | libre | livre (porta sem crachá) | [anonimato-acesso](anonimato-acesso.html) |
+| X | xis / nome novo da rede | [letra-x](letra-x.html) |
 
 ## Página
 
