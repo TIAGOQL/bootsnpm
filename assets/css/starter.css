@@ -227,6 +227,20 @@ body.has-site-bar .panel-shortcut {
   animation: rise-in 1100ms ease 420ms forwards;
 }
 
+.glyph-t {
+  position: relative;
+  z-index: 1;
+  margin: 0 0 1.75rem;
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: clamp(4.2rem, 16vw, 7.5rem);
+  font-weight: 500;
+  line-height: 0.9;
+  opacity: 0;
+  transform: translateY(1rem);
+  animation: rise-in 1100ms ease 420ms forwards;
+}
+
 .poem-brand,
 .panel-brand {
   margin-bottom: clamp(2rem, 6vh, 3.25rem);
@@ -1509,6 +1523,7 @@ body.is-music-playing .rain {
   .sinais-list,
   .feed-vivo,
   .spotify-embed,
+  .glyph-t,
   .page-hero-photo {
     opacity: 1;
     transform: none;

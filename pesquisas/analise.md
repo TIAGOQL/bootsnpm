@@ -17,6 +17,7 @@ Inspeção de palavra. 2026-08-04.
 - Se servir: [diário](diario-rem.html)  
 - Se travar: [M0](higiene-mental.html) · [sinais](sinais.html)  
 - Casa de estudo: [Cursos](cursos.html)  
+- Símbolo da oficina: [T ao contrário](t-ao-contrario.html)  
 
 ## Página
 
