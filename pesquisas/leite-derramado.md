@@ -11,5 +11,9 @@ Nunca é tarde. Estou muito feliz.
 ## Quer dizer
 O que já caiu, caiu. Pode doer. Mas só chorar o passado não traz o leite de volta. Ainda dá pra seguir com o que sobrou — e com a semente.
 
+## Outro nunca
+
+A [Terra do Nunca](terra-do-nunca.html) é de Barrie — não é deste painel.
+
 ## Página
 [leite-derramado.html](leite-derramado.html)

@@ -29,6 +29,7 @@ npm start
 | GitHub (inspeção) | `pesquisas/github.html` + `.md` |
 | Peito / luz | `pesquisas/cadeia-peito-luz.html` · `filhodosol.html` |
 | Comunidade | `pesquisas/comunidade.html` — três clipes + [palavras da vida](pesquisas/palavras-da-vida.html) |
+| Personagens alheias | `pesquisas/sininho.html` · `peter-pan.html` · `terra-do-nunca.html` — Barrie; não são do painel |
 
 ## Dados pessoais (para quem chega de fora)
 
