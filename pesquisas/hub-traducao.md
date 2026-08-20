@@ -9,6 +9,8 @@ Mapa EN → PT + inspeção. 2026-08-04.
 | gift | presente / dom | [palavra-gift](palavra-gift.html) |
 | Sun | sol | [sun](sun.html) |
 | (stack Node) | ver hub | [palavras-do-stack](palavras-do-stack.html) |
+| Bitter Sweet Symphony | sinfonia agridoce | [bitter-sweet-symphony](bitter-sweet-symphony.html) |
+| Wonderwall | a pessoa que segura (título fica) | [wonderwall](wonderwall.html) |
 
 ## Página
 
