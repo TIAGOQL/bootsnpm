@@ -13,6 +13,10 @@ Mapa EN → PT + inspeção. 2026-08-04.
 | Wonderwall | a pessoa que segura (título fica) | [wonderwall](wonderwall.html) |
 | libre | livre (porta sem crachá) | [anonimato-acesso](anonimato-acesso.html) |
 | X | xis / nome novo da rede | [letra-x](letra-x.html) |
+| cool | da hora | [da-hora](da-hora.html) |
+| genius / brilliant | genial | [genial](genial.html) |
+| Matrix | matriz / a simulação | [matrix](matrix.html) |
+| True To Myself | fiel a mim mesmo | [true-to-myself](true-to-myself.html) |
 
 ## Página
 
