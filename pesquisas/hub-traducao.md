@@ -10,6 +10,8 @@ Mapa EN → PT + inspeção. 2026-08-04.
 | Sun | sol | [sun](sun.html) |
 | (stack Node) | ver hub | [palavras-do-stack](palavras-do-stack.html) |
 
+Mapa maior (categorias + relações): [inspecoes.html](inspecoes.html).
+
 ## Página
 
 [hub-traducao.html](hub-traducao.html)

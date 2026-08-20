@@ -1,0 +1,316 @@
+{
+  "atualizado": "2026-08-20",
+  "categorias": [
+    { "id": "palavra", "nome": "Palavra" },
+    { "id": "frase", "nome": "Frase" },
+    { "id": "expressao", "nome": "Expressão" },
+    { "id": "ponte", "nome": "Ponte" },
+    { "id": "cara", "nome": "Cara" },
+    { "id": "grupo", "nome": "Grupo" },
+    { "id": "filme", "nome": "Filme" },
+    { "id": "trilha", "nome": "Trilha" },
+    { "id": "stack", "nome": "Stack" },
+    { "id": "plataforma", "nome": "Plataforma" },
+    { "id": "traducao", "nome": "Tradução" },
+    { "id": "homenagem", "nome": "Homenagem" },
+    { "id": "mapa", "nome": "Mapa" }
+  ],
+  "eixos": [
+    { "id": "peito-luz", "nome": "Peito / luz" },
+    { "id": "stack-node", "nome": "Stack Node" },
+    { "id": "tempo-nome", "nome": "Tempo / nome" },
+    { "id": "oficina", "nome": "Oficina" },
+    { "id": "traduzir", "nome": "Traduzir" },
+    { "id": "musica-cara", "nome": "Música / cara" }
+  ],
+  "itens": [
+    {
+      "id": "analise",
+      "titulo": "Análise",
+      "href": "analise.html",
+      "kicker": "separar · olhar",
+      "categorias": ["palavra"],
+      "eixos": ["oficina"],
+      "rel": ["o-engenheiro-arquiteto", "socrates", "module-load"]
+    },
+    {
+      "id": "anonymous",
+      "titulo": "Anonymous",
+      "href": "anonymous.html",
+      "kicker": "coletivo · sem chefe",
+      "categorias": ["grupo"],
+      "eixos": ["tempo-nome"],
+      "rel": ["in-time", "justin-timberlake", "github"]
+    },
+    {
+      "id": "bom-dia-vida",
+      "titulo": "Bom dia, vida",
+      "href": "bom-dia-vida.html",
+      "kicker": "ela apenas começou",
+      "categorias": ["frase"],
+      "eixos": ["peito-luz"],
+      "rel": ["sun", "cadeia-peito-luz", "s2", "esses-somos-nos-filhos-do-sol"]
+    },
+    {
+      "id": "cadeia-peito-luz",
+      "titulo": "Cadeia peito / luz",
+      "href": "cadeia-peito-luz.html",
+      "kicker": "constelação",
+      "categorias": ["mapa", "ponte"],
+      "eixos": ["peito-luz"],
+      "rel": ["filho-de-deus", "sun", "deus-e-sol", "filhodosol", "esses-somos-nos-filhos-do-sol", "s2", "bom-dia-vida"]
+    },
+    {
+      "id": "deus-e-sol",
+      "titulo": "Deus e Sol",
+      "href": "deus-e-sol.html",
+      "kicker": "sem fundir",
+      "categorias": ["ponte"],
+      "eixos": ["peito-luz"],
+      "rel": ["sun", "filho-de-deus", "filhodosol", "cadeia-peito-luz"]
+    },
+    {
+      "id": "endocanabinoidoma",
+      "titulo": "Endocanabinoidoma",
+      "href": "endocanabinoidoma.html",
+      "kicker": "SEC = núcleo",
+      "categorias": ["palavra"],
+      "eixos": ["oficina"],
+      "rel": ["esqueceremos", "analise"]
+    },
+    {
+      "id": "esqueceremos",
+      "titulo": "Esqueceremos",
+      "href": "esqueceremos.html",
+      "kicker": "nós · futuro",
+      "categorias": ["palavra"],
+      "eixos": ["tempo-nome", "oficina"],
+      "rel": ["endocanabinoidoma", "in-time", "socrates"]
+    },
+    {
+      "id": "esses-somos-nos-filhos-do-sol",
+      "titulo": "Esses somos nós filhos do sol",
+      "href": "esses-somos-nos-filhos-do-sol.html",
+      "kicker": "plural de filhodosol",
+      "categorias": ["frase"],
+      "eixos": ["peito-luz"],
+      "rel": ["filhodosol", "cadeia-peito-luz", "sun", "bom-dia-vida"]
+    },
+    {
+      "id": "filho-de-deus",
+      "titulo": "Filho de Deus",
+      "href": "filho-de-deus.html",
+      "kicker": "vínculo · filtrar",
+      "categorias": ["expressao"],
+      "eixos": ["peito-luz"],
+      "rel": ["deus-e-sol", "filhodosol", "cadeia-peito-luz", "sun"]
+    },
+    {
+      "id": "filhodosol",
+      "titulo": "filhodosol",
+      "href": "filhodosol.html",
+      "kicker": "filho + sol",
+      "categorias": ["expressao"],
+      "eixos": ["peito-luz"],
+      "rel": ["cadeia-peito-luz", "sun", "filho-de-deus", "esses-somos-nos-filhos-do-sol"]
+    },
+    {
+      "id": "github",
+      "titulo": "GitHub",
+      "href": "github.html",
+      "kicker": "repo · Pages",
+      "categorias": ["plataforma"],
+      "eixos": ["oficina", "stack-node"],
+      "rel": ["o-engenheiro-arquiteto", "module-load", "palavra-gift", "anonymous"]
+    },
+    {
+      "id": "hub-traducao",
+      "titulo": "Hub tradução",
+      "href": "hub-traducao.html",
+      "kicker": "EN → PT",
+      "categorias": ["traducao", "mapa"],
+      "eixos": ["traduzir", "oficina"],
+      "rel": ["palavra-gift", "sun", "palavras-do-stack", "o-engenheiro-arquiteto"]
+    },
+    {
+      "id": "in-time",
+      "titulo": "In Time",
+      "href": "in-time.html",
+      "kicker": "2011 · relógio no braço",
+      "categorias": ["filme"],
+      "eixos": ["tempo-nome"],
+      "rel": ["justin-timberlake", "anonymous", "esqueceremos"]
+    },
+    {
+      "id": "justin-timberlake",
+      "titulo": "Justin Timberlake",
+      "href": "justin-timberlake.html",
+      "kicker": "Will Salas",
+      "categorias": ["cara"],
+      "eixos": ["tempo-nome", "musica-cara"],
+      "rel": ["in-time", "anonymous", "rei-leao-musica"]
+    },
+    {
+      "id": "module-load",
+      "titulo": "Module.load",
+      "href": "module-load.html",
+      "kicker": "carregar módulo",
+      "categorias": ["stack"],
+      "eixos": ["stack-node", "oficina"],
+      "rel": ["palavras-do-stack", "github", "o-engenheiro-arquiteto", "analise"]
+    },
+    {
+      "id": "o-engenheiro-arquiteto",
+      "titulo": "O Engenheiro Arquiteto",
+      "href": "o-engenheiro-arquiteto.html",
+      "kicker": "estrutura · desenho",
+      "categorias": ["cara"],
+      "eixos": ["oficina"],
+      "rel": ["analise", "github", "hub-traducao", "module-load"]
+    },
+    {
+      "id": "palavra-at",
+      "titulo": "at → em / na",
+      "href": "palavra-at.html",
+      "kicker": "stack",
+      "categorias": ["palavra", "traducao", "stack"],
+      "eixos": ["stack-node", "traduzir"],
+      "rel": ["palavras-do-stack", "palavra-module", "module-load"]
+    },
+    {
+      "id": "palavra-cjs",
+      "titulo": "cjs → CommonJS",
+      "href": "palavra-cjs.html",
+      "kicker": "stack",
+      "categorias": ["palavra", "traducao", "stack"],
+      "eixos": ["stack-node", "traduzir"],
+      "rel": ["palavras-do-stack", "palavra-loader", "palavra-modules"]
+    },
+    {
+      "id": "palavra-gift",
+      "titulo": "gift → presente / dom",
+      "href": "palavra-gift.html",
+      "kicker": "não é git",
+      "categorias": ["palavra", "traducao"],
+      "eixos": ["traduzir", "oficina"],
+      "rel": ["hub-traducao", "github", "sun"]
+    },
+    {
+      "id": "palavra-internal",
+      "titulo": "internal → interno",
+      "href": "palavra-internal.html",
+      "kicker": "stack",
+      "categorias": ["palavra", "traducao", "stack"],
+      "eixos": ["stack-node", "traduzir"],
+      "rel": ["palavras-do-stack", "palavra-node", "palavra-modules"]
+    },
+    {
+      "id": "palavra-load",
+      "titulo": "load → carregar",
+      "href": "palavra-load.html",
+      "kicker": "stack",
+      "categorias": ["palavra", "traducao", "stack"],
+      "eixos": ["stack-node", "traduzir"],
+      "rel": ["palavras-do-stack", "palavra-module", "module-load"]
+    },
+    {
+      "id": "palavra-loader",
+      "titulo": "loader → carregador",
+      "href": "palavra-loader.html",
+      "kicker": "stack",
+      "categorias": ["palavra", "traducao", "stack"],
+      "eixos": ["stack-node", "traduzir"],
+      "rel": ["palavras-do-stack", "palavra-cjs", "palavra-load"]
+    },
+    {
+      "id": "palavra-module",
+      "titulo": "Module → Módulo",
+      "href": "palavra-module.html",
+      "kicker": "stack",
+      "categorias": ["palavra", "traducao", "stack"],
+      "eixos": ["stack-node", "traduzir"],
+      "rel": ["palavras-do-stack", "palavra-load", "palavra-modules"]
+    },
+    {
+      "id": "palavra-modules",
+      "titulo": "modules → módulos",
+      "href": "palavra-modules.html",
+      "kicker": "stack",
+      "categorias": ["palavra", "traducao", "stack"],
+      "eixos": ["stack-node", "traduzir"],
+      "rel": ["palavras-do-stack", "palavra-module", "palavra-internal"]
+    },
+    {
+      "id": "palavra-node",
+      "titulo": "node → Node",
+      "href": "palavra-node.html",
+      "kicker": "runtime",
+      "categorias": ["palavra", "traducao", "stack"],
+      "eixos": ["stack-node", "traduzir"],
+      "rel": ["palavras-do-stack", "module-load", "palavra-internal"]
+    },
+    {
+      "id": "palavras-do-stack",
+      "titulo": "Palavras do stack",
+      "href": "palavras-do-stack.html",
+      "kicker": "cada peça em PT",
+      "categorias": ["traducao", "stack", "mapa"],
+      "eixos": ["stack-node", "traduzir"],
+      "rel": ["module-load", "hub-traducao", "palavra-at", "palavra-module", "palavra-load", "palavra-node", "palavra-internal", "palavra-modules", "palavra-cjs", "palavra-loader"]
+    },
+    {
+      "id": "paulinho-o-loko",
+      "titulo": "Paulinho o Loko — ficha",
+      "href": "paulinho-o-loko.html",
+      "kicker": "cara",
+      "categorias": ["cara"],
+      "eixos": ["musica-cara"],
+      "rel": ["homenagem-paulinho-o-loko", "rei-leao-musica"]
+    },
+    {
+      "id": "homenagem-paulinho-o-loko",
+      "titulo": "Paulinho o Loko",
+      "href": "homenagem-paulinho-o-loko.html",
+      "kicker": "homenagem especial",
+      "categorias": ["homenagem", "cara"],
+      "eixos": ["musica-cara"],
+      "rel": ["paulinho-o-loko", "rei-leao-musica"]
+    },
+    {
+      "id": "rei-leao-musica",
+      "titulo": "Rei Leão 1994",
+      "href": "rei-leao-musica.html",
+      "kicker": "Circle of Life",
+      "categorias": ["trilha"],
+      "eixos": ["musica-cara", "peito-luz"],
+      "rel": ["sun", "homenagem-paulinho-o-loko", "justin-timberlake"]
+    },
+    {
+      "id": "s2",
+      "titulo": "s2",
+      "href": "s2.html",
+      "kicker": "coração curto",
+      "categorias": ["expressao"],
+      "eixos": ["peito-luz"],
+      "rel": ["cadeia-peito-luz", "bom-dia-vida", "filhodosol"]
+    },
+    {
+      "id": "socrates",
+      "titulo": "Sócrates",
+      "href": "socrates.html",
+      "kicker": "sei que nada sei",
+      "categorias": ["cara"],
+      "eixos": ["oficina"],
+      "rel": ["analise", "esqueceremos", "o-engenheiro-arquiteto"]
+    },
+    {
+      "id": "sun",
+      "titulo": "Sun → sol",
+      "href": "sun.html",
+      "kicker": "luz no rosto",
+      "categorias": ["palavra", "traducao"],
+      "eixos": ["peito-luz", "traduzir"],
+      "rel": ["deus-e-sol", "cadeia-peito-luz", "filhodosol", "hub-traducao", "bom-dia-vida"]
+    }
+  ]
+}
