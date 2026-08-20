@@ -13,6 +13,14 @@
   <body class="poem-page research-page">
     <div class="rain" aria-hidden="true"></div>
     <a class="panel-shortcut" href="../index.html">← Painel</a>
+    <button type="button" class="share-shortcut" data-share aria-label="Compartilhar esta página">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M12 3v12"></path>
+        <path d="M8.2 6.8 12 3l3.8 3.8"></path>
+        <path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"></path>
+      </svg>
+      <span class="share-feedback" data-share-feedback hidden aria-live="polite">Link copiado</span>
+    </button>
 
     <main class="poem-shell research-shell">
       <header class="poem-brand">
@@ -42,5 +50,6 @@
         </p>
       </article>
     </main>
+    <script src="../assets/js/compartilhar.js" defer></script>
   </body>
 </html>
