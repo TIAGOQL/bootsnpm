@@ -20,6 +20,7 @@ npm start
 | Área | Onde |
 | --- | --- |
 | Painel | `index.html` |
+| Sobre nós | `pesquisas/sobre-nos.html` + `.md` |
 | Mapa REM | `pesquisas/relaxamento-endocanabinoide.html` + `.md` |
 | Endocanabinoidoma | `pesquisas/endocanabinoidoma.html` |
 | Sementinha | `pesquisas/sementinha.html` |

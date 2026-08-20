@@ -20,7 +20,7 @@ Site: https://github.com
 | Ideias em `cultivo/ideias/*.md` | Cultivo local (`rem-cultivo-v1`) |
 | Actions / Pages (site público) | Volume da música |
 
-Ver: [segurança dos dados](seguranca-dados-pessoais.html) · [Module.load](module-load.html) (CI usa Node) · repo: https://github.com/TIAGOQL/bootsnpm  
+Ver: [Sobre nós](sobre-nos.html) · [segurança dos dados](seguranca-dados-pessoais.html) · [Module.load](module-load.html) (CI usa Node) · repo: https://github.com/TIAGOQL/bootsnpm  
 
 ## Pages
 

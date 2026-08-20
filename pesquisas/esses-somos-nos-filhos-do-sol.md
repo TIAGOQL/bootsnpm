@@ -22,6 +22,7 @@ Inspeção de frase. 2026-08-04.
 
 ## No REM
 
+- Este plural é o de [Sobre nós](sobre-nos.html) — não empresa  
 - Perto de [esqueceremos](esqueceremos.html) — outro “nós”; este une na luz, aquele pode soltar peso  
 - Perto de [Anonymous](anonymous.html) — legião sem rosto; aqui legião *com* sol no rosto  
 - Corpo: [Sinais](sinais.html) · marca: [Diário](diario-rem.html)  

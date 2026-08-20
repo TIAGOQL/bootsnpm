@@ -7,6 +7,8 @@ Do que se trata o Painel REM e onde ficam (ou não) os dados.
 
 Site estático de **Relaxamento Endocanabinoide Modular** (REM): protocolo N=1, diário, cultivo de ideias, música Tônus, mapa M0–M8 + M4.1, pesquisas e poesias.
 
+Identidade: [Sobre nós](sobre-nos.html) — quem planta e o que o painel é hoje.
+
 Não é app médico. Não é clínica. Não é rede social. Não há login.
 
 ## Arquitetura (por que importa para privacidade)
@@ -64,6 +66,7 @@ Política de Privacidade e Cookies — Simplifica+ (nov/2025), seção *Seguran�
 | Área | Onde |
 | --- | --- |
 | Painel | [index.html](../index.html) |
+| Sobre nós | [sobre-nos](sobre-nos.html) |
 | Protocolo / Diário / Tônus | [protocolo-n1](protocolo-n1.html) · [diario-rem](diario-rem.html) · [musica-tonus](musica-tonus.html) |
 | Cultivo | [cultivo-ideias](cultivo-ideias.html) · `cultivo/ideias/` |
 | Mapa REM | [relaxamento-endocanabinoide](relaxamento-endocanabinoide.html) |
