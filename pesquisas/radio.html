@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Rádio do Painel REM — Vinylzera no comando. Mixes 70s e 80s.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Karla:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/starter.css">
+    <title>Rádio</title>
+  </head>
+  <body class="poem-page research-page">
+    <div class="rain" aria-hidden="true"></div>
+    <a class="panel-shortcut" href="../index.html">← Painel</a>
+
+    <main class="poem-shell research-shell panel-shell-wide">
+      <header class="poem-brand">
+        <p class="poem-for">rádio · Vinylzera</p>
+        <h1 class="poem-title">Rádio</h1>
+        <p class="panel-lede">Quem manda no som é o Vinylzera. Mix vintage. Loja de disco.</p>
+      </header>
+
+      <img class="page-hero-photo" src="../assets/img/card-tonus.jpg" alt="Água em calma — atmosfera da rádio" width="640" height="360" loading="eager">
+
+      <section class="panel-audio music-deck" data-radio aria-label="Rádio Vinylzera">
+        <p class="music-status">No ar · <a href="vinylzera.html">Vinylzera</a> no comando</p>
+        <p class="radio-now" data-radio-now>carregando mix…</p>
+        <div class="music-actions">
+          <button type="button" class="music-btn" data-radio-play>Tocar</button>
+          <button type="button" class="music-btn music-btn-ghost" data-radio-next>Próximo mix</button>
+        </div>
+        <div class="panel-audio-frame" data-radio-frame hidden></div>
+      </section>
+
+      <article class="poem research-body" aria-label="Quem comanda a rádio">
+        <p><strong>Responsável:</strong> <a href="vinylzera.html">Vinylzera</a> (<code>@VinylzeraMusic</code>). Mixes 70s e 80s. Não é banda — é o DJ da casa. Tônus continua gerativo; Rei Leão continua mapa de trilha. Aqui o ar é rádio.</p>
+
+        <p><strong>Como ouvir:</strong> Tocar liga o mix do retrato (o mais ouvido). Próximo mix anda a lista. Na grade, o clique toca aqui — não precisa sair.</p>
+
+        <p><strong>Limite:</strong> rádio do painel, não download. Direitos das faixas: quem gravou.</p>
+      </article>
+
+      <div class="catalog" data-catalog>
+        <form class="catalog-form cultivo-form" data-catalog-form>
+          <p class="catalog-count" data-catalog-count>carregando…</p>
+          <label>
+            <span>Busca</span>
+            <input name="query" type="search" maxlength="120" placeholder="título, artista ou id" autocomplete="off">
+          </label>
+          <div class="catalog-filters">
+            <label>
+              <span>Tipo</span>
+              <select name="kind">
+                <option value="all">todos</option>
+                <option value="video">vídeo</option>
+              </select>
+            </label>
+            <label>
+              <span>Década</span>
+              <select name="decade">
+                <option value="all">todas</option>
+                <option value="80s">80s</option>
+                <option value="mix">70s + 80s</option>
+                <option value="70s">70s</option>
+              </select>
+            </label>
+            <label>
+              <span>Ordem</span>
+              <select name="sort">
+                <option value="channel">canal (recente)</option>
+                <option value="views">mais vistos</option>
+                <option value="duration">mais longos</option>
+                <option value="az">A–Z</option>
+              </select>
+            </label>
+          </div>
+        </form>
+        <nav class="catalog-grid" data-catalog-list aria-label="Playlist da rádio"></nav>
+        <nav class="catalog-pager" data-catalog-pager hidden>
+          <button type="button" class="catalog-pager-btn" data-catalog-prev>Anterior</button>
+          <p class="catalog-pager-status" data-catalog-page></p>
+          <button type="button" class="catalog-pager-btn" data-catalog-next>Próxima</button>
+        </nav>
+      </div>
+
+      <p class="research-note">
+        <a href="radio.md">texto</a> ·
+        <a href="vinylzera.html">Vinylzera</a> ·
+        <a href="vinylzera-videos.html">catálogo</a> ·
+        <a href="musica-tonus.html">Tônus</a> ·
+        <a href="rei-leao-musica.html">Rei Leão</a> ·
+        <a href="cultivo-ideias.html">Cultivo</a>
+      </p>
+    </main>
+
+    <script type="module" src="../assets/js/radio-rem.js"></script>
+    <script type="module" src="../assets/js/vinylzera-videos.js"></script>
+  </body>
+</html>

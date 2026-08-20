@@ -3,7 +3,7 @@
 - **Estágio:** colheita
 - **Módulo REM:** áudio · palavra
 - **Plantada em:** 2026-08-02
-- **Próximo passo:** ouvir Circle of Life no painel com o mapa de nomes aberto
+- **Próximo passo:** mapa da trilha aberto; a rádio do painel é do Vinylzera
 
 ## Nota
 

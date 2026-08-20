@@ -842,6 +842,35 @@ body.panel-page {
   transform: none;
 }
 
+.music-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.music-btn-ghost {
+  color: var(--ink);
+  background: transparent;
+  border: 1px solid rgba(31, 42, 50, 0.22);
+}
+
+.music-btn-ghost:hover,
+.music-btn-ghost:focus-visible {
+  color: #f7f3ef;
+  background: var(--blush);
+  border-color: transparent;
+}
+
+.radio-now {
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
 .music-status {
   margin: 0;
   max-width: 28rem;
@@ -1001,6 +1030,185 @@ body.is-music-playing .rain {
   border-radius: 0.35rem;
 }
 
+.catalog {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 1.25rem;
+  margin: 0 0 2.5rem;
+  opacity: 0;
+  transform: translateY(1rem);
+  animation: rise-in 1100ms ease 480ms forwards;
+}
+
+.catalog-form {
+  max-width: none;
+}
+
+.catalog-count {
+  margin: 0;
+  color: var(--blush);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.catalog-filters {
+  display: grid;
+  gap: 0.9rem;
+}
+
+@media (min-width: 720px) {
+  .catalog-filters {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.catalog-form select {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  color: var(--ink);
+  font: inherit;
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  line-height: 1.45;
+  background: rgba(255, 255, 255, 0.45);
+  border: 1px solid rgba(31, 42, 50, 0.16);
+  border-radius: 0.35rem;
+}
+
+.catalog-form select:focus {
+  outline: 2px solid rgba(139, 58, 74, 0.35);
+  outline-offset: 2px;
+}
+
+.catalog-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 0;
+}
+
+@media (min-width: 560px) {
+  .catalog-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 880px) {
+  .catalog-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1100px) {
+  .catalog-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.catalog-video {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 0.4rem;
+  color: inherit;
+  text-decoration: none;
+  min-width: 0;
+}
+
+.catalog-video:hover,
+.catalog-video:focus-visible {
+  color: var(--blush);
+  outline: none;
+}
+
+.catalog-video-thumb {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 0.4rem;
+  background: var(--mist-3);
+}
+
+.catalog-video-thumb img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.catalog-video-duration {
+  position: absolute;
+  right: 0.4rem;
+  bottom: 0.35rem;
+  padding: 0.1rem 0.35rem;
+  color: #fff;
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  background: rgba(20, 24, 28, 0.82);
+  border-radius: 0.2rem;
+}
+
+.catalog-video-title {
+  display: -webkit-box;
+  overflow: hidden;
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: 0.92rem;
+  font-weight: 500;
+  line-height: 1.3;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.catalog-video:hover .catalog-video-title,
+.catalog-video:focus-visible .catalog-video-title {
+  color: var(--blush);
+}
+
+.catalog-video-meta {
+  color: var(--ink-soft);
+  font-size: 0.78rem;
+  line-height: 1.3;
+}
+
+.catalog-pager {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.25rem 0 0;
+}
+
+.catalog-pager-status {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+}
+
+.catalog-pager-btn {
+  padding: 0.45rem 0.85rem;
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  background: transparent;
+  border: 1px solid rgba(31, 42, 50, 0.2);
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.catalog-pager-btn:hover,
+.catalog-pager-btn:focus-visible {
+  color: var(--blush);
+  border-color: rgba(139, 58, 74, 0.45);
+  outline: none;
+}
+
+.catalog-pager-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
 @keyframes rise-in {
   to {
     opacity: 1;
@@ -1029,6 +1237,8 @@ body.is-music-playing .rain {
   .music-deck,
   .cultivo,
   .cultivo-git,
+  .catalog,
+  .catalog-grid,
   .sinais-list,
   .page-hero-photo {
     opacity: 1;
@@ -1038,7 +1248,8 @@ body.is-music-playing .rain {
 
   .shortcut,
   .module-link,
-  .media-card {
+  .media-card,
+  .catalog-video {
     transition: none;
   }
 }
