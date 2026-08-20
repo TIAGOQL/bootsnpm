@@ -22,6 +22,7 @@ Não é app médico. Não é clínica. Não é rede social. Não há login.
 | `rem-diario-v1` | Diário REM | Marcas N=1 do dia |
 | `rem-cultivo-v1` | Cultivo (navegador) | Ideias plantadas localmente |
 | `rem-music-volume` | Tônus / painel | Volume do áudio |
+| `rem-drone-off` | Sininho no painel | Drone desligado neste aparelho |
 
 Isso vive em `localStorage`. Não sobe para o servidor do projeto.
 
@@ -70,6 +71,8 @@ Política de Privacidade e Cookies — Simplifica+ (nov/2025), seção *Seguran�
 | Higiene / Sinais | [higiene-mental](higiene-mental.html) · [sinais](sinais.html) |
 | Esta página | [seguranca-dados-pessoais.html](seguranca-dados-pessoais.html) |
 | Anonymous (inspeção) | [anonymous.html](anonymous.html) |
+| Acesso livre | [anonimato-acesso.html](anonimato-acesso.html) |
+| TT (Twitter / X) | [twitter.html](twitter.html) |
 
 ## Fonte externa
 

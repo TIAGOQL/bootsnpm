@@ -11,6 +11,8 @@ Mapa EN → PT + inspeção. 2026-08-04.
 | (stack Node) | ver hub | [palavras-do-stack](palavras-do-stack.html) |
 | UNKNOWN / open | desconhecido / abrir | [erro-unknown-open](erro-unknown-open.html) |
 | Wonderwall | a pessoa que segura (título fica) | [wonderwall](wonderwall.html) |
+| libre | livre (porta sem crachá) | [anonimato-acesso](anonimato-acesso.html) |
+| TT | Twitter / X (não é TikTok) | [twitter](twitter.html) |
 
 ## Página
 

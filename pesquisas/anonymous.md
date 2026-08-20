@@ -31,7 +31,16 @@ Frase conhecida: *We are Anonymous. We are Legion… Expect us.*
 - Perto de [esqueceremos](esqueceremos.html) — nome que some, rastro que fica.  
 - Perto de [higiene mental](higiene-mental.html) — não confundir mito de legião com cuidado real do N=1.  
 - Perto de [*In Time*](in-time.html) (Timberlake, 2011) — o regime conta o tempo no braço; Anonymous some o rosto. Rastreio vs anonimato.  
-- O diário REM **não** sobe para nuvem do projeto. Anonimato aqui = desenho técnico, não manifesto.
+- [Diário](diario-rem.html) — o N=1 **não** sobe para nuvem do projeto. Anonimato aqui = desenho técnico, não manifesto.  
+- [GitHub](github.html) — o que é público no repo vs o que fica no aparelho.  
+- [Module.load](module-load.html) — o runtime carrega **pelo nome**; Anonymous some o nome.  
+- [UNKNOWN · open](erro-unknown-open.html) — no stack, `anonymous` é função sem nome — **não** é este grupo.  
+- [Esses somos nós filhos do sol](esses-somos-nos-filhos-do-sol.html) — outra legião: com sol no rosto.  
+- [O Engenheiro Arquiteto](o-engenheiro-arquiteto.html) — tem nome quem planta.  
+- [Hub tradução](hub-traducao.html) — Anonymous → anónimos / ninguém.  
+- [Acesso livre](anonimato-acesso.html) — porta do painel sem identificação; **não** é este grupo.  
+- [TT](twitter.html) — Twitter / X: outra rede, outra conta.  
+- Página: [anonymous.html](anonymous.html)
 
 ## Fontes
 
