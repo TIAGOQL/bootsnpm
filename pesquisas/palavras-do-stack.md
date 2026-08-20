@@ -14,6 +14,7 @@ Linha: `at Module.load (node:internal/modules/cjs/loader:…)`
 | modules | módulos | [palavra-modules](palavra-modules.html) |
 | cjs | CommonJS | [palavra-cjs](palavra-cjs.html) |
 | loader | carregador | [palavra-loader](palavra-loader.html) |
+| UNKNOWN / open | desconhecido / abrir | [erro-unknown-open](erro-unknown-open.html) |
 
 **Frase:** em Módulo.carregar (Node:interno/módulos/CommonJS/carregador:linha:coluna).
 

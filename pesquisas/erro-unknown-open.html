@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Inspeção: UNKNOWN open / writeFileSync — o Node não conseguiu abrir o arquivo no Windows.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Karla:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/starter.css">
+    <title>UNKNOWN · open</title>
+  </head>
+  <body class="poem-page research-page">
+    <div class="rain" aria-hidden="true"></div>
+    <a class="panel-shortcut" href="../index.html">← Painel</a>
+
+    <main class="poem-shell research-shell">
+      <header class="poem-brand">
+        <p class="poem-for">inspeção de erro · Node · Windows</p>
+        <h1 class="poem-title">UNKNOWN · open</h1>
+        <p class="panel-lede">O script ia <strong>escrever</strong> um HTML. O Windows não deixou <strong>abrir</strong> o caminho. O resto da pilha é só o caminho até ali.</p>
+      </header>
+
+      <img class="page-hero-photo" src="../assets/img/card-mapa.jpg" alt="Mapa — caminho do arquivo" width="640" height="360" loading="eager">
+
+      <article class="poem research-body" aria-label="UNKNOWN open">
+        <p><strong>O golpe:</strong> <code>writeFileSync</code> na linha 32 de <code>regenerate-posts.js</code> tentou gravar:<br>
+        <code>posts\post-inspecao-expressao-templo-de-cristo-corpo-e-alma.html</code></p>
+
+        <p><strong>O Windows respondeu:</strong> <code>UNKNOWN</code> · <code>syscall: open</code> · <code>errno: -4094</code>. Em português: “não consegui abrir esse arquivo; não te digo o motivo clássico (ENOENT, EACCES).” No Desktop isso costuma ser pasta <code>posts</code> ausente, arquivo aberto no editor, ou OneDrive segurando o ficheiro na nuvem.</p>
+
+        <p><strong>Não é:</strong> o vilão <a href="module-load.html"><code>Module.load</code></a>. Essa linha só diz que o Node estava a carregar o teu script. A causa está em <code>open</code> + o <code>path</code>.</p>
+
+        <h2>Palavras da pilha</h2>
+        <dl class="gloss-list">
+          <div>
+            <dt>Error</dt>
+            <dd>erro — algo falhou</dd>
+          </div>
+          <div>
+            <dt>UNKNOWN</dt>
+            <dd>desconhecido — o Windows não mapeou para um código amigável</dd>
+          </div>
+          <div>
+            <dt>open</dt>
+            <dd>abrir (o ficheiro, para escrever)</dd>
+          </div>
+          <div>
+            <dt>writeFileSync</dt>
+            <dd>escrever arquivo e esperar — sincrono: o script para até gravar</dd>
+          </div>
+          <div>
+            <dt>anonymous</dt>
+            <dd>função sem nome no script — <strong>não</strong> é o grupo <a href="anonymous.html">Anonymous</a></dd>
+          </div>
+          <div>
+            <dt>Module.load / loader</dt>
+            <dd>o carregador CommonJS a correr o teu ficheiro — porteiro, não a causa. Ver <a href="palavras-do-stack.html">palavras do stack</a>.</dd>
+          </div>
+          <div>
+            <dt>errno / code / syscall / path</dt>
+            <dd>número do erro · código · chamada ao sistema · caminho do ficheiro</dd>
+          </div>
+        </dl>
+
+        <h2>O que fazer (aí no PC)</h2>
+        <p>1. Ver se a pasta <code>ProjectBudGanja\posts</code> existe. Se não, criar.<br>
+        2. Fechar o HTML se estiver aberto no Cursor / VS Code.<br>
+        3. Se o Desktop está no OneDrive: pasta “manter sempre neste dispositivo”, ou copiar o projeto para fora da nuvem e correr de novo.<br>
+        4. Voltar a correr o script.</p>
+
+        <p><strong>No REM:</strong> o visitante do painel não executa isto. Só quem roda Node no terminal. Perto de <a href="module-load.html">Module.load</a> e de <a href="github.html">GitHub</a>. O N=1 continua no aparelho: <a href="seguranca-dados-pessoais.html">dados</a>.</p>
+
+        <p class="research-note">
+          <a href="erro-unknown-open.md">texto</a> ·
+          <a href="module-load.html">Module.load</a> ·
+          <a href="palavras-do-stack.html">Palavras do stack</a> ·
+          <a href="anonymous.html">Anonymous (o grupo)</a> ·
+          <a href="cultivo-ideias.html">Cultivo</a>
+        </p>
+      </article>
+    </main>
+  </body>
+</html>
