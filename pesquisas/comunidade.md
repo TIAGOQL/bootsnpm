@@ -2,25 +2,23 @@
 
 Espaço compartilhado. 2026-08-20.
 
-## Por agora
+## Três clipes + aula
 
-Um embed. Sem cadastro. Sem recortar os flashes do clipe.
+| # | Música | Artista | Aula |
+| --- | --- | --- | --- |
+| 1 | Send Me On My Way | Rusted Root | [aula-send-me-on-my-way](aula-send-me-on-my-way.html) |
+| 2 | True To Myself | Ziggy Marley | [aula-true-to-myself](aula-true-to-myself.html) |
+| 3 | How Bizarre | OMC | [aula-how-bizarre](aula-how-bizarre.html) |
 
-## Clipe
+Embeds: `IGMabBGydC0` · `ikzQmC3S-mE` · `C2cMG33mWVY` (youtube-nocookie).
 
-- **Título:** Send Me On My Way  
-- **Banda:** Rusted Root  
-- **YouTube:** [watch?v=IGMabBGydC0](https://www.youtube.com/watch?v=IGMabBGydC0)  
-- **Embed:** `youtube-nocookie.com/embed/IGMabBGydC0`  
+Cada palavra com página: [palavras-da-vida](palavras-da-vida.html). Tom de [Bom dia, vida](bom-dia-vida.html). Sem letra inteira.
 
-Clipe oficial (Sean Alquist, Badlands, 1994). Há símbolos muito rápidos no vídeo; ficam no próprio clipe até alguém pedir extração.
+## Como estudar
 
-## No REM
-
-- Comunidade = o que se assiste junto  
-- Diário / cultivo local = só no aparelho  
-- Som sem YouTube: [Tônus](musica-tonus.html)  
-- Trilha com nomes: [Rei Leão 1994](rei-leao-musica.html)
+1. Ouvir sem ler  
+2. Clicar a palavra  
+3. Ouvir de novo  
 
 ## Cuidado
 
