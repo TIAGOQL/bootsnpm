@@ -16,6 +16,7 @@ Inspeção de palavra. 2026-08-04.
 - Perto de [O Engenheiro Arquiteto](o-engenheiro-arquiteto.html)  
 - Se servir: [diário](diario-rem.html)  
 - Se travar: [M0](higiene-mental.html) · [sinais](sinais.html)  
+- Casa de estudo: [Cursos](cursos.html)  
 
 ## Página
 

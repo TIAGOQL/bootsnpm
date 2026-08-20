@@ -17,7 +17,7 @@ Quem planta o Painel REM se nomeia **O Engenheiro Arquiteto**.
 
 - Não é diploma — é posição  
 - Perto de [GitHub](github.html) · [Module.load](module-load.html) · [Protocolo N=1](protocolo-n1.html)  
-- Oficina: [Análise](analise.html) · [Hub tradução](hub-traducao.html) · [gift](palavra-gift.html)  
+- Oficina: [Análise](analise.html) · [Hub tradução](hub-traducao.html) · [gift](palavra-gift.html) · [Cursos](cursos.html)  
 - Se aquecer: [diário](diario-rem.html)  
 - Cuidado com chicote de título — filtrar no peito  
 
