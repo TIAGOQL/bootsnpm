@@ -1,14 +1,14 @@
-# ABC — Jackson 5
+# ABC — traduzir ensinando
 
 - **Estágio:** colheita
-- **Módulo REM:** áudio · palavra · Sinais
+- **Módulo REM:** palavra · áudio · Hub tradução
 - **Plantada em:** 2026-08-20
-- **Próximo passo:** ouvir no player da página e marcar o dia no diário — um passo, sem prova
+- **Próximo passo:** ouvir uma vez · traduzir uma palavra · parar
 
 ## Nota
 
-Faixa Motown, 1970. Cinco irmãos de Gary. Michael ~11 anos. The Corporation escreveu. Letra de escola: A-B-C, 1-2-3. Perto de [Protocolo](../../pesquisas/protocolo-n1.html), [Tônus](../../pesquisas/musica-tonus.html) e [Hub tradução](../../pesquisas/hub-traducao.html).
+Jackson 5, 1970. Canção de escola: ABC, fácil, 1-2-3, do-re-mi. Serve para [traduzir ensinando](../../pesquisas/abc.html) no [Hub tradução](../../pesquisas/hub-traducao.html). Sem letra inteira.
 
 ## Por que importa
 
-Começar simples tem nome e gente. O hit famoso não apaga o coro nem a criança no microfone.
+Inglês cola no ouvido. Uma palavra por vez é aula, não chicote.
