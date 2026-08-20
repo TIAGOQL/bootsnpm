@@ -813,7 +813,43 @@ body.panel-page {
   border: 0;
 }
 
-.music-btn {
+.share-line {
+  position: relative;
+  z-index: 1;
+  margin: 2rem 0 0;
+  max-width: 28rem;
+  color: var(--blush);
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  line-height: 1.5;
+  opacity: 0;
+  transform: translateY(0.75rem);
+  animation: rise-in 1100ms ease 640ms forwards;
+}
+
+.share-strip {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+  margin: 1.25rem 0 0;
+  opacity: 0;
+  transform: translateY(0.75rem);
+  animation: rise-in 1100ms ease 720ms forwards;
+}
+
+.share-status {
+  flex-basis: 100%;
+  margin: 0.15rem 0 0;
+  color: var(--ink-soft);
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+}
+
+.music-btn,
+a.music-btn {
   justify-self: start;
   min-width: 8.5rem;
   padding: 0.85rem 1.4rem;
@@ -826,11 +862,20 @@ body.panel-page {
   border: 0;
   border-radius: 0.35rem;
   cursor: pointer;
+  text-align: center;
+  text-decoration: none;
   transition: background 180ms ease, transform 180ms ease;
 }
 
+.share-strip .music-btn,
+.share-strip a.music-btn {
+  min-width: 0;
+}
+
 .music-btn:hover,
-.music-btn:focus-visible {
+.music-btn:focus-visible,
+a.music-btn:hover,
+a.music-btn:focus-visible {
   background: var(--blush);
   outline: none;
   transform: translateY(-1px);

@@ -9,6 +9,7 @@ Mapa da constelação. 2026-08-04.
 3. [Deus e Sol](deus-e-sol.html) — ponte: relacionar sem fundir  
 4. [filhodosol](filhodosol.html) — marca: filho + sol · um passo sem culpa  
 5. [Esses somos nós filhos do sol](esses-somos-nos-filhos-do-sol.html) — plural · nós  
+6. [Elo mãe e filho](elo-mae-filho.html) — fio do peito · [Para todas as mães](../poemas/para-todas-as-maes.html)
 
 ## Uso hoje
 

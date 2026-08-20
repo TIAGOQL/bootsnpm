@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Para todas as mães — poesia sobre o elo que liga mãe e filho.">
+    <meta property="og:title" content="Para todas as mães">
+    <meta property="og:description" content="Antes do primeiro nome já havia um fio. Poesia do Painel REM.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://tiagoql.github.io/bootsnpm/poemas/para-todas-as-maes.html">
+    <meta property="og:image" content="https://tiagoql.github.io/bootsnpm/assets/img/card-tonus.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Karla:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/starter.css">
+    <title>Para todas as mães</title>
+  </head>
+  <body class="poem-page">
+    <div class="rain" aria-hidden="true"></div>
+
+    <a class="panel-shortcut" href="../index.html">← Painel</a>
+
+    <main class="poem-shell">
+      <header class="poem-brand">
+        <p class="poem-for">para todas as mães · o elo</p>
+        <h1 class="poem-title">Para todas as mães</h1>
+      </header>
+
+      <img class="page-hero-photo" src="../assets/img/card-tonus.jpg" alt="Peito e luz — o elo" width="640" height="360" loading="eager">
+
+      <article class="poem" aria-label="Poesia">
+        <p>Antes do primeiro nome<br>
+        já havia um fio.<br>
+        Não de lã. Não de culpa.<br>
+        De peito a peito —<br>
+        quente, quieto,<br>
+        sem pedir prova.</p>
+
+        <p>O filho ainda não sabia<br>
+        a palavra mãe.<br>
+        A mãe já sabia<br>
+        o caminho da mão.<br>
+        Esse é o elo:<br>
+        não o que se explica,<br>
+        o que o corpo reconhece<br>
+        quando a casa fica grande demais<br>
+        ou pequena demais.</p>
+
+        <p>Ele puxa no choro da madrugada.<br>
+        Puxa no silêncio de quem já cresceu.<br>
+        Puxa de longe —<br>
+        cidade, tempo, outro teto —<br>
+        e ainda assim encontra o peito.</p>
+
+        <p>Para todas as mães:<br>
+        as que embalam,<br>
+        as que esperam na porta,<br>
+        as que ensinam o chão,<br>
+        as que guardam um prato a mais,<br>
+        as que amam de perto<br>
+        e as que amam na memória.</p>
+
+        <p>Esse elo não se corta com tesoura.<br>
+        O cordão pode acabar.<br>
+        O fio fica.<br>
+        Leva o filho de volta<br>
+        sem mapa —<br>
+        só o peito lembrando<br>
+        onde foi o primeiro país.</p>
+      </article>
+
+      <p class="share-line">Antes do nome, já havia um fio.</p>
+
+      <div class="share-strip" data-share>
+        <button type="button" class="music-btn" data-share-copy>Copiar link</button>
+        <a class="music-btn" data-share-wa href="#">WhatsApp</a>
+        <p class="share-status" data-share-status hidden></p>
+      </div>
+
+      <p class="research-note" style="position:relative;z-index:1;margin-top:2rem;">
+        <a href="../pesquisas/elo-mae-filho.html">Elo mãe e filho</a> ·
+        <a href="../pesquisas/s2.html">s2</a> ·
+        <a href="../pesquisas/leite-derramado.html">Leite derramado</a> ·
+        <a href="../pesquisas/sinais.html">Sinais</a>
+      </p>
+    </main>
+
+    <script>
+      (function () {
+        var root = document.querySelector("[data-share]");
+        if (!root) return;
+        var copyBtn = root.querySelector("[data-share-copy]");
+        var wa = root.querySelector("[data-share-wa]");
+        var status = root.querySelector("[data-share-status]");
+        var url = "https://tiagoql.github.io/bootsnpm/poemas/para-todas-as-maes.html";
+        var line = "Antes do nome, já havia um fio. Para todas as mães.";
+        var text = line + " " + url;
+        if (wa) {
+          wa.href = "https://wa.me/?text=" + encodeURIComponent(text);
+        }
+        if (!copyBtn) return;
+        copyBtn.addEventListener("click", function () {
+          var done = function () {
+            if (!status) return;
+            status.hidden = false;
+            status.textContent = "Link copiado. Pode mandar.";
+          };
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(text).then(done).catch(function () {
+              window.prompt("Copie o link:", text);
+            });
+            return;
+          }
+          window.prompt("Copie o link:", text);
+        });
+      })();
+    </script>
+  </body>
+</html>

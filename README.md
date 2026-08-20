@@ -25,6 +25,7 @@ npm start
 | Sementinha | `pesquisas/sementinha.html` |
 | Cultivo (Git) | `cultivo/ideias/` |
 | Poesias | `poemas/` |
+| Compartilhar | `poemas/para-todas-as-maes.html` · `pesquisas/elo-mae-filho.html` |
 | Dados / privacidade | `pesquisas/seguranca-dados-pessoais.html` + `.md` |
 | GitHub (inspeção) | `pesquisas/github.html` + `.md` |
 | Peito / luz | `pesquisas/cadeia-peito-luz.html` · `filhodosol.html` |
