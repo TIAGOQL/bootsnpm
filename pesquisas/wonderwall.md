@@ -2,7 +2,7 @@
 
 Inspeção + tradução. 2026-08-20.
 
-Oasis, *(What’s the Story) Morning Glory?* (1995). Noel Gallagher (letra) · Liam Gallagher (voz). Na mix: depois de [Bitter Sweet Symphony](bitter-sweet-symphony.html).
+Oasis, *(What’s the Story) Morning Glory?* (1995). Noel Gallagher (letra) · Liam Gallagher (voz).
 
 ## Título
 
@@ -38,6 +38,5 @@ Não é letra inteira — é o peito das linhas:
 - [Diário](diario-rem.html) — um passo hoje, sem exigir salvação  
 - [Sinais](sinais.html) / [M0](higiene-mental.html) — quando o fogo do peito apaga  
 - [s2](s2.html) — peito curto  
-- [Bitter Sweet Symphony](bitter-sweet-symphony.html) — faixa anterior da mix  
 - [Hub tradução](hub-traducao.html)  
 - Página: [wonderwall.html](wonderwall.html)

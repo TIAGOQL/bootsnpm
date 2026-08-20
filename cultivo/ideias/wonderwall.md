@@ -7,7 +7,7 @@
 
 ## Nota
 
-Oasis, 1995. O título fica. Wonderwall = a pessoa que segura. Hoje ia ser o dia; as estradas são tortas; talvez você seja quem salva. Na mix: depois de Bitter Sweet Symphony.
+Oasis, 1995. O título fica. Wonderwall = a pessoa que segura. Hoje ia ser o dia; as estradas são tortas; talvez você seja quem salva.
 
 ## Por que importa
 
