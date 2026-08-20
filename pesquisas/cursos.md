@@ -69,14 +69,35 @@ Medicina nesta casa: habilitação CONES 2026. Acreditação ANEAES da carreira 
 
 No mesmo 17 mar 2026: Res. CONES **2/26** — habilitação provisória de Medicina; campos de prática podendo vir em até 2 anos. ANEAES e Círculo Paraguaio de Médicos criticaram.
 
-## As outras duas novas (17 mar 2026)
+## Faculdades de Medicina em Pedro Juan Caballero
 
-Não é só esta.
+ABC 23 mar 2026: CONES lista **dez** programas de Medicina só nesta cidade, todos privados. A Interamericana é a nova.
+
+Casas nomeadas com ficha (CONES e/ou ANEAES informe 29 dez 2025):
+
+| Casa | CONES | ANEAES (PJC, dez 2025) |
+| --- | --- | --- |
+| Universidad Interamericana | 178/2026 | ainda não (habilitação posterior ao informe) |
+| Universidad Sudamericana | 464/17 | acreditada · também ARCU-SUR |
+| UPAP | 177/18 | acreditada |
+| Universidad Central del Paraguay | 577/18 · 1/19 | acreditada |
+| Universidad del Norte | Conselho 20/2006 | acreditada |
+| Universidad del Pacífico | Conselho 36/2005 | acreditada |
+| UNINTER | 508/17 | acreditada |
+| Universidad Columbia | 277/19 | em processo (site da casa) |
+| UASS | 06/18 | não acreditada |
+
+Nove nomeadas. O ABC falou em dez — a tabela da reportagem saiu em imagem. A décima: conferir o catastro CONES no ano.
+
+### Não é Medicina habilitada aqui
+
+- **UAL** (Universidad Autónoma de Luque, filial PJC) — CONES 2024: Medicina nesta filial sem habilitação. Intervenção Res. 260/2024.
+- **FICS** — outra casa. Sem CONES.
+
+## As outras duas novas (17 mar 2026, fora de PJC)
 
 1. **UNP** — Universidad Nacional de Pilar (pública, Ñeembucú). Res. 176/2026, provisória. Faculdade de Ciências Biomédicas desde 2006 + hospital-escola.
-2. **Unamis** — Universidad Nacional de Misiones (pública). Res. 177/2026, provisória.
-
-PJC já tinha várias Medicinas privadas. A Interamericana é a nova nesta sede central, na fronteira.
+2. **Unamis** — Universidad Nacional de Misiones (pública). Res. 177/2026, provisória. Medicina na sede San Ignacio Guasu.
 
 ## Brasil
 
@@ -101,4 +122,4 @@ Não é ranking, matrícula nem conselho. Checar CONES + ANEAES da sede, no ano 
 
 ## Fontes
 
-CONES (ficha Universidad Interamericana; Res. 176/177/178/2026; Res. 2/26; Res. 228/2024) · Lei 4200/2010 · Lei 4995/2013 · site da casa (interamericana.edu.py) · ABC Color 17–30 mar 2026 · comunicado reitoria jul 2026 · ANEAES informe Medicina dez 2025 · Inep/Revalida · G1/Fantástico ago 2026 (FICS, só para não confundir o nome)
+CONES (fichas das casas; Res. 176/177/178/2026; Res. 2/26; Res. 228/2024; Res. 260/2024 UAL) · Lei 4200/2010 · Lei 4995/2013 · site da casa (interamericana.edu.py) · ABC Color 17–23 mar 2026 (dez programas em PJC) · comunicado reitoria jul 2026 · ANEAES informe Medicina 29 dez 2025 · Inep/Revalida · G1/Fantástico ago 2026 (FICS, só para não confundir o nome)
