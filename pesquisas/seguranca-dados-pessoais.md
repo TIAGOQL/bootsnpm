@@ -68,6 +68,7 @@ Política de Privacidade e Cookies — Simplifica+ (nov/2025), seção *Seguran�
 | Cultivo | [cultivo-ideias](cultivo-ideias.html) · `cultivo/ideias/` |
 | Mapa REM | [relaxamento-endocanabinoide](relaxamento-endocanabinoide.html) |
 | Higiene / Sinais | [higiene-mental](higiene-mental.html) · [sinais](sinais.html) |
+| Comunidade (embed YouTube) | [comunidade](comunidade.html) |
 | Esta página | [seguranca-dados-pessoais.html](seguranca-dados-pessoais.html) |
 | Anonymous (inspeção) | [anonymous.html](anonymous.html) |
 

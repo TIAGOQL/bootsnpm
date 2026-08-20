@@ -28,6 +28,7 @@ npm start
 | Dados / privacidade | `pesquisas/seguranca-dados-pessoais.html` + `.md` |
 | GitHub (inspeção) | `pesquisas/github.html` + `.md` |
 | Peito / luz | `pesquisas/cadeia-peito-luz.html` · `filhodosol.html` |
+| Comunidade | `pesquisas/comunidade.html` — embed compartilhado |
 
 ## Dados pessoais (para quem chega de fora)
 
