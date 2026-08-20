@@ -27,5 +27,4 @@ Livre ≠ invisível. O hospedeiro da Pages ainda entrega o arquivo pela rede. O
 - [Anonymous](anonymous.html) — o grupo  
 - [Segurança dos dados](seguranca-dados-pessoais.html) — diário só no aparelho  
 - [GitHub](github.html) — Pages sem login no painel  
-- [TT](twitter.html) — Twitter pede @; o painel não  
 - Página: [anonimato-acesso.html](anonimato-acesso.html)

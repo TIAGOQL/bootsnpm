@@ -72,7 +72,6 @@ Política de Privacidade e Cookies — Simplifica+ (nov/2025), seção *Seguran�
 | Esta página | [seguranca-dados-pessoais.html](seguranca-dados-pessoais.html) |
 | Anonymous (inspeção) | [anonymous.html](anonymous.html) |
 | Acesso livre | [anonimato-acesso.html](anonimato-acesso.html) |
-| TT (Twitter / X) | [twitter.html](twitter.html) |
 
 ## Fonte externa
 
