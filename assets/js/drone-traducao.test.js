@@ -40,4 +40,18 @@ const ola = drone.route("olá", "pt", "en");
 assert.strictEqual(ola.to, "en");
 assert.strictEqual(ola.out, "hello");
 
+const winter = drone.route("winter", "pt", "en");
+assert.strictEqual(winter.from, "en");
+assert.strictEqual(winter.to, "pt");
+assert.strictEqual(winter.out, "inverno");
+
+const inverno = drone.route("inverno", "pt", "en");
+assert.strictEqual(inverno.from, "pt");
+assert.strictEqual(inverno.to, "en");
+assert.strictEqual(inverno.out, "winter");
+
+const champion = drone.route("champion", "pt", "en");
+assert.strictEqual(champion.to, "pt");
+assert.strictEqual(champion.out, "campeão");
+
 console.log("drone ok");

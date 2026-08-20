@@ -120,6 +120,7 @@ Cada módulo tem: mecanismo → protocolo de observação → métricas → hip�
 - Inibidores de **FAAH** / **MAGL** (ex. linhas JNJ-42165279, URB597, JZL184) elevam eCBs sem agonista direto CB1.
 - Resultados clínicos ainda mistos; **fora do protocolo caseiro**.
 - Usar só como mapa teórico do que o corpo já tenta fazer com M1–M7.
+- Quem ensina medicina (não o painel): [faculdades de medicina](faculdades-medicina.html).
 
 ---
 

@@ -72,6 +72,11 @@
     translate: "traduzir",
     translation: "tradução",
     drone: "drone",
+    winter: "inverno",
+    win: "ganhar",
+    winner: "vencedor",
+    champion: "campeão",
+    victory: "vitória",
   };
 
   const PT_TO_EN = {
@@ -131,6 +136,11 @@
     traduzir: "translate",
     traducao: "translation",
     drone: "drone",
+    inverno: "winter",
+    ganhar: "win",
+    vencedor: "winner",
+    campeao: "champion",
+    vitoria: "victory",
   };
 
   const PT_MARKERS = /\b(nao|você|voce|que|uma|para|com|dos|das|pelo|pela|hoje|vida|luz|coração|coracao|olá|ola|oi|bom|dia|ainda|sem|pelo|esta|está|são|sao)\b/i;
