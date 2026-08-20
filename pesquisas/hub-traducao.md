@@ -8,6 +8,7 @@ Mapa EN → PT + inspeção. 2026-08-04.
 | --- | --- | --- |
 | gift | presente / dom | [palavra-gift](palavra-gift.html) |
 | Sun | sol | [sun](sun.html) |
+| ABC | alfabeto / canção | [abc](abc.html) |
 | (stack Node) | ver hub | [palavras-do-stack](palavras-do-stack.html) |
 
 ## Página
